@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the immutable data payload consumed by released apps."""
+"""Build the immutable data payload consumed by installed apps."""
 
 from __future__ import annotations
 

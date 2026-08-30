@@ -1,8 +1,6 @@
 build/
 dist/
 source-monitor-report.md
-SHA256SUMS.txt
-*.zip
 __pycache__/
 *.pyc
 .DS_Store

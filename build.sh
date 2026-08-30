@@ -52,17 +52,6 @@ cp "$COUNTDOWN_ROOT/Info.plist" "$COUNTDOWN_CONTENTS_DIR/Info.plist"
 cp -R "$COUNTDOWN_ROOT/data/." "$COUNTDOWN_DATA_DIR/"
 cp "$COUNTDOWN_ROOT/LICENSE" "$COUNTDOWN_RESOURCES_DIR/LICENSE.txt"
 
-if [[ -n "${COUNTDOWN_MARKETING_VERSION:-}" ]]; then
-    /usr/libexec/PlistBuddy \
-        -c "Set :CFBundleShortVersionString $COUNTDOWN_MARKETING_VERSION" \
-        "$COUNTDOWN_CONTENTS_DIR/Info.plist"
-fi
-if [[ -n "${COUNTDOWN_BUILD_NUMBER:-}" ]]; then
-    /usr/libexec/PlistBuddy \
-        -c "Set :CFBundleVersion $COUNTDOWN_BUILD_NUMBER" \
-        "$COUNTDOWN_CONTENTS_DIR/Info.plist"
-fi
-
 plutil -lint "$COUNTDOWN_CONTENTS_DIR/Info.plist"
 
 codesign --force --deep --sign - "$COUNTDOWN_APP_DIR"

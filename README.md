@@ -15,13 +15,13 @@
 - 官方日期尚未公布时，根据历届日程提供明确标记的预测日期。
 - 不显示 Dock 图标，不占用普通应用窗口。
 
-## 安装
+## 构建与运行
 
-从 [Releases](https://github.com/leverimmy/conference-countdown/releases) 下载 `Conference-Countdown`，解压后运行。
-
-也可以在 macOS 13 或更新版本上从源码构建：
+在 macOS 13 或更新版本上克隆仓库并构建：
 
 ```bash
+git clone https://github.com/leverimmy/conference-countdown.git
+cd conference-countdown
 zsh build.sh
 open "build/Conference-Countdown.app"
 ```
