@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "chi",
+  "records": [
+    {
+      "year": 2022,
+      "abstract_deadline": "2021-09-02",
+      "paper_deadline": "2021-09-09",
+      "conference_start": "2022-04-30",
+      "conference_end": "2022-05-05",
+      "source": "https://chi2022.acm.org/for-authors/presenting/papers/"
+    },
+    {
+      "year": 2023,
+      "paper_deadline": "2022-09-15",
+      "review_release": "2022-11-07",
+      "rebuttal_deadline": "2022-12-13",
+      "final_decision": "2023-01-13",
+      "conference_start": "2023-04-23",
+      "conference_end": "2023-04-28",
+      "source": "https://chi2023.acm.org/for-authors/papers/"
+    },
+    {
+      "year": 2024,
+      "abstract_deadline": "2023-09-07",
+      "paper_deadline": "2023-09-14",
+      "review_release": "2023-11-06",
+      "rebuttal_deadline": "2023-12-12",
+      "final_decision": "2024-01-19",
+      "conference_start": "2024-05-11",
+      "conference_end": "2024-05-16",
+      "source": "https://chi2024.acm.org/deadlines-table/"
+    },
+    {
+      "year": 2025,
+      "abstract_deadline": "2024-09-05",
+      "paper_deadline": "2024-09-12",
+      "review_release": "2024-11-05",
+      "rebuttal_deadline": "2024-12-10",
+      "final_decision": "2025-01-16",
+      "conference_start": "2025-04-26",
+      "conference_end": "2025-05-01",
+      "source": "https://chi2025.acm.org/for-authors/papers/"
+    },
+    {
+      "year": 2026,
+      "abstract_deadline": "2025-09-04",
+      "paper_deadline": "2025-09-11",
+      "review_release": "2025-11-04",
+      "rebuttal_deadline": "2025-12-04",
+      "final_decision": "2026-01-15",
+      "conference_start": "2026-04-13",
+      "conference_end": "2026-04-17",
+      "source": "https://chi2026.acm.org/authors/papers/"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+name: Check conference sources
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: conference-source-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    env:
+      MONITOR_BRANCH: automation/source-observations
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Load the open observation baseline
+        id: baseline
+        shell: bash
+        run: |
+          if git ls-remote --exit-code --heads origin "$MONITOR_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$MONITOR_BRANCH:refs/remotes/origin/$MONITOR_BRANCH"
+            git checkout "origin/$MONITOR_BRANCH" -- .github/source-state
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check official pages and OpenReview
+        run: python scripts/check_sources.py
+
+      - name: Prepare observation update
+        id: changes
+        shell: bash
+        run: |
+          if [[ "${{ steps.baseline.outputs.exists }}" == "true" ]]; then
+            if git diff --quiet "origin/$MONITOR_BRANCH" -- .github/source-state \
+              && [[ -z "$(git ls-files --others --exclude-standard -- .github/source-state)" ]]; then
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          elif [[ -z "$(git status --porcelain -- .github/source-state)" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          UPDATED_STATE="$(mktemp -d)"
+          cp -R .github/source-state "$UPDATED_STATE/source-state"
+          git restore --source=HEAD --staged --worktree .github/source-state
+          git clean -fd -- .github/source-state
+
+          if [[ "${{ steps.baseline.outputs.exists }}" == "true" ]]; then
+            git switch -C "$MONITOR_BRANCH" "origin/$MONITOR_BRANCH"
+            git merge --no-edit origin/main
+          else
+            git switch -c "$MONITOR_BRANCH"
+          fi
+
+          cp -R "$UPDATED_STATE/source-state/." .github/source-state/
+          git add .github/source-state
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): record source observations"
+          git push origin "HEAD:$MONITOR_BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update review PR
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          PR_NUMBER="$(gh pr list --state open --head "$MONITOR_BRANCH" --json number --jq '.[0].number // empty')"
+          if [[ -n "$PR_NUMBER" ]]; then
+            gh pr edit "$PR_NUMBER" --title "chore(data): review source changes" --body-file source-monitor-report.md
+          else
+            gh pr create \
+              --base main \
+              --head "$MONITOR_BRANCH" \
+              --title "chore(data): review source changes" \
+              --body-file source-monitor-report.md
+          fi

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_CN</string>
+    <key>CFBundleDisplayName</key>
+    <string>Conference Countdown</string>
+    <key>CFBundleExecutable</key>
+    <string>ConferenceCountdown</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.leverimmy.conferencecountdown</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>ConferenceCountdown</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.7.0</string>
+    <key>CFBundleVersion</key>
+    <string>12</string>
+    <key>ConferenceDataManifestURL</key>
+    <string>https://leverimmy.github.io/conference-countdown/v1/manifest.json</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Conference Countdown contributors · CC BY-NC-SA 4.0</string>
+    <key>NSUserNotificationUsageDescription</key>
+    <string>用于提醒学术会议的投稿、评审、作者回复、最终结果和会议日期。</string>
+</dict>
+</plist>

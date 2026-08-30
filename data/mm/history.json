@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "mm",
+  "records": [
+    {
+      "year": 2022,
+      "abstract_deadline": "2022-03-31",
+      "paper_deadline": "2022-04-11",
+      "final_decision": "2022-06-29",
+      "conference_start": "2022-10-10",
+      "conference_end": "2022-10-14",
+      "source": "https://2022.acmmm.org/important-dates/",
+      "notes": "The regular-paper deadline was extended from April 7 to April 11."
+    },
+    {
+      "year": 2023,
+      "abstract_deadline": "2023-04-23",
+      "paper_deadline": "2023-05-04",
+      "review_release": "2023-06-30",
+      "rebuttal_deadline": "2023-07-05",
+      "final_decision": "2023-07-25",
+      "conference_start": "2023-10-28",
+      "conference_end": "2023-11-03",
+      "source": "https://www.acmmm2023.org/dates/",
+      "notes": "The regular-paper deadline was extended from April 30 to May 4; notification moved to July 25."
+    },
+    {
+      "year": 2024,
+      "paper_deadline": "2024-04-12",
+      "final_decision": "2024-07-05",
+      "conference_start": "2024-10-28",
+      "conference_end": "2024-11-01",
+      "source": "https://2024.acmmm.org/files/ACMMM24_CFP_v2.pdf"
+    },
+    {
+      "year": 2025,
+      "abstract_deadline": "2025-04-04",
+      "paper_deadline": "2025-04-11",
+      "review_release": "2025-06-09",
+      "rebuttal_deadline": "2025-06-19",
+      "final_decision": "2025-07-04",
+      "conference_start": "2025-10-27",
+      "conference_end": "2025-10-31",
+      "source": "https://acmmm2025.org/important-dates/"
+    },
+    {
+      "year": 2026,
+      "abstract_deadline": "2026-03-25",
+      "paper_deadline": "2026-04-01",
+      "rebuttal_deadline": "2026-06-04",
+      "final_decision": "2026-07-09",
+      "conference_start": "2026-11-10",
+      "conference_end": "2026-11-14",
+      "source": "https://2026.acmmm.org/site/important-dates.html"
+    }
+  ]
+}

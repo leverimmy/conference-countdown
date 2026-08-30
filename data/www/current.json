@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "www",
+  "edition": 2027,
+  "name": "WWW 2027",
+  "short_name": "WWW",
+  "subtitle": "The ACM Web Conference · Dublin",
+  "symbol": "globe.europe.africa.fill",
+  "official_url": "https://acmweb2027.org/important-dates/",
+  "time_zone": "Europe/Dublin",
+  "default_event_id": "www.paper",
+  "events": [
+    {
+      "id": "www.abstract",
+      "title": "摘要提交截止",
+      "compact_title": "WWW 摘要",
+      "at": "2026-10-11T23:59:00-12:00",
+      "date_label": "10 月 11 日 23:59 AoE",
+      "detail_label": "北京时间 10 月 12 日 19:59",
+      "symbol": "doc.text"
+    },
+    {
+      "id": "www.paper",
+      "title": "全文提交截止",
+      "compact_title": "WWW 全文",
+      "at": "2026-10-18T23:59:00-12:00",
+      "date_label": "10 月 18 日 23:59 AoE",
+      "detail_label": "北京时间 10 月 19 日 19:59",
+      "symbol": "paperplane.fill"
+    },
+    {
+      "id": "www.review",
+      "title": "初审结果公布",
+      "compact_title": "WWW 初审",
+      "at": "2026-12-10T23:59:00-12:00",
+      "date_label": "2026 年 12 月 10 日 23:59 AoE",
+      "detail_label": "北京时间 12 月 11 日 19:59",
+      "symbol": "doc.text.fill"
+    },
+    {
+      "id": "www.rebuttal",
+      "title": "作者回复截止",
+      "compact_title": "WWW 回复",
+      "at": "2026-12-19T23:59:00-12:00",
+      "date_label": "2026 年 12 月 19 日 23:59 AoE",
+      "detail_label": "北京时间 12 月 20 日 19:59",
+      "symbol": "bubble.left.and.bubble.right.fill"
+    },
+    {
+      "id": "www.decision",
+      "title": "最终结果公布",
+      "compact_title": "WWW 终审",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "checkmark.seal.fill",
+      "historical_key": "final_decision",
+      "target_year": 2027
+    },
+    {
+      "id": "www.conference",
+      "title": "会议开幕",
+      "compact_title": "WWW 开会",
+      "at": "2027-05-10T00:00:00+01:00",
+      "date_label": "2027 年 5 月 10–14 日",
+      "detail_label": "爱尔兰 · 都柏林",
+      "symbol": "building.columns.fill"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "aaai",
+  "watch": [
+    { "id": "conference-site", "kind": "html", "url": "https://aaai.org/conference/aaai/aaai-27/" },
+    {
+      "id": "openreview",
+      "kind": "openreview",
+      "url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "iclr",
+  "edition": 2027,
+  "name": "ICLR 2027",
+  "short_name": "ICLR",
+  "subtitle": "International Conference on Learning Representations · California",
+  "symbol": "brain.head.profile.fill",
+  "official_url": "https://iclr.cc/Conferences/2027/Dates",
+  "time_zone": "America/Los_Angeles",
+  "default_event_id": "iclr.paper",
+  "events": [
+    {
+      "id": "iclr.abstract",
+      "title": "摘要提交截止",
+      "compact_title": "ICLR 摘要",
+      "at": "2026-09-18T23:59:00-12:00",
+      "date_label": "9 月 18 日 23:59 AoE",
+      "detail_label": "北京时间 9 月 19 日 19:59",
+      "symbol": "doc.text"
+    },
+    {
+      "id": "iclr.paper",
+      "title": "全文提交截止",
+      "compact_title": "ICLR 全文",
+      "at": "2026-09-25T23:59:00-12:00",
+      "date_label": "9 月 25 日 23:59 AoE",
+      "detail_label": "北京时间 9 月 26 日 19:59",
+      "symbol": "paperplane.fill"
+    },
+    {
+      "id": "iclr.review",
+      "title": "评审意见公布",
+      "compact_title": "ICLR 评审",
+      "at": "2026-11-05T23:59:00-12:00",
+      "date_label": "2026 年 11 月 5 日（时区待说明）",
+      "detail_label": "官网已公布日期；倒计时暂按 AoE 日末",
+      "symbol": "doc.text.fill"
+    },
+    {
+      "id": "iclr.rebuttal",
+      "title": "作者讨论截止",
+      "compact_title": "ICLR 讨论",
+      "at": "2026-11-18T23:59:00-12:00",
+      "date_label": "2026 年 11 月 18 日（时区待说明）",
+      "detail_label": "官网已公布日期；倒计时暂按 AoE 日末",
+      "symbol": "bubble.left.and.bubble.right.fill"
+    },
+    {
+      "id": "iclr.decision",
+      "title": "最终结果公布",
+      "compact_title": "ICLR 终审",
+      "at": "2026-12-16T23:59:00-12:00",
+      "date_label": "2026 年 12 月 16 日（时区待说明）",
+      "detail_label": "官网已公布日期；倒计时暂按 AoE 日末",
+      "symbol": "checkmark.seal.fill"
+    },
+    {
+      "id": "iclr.conference",
+      "title": "会议开幕",
+      "compact_title": "ICLR 开会",
+      "at": "2027-04-26T00:00:00-07:00",
+      "date_label": "2027 年 4 月 26–30 日",
+      "detail_label": "美国 · 加利福尼亚",
+      "symbol": "building.columns.fill"
+    }
+  ]
+}

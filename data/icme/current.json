@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "icme",
+  "edition": 2027,
+  "name": "ICME 2027",
+  "short_name": "ICME",
+  "subtitle": "IEEE Multimedia and Expo · Xiamen",
+  "symbol": "play.rectangle.fill",
+  "official_url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
+  "time_zone": "Asia/Shanghai",
+  "default_event_id": "icme.paper",
+  "events": [
+    {
+      "id": "icme.paper",
+      "title": "全文提交截止",
+      "compact_title": "ICME 全文",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "paperplane",
+      "historical_key": "paper_deadline",
+      "target_year": 2027
+    },
+    {
+      "id": "icme.decision",
+      "title": "最终结果公布",
+      "compact_title": "ICME 终审",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "ICME 没有独立作者回复阶段",
+      "symbol": "checkmark.seal.fill",
+      "historical_key": "final_decision",
+      "target_year": 2027
+    },
+    {
+      "id": "icme.conference",
+      "title": "会议开幕",
+      "compact_title": "ICME 开会",
+      "at": "2027-07-13T00:00:00+08:00",
+      "date_label": "2027 年 7 月 13–17 日",
+      "detail_label": "中国 · 厦门",
+      "symbol": "building.columns.fill"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "emnlp",
+  "records": [
+    {
+      "year": 2022,
+      "abstract_deadline": "2022-06-17",
+      "paper_deadline": "2022-06-24",
+      "commitment_deadline": "2022-07-24",
+      "review_release": "2022-08-23",
+      "rebuttal_deadline": "2022-08-29",
+      "final_decision": "2022-10-06",
+      "conference_start": "2022-12-07",
+      "conference_end": "2022-12-11",
+      "source": "https://2022.emnlp.org/calls/main_conference_papers/",
+      "notes": "paper_deadline is the direct-submission deadline; commitment_deadline is the ARR-to-conference submission deadline."
+    },
+    {
+      "year": 2023,
+      "abstract_deadline": "2023-06-16",
+      "paper_deadline": "2023-06-23",
+      "commitment_deadline": "2023-08-22",
+      "review_release": "2023-08-22",
+      "rebuttal_deadline": "2023-08-28",
+      "final_decision": "2023-10-06",
+      "conference_start": "2023-12-06",
+      "conference_end": "2023-12-10",
+      "source": "https://2023.emnlp.org/",
+      "notes": "paper_deadline is the direct-submission deadline."
+    },
+    {
+      "year": 2024,
+      "paper_deadline": "2024-06-15",
+      "commitment_deadline": "2024-08-20",
+      "final_decision": "2024-09-20",
+      "conference_start": "2024-11-12",
+      "conference_end": "2024-11-16",
+      "source": "https://2024.emnlp.org/calls/main_conference_papers/"
+    },
+    {
+      "year": 2025,
+      "paper_deadline": "2025-05-19",
+      "commitment_deadline": "2025-08-01",
+      "review_release": "2025-06-26",
+      "rebuttal_deadline": "2025-07-02",
+      "final_decision": "2025-08-20",
+      "conference_start": "2025-11-04",
+      "conference_end": "2025-11-09",
+      "source": "https://2025.emnlp.org/calls/main_conference_papers/"
+    },
+    {
+      "year": 2026,
+      "paper_deadline": "2026-05-25",
+      "commitment_deadline": "2026-08-02",
+      "review_release": "2026-07-07",
+      "rebuttal_deadline": "2026-07-13",
+      "final_decision": "2026-08-20",
+      "conference_start": "2026-10-24",
+      "conference_end": "2026-10-29",
+      "source": "https://2026.emnlp.org/calls/main_conference_papers/"
+    }
+  ]
+}

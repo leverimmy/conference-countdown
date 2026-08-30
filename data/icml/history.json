@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "icml",
+  "records": [
+    {
+      "year": 2022,
+      "abstract_deadline": "2022-01-20",
+      "paper_deadline": "2022-01-27",
+      "review_release": "2022-04-06",
+      "rebuttal_deadline": "2022-04-11",
+      "final_decision": "2022-05-14",
+      "conference_start": "2022-07-17",
+      "conference_end": "2022-07-23",
+      "source": "https://icml.cc/Conferences/2022/Dates"
+    },
+    {
+      "year": 2023,
+      "paper_deadline": "2023-01-26",
+      "review_release": "2023-03-13",
+      "rebuttal_deadline": "2023-03-19",
+      "final_decision": "2023-04-24",
+      "conference_start": "2023-07-23",
+      "conference_end": "2023-07-29",
+      "source": "https://icml.cc/Conferences/2023/Dates"
+    },
+    {
+      "year": 2024,
+      "paper_deadline": "2024-02-01",
+      "review_release": "2024-03-20",
+      "rebuttal_deadline": "2024-03-28",
+      "final_decision": "2024-05-01",
+      "conference_start": "2024-07-21",
+      "conference_end": "2024-07-27",
+      "source": "https://icml.cc/Conferences/2024/Dates"
+    },
+    {
+      "year": 2025,
+      "abstract_deadline": "2025-01-23",
+      "paper_deadline": "2025-01-30",
+      "review_release": "2025-03-25",
+      "rebuttal_deadline": "2025-03-31",
+      "final_decision": "2025-05-01",
+      "conference_start": "2025-07-13",
+      "conference_end": "2025-07-19",
+      "source": "https://icml.cc/Conferences/2025/Dates"
+    },
+    {
+      "year": 2026,
+      "abstract_deadline": "2026-01-23",
+      "paper_deadline": "2026-01-28",
+      "review_release": "2026-03-24",
+      "rebuttal_deadline": "2026-03-30",
+      "final_decision": "2026-04-30",
+      "conference_start": "2026-07-06",
+      "conference_end": "2026-07-11",
+      "source": "https://icml.cc/Conferences/2026/Dates"
+    }
+  ]
+}

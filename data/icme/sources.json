@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "icme",
+  "watch": [
+    {
+      "id": "ieee-event",
+      "kind": "html",
+      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme"
+    }
+  ]
+}

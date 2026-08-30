@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "chi",
+  "edition": 2027,
+  "name": "CHI 2027",
+  "short_name": "CHI",
+  "subtitle": "ACM Human Factors in Computing Systems · Pittsburgh",
+  "symbol": "hand.tap.fill",
+  "official_url": "https://chi2027.acm.org/",
+  "time_zone": "America/New_York",
+  "default_event_id": "chi.paper",
+  "events": [
+    {
+      "id": "chi.paper",
+      "title": "全文提交截止",
+      "compact_title": "CHI 全文",
+      "at": "2026-09-10T23:59:00-12:00",
+      "date_label": "2026 年 9 月 10 日 23:59 AoE",
+      "detail_label": "北京时间 9 月 11 日 19:59",
+      "symbol": "paperplane.fill"
+    },
+    {
+      "id": "chi.review",
+      "title": "评审意见公布",
+      "compact_title": "CHI 评审",
+      "at": "2026-11-05T23:59:00-12:00",
+      "date_label": "2026 年 11 月 5 日 23:59 AoE",
+      "detail_label": "北京时间 11 月 6 日 19:59",
+      "symbol": "doc.text.fill"
+    },
+    {
+      "id": "chi.rebuttal",
+      "title": "修订稿提交截止",
+      "compact_title": "CHI 修订",
+      "at": "2026-12-03T23:59:00-12:00",
+      "date_label": "2026 年 12 月 3 日 23:59 AoE",
+      "detail_label": "北京时间 12 月 4 日 19:59",
+      "symbol": "bubble.left.and.bubble.right.fill"
+    },
+    {
+      "id": "chi.decision",
+      "title": "最终结果公布",
+      "compact_title": "CHI 终审",
+      "at": "2026-12-17T23:59:00-12:00",
+      "date_label": "2026 年 12 月 17 日 23:59 AoE",
+      "detail_label": "北京时间 12 月 18 日 19:59",
+      "symbol": "checkmark.seal.fill"
+    },
+    {
+      "id": "chi.conference",
+      "title": "会议开幕",
+      "compact_title": "CHI 开会",
+      "at": null,
+      "date_label": "会期尚未公布",
+      "detail_label": "美国 · 匹兹堡",
+      "symbol": "building.columns.fill",
+      "historical_key": "conference_start",
+      "target_year": 2027
+    }
+  ]
+}

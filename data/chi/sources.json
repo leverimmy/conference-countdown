@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "id": "chi",
+  "watch": [
+    { "id": "papers", "kind": "html", "url": "https://chi2027.acm.org/authors/papers/" }
+  ]
+}

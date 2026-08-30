@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "id": "www",
+  "watch": [
+    { "id": "important-dates", "kind": "html", "url": "https://acmweb2027.org/important-dates/" }
+  ]
+}

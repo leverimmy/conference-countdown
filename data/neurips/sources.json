@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "neurips",
+  "watch": [
+    { "id": "future-meetings", "kind": "html", "url": "https://neurips.cc/Conferences/FutureMeetings" },
+    {
+      "id": "openreview",
+      "kind": "openreview",
+      "url": "https://api2.openreview.net/groups?id=NeurIPS.cc/2027/Conference",
+      "optional": true
+    }
+  ]
+}

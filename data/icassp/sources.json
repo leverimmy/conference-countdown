@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "icassp",
+  "watch": [
+    { "id": "important-dates", "kind": "html", "url": "https://2027.ieeeicassp.org/important-dates/" },
+    { "id": "call-for-papers", "kind": "html", "url": "https://2027.ieeeicassp.org/call-for-papers/" }
+  ]
+}

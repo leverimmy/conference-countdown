@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "icassp",
+  "edition": 2027,
+  "name": "ICASSP 2027",
+  "short_name": "ICASSP",
+  "subtitle": "IEEE Acoustics, Speech and Signal Processing · Toronto",
+  "symbol": "waveform",
+  "official_url": "https://2027.ieeeicassp.org/",
+  "time_zone": "America/Toronto",
+  "default_event_id": "icassp.paper",
+  "events": [
+    {
+      "id": "icassp.paper",
+      "title": "全文提交截止",
+      "compact_title": "ICASSP 全文",
+      "at": "2026-09-16T23:59:00-12:00",
+      "date_label": "2026 年 9 月 16 日（时区待说明）",
+      "detail_label": "官网已公布日期；倒计时暂按 AoE 日末",
+      "symbol": "paperplane.fill"
+    },
+    {
+      "id": "icassp.review",
+      "title": "评审意见公布",
+      "compact_title": "ICASSP 评审",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "doc.text.fill",
+      "historical_key": "review_release",
+      "target_year": 2027
+    },
+    {
+      "id": "icassp.rebuttal",
+      "title": "作者回复截止",
+      "compact_title": "ICASSP 回复",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "bubble.left.and.bubble.right.fill",
+      "historical_key": "rebuttal_deadline",
+      "target_year": 2027
+    },
+    {
+      "id": "icassp.decision",
+      "title": "最终结果公布",
+      "compact_title": "ICASSP 终审",
+      "at": "2027-01-13T23:59:00-12:00",
+      "date_label": "2027 年 1 月 13 日（时区待说明）",
+      "detail_label": "官网已公布日期；倒计时暂按 AoE 日末",
+      "symbol": "checkmark.seal.fill"
+    },
+    {
+      "id": "icassp.conference",
+      "title": "会议开幕",
+      "compact_title": "ICASSP 开会",
+      "at": "2027-05-16T00:00:00-04:00",
+      "date_label": "2027 年 5 月 16–21 日",
+      "detail_label": "加拿大 · 多伦多",
+      "symbol": "building.columns.fill"
+    }
+  ]
+}

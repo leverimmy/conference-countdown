@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "kdd",
+  "watch": [
+    {
+      "id": "research-track",
+      "kind": "html",
+      "url": "https://kdd2027.kdd.org/research-track-call-for-papers/"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "aaai",
+  "records": [
+    {
+      "year": 2022,
+      "abstract_deadline": "2021-08-30",
+      "paper_deadline": "2021-09-08",
+      "conference_start": "2022-02-22",
+      "conference_end": "2022-03-01",
+      "source": "https://aaai.org/conference/aaai/aaai-22/"
+    },
+    {
+      "year": 2023,
+      "abstract_deadline": "2022-08-08",
+      "paper_deadline": "2022-08-15",
+      "conference_start": "2023-02-07",
+      "conference_end": "2023-02-14",
+      "source": "https://aaai.org/conference/aaai/aaai-23/"
+    },
+    {
+      "year": 2024,
+      "abstract_deadline": "2023-08-08",
+      "paper_deadline": "2023-08-15",
+      "review_release": "2023-09-27",
+      "rebuttal_deadline": "2023-11-05",
+      "final_decision": "2023-12-09",
+      "conference_start": "2024-02-20",
+      "conference_end": "2024-02-27",
+      "source": "https://aaai.org/conference/aaai/aaai-24/"
+    },
+    {
+      "year": 2025,
+      "abstract_deadline": "2024-08-07",
+      "paper_deadline": "2024-08-15",
+      "review_release": "2024-10-14",
+      "rebuttal_deadline": "2024-11-08",
+      "final_decision": "2024-12-09",
+      "conference_start": "2025-02-25",
+      "conference_end": "2025-03-04",
+      "source": "https://aaai.org/conference/aaai/aaai-25/"
+    },
+    {
+      "year": 2026,
+      "abstract_deadline": "2025-07-25",
+      "paper_deadline": "2025-08-01",
+      "review_release": "2025-09-15",
+      "rebuttal_deadline": "2025-10-13",
+      "final_decision": "2025-11-08",
+      "conference_start": "2026-01-20",
+      "conference_end": "2026-01-27",
+      "source": "https://aaai.org/conference/aaai/aaai-26/"
+    }
+  ]
+}

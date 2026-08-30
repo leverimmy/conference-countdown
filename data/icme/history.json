@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "icme",
+  "records": [
+    {
+      "year": 2022,
+      "paper_deadline": "2021-12-22",
+      "final_decision": "2022-03-05",
+      "conference_start": "2022-07-18",
+      "conference_end": "2022-07-22",
+      "source": "https://2022.ieeeicme.org/important-dates.html",
+      "notes": "The regular-paper deadline was extended from December 12 to December 22."
+    },
+    {
+      "year": 2023,
+      "paper_deadline": "2022-12-22",
+      "final_decision": "2023-03-12",
+      "conference_start": "2023-07-10",
+      "conference_end": "2023-07-14",
+      "source": "https://www.2023.ieeeicme.org/events.icmsaust.com.au/ieeeicme2023/general-calls.html",
+      "notes": "The conference site lists December 22 as the final regular-paper deadline after earlier dates."
+    },
+    {
+      "year": 2024,
+      "paper_deadline": "2023-12-30",
+      "conference_start": "2024-07-15",
+      "conference_end": "2024-07-19",
+      "source": "https://ieee-cas.org/event/conference/2024-ieee-international-conference-multimedia-and-expo",
+      "notes": "The regular-paper deadline was extended to December 30."
+    },
+    {
+      "year": 2025,
+      "paper_deadline": "2024-12-13",
+      "final_decision": "2025-03-14",
+      "conference_start": "2025-06-30",
+      "conference_end": "2025-07-04",
+      "source": "https://ieee-cas.org/files/ieeecass/2024-07/ICME-2025_Call-for-Papers.pdf"
+    },
+    {
+      "year": 2026,
+      "paper_deadline": "2025-12-31",
+      "final_decision": "2026-03-13",
+      "conference_start": "2026-07-05",
+      "conference_end": "2026-07-09",
+      "source": "https://ieee-cas.org/files/ieeecass/2025-12/icme-2026-cfp.pdf",
+      "notes": "The regular-paper deadline was extended to December 31."
+    }
+  ]
+}

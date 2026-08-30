@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "www",
+  "records": [
+    {
+      "year": 2022,
+      "abstract_deadline": "2021-10-14",
+      "paper_deadline": "2021-10-21",
+      "review_release": "2021-12-02",
+      "rebuttal_deadline": "2021-12-06",
+      "final_decision": "2022-01-13",
+      "conference_start": "2022-04-25",
+      "conference_end": "2022-04-29",
+      "source": "https://archives.iw3c2.org/www2022/cfp/research/"
+    },
+    {
+      "year": 2023,
+      "abstract_deadline": "2022-10-06",
+      "paper_deadline": "2022-10-13",
+      "review_release": "2022-12-15",
+      "rebuttal_deadline": "2022-12-22",
+      "final_decision": "2023-01-25",
+      "conference_start": "2023-04-30",
+      "conference_end": "2023-05-04",
+      "source": "https://archives.iw3c2.org/www2023/calls/research-tracks/"
+    },
+    {
+      "year": 2024,
+      "abstract_deadline": "2023-10-05",
+      "paper_deadline": "2023-10-12",
+      "review_release": "2023-12-01",
+      "rebuttal_deadline": "2023-12-07",
+      "final_decision": "2024-02-01",
+      "conference_start": "2024-05-13",
+      "conference_end": "2024-05-17",
+      "source": "https://www2024.thewebconf.org/calls/research-tracks/"
+    },
+    {
+      "year": 2025,
+      "abstract_deadline": "2024-10-07",
+      "paper_deadline": "2024-10-14",
+      "review_release": "2024-12-03",
+      "rebuttal_deadline": "2024-12-14",
+      "final_decision": "2025-01-20",
+      "conference_start": "2025-04-28",
+      "conference_end": "2025-05-02",
+      "source": "https://archives.iw3c2.org/www2025/research-tracks/"
+    },
+    {
+      "year": 2026,
+      "abstract_deadline": "2025-09-30",
+      "paper_deadline": "2025-10-07",
+      "review_release": "2025-11-24",
+      "rebuttal_deadline": "2025-12-01",
+      "final_decision": "2026-01-13",
+      "conference_start": "2026-06-29",
+      "conference_end": "2026-07-03",
+      "source": "https://www2026.thewebconf.org/important-dates.html",
+      "notes": "The conference was postponed from its originally announced April dates."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "neurips",
+  "records": [
+    {
+      "year": 2022,
+      "abstract_deadline": "2022-05-16",
+      "paper_deadline": "2022-05-19",
+      "review_release": "2022-07-26",
+      "rebuttal_deadline": "2022-08-02",
+      "final_decision": "2022-09-14",
+      "conference_start": "2022-11-28",
+      "conference_end": "2022-12-03",
+      "source": "https://neurips.cc/Conferences/2022/Dates"
+    },
+    {
+      "year": 2023,
+      "abstract_deadline": "2023-05-11",
+      "paper_deadline": "2023-05-17",
+      "review_release": "2023-08-02",
+      "rebuttal_deadline": "2023-08-10",
+      "final_decision": "2023-09-22",
+      "conference_start": "2023-12-10",
+      "conference_end": "2023-12-16",
+      "source": "https://neurips.cc/Conferences/2023/Dates"
+    },
+    {
+      "year": 2024,
+      "abstract_deadline": "2024-05-15",
+      "paper_deadline": "2024-05-22",
+      "review_release": "2024-07-30",
+      "rebuttal_deadline": "2024-08-06",
+      "final_decision": "2024-09-26",
+      "conference_start": "2024-12-10",
+      "conference_end": "2024-12-15",
+      "source": "https://neurips.cc/Conferences/2024/Dates"
+    },
+    {
+      "year": 2025,
+      "abstract_deadline": "2025-05-11",
+      "paper_deadline": "2025-05-15",
+      "review_release": "2025-07-24",
+      "rebuttal_deadline": "2025-07-30",
+      "final_decision": "2025-09-18",
+      "conference_start": "2025-12-02",
+      "conference_end": "2025-12-07",
+      "source": "https://neurips.cc/Conferences/2025/Dates"
+    },
+    {
+      "year": 2026,
+      "abstract_deadline": "2026-05-04",
+      "paper_deadline": "2026-05-06",
+      "review_release": "2026-07-22",
+      "rebuttal_deadline": "2026-08-03",
+      "final_decision": "2026-09-24",
+      "conference_start": "2026-12-06",
+      "conference_end": "2026-12-12",
+      "source": "https://neurips.cc/Conferences/2026/Dates"
+    }
+  ]
+}

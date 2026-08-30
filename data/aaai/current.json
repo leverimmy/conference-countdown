@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "aaai",
+  "edition": 2027,
+  "name": "AAAI 2027",
+  "short_name": "AAAI",
+  "subtitle": "AAAI Conference on Artificial Intelligence · Montréal",
+  "symbol": "sparkles",
+  "official_url": "https://aaai.org/conference/aaai/aaai-27/",
+  "time_zone": "America/Toronto",
+  "default_event_id": "aaai.phase1",
+  "events": [
+    {
+      "id": "aaai.abstract",
+      "title": "摘要提交截止",
+      "compact_title": "AAAI 摘要",
+      "at": "2026-07-21T23:59:00-12:00",
+      "date_label": "2026 年 7 月 21 日 23:59 AoE",
+      "detail_label": "北京时间 7 月 22 日 19:59",
+      "symbol": "doc.text"
+    },
+    {
+      "id": "aaai.paper",
+      "title": "全文提交截止",
+      "compact_title": "AAAI 全文",
+      "at": "2026-07-28T23:59:00-12:00",
+      "date_label": "2026 年 7 月 28 日 23:59 AoE",
+      "detail_label": "北京时间 7 月 29 日 19:59",
+      "symbol": "paperplane.fill"
+    },
+    {
+      "id": "aaai.phase1",
+      "title": "Phase 1 结果公布",
+      "compact_title": "AAAI 初审",
+      "at": "2026-09-24T23:59:00-12:00",
+      "date_label": "2026 年 9 月 24 日 23:59 AoE",
+      "detail_label": "北京时间 9 月 25 日 19:59",
+      "symbol": "doc.text.fill"
+    },
+    {
+      "id": "aaai.rebuttal",
+      "title": "作者反馈截止",
+      "compact_title": "AAAI 反馈",
+      "at": "2026-10-25T23:59:00-12:00",
+      "date_label": "2026 年 10 月 25 日 23:59 AoE",
+      "detail_label": "北京时间 10 月 26 日 19:59",
+      "symbol": "bubble.left.and.bubble.right.fill"
+    },
+    {
+      "id": "aaai.decision",
+      "title": "最终结果公布",
+      "compact_title": "AAAI 终审",
+      "at": "2026-11-30T23:59:00-12:00",
+      "date_label": "2026 年 11 月 30 日 23:59 AoE",
+      "detail_label": "北京时间 12 月 1 日 19:59",
+      "symbol": "checkmark.seal.fill"
+    },
+    {
+      "id": "aaai.conference",
+      "title": "会议开幕",
+      "compact_title": "AAAI 开会",
+      "at": "2027-02-16T00:00:00-05:00",
+      "date_label": "2027 年 2 月 16–23 日",
+      "detail_label": "加拿大 · 蒙特利尔",
+      "symbol": "building.columns.fill"
+    }
+  ]
+}

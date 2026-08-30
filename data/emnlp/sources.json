@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "emnlp",
+  "watch": [
+    {
+      "id": "acl-announcement",
+      "kind": "html",
+      "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "acl",
+  "watch": [
+    { "id": "conference-site", "kind": "html", "url": "https://2027.aclweb.org/" },
+    {
+      "id": "acl-portal",
+      "kind": "html",
+      "url": "https://www.aclweb.org/portal/",
+      "optional": true
+    }
+  ]
+}

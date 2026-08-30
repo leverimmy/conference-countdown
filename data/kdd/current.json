@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "kdd",
+  "edition": 2027,
+  "name": "KDD 2027",
+  "short_name": "KDD",
+  "subtitle": "ACM Knowledge Discovery and Data Mining · San Jose",
+  "symbol": "chart.bar.fill",
+  "official_url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+  "time_zone": "America/Los_Angeles",
+  "default_event_id": "kdd.cycle2",
+  "events": [
+    {
+      "id": "kdd.cycle1.abstract",
+      "title": "第一轮摘要截止",
+      "compact_title": "KDD 一轮摘要",
+      "at": "2026-07-19T23:59:00-12:00",
+      "date_label": "2026 年 7 月 19 日 23:59 AoE",
+      "detail_label": "北京时间 7 月 20 日 19:59",
+      "symbol": "doc.text"
+    },
+    {
+      "id": "kdd.cycle1.paper",
+      "title": "第一轮全文截止",
+      "compact_title": "KDD 一轮全文",
+      "at": "2026-07-26T23:59:00-12:00",
+      "date_label": "2026 年 7 月 26 日 23:59 AoE",
+      "detail_label": "北京时间 7 月 27 日 19:59",
+      "symbol": "paperplane.fill"
+    },
+    {
+      "id": "kdd.cycle1.review",
+      "title": "第一轮评审意见公布",
+      "compact_title": "KDD 一轮评审",
+      "at": "2026-09-29T23:59:00-12:00",
+      "date_label": "2026 年 9 月 29 日 23:59 AoE",
+      "detail_label": "北京时间 9 月 30 日 19:59",
+      "symbol": "doc.text.fill"
+    },
+    {
+      "id": "kdd.cycle1.rebuttal",
+      "title": "第一轮作者回复截止",
+      "compact_title": "KDD 一轮回复",
+      "at": "2026-10-13T23:59:00-12:00",
+      "date_label": "2026 年 10 月 13 日 23:59 AoE",
+      "detail_label": "北京时间 10 月 14 日 19:59",
+      "symbol": "bubble.left.and.bubble.right.fill"
+    },
+    {
+      "id": "kdd.cycle1.decision",
+      "title": "第一轮最终结果公布",
+      "compact_title": "KDD 一轮终审",
+      "at": "2026-11-14T23:59:00-12:00",
+      "date_label": "2026 年 11 月 14 日 23:59 AoE",
+      "detail_label": "北京时间 11 月 15 日 19:59",
+      "symbol": "checkmark.seal.fill"
+    },
+    {
+      "id": "kdd.cycle2",
+      "title": "第二轮全文截止",
+      "compact_title": "KDD 二轮全文",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "预计于 2027 年初公布确切日期",
+      "symbol": "paperplane",
+      "historical_key": "paper_deadline",
+      "target_year": 2027
+    },
+    {
+      "id": "kdd.cycle2.review",
+      "title": "第二轮评审意见公布",
+      "compact_title": "KDD 二轮评审",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "doc.text.fill",
+      "historical_key": "review_release",
+      "target_year": 2027
+    },
+    {
+      "id": "kdd.cycle2.rebuttal",
+      "title": "第二轮作者回复截止",
+      "compact_title": "KDD 二轮回复",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "bubble.left.and.bubble.right.fill",
+      "historical_key": "rebuttal_deadline",
+      "target_year": 2027
+    },
+    {
+      "id": "kdd.cycle2.decision",
+      "title": "第二轮最终结果公布",
+      "compact_title": "KDD 二轮终审",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "checkmark.seal.fill",
+      "historical_key": "final_decision",
+      "target_year": 2027
+    },
+    {
+      "id": "kdd.conference",
+      "title": "会议开幕",
+      "compact_title": "KDD 开会",
+      "at": "2027-08-01T00:00:00-07:00",
+      "date_label": "2027 年 8 月 1–5 日",
+      "detail_label": "美国 · 圣何塞",
+      "symbol": "building.columns.fill"
+    }
+  ]
+}

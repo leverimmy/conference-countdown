@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "id": "mm",
+  "watch": [
+    { "id": "conference-site", "kind": "html", "url": "https://www.acmmm.org/" }
+  ]
+}

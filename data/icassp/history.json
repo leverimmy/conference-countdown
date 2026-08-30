@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "icassp",
+  "records": [
+    {
+      "year": 2022,
+      "paper_deadline": "2021-10-06",
+      "review_release": "2022-01-03",
+      "rebuttal_deadline": "2022-01-10",
+      "final_decision": "2022-01-21",
+      "conference_start": "2022-05-22",
+      "conference_end": "2022-05-27",
+      "source": "https://www2.securecms.com/ICASSP2022/papers/paper_kit.php",
+      "notes": "The conference paper submission deadline was extended from October 1 to October 6."
+    },
+    {
+      "year": 2023,
+      "paper_deadline": "2022-10-26",
+      "conference_start": "2023-06-04",
+      "conference_end": "2023-06-10",
+      "source": "https://2023.ieeeicassp.org/important-dates/"
+    },
+    {
+      "year": 2024,
+      "paper_deadline": "2023-09-06",
+      "final_decision": "2023-12-13",
+      "conference_start": "2024-04-14",
+      "conference_end": "2024-04-19",
+      "source": "https://cmsworkshops.com/ICASSP2024/papers/paper_kit.php"
+    },
+    {
+      "year": 2025,
+      "paper_deadline": "2024-09-09",
+      "conference_start": "2025-04-06",
+      "conference_end": "2025-04-11",
+      "source": "https://signalprocessingsociety.org/events/icassp-2025-2025-ieee-international-conference-acoustics-speech-and-signal-processing"
+    },
+    {
+      "year": 2026,
+      "paper_deadline": "2025-09-17",
+      "rebuttal_deadline": "2025-12-22",
+      "final_decision": "2026-01-16",
+      "conference_start": "2026-05-04",
+      "conference_end": "2026-05-08",
+      "source": "https://2026.ieeeicassp.org/call-for-papers/"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "icml",
+  "edition": 2027,
+  "name": "ICML 2027",
+  "short_name": "ICML",
+  "subtitle": "International Conference on Machine Learning · South America",
+  "symbol": "chart.xyaxis.line",
+  "official_url": "https://icml.cc/Conferences/FutureMeetings",
+  "time_zone": "America/Sao_Paulo",
+  "default_event_id": "icml.paper",
+  "events": [
+    {
+      "id": "icml.abstract",
+      "title": "摘要提交截止",
+      "compact_title": "ICML 摘要",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "2027 年会址仅公布为南美洲",
+      "symbol": "doc.text",
+      "historical_key": "abstract_deadline",
+      "target_year": 2027
+    },
+    {
+      "id": "icml.paper",
+      "title": "全文提交截止",
+      "compact_title": "ICML 全文",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "paperplane.fill",
+      "historical_key": "paper_deadline",
+      "target_year": 2027
+    },
+    {
+      "id": "icml.review",
+      "title": "评审意见公布",
+      "compact_title": "ICML 评审",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "doc.text.fill",
+      "historical_key": "review_release",
+      "target_year": 2027
+    },
+    {
+      "id": "icml.rebuttal",
+      "title": "作者回复截止",
+      "compact_title": "ICML 回复",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "bubble.left.and.bubble.right.fill",
+      "historical_key": "rebuttal_deadline",
+      "target_year": 2027
+    },
+    {
+      "id": "icml.decision",
+      "title": "最终结果公布",
+      "compact_title": "ICML 终审",
+      "at": null,
+      "date_label": "官方尚未公布",
+      "detail_label": "公布后替换历史预测",
+      "symbol": "checkmark.seal.fill",
+      "historical_key": "final_decision",
+      "target_year": 2027
+    },
+    {
+      "id": "icml.conference",
+      "title": "会议开幕",
+      "compact_title": "ICML 开会",
+      "at": null,
+      "date_label": "日期尚未公布",
+      "detail_label": "南美洲 · 具体城市待公布",
+      "symbol": "building.columns.fill",
+      "historical_key": "conference_start",
+      "target_year": 2027
+    }
+  ]
+}

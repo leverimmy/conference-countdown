@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-08-14",
+  "id": "acl",
+  "records": [
+    {
+      "year": 2022,
+      "paper_deadline": "2021-11-15",
+      "commitment_deadline": "2022-01-15",
+      "review_release": "2022-01-10",
+      "final_decision": "2022-02-23",
+      "conference_start": "2022-05-22",
+      "conference_end": "2022-05-27",
+      "source": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html"
+    },
+    {
+      "year": 2023,
+      "paper_deadline": "2022-12-15",
+      "commitment_deadline": "2023-03-17",
+      "review_release": "2023-03-17",
+      "rebuttal_deadline": "2023-03-24",
+      "final_decision": "2023-05-01",
+      "conference_start": "2023-07-09",
+      "conference_end": "2023-07-14",
+      "source": "https://2023.aclweb.org/calls/main_conference/",
+      "notes": "paper_deadline is the last ARR deadline; ACL 2023 also offered a direct submission route."
+    },
+    {
+      "year": 2024,
+      "paper_deadline": "2024-02-15",
+      "commitment_deadline": "2024-04-20",
+      "review_release": "2024-04-15",
+      "final_decision": "2024-05-15",
+      "conference_start": "2024-08-11",
+      "conference_end": "2024-08-16",
+      "source": "https://2024.aclweb.org/calls/main_conference_papers/"
+    },
+    {
+      "year": 2025,
+      "paper_deadline": "2025-02-15",
+      "commitment_deadline": "2025-04-20",
+      "review_release": "2025-03-27",
+      "rebuttal_deadline": "2025-04-03",
+      "final_decision": "2025-05-15",
+      "conference_start": "2025-07-27",
+      "conference_end": "2025-08-01",
+      "source": "https://2025.aclweb.org/calls/main_conference_papers/"
+    },
+    {
+      "year": 2026,
+      "paper_deadline": "2026-01-05",
+      "commitment_deadline": "2026-03-14",
+      "review_release": "2026-03-10",
+      "final_decision": "2026-04-04",
+      "conference_start": "2026-07-02",
+      "conference_end": "2026-07-07",
+      "source": "https://2026.aclweb.org/"
+    }
+  ]
+}

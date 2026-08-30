@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "conference_order": [
+    "www",
+    "acl",
+    "iclr",
+    "mm",
+    "icassp",
+    "icme",
+    "neurips",
+    "icml",
+    "chi",
+    "emnlp",
+    "kdd",
+    "aaai"
+  ]
+}
