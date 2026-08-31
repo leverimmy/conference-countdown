@@ -1,0 +1,23 @@
+{
+  "conference_id": "kdd",
+  "schema_version": 1,
+  "sources": {
+    "research-track": {
+      "candidates": [
+        "Abstract Deadline: July 19, 2026 · Paper Deadline: July 26, 2026 · Author Rebuttal Period: September 29-October 13, 2026 · Notification: November 14, 2026 · All deadlines are end-of-day in the · Anywhere on Earth (AoE)",
+        "Author Rebuttal Period: September 29-October 13, 2026 · Notification: November 14, 2026 · All deadlines are end-of-day in the · Anywhere on Earth (AoE) · time zone. · Submission Site",
+        "FAQ · Research Track: Call for Papers · KDD is the premier Data Science and AI conference with a Research track, an Applied Data Science Track, a Datasets & Benchmarks Track, and an AI for Sciences Track. The conference will take place in August 2027 in San Jose, California. KDD has two submission c",
+        "KDD 2027 First Cycle are: · Abstract Deadline: July 19, 2026 · Paper Deadline: July 26, 2026 · Author Rebuttal Period: September 29-October 13, 2026 · Notification: November 14, 2026 · All deadlines are end-of-day in the",
+        "KDD is the premier Data Science and AI conference with a Research track, an Applied Data Science Track, a Datasets & Benchmarks Track, and an AI for Sciences Track. The conference will take place in August 2027 in San Jose, California. KDD has two submission cycles per year. This call details the CF",
+        "Notification: November 14, 2026 · All deadlines are end-of-day in the · Anywhere on Earth (AoE) · time zone. · Submission Site · We will use OpenReview to manage the submissions and reviewing. Submissions will not be made public on OpenReview during the reviewing period.",
+        "Paper Deadline: July 26, 2026 · Author Rebuttal Period: September 29-October 13, 2026 · Notification: November 14, 2026 · All deadlines are end-of-day in the · Anywhere on Earth (AoE) · time zone.",
+        "Research Track: Call for Papers · KDD is the premier Data Science and AI conference with a Research track, an Applied Data Science Track, a Datasets & Benchmarks Track, and an AI for Sciences Track. The conference will take place in August 2027 in San Jose, California. KDD has two submission cycles ",
+        "The important dates for the · KDD 2027 First Cycle are: · Abstract Deadline: July 19, 2026 · Paper Deadline: July 26, 2026 · Author Rebuttal Period: September 29-October 13, 2026 · Notification: November 14, 2026"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "1f5f36dcac333b1122202ebc2c827d31f235c6156ab12fd22d242acad61a59ba",
+      "url": "https://kdd2027.kdd.org/research-track-call-for-papers/"
+    }
+  }
+}

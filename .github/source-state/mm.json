@@ -1,0 +1,18 @@
+{
+  "conference_id": "mm",
+  "schema_version": 1,
+  "sources": {
+    "conference-site": {
+      "candidates": [
+        "Call for Bidding 2029 · Next Conference · ACM MM 2026 · Rio de Janeiro · November 10–14, 2026 · 2026.acmmm.org · Coming up",
+        "Home · Past Editions · Call for Bidding 2029 · Next Conference · ACM MM 2026 · Rio de Janeiro · November 10–14, 2026",
+        "Next Conference · ACM MM 2026 · Rio de Janeiro · November 10–14, 2026 · 2026.acmmm.org · Coming up · MM 2027",
+        "Past Editions · Call for Bidding 2029 · Next Conference · ACM MM 2026 · Rio de Janeiro · November 10–14, 2026 · 2026.acmmm.org"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "666b1a2e1c45ee435c25339a67e8b355a9db8fc45582d0f7d57f0414f8167c2b",
+      "url": "https://www.acmmm.org/"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "conference_id": "acl",
+  "schema_version": 1,
+  "sources": {
+    "acl-portal": {
+      "candidates": [
+        "ACL Home · Association for · Computational Linguistics · Statement from ACL and EACL 2026 Organizers · November 29, 2025 | BY webmaster · On Nov 27, OpenReview was notified of a software bug that allowed unauthorized access to authors, reviewers, and area chairs. We are grateful to the OpenReview te",
+        "Association for · Computational Linguistics · Statement from ACL and EACL 2026 Organizers · November 29, 2025 | BY webmaster · On Nov 27, OpenReview was notified of a software bug that allowed unauthorized access to authors, reviewers, and area chairs. We are grateful to the OpenReview team for fixi",
+        "Computational Linguistics · Statement from ACL and EACL 2026 Organizers · November 29, 2025 | BY webmaster · On Nov 27, OpenReview was notified of a software bug that allowed unauthorized access to authors, reviewers, and area chairs. We are grateful to the OpenReview team for fixing the issue quick",
+        "Mirror of Past Conferences · ACL Home · Association for · Computational Linguistics · Statement from ACL and EACL 2026 Organizers · November 29, 2025 | BY webmaster",
+        "November 29, 2025 | BY webmaster · On Nov 27, OpenReview was notified of a software bug that allowed unauthorized access to authors, reviewers, and area chairs. We are grateful to the OpenReview team for fixing the issue quickly. · Read more · about Statement from ACL and EACL 2026 Organizers · Page",
+        "On Nov 27, OpenReview was notified of a software bug that allowed unauthorized access to authors, reviewers, and area chairs. We are grateful to the OpenReview team for fixing the issue quickly. · Read more · about Statement from ACL and EACL 2026 Organizers · Pages · 1 · 2",
+        "Statement from ACL and EACL 2026 Organizers · November 29, 2025 | BY webmaster · On Nov 27, OpenReview was notified of a software bug that allowed unauthorized access to authors, reviewers, and area chairs. We are grateful to the OpenReview team for fixing the issue quickly. · Read more · about Stat"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "6cced60fea887d967c2cff0d160dce3eb851d4e5cd0b2d8d4bdfff6b2b0e1eba",
+      "url": "https://www.aclweb.org/portal/"
+    },
+    "conference-site": {
+      "candidates": [
+        ".news-table { font-size: .9em; table-layout: fixed; } .news-table tr td:nth-child(1) { font-weight: bold; width: 10em; } · July 3, 2026 · The official ACL 2027 website is launched. · .news-table { font-size: .9em; table-layout: fixed; } .news-table tr td:nth-child(1) { font-weight: bold; width: 10em",
+        "July 3, 2026 · The official ACL 2027 website is launched. · .news-table { font-size: .9em; table-layout: fixed; } .news-table tr td:nth-child(1) { font-weight: bold; width: 10em; } · Important Dates · ARR submission deadline · TBA",
+        "News · .news-table { font-size: .9em; table-layout: fixed; } .news-table tr td:nth-child(1) { font-weight: bold; width: 10em; } · July 3, 2026 · The official ACL 2027 website is launched. · .news-table { font-size: .9em; table-layout: fixed; } .news-table tr td:nth-child(1) { font-weight: bold; widt"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "324d718b1566b4bf1496435b921039c8139d2e911ade2beb1417f1a3abd38619",
+      "url": "https://2027.aclweb.org/"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "conference_id": "icme",
+  "schema_version": 1,
+  "sources": {
+    "ieee-event": {
+      "candidates": [
+        "2026 Symposium on Integrated Circuits and Systems Design · Date · 24 Aug 2026 · – · 28 Aug 2026 · Geographic Location",
+        "2027 IEEE International Conference On Multimedia & Expo (ICME) · Acronym · ICME 2027 · 2027 IEEE International Conference on Multimedia & Expo (ICME) · Date · 13 July 2027",
+        "2027 IEEE International Conference on Multimedia & Expo (ICME) · Date · 13 July 2027 · – · 17 July 2027 · Geographic Location",
+        "Acronym · CASIF · Title · Join us at CASIF-2026: Quantum Ignite – Powering the Next Industrial Shift · Date · 29 Aug 2026",
+        "Acronym · ICME 2027 · 2027 IEEE International Conference on Multimedia & Expo (ICME) · Date · 13 July 2027 · –",
+        "Acronym · SBCCI 2026 · Title · 2026 Symposium on Integrated Circuits and Systems Design · Date · 24 Aug 2026",
+        "Acronym · SSCAS · Title · IEEE CASS Seasonal School on AI and IoT Technologies for Smart Agriculture in Uganda · Date · 18 Aug 2026",
+        "CAS Industry Forums (CASIF) · ISCAS 2027 · The IEEE International Symposium on Circuits and Systems (ISCAS 2027) is the flagship global conference of the IEEE Circuits and Systems Society (CASS). It serves as the world’s premier forum for researchers, engineers, and scientists to share advancements ",
+        "CASIF · Title · Join us at CASIF-2026: Quantum Ignite – Powering the Next Industrial Shift · Date · 29 Aug 2026 · Geographic Location",
+        "Date · 13 July 2027 · – · 17 July 2027 · Geographic Location · Xiamen, China",
+        "Date · 18 Aug 2026 · – · 22 Aug 2026 · Geographic Location · Kampala, Uganda",
+        "Date · 24 Aug 2026 · – · 28 Aug 2026 · Geographic Location · São Paulo, Brazil",
+        "Date · 29 Aug 2026 · Geographic Location · Bengaluru · Search · Close panel",
+        "ICME 2027 · 2027 IEEE International Conference on Multimedia & Expo (ICME) · Date · 13 July 2027 · – · 17 July 2027",
+        "IEEE CASS Seasonal School on AI and IoT Technologies for Smart Agriculture in Uganda · Date · 18 Aug 2026 · – · 22 Aug 2026 · Geographic Location",
+        "IEEE Event Conduct and Safety Statement · CAS Industry Forums (CASIF) · ISCAS 2027 · The IEEE International Symposium on Circuits and Systems (ISCAS 2027) is the flagship global conference of the IEEE Circuits and Systems Society (CASS). It serves as the world’s premier forum for researchers, engine",
+        "ISCAS 2027 · The IEEE International Symposium on Circuits and Systems (ISCAS 2027) is the flagship global conference of the IEEE Circuits and Systems Society (CASS). It serves as the world’s premier forum for researchers, engineers, and scientists to share advancements in the theory, design, and imp",
+        "ISCAS Resources · IEEE Event Conduct and Safety Statement · CAS Industry Forums (CASIF) · ISCAS 2027 · The IEEE International Symposium on Circuits and Systems (ISCAS 2027) is the flagship global conference of the IEEE Circuits and Systems Society (CASS). It serves as the world’s premier forum for r",
+        "Join us at CASIF-2026: Quantum Ignite – Powering the Next Industrial Shift · Date · 29 Aug 2026 · Geographic Location · Bengaluru · Search",
+        "SBCCI 2026 · Title · 2026 Symposium on Integrated Circuits and Systems Design · Date · 24 Aug 2026 · –",
+        "SSCAS · Title · IEEE CASS Seasonal School on AI and IoT Technologies for Smart Agriculture in Uganda · Date · 18 Aug 2026 · –",
+        "Society Conferences · ISCAS Resources · IEEE Event Conduct and Safety Statement · CAS Industry Forums (CASIF) · ISCAS 2027 · The IEEE International Symposium on Circuits and Systems (ISCAS 2027) is the flagship global conference of the IEEE Circuits and Systems Society (CASS). It serves as the world",
+        "The IEEE International Symposium on Circuits and Systems (ISCAS 2027) is the flagship global conference of the IEEE Circuits and Systems Society (CASS). It serves as the world’s premier forum for researchers, engineers, and scientists to share advancements in the theory, design, and implementation o",
+        "Title · 2026 Symposium on Integrated Circuits and Systems Design · Date · 24 Aug 2026 · – · 28 Aug 2026",
+        "Title · IEEE CASS Seasonal School on AI and IoT Technologies for Smart Agriculture in Uganda · Date · 18 Aug 2026 · – · 22 Aug 2026",
+        "Title · Join us at CASIF-2026: Quantum Ignite – Powering the Next Industrial Shift · Date · 29 Aug 2026 · Geographic Location · Bengaluru"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "94faa031a4c965fa18aed12f21f4a9325b88842467943e3ef28d202eba42360c",
+      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "conference_id": "icassp",
+  "schema_version": 1,
+  "sources": {
+    "call-for-papers": {
+      "candidates": [
+        "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Canada · search · Search · close · Top Reading",
+        "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Canada · search · Search · close",
+        "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Canada · search · Search",
+        "Author Registration Deadline · February 10, 2027 · Open Preview Starts · April 16, 2027 · Technical Program Chairs · Tim Davidson, McMaster University, CAN",
+        "Call for Papers - 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · {\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://2027.ieeeicassp.org/call-for-papers/\",\"url\":\"https://2027.ieeeicassp.org/call-for-papers/\",\"name\":\"Call for Papers - 2027 IE",
+        "Call for Papers · The International Conference on Acoustics, Speech, and Signal Processing (ICASSP), is the IEEE Signal Processing Society’s flagship conference on signal processing and its applications. The 52nd edition of ICASSP will be held in the dynamic city of Toronto, Canada; one of the most ",
+        "Download the call for papers · Call for Papers · The International Conference on Acoustics, Speech, and Signal Processing (ICASSP), is the IEEE Signal Processing Society’s flagship conference on signal processing and its applications. The 52nd edition of ICASSP will be held in the dynamic city of To",
+        "February 10, 2027 · Open Preview Starts · April 16, 2027 · Technical Program Chairs · Tim Davidson, McMaster University, CAN · Dong Yu, Capital One, USA",
+        "Final Paper Deadline · January 27, 2027 · Author Registration Deadline · February 10, 2027 · Open Preview Starts · April 16, 2027",
+        "Full Paper Submission Deadline · September 16, 2026 · Published Journal Papers and Letters Due · January 6, 2027 · Paper Acceptance Notification · January 13, 2027",
+        "IEEE Spectrum · More Sites · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Can",
+        "Important Dates · Full Paper Submission Deadline · September 16, 2026 · Published Journal Papers and Letters Due · January 6, 2027 · Paper Acceptance Notification",
+        "January 13, 2027 · Final Paper Deadline · January 27, 2027 · Author Registration Deadline · February 10, 2027 · Open Preview Starts",
+        "January 27, 2027 · Author Registration Deadline · February 10, 2027 · Open Preview Starts · April 16, 2027 · Technical Program Chairs",
+        "January 6, 2027 · Paper Acceptance Notification · January 13, 2027 · Final Paper Deadline · January 27, 2027 · Author Registration Deadline",
+        "More Sites · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Canada · search",
+        "Open Preview Starts · April 16, 2027 · Technical Program Chairs · Tim Davidson, McMaster University, CAN · Dong Yu, Capital One, USA · Junsong Yuan, University of Buffalo SUNY, USA",
+        "Paper Acceptance Notification · January 13, 2027 · Final Paper Deadline · January 27, 2027 · Author Registration Deadline · February 10, 2027",
+        "Published Journal Papers and Letters Due · January 6, 2027 · Paper Acceptance Notification · January 13, 2027 · Final Paper Deadline · January 27, 2027",
+        "September 16, 2026 · Published Journal Papers and Letters Due · January 6, 2027 · Paper Acceptance Notification · January 13, 2027 · Final Paper Deadline",
+        "The International Conference on Acoustics, Speech, and Signal Processing (ICASSP), is the IEEE Signal Processing Society’s flagship conference on signal processing and its applications. The 52nd edition of ICASSP will be held in the dynamic city of Toronto, Canada; one of the most multicultural and ",
+        "{ \"@context\": \"https://schema.org\", \"@graph\": [ { \"@type\": \"BreadcrumbList\", \"@id\": \"https://2027.ieeeicassp.org/call-for-papers/#breadcrumb\", \"itemListElement\": [ { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://2027.ieeeicassp.org/\" }, { \"@type\": \"ListItem\", \"position\": 2, \"n",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://2027.ieeeicassp.org/call-for-papers/\",\"url\":\"https://2027.ieeeicassp.org/call-for-papers/\",\"name\":\"Call for Papers - 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing\",\"isPartOf\":{\"@id\":\"https:/"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "9a1abd0458be74b42a3a59c3c45c195878ef425f32415449d95698408767ad3b",
+      "url": "https://2027.ieeeicassp.org/call-for-papers/"
+    },
+    "important-dates": {
+      "candidates": [
+        "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Canada · search · Search · close · Top Reading",
+        "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Canada · search · Search · close",
+        "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Canada · search · Search",
+        "IEEE Spectrum · More Sites · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Can",
+        "Important Dates - 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · {\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://2027.ieeeicassp.org/important-dates/\",\"url\":\"https://2027.ieeeicassp.org/important-dates/\",\"name\":\"Important Dates - 2027 IE",
+        "More Sites · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing · 16-21 May 2027, Toronto, Canada · search",
+        "var gtm4wp_datalayer_name = \"dataLayer\"; var dataLayer = dataLayer || []; const gtm4wp_scrollerscript_debugmode = false; const gtm4wp_scrollerscript_callbacktime = 100; const gtm4wp_scrollerscript_readerlocation = 150; const gtm4wp_scrollerscript_contentelementid = \"content\"; const gtm4wp_scrollersc",
+        "{ \"@context\": \"https://schema.org\", \"@graph\": [ { \"@type\": \"BreadcrumbList\", \"@id\": \"https://2027.ieeeicassp.org/important-dates/#breadcrumb\", \"itemListElement\": [ { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://2027.ieeeicassp.org/\" }, { \"@type\": \"ListItem\", \"position\": 2, \"n",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://2027.ieeeicassp.org/important-dates/\",\"url\":\"https://2027.ieeeicassp.org/important-dates/\",\"name\":\"Important Dates - 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing\",\"isPartOf\":{\"@id\":\"https:/"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "fac780d576772c5da6ecdfdb9d0d7140c9191e46aea2bee0a7a75347bce990a1",
+      "url": "https://2027.ieeeicassp.org/important-dates/"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "conference_id": "emnlp",
+  "schema_version": 1,
+  "sources": {
+    "acl-announcement": {
+      "candidates": [
+        "(The 2027 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics), which will be held as a hybrid conference, and physically held in San Francisco, USA, June 1-5, 2027. · ACL 2027 · (The 65th Annual Meeting of the Association for Computational Lingu",
+        "(The 2027 Conference on Empirical Methods in Natural Language Processing), which will be held as a hybrid conference, tentatively scheduled for early November 2027 and physically held in Mexico or Central America. · The workshop and tutorial co-chairs will work together to assign workshops to the co",
+        "(The 20th Conference of the European Chapter of the Association for Computational Linguistics), which will be held as a hybrid conference, and physically held in Athens, Greece, from March 9-14, 2027. · COLING 2027 · (The 32nd International Conference on Computational Linguistics), which will be hel",
+        "(The 32nd International Conference on Computational Linguistics), which will be held as a hybrid conference, and physically held in Macau, China, from May 9-14. · NAACL 2027 · (The 2027 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics), which ",
+        "(The 65th Annual Meeting of the Association for Computational Linguistics), which will be held as a hybrid conference in the summer of 2027, physically held in Japan August 17-22. · EMNLP 2027 · (The 2027 Conference on Empirical Methods in Natural Language Processing), which will be held as a hybrid",
+        ", particularly in areas underrepresented in main conference spaces, to ensure a well-balanced and relevant workshop program. A well-written proposal can be rejected if it does not bring a new perspective to the workshop program, and we may merge workshops that propose similar programs. · This commit",
+        "ACL 2027 (Kyoto, Japan) · First call for workshop papers: December 6, 2026 · Second call for workshop papers: January 17, 2027 · Third call for workshop papers (Optional): March 13, 2027 · Direct paper submission deadline: April 25, 2027 · Pre-reviewed ARR commitment deadline: April 2027",
+        "ACL 2027 · (The 65th Annual Meeting of the Association for Computational Linguistics), which will be held as a hybrid conference in the summer of 2027, physically held in Japan August 17-22. · EMNLP 2027 · (The 2027 Conference on Empirical Methods in Natural Language Processing), which will be held ",
+        "ACL Conferences Workshop Proposals Shared Dates: · Proposal submission deadline: September 4th, 2026 · Notification of acceptance: October 2nd, 2026 · All deadlines are 11:59PM UTC-12:00 (\"anywhere on Earth\"). · Submission Information · Proposals should be submitted as PDF documents. Note that submi",
+        "ACL Home · Association for · Computational Linguistics · Joint Call for Workshops Proposals 2027 · July 20, 2026 | BY blvns · Event Notification Type:",
+        "Association for · Computational Linguistics · Joint Call for Workshops Proposals 2027 · July 20, 2026 | BY blvns · Event Notification Type: · Call for Proposals",
+        "COLING 2027 (Macau, China) · First call for workshop papers: November 21, 2026 · Second call for workshop papers: December 21, 2026 · Direct paper submission deadline: January 5, 2027 · Pre-reviewed ARR commitment deadline: TBA · Notification of acceptance: February 6, 2027",
+        "COLING 2027 · (The 32nd International Conference on Computational Linguistics), which will be held as a hybrid conference, and physically held in Macau, China, from May 9-14. · NAACL 2027 · (The 2027 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Lingui",
+        "Camera-ready paper due: April 16, 2027 · Proceedings due (hard deadline; tentative): May 7, 2027 · Pre-recorded video due (hard deadline; tentative): May 14, 2027 · Conference dates: June 1-June 5, 2027 · ACL 2027 (Kyoto, Japan) · First call for workshop papers: December 6, 2026",
+        "Camera-ready paper due: January 19, 2027 · Proceedings due (hard deadline): February 9, 2027 · Pre-recorded video due (hard deadline): February 12, 2027 · Conference dates: March 9-14, 2027 · COLING 2027 (Macau, China) · First call for workshop papers: November 21, 2026",
+        "Camera-ready paper due: June 12, 2027 · Proceedings due (hard deadline): July 3, 2027 · Pre-recorded video due (hard deadline): July 18, 2027 · Conference dates: August 17-22, 2027 · Workshop dates: August 21-22, 2027 · EMNLP 2027 (TBA)",
+        "Camera-ready paper due: March 5, 2027 · Proceedings due (hard deadline): April 5, 2027 · Pre-recorded video due (hard deadline): April 15, 2027 · Conference dates: May 9-14, 2027 · NAACL 2027 (San Francisco, USA) · First call for workshop papers: October 26, 2026",
+        "Computational Linguistics · Joint Call for Workshops Proposals 2027 · July 20, 2026 | BY blvns · Event Notification Type: · Call for Proposals · Abbreviated Title:",
+        "Conference dates: August 17-22, 2027 · Workshop dates: August 21-22, 2027 · EMNLP 2027 (TBA) · Conference dates: TBA · Workshop Chairs · EACL",
+        "Conference dates: June 1-June 5, 2027 · ACL 2027 (Kyoto, Japan) · First call for workshop papers: December 6, 2026 · Second call for workshop papers: January 17, 2027 · Third call for workshop papers (Optional): March 13, 2027 · Direct paper submission deadline: April 25, 2027",
+        "Conference dates: March 9-14, 2027 · COLING 2027 (Macau, China) · First call for workshop papers: November 21, 2026 · Second call for workshop papers: December 21, 2026 · Direct paper submission deadline: January 5, 2027 · Pre-reviewed ARR commitment deadline: TBA",
+        "Conference dates: May 9-14, 2027 · NAACL 2027 (San Francisco, USA) · First call for workshop papers: October 26, 2026 · Second call for workshop papers: November 23, 2026 · Third call for workshop papers (Optional): January 4, 2027 · Direct paper submission deadline: February 5, 2027",
+        "Contact: · Terra Blevins · Zeerak Talat · Website: · Submission Deadline: · Friday, 4 September 2026",
+        "Direct paper submission deadline: April 25, 2027 · Pre-reviewed ARR commitment deadline: April 2027 · Notification of acceptance: May 22, 2027 · Camera-ready paper due: June 12, 2027 · Proceedings due (hard deadline): July 3, 2027 · Pre-recorded video due (hard deadline): July 18, 2027",
+        "Direct paper submission deadline: December 15, 2026 · Pre-reviewed ARR commitment deadline: December 22, 2026 · Notification of acceptance: January 5, 2027 · Camera-ready paper due: January 19, 2027 · Proceedings due (hard deadline): February 9, 2027 · Pre-recorded video due (hard deadline): Februar",
+        "Direct paper submission deadline: February 5, 2027 · Pre-reviewed ARR commitment deadline: March 12, 2027 · Notification of acceptance: March 26, 2027 · Camera-ready paper due: April 16, 2027 · Proceedings due (hard deadline; tentative): May 7, 2027 · Pre-recorded video due (hard deadline; tentative",
+        "Direct paper submission deadline: January 5, 2027 · Pre-reviewed ARR commitment deadline: TBA · Notification of acceptance: February 6, 2027 · Camera-ready paper due: March 5, 2027 · Proceedings due (hard deadline): April 5, 2027 · Pre-recorded video due (hard deadline): April 15, 2027",
+        "EACL 2027 (Athens, Greece) · First call for workshop papers: October 13, 2026 · Second call for workshop papers: November 13, 2026 · Direct paper submission deadline: December 15, 2026 · Pre-reviewed ARR commitment deadline: December 22, 2026 · Notification of acceptance: January 5, 2027",
+        "EACL 2027 · (The 20th Conference of the European Chapter of the Association for Computational Linguistics), which will be held as a hybrid conference, and physically held in Athens, Greece, from March 9-14, 2027. · COLING 2027 · (The 32nd International Conference on Computational Linguistics), which",
+        "First call for workshop papers: December 6, 2026 · Second call for workshop papers: January 17, 2027 · Third call for workshop papers (Optional): March 13, 2027 · Direct paper submission deadline: April 25, 2027 · Pre-reviewed ARR commitment deadline: April 2027 · Notification of acceptance: May 22,"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "32e999c3dbb43ab828aef070af41bb10af64cf395267688b36279c6d9807da6a",
+      "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027"
+    }
+  }
+}

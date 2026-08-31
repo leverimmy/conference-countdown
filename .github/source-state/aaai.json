@@ -1,0 +1,56 @@
+{
+  "conference_id": "aaai",
+  "schema_version": 1,
+  "sources": {
+    "conference-site": {
+      "candidates": [
+        "(Main Technical Track) · December 14, 2026 · Submission of camera-ready files · (Main Technical Track) · February 16-23, 2027 · AAAI-27 Conference",
+        "(Main Technical Track) · February 16-23, 2027 · AAAI-27 Conference · Note: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP. · AAAI-27 · We are pleased to announce the Forty-First AAAI Conference on Artificial Intelligen",
+        "/ · AAAI Conference on Artificial Intelligence · / · March 4, 2026 · The 41st Annual AAAI Conference on Artificial Intelligence · February 16",
+        "/ · Conferences · / · AAAI Conference on Artificial Intelligence · / · March 4, 2026",
+        "/ · March 4, 2026 · The 41st Annual AAAI Conference on Artificial Intelligence · February 16 · – · February 23, 2027 | Montréal, Canada",
+        "AAAI Conference on Artificial Intelligence · / · March 4, 2026 · The 41st Annual AAAI Conference on Artificial Intelligence · February 16 · –",
+        "AAAI-27 Author Kit · Main Conference Timetable for Authors · Note: all deadlines are “anywhere on earth” (UTC-12) · June 17, 2026 · OpenReview submission site opens for · author registration",
+        "AAAI-27 Conference · Note: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP. · AAAI-27 · We are pleased to announce the Forty-First AAAI Conference on Artificial Intelligence (AAAI-27), which will be held in Montréal, Ca",
+        "AAAI-27 · We are pleased to announce the Forty-First AAAI Conference on Artificial Intelligence (AAAI-27), which will be held in Montréal, Canada, fr · om February 16 to February 23, 2027. · The purpose of the AAAI conference series is to promote research in Artificial Intelligence (AI) and foster s",
+        "Abstracts due at 11:59 PM UTC-12 · July 28, 2026 · Full papers due at 11:59 PM UTC-12 · July 31, 2026 · Supplementary material and code due by 11:59 PM UTC-12 · September 24, 2026",
+        "Author feedback window · November 30, 2026 · Notification of final acceptance or rejection · (Main Technical Track) · December 14, 2026 · Submission of camera-ready files",
+        "Conference Organizers · AAAI-27 Author Kit · Main Conference Timetable for Authors · Note: all deadlines are “anywhere on earth” (UTC-12) · June 17, 2026 · OpenReview submission site opens for",
+        "Conferences · / · AAAI Conference on Artificial Intelligence · / · March 4, 2026 · The 41st Annual AAAI Conference on Artificial Intelligence",
+        "December 14, 2026 · Submission of camera-ready files · (Main Technical Track) · February 16-23, 2027 · AAAI-27 Conference · Note: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP.",
+        "February 16-23, 2027 · AAAI-27 Conference · Note: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP. · AAAI-27 · We are pleased to announce the Forty-First AAAI Conference on Artificial Intelligence (AAAI-27), which will ",
+        "Full papers due at 11:59 PM UTC-12 · July 31, 2026 · Supplementary material and code due by 11:59 PM UTC-12 · September 24, 2026 · Notification of Phase 1 rejections · October 19-25, 2026",
+        "July 21, 2026 · Abstracts due at 11:59 PM UTC-12 · July 28, 2026 · Full papers due at 11:59 PM UTC-12 · July 31, 2026 · Supplementary material and code due by 11:59 PM UTC-12",
+        "July 28, 2026 · Full papers due at 11:59 PM UTC-12 · July 31, 2026 · Supplementary material and code due by 11:59 PM UTC-12 · September 24, 2026 · Notification of Phase 1 rejections",
+        "July 31, 2026 · Supplementary material and code due by 11:59 PM UTC-12 · September 24, 2026 · Notification of Phase 1 rejections · October 19-25, 2026 · Author feedback window",
+        "June 17, 2026 · OpenReview submission site opens for · author registration · June 30, 2026 · OpenReview submission site opens for · paper submission",
+        "June 30, 2026 · OpenReview submission site opens for · paper submission · July 21, 2026 · Abstracts due at 11:59 PM UTC-12 · July 28, 2026",
+        "Main Conference Timetable for Authors · Note: all deadlines are “anywhere on earth” (UTC-12) · June 17, 2026 · OpenReview submission site opens for · author registration · June 30, 2026",
+        "March 4, 2026 · The 41st Annual AAAI Conference on Artificial Intelligence · February 16 · – · February 23, 2027 | Montréal, Canada · AAAI-27",
+        "Note: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP. · AAAI-27 · We are pleased to announce the Forty-First AAAI Conference on Artificial Intelligence (AAAI-27), which will be held in Montréal, Canada, fr · om Februar",
+        "Note: all deadlines are “anywhere on earth” (UTC-12) · June 17, 2026 · OpenReview submission site opens for · author registration · June 30, 2026 · OpenReview submission site opens for",
+        "Notification of Phase 1 rejections · October 19-25, 2026 · Author feedback window · November 30, 2026 · Notification of final acceptance or rejection · (Main Technical Track)",
+        "Notification of final acceptance or rejection · (Main Technical Track) · December 14, 2026 · Submission of camera-ready files · (Main Technical Track) · February 16-23, 2027",
+        "November 30, 2026 · Notification of final acceptance or rejection · (Main Technical Track) · December 14, 2026 · Submission of camera-ready files · (Main Technical Track)",
+        "October 19-25, 2026 · Author feedback window · November 30, 2026 · Notification of final acceptance or rejection · (Main Technical Track) · December 14, 2026",
+        "OpenReview submission site opens for · author registration · June 30, 2026 · OpenReview submission site opens for · paper submission · July 21, 2026"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "e32a4cacbe9e25b1b345966bdc062aa1ea4c6ac695c7c576474265e8c847bdfe",
+      "url": "https://aaai.org/conference/aaai/aaai-27/"
+    },
+    "openreview": {
+      "candidates": [
+        "groups[0].cdate: 1777567568114",
+        "groups[0].mdate: 1787179634683",
+        "groups[0].tcdate: 1777567568114",
+        "groups[0].tmdate: 1787179634683"
+      ],
+      "kind": "openreview",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "cbe85b670cace5a784ea4aa5dbba7a5fd49dc9415f15106f48f7671dc9494484",
+      "url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference"
+    }
+  }
+}

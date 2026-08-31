@@ -1,0 +1,55 @@
+{
+  "conference_id": "iclr",
+  "schema_version": 1,
+  "sources": {
+    "dates": {
+      "candidates": [
+        "AI Policy for Authors · ICLR 2027 Meeting Dates · The Fifteenth annual conference is held (location and dates to be announced) . · Main Conference · April 26 - 28 · Workshops",
+        "AI Policy for Reviewers · AI Policy for Authors · ICLR 2027 Meeting Dates · The Fifteenth annual conference is held (location and dates to be announced) . · Main Conference · April 26 - 28",
+        "Abstract Deadline · Sep 18 '26 (Anywhere on Earth) · if (\"abstract_deadline_1\" != \"\") { var abstract_deadline_1 = \"2026/09/19 11:59:59 UTC\"; $('.abstract_deadline_1-countdown').countdown(abstract_deadline_1, function (event) { $(this).html(event.strftime('%w weeks %d days %H:%M:%S')); }); } · Paper ",
+        "April 26 - 28 · Workshops · April 29 - 30 · Your timezone is: · Dates and Deadlines · Paper Submissions",
+        "April 29 - 30 · Your timezone is: · Dates and Deadlines · Paper Submissions · Abstract Deadline · Sep 18 '26 (Anywhere on Earth)",
+        "Author- Reviewer Discussion Begins · Nov 05 '26 · Author- Reviewer Discussion Ends · Nov 18 '26 · Reviewer- A C Discussion and Meta-reviewing Begins · Nov 19 '26",
+        "Author- Reviewer Discussion Ends · Nov 18 '26 · Reviewer- A C Discussion and Meta-reviewing Begins · Nov 19 '26 · Reviewer- A C Discussion and Meta-reviewing Ends · Dec 16 '26",
+        "Dates and Deadlines · Paper Submissions · Abstract Deadline · Sep 18 '26 (Anywhere on Earth) · if (\"abstract_deadline_1\" != \"\") { var abstract_deadline_1 = \"2026/09/19 11:59:59 UTC\"; $('.abstract_deadline_1-countdown').countdown(abstract_deadline_1, function (event) { $(this).html(event.strftime('%w",
+        "Dec 16 '26 · $(function () { if ($(\".editable\").length == 0) { $(\"#editFooter\").hide(); } // Event bindings for edit buttons $('.startEditBtn').on('click', function() { start_edit(); }); $('.stopEditBtn').on('click', function() { stop_edit(); }); $('#id_accepted_terms_and_conditions').on('change', f",
+        "Dec 16 '26 · Final Decisions · Dec 16 '26 · $(function () { if ($(\".editable\").length == 0) { $(\"#editFooter\").hide(); } // Event bindings for edit buttons $('.startEditBtn').on('click', function() { start_edit(); }); $('.stopEditBtn').on('click', function() { stop_edit(); }); $('#id_accepted_terms_",
+        "Final Decisions · Dec 16 '26 · $(function () { if ($(\".editable\").length == 0) { $(\"#editFooter\").hide(); } // Event bindings for edit buttons $('.startEditBtn').on('click', function() { start_edit(); }); $('.stopEditBtn').on('click', function() { stop_edit(); }); $('#id_accepted_terms_and_condition",
+        "ICLR 2027 Meeting Dates · The Fifteenth annual conference is held (location and dates to be announced) . · Main Conference · April 26 - 28 · Workshops · April 29 - 30",
+        "Main Conference · April 26 - 28 · Workshops · April 29 - 30 · Your timezone is: · Dates and Deadlines",
+        "Nov 05 '26 · Author- Reviewer Discussion Begins · Nov 05 '26 · Author- Reviewer Discussion Ends · Nov 18 '26 · Reviewer- A C Discussion and Meta-reviewing Begins",
+        "Nov 05 '26 · Author- Reviewer Discussion Ends · Nov 18 '26 · Reviewer- A C Discussion and Meta-reviewing Begins · Nov 19 '26 · Reviewer- A C Discussion and Meta-reviewing Ends",
+        "Nov 18 '26 · Reviewer- A C Discussion and Meta-reviewing Begins · Nov 19 '26 · Reviewer- A C Discussion and Meta-reviewing Ends · Dec 16 '26 · Final Decisions",
+        "Nov 19 '26 · Reviewer- A C Discussion and Meta-reviewing Ends · Dec 16 '26 · Final Decisions · Dec 16 '26 · $(function () { if ($(\".editable\").length == 0) { $(\"#editFooter\").hide(); } // Event bindings for edit buttons $('.startEditBtn').on('click', function() { start_edit(); }); $('.stopEditBtn').",
+        "Paper Deadline · Sep 25 '26 (Anywhere on Earth) · if (\"paper_deadline_1\" != \"\") { var paper_deadline_1 = \"2026/09/26 11:59:59 UTC\"; $('.paper_deadline_1-countdown').countdown(paper_deadline_1, function (event) { $(this).html(event.strftime('%w weeks %d days %H:%M:%S')); }); } · Reviews Released · No",
+        "Paper Submissions · Abstract Deadline · Sep 18 '26 (Anywhere on Earth) · if (\"abstract_deadline_1\" != \"\") { var abstract_deadline_1 = \"2026/09/19 11:59:59 UTC\"; $('.abstract_deadline_1-countdown').countdown(abstract_deadline_1, function (event) { $(this).html(event.strftime('%w weeks %d days %H:%M:%",
+        "Reviewer- A C Discussion and Meta-reviewing Begins · Nov 19 '26 · Reviewer- A C Discussion and Meta-reviewing Ends · Dec 16 '26 · Final Decisions · Dec 16 '26",
+        "Reviewer- A C Discussion and Meta-reviewing Ends · Dec 16 '26 · Final Decisions · Dec 16 '26 · $(function () { if ($(\".editable\").length == 0) { $(\"#editFooter\").hide(); } // Event bindings for edit buttons $('.startEditBtn').on('click', function() { start_edit(); }); $('.stopEditBtn').on('click', f",
+        "Reviews Released · Nov 05 '26 · Author- Reviewer Discussion Begins · Nov 05 '26 · Author- Reviewer Discussion Ends · Nov 18 '26",
+        "Sep 18 '26 (Anywhere on Earth) · if (\"abstract_deadline_1\" != \"\") { var abstract_deadline_1 = \"2026/09/19 11:59:59 UTC\"; $('.abstract_deadline_1-countdown').countdown(abstract_deadline_1, function (event) { $(this).html(event.strftime('%w weeks %d days %H:%M:%S')); }); } · Paper Deadline · Sep 25 '2",
+        "Sep 25 '26 (Anywhere on Earth) · if (\"paper_deadline_1\" != \"\") { var paper_deadline_1 = \"2026/09/26 11:59:59 UTC\"; $('.paper_deadline_1-countdown').countdown(paper_deadline_1, function (event) { $(this).html(event.strftime('%w weeks %d days %H:%M:%S')); }); } · Reviews Released · Nov 05 '26 · Author",
+        "The Fifteenth annual conference is held (location and dates to be announced) . · Main Conference · April 26 - 28 · Workshops · April 29 - 30 · Your timezone is:",
+        "Workshops · April 29 - 30 · Your timezone is: · Dates and Deadlines · Paper Submissions · Abstract Deadline",
+        "Your timezone is: · Dates and Deadlines · Paper Submissions · Abstract Deadline · Sep 18 '26 (Anywhere on Earth) · if (\"abstract_deadline_1\" != \"\") { var abstract_deadline_1 = \"2026/09/19 11:59:59 UTC\"; $('.abstract_deadline_1-countdown').countdown(abstract_deadline_1, function (event) { $(this).htm",
+        "if (\"abstract_deadline_1\" != \"\") { var abstract_deadline_1 = \"2026/09/19 11:59:59 UTC\"; $('.abstract_deadline_1-countdown').countdown(abstract_deadline_1, function (event) { $(this).html(event.strftime('%w weeks %d days %H:%M:%S')); }); } · Paper Deadline · Sep 25 '26 (Anywhere on Earth) · if (\"pape",
+        "if (\"paper_deadline_1\" != \"\") { var paper_deadline_1 = \"2026/09/26 11:59:59 UTC\"; $('.paper_deadline_1-countdown').countdown(paper_deadline_1, function (event) { $(this).html(event.strftime('%w weeks %d days %H:%M:%S')); }); } · Reviews Released · Nov 05 '26 · Author- Reviewer Discussion Begins · No"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "026f82247a61dc59c75cf992816db1e0b01f452bf72bb6dcfd29dd69adfb4aa8",
+      "url": "https://iclr.cc/Conferences/2027/Dates"
+    },
+    "openreview": {
+      "candidates": [
+        "groups[0].cdate: 1784583115231",
+        "groups[0].mdate: 1784583146102",
+        "groups[0].tcdate: 1784583115231",
+        "groups[0].tmdate: 1784583146102"
+      ],
+      "kind": "openreview",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "79bdb2bf33c6f9a58ec47bcf3704dbaf3ff5eb78ab41dc104eeabdbc190da200",
+      "url": "https://api2.openreview.net/groups?id=ICLR.cc/2027/Conference"
+    }
+  }
+}

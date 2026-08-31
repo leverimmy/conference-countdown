@@ -1,0 +1,44 @@
+{
+  "conference_id": "chi",
+  "schema_version": 1,
+  "sources": {
+    "papers": {
+      "candidates": [
+        ", the last time to submit is when · D · ends AoE. · Check your local time in AoE. · Thursday, August 13, 2026 · : Submission site open",
+        ". · Starting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Ar",
+        ": Conference registration deadline · Thursday, March 4, 2027 · : Video presentation deadline · Note: · All deadlines include a 24-hour grace period in which submissions can still be edited. This period is provided solely for contingency and should not be treated as an extension. No support will be a",
+        ": E-Rights completion deadline · Thursday, January 14, 2027 · : TAPS upload deadline (Author must upload their final paper source to TAPS for processing) · Thursday, February 18, 2027 · : Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials ",
+        ": Final notification · Thursday, January 7, 2027 · : E-Rights completion deadline · Thursday, January 14, 2027 · : TAPS upload deadline (Author must upload their final paper source to TAPS for processing) · Thursday, February 18, 2027",
+        ": Paper submission deadline, including videos and supplementary materials · Thursday, November 5, 2026 · : Reviews released · Thursday, November 5–Thursday, December 3, 2026 · : Revise papers · Thursday, December 3, 2026",
+        ": Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials and optional video previews) · Thursday, March 4, 2027 · : Conference registration deadline · Thursday, March 4, 2027 · : Video presentation deadline · Note:",
+        ": Resubmission deadline · Thursday, December 17, 2026 · : Final notification · Thursday, January 7, 2027 · : E-Rights completion deadline · Thursday, January 14, 2027",
+        ": Reviews released · Thursday, November 5–Thursday, December 3, 2026 · : Revise papers · Thursday, December 3, 2026 · : Resubmission deadline · Thursday, December 17, 2026",
+        ": Revise papers · Thursday, December 3, 2026 · : Resubmission deadline · Thursday, December 17, 2026 · : Final notification · Thursday, January 7, 2027",
+        ": Submission site open · Note that there is no abstract deadline. · Thursday, September 10, 2026 · : Paper submission deadline, including videos and supplementary materials · Thursday, November 5, 2026 · : Reviews released",
+        ": TAPS upload deadline (Author must upload their final paper source to TAPS for processing) · Thursday, February 18, 2027 · : Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials and optional video previews) · Thursday, March 4, 2027 · : Con",
+        "ACM CHI 2027 · Pittsburgh, 10–14 May, 2027 · Home · » · Authors · »",
+        "ACM Open · . · Starting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or b",
+        "ACM Open · All CHI 2027 papers will be published under · ACM Open · . · Starting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access",
+        "Accepted papers may come from any area of HCI activity: academia or industry; science, engineering, or craft; analysis or design. Acceptance is highly competitive: accepted papers will excel in originality, significance, validity, research quality, and presentation clarity. We are looking forward to",
+        "All CHI 2027 papers will be published under · ACM Open · . · Starting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles w",
+        "Check your local time in AoE. · Thursday, August 13, 2026 · : Submission site open · Note that there is no abstract deadline. · Thursday, September 10, 2026 · : Paper submission deadline, including videos and supplementary materials",
+        "D · ends AoE. · Check your local time in AoE. · Thursday, August 13, 2026 · : Submission site open · Note that there is no abstract deadline.",
+        "Note that there is no abstract deadline. · Thursday, September 10, 2026 · : Paper submission deadline, including videos and supplementary materials · Thursday, November 5, 2026 · : Reviews released · Thursday, November 5–Thursday, December 3, 2026",
+        "Organizing Committee · ACM CHI 2027 · Pittsburgh, 10–14 May, 2027 · Home · » · Authors",
+        "Paper submission deadline · 10 September 2026, Anywhere on Earth · 11 · Days · 06 · Hours",
+        "Papers - ACM CHI 2027 · {\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://chi2027.acm.org/authors/papers/\",\"url\":\"https://chi2027.acm.org/authors/papers/\",\"name\":\"Papers - ACM CHI 2027\",\"isPartOf\":{\"@id\":\"https://chi2027.acm.org/#website\"},\"primaryImageOfPage\":{\"@id\":\"http",
+        "Papers · Paper submission deadline · 10 September 2026, Anywhere on Earth · 11 · Days · 06",
+        "Papers · Papers · Paper submission deadline · 10 September 2026, Anywhere on Earth · 11 · Days",
+        "Papers · Papers · Papers · Paper submission deadline · 10 September 2026, Anywhere on Earth · 11",
+        "Pittsburgh, 10–14 May, 2027 · Home · » · Authors · » · Papers",
+        "Starting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Articl",
+        "Thursday, August 13, 2026 · : Submission site open · Note that there is no abstract deadline. · Thursday, September 10, 2026 · : Paper submission deadline, including videos and supplementary materials · Thursday, November 5, 2026",
+        "Thursday, December 17, 2026 · : Final notification · Thursday, January 7, 2027 · : E-Rights completion deadline · Thursday, January 14, 2027 · : TAPS upload deadline (Author must upload their final paper source to TAPS for processing)"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "9b5bfd5ce8b7492540474aa3f60df0e80eefc12cf6f3948004af902de489dc72",
+      "url": "https://chi2027.acm.org/authors/papers/"
+    }
+  }
+}

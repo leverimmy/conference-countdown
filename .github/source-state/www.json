@@ -1,0 +1,44 @@
+{
+  "conference_id": "www",
+  "schema_version": 1,
+  "sources": {
+    "important-dates": {
+      "candidates": [
+        "01 February 2027 · Final Version Deadline · 16 February 2027 · Tutorials · Proposal Submission · 21 September 2026",
+        "04 January 2027 · Accepted Workshop Paper Notification · 01 February 2027 · Final Version Deadline · 16 February 2027 · Tutorials",
+        "04 January 2027 · Final Version Deadline · 31 January 2027 · Demo Papers · Paper Submission · 16 November 2026",
+        "04 January 2027 · Final Version Deadline · 31 January 2027 · Special Track: Competitions · Proposal Submission · 5 October 2026",
+        "04 January 2027 · Final Version Deadline · 31 January 2027 · Workshop Proposals & Papers · Proposal Submission · 21 September 2026",
+        "16 February 2027 · Special Track: Web4Good · Abstract Submission · 9 November 2026 · Paper Submission · 16 November 2026",
+        "16 February 2027 · Tutorials · Proposal Submission · 21 September 2026 · Proposal Notification · 28 September 2026",
+        "16 November 2026 · Notification · 04 January 2027 · Final Version Deadline · 31 January 2027 · Demo Papers",
+        "16 November 2026 · Notification · 04 January 2027 · Final Version Deadline · 31 January 2027 · Special Track: Competitions",
+        "16 November 2026 · Notification · 04 January 2027 · Final Version Deadline · 31 January 2027 · Workshop Proposals & Papers",
+        "18 October 2026 · Paper Submission · 25 October 2026 · Result Release · 21 December 2026 · Rebuttal Period",
+        "19 October 2026 · Seoul Test of Time Award · Nominations · 5 October 2026 · All deadlines are 11:59 PM · Anywhere on Earth (AoE)",
+        "21 December 2026 · Rebuttal Period · 21-31 December 2026 · Notification · 4 January 2027 · Final Version Deadline",
+        "21 September 2026 · Proposal Notification · 28 September 2026 · Accepted Workshop Paper Submission · 04 January 2027 · Accepted Workshop Paper Notification",
+        "21 September 2026 · Proposal Notification · 28 September 2026 · Final Version Deadline · 16 February 2027 · Special Track: Web4Good",
+        "21-31 December 2026 · Notification · 4 January 2027 · Final Version Deadline · 31 January 2027 · Short Papers",
+        "25 October 2026 · Result Release · 21 December 2026 · Rebuttal Period · 21-31 December 2026 · Notification",
+        "28 September 2026 · Accepted Workshop Paper Submission · 04 January 2027 · Accepted Workshop Paper Notification · 01 February 2027 · Final Version Deadline",
+        "28 September 2026 · Final Version Deadline · 16 February 2027 · Special Track: Web4Good · Abstract Submission · 9 November 2026",
+        "31 January 2027 · Demo Papers · Paper Submission · 16 November 2026 · Notification · 04 January 2027",
+        "31 January 2027 · Short Papers · Abstract Submission · 9 November 2026 · Paper Submission · 16 November 2026",
+        "31 January 2027 · Special Track: Competitions · Proposal Submission · 5 October 2026 · Proposal Notification · 19 October 2026",
+        "31 January 2027 · Workshop Proposals & Papers · Proposal Submission · 21 September 2026 · Proposal Notification · 28 September 2026",
+        "4 January 2027 · Final Version Deadline · 31 January 2027 · Short Papers · Abstract Submission · 9 November 2026",
+        "5 October 2026 · All deadlines are 11:59 PM · Anywhere on Earth (AoE) · unless otherwise specified · About · Important Dates",
+        "5 October 2026 · Proposal Notification · 19 October 2026 · Seoul Test of Time Award · Nominations · 5 October 2026",
+        "9 November 2026 · Paper Submission · 16 November 2026 · Notification · 04 January 2027 · Final Version Deadline",
+        "Abstract Submission · 18 October 2026 · Paper Submission · 25 October 2026 · Result Release · 21 December 2026",
+        "Abstract Submission · 9 November 2026 · Paper Submission · 16 November 2026 · Notification · 04 January 2027",
+        "Accepted Workshop Paper Notification · 01 February 2027 · Final Version Deadline · 16 February 2027 · Tutorials · Proposal Submission"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "ee7211bf07a34e24de0098715784bf1d71d649d527646f2a2dbec125f921f237",
+      "url": "https://acmweb2027.org/important-dates/"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "conference_id": "neurips",
+  "schema_version": 1,
+  "sources": {
+    "future-meetings": {
+      "candidates": [
+        "2026 -- Sydney Austraila Dec 6th - 12th + 2 Satellite Meetings (satellite information coming soon) · 2027 -- Europe · 2028 -- Western United States · BEWARE of Predatory NeurIPS conferences. All current and future NeurIPS conference information will be only be provided through this website and OpenR",
+        "EAC Information · Future Meetings · 2026 -- Sydney Austraila Dec 6th - 12th + 2 Satellite Meetings (satellite information coming soon) · 2027 -- Europe · 2028 -- Western United States · BEWARE of Predatory NeurIPS conferences. All current and future NeurIPS conference information will be only be pro",
+        "Future Meetings · 2026 -- Sydney Austraila Dec 6th - 12th + 2 Satellite Meetings (satellite information coming soon) · 2027 -- Europe · 2028 -- Western United States · BEWARE of Predatory NeurIPS conferences. All current and future NeurIPS conference information will be only be provided through this"
+      ],
+      "kind": "html",
+      "observed_at": "2026-08-31T05:41:25Z",
+      "sha256": "b49d244c5f57f930e8bd80032c6fa9da67d63bb238a0e6e6e89445340f24a174",
+      "url": "https://neurips.cc/Conferences/FutureMeetings"
+    }
+  }
+}
