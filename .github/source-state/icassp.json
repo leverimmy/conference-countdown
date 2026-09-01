@@ -25,12 +25,13 @@
         "Published Journal Papers and Letters Due · January 6, 2027 · Paper Acceptance Notification · January 13, 2027 · Final Paper Deadline · January 27, 2027",
         "September 16, 2026 · Published Journal Papers and Letters Due · January 6, 2027 · Paper Acceptance Notification · January 13, 2027 · Final Paper Deadline",
         "The International Conference on Acoustics, Speech, and Signal Processing (ICASSP), is the IEEE Signal Processing Society’s flagship conference on signal processing and its applications. The 52nd edition of ICASSP will be held in the dynamic city of Toronto, Canada; one of the most multicultural and ",
+        "var gtm4wp_datalayer_name = \"dataLayer\"; var dataLayer = dataLayer || []; const gtm4wp_scrollerscript_debugmode = false; const gtm4wp_scrollerscript_callbacktime = 100; const gtm4wp_scrollerscript_readerlocation = 150; const gtm4wp_scrollerscript_contentelementid = \"content\"; const gtm4wp_scrollersc",
         "{ \"@context\": \"https://schema.org\", \"@graph\": [ { \"@type\": \"BreadcrumbList\", \"@id\": \"https://2027.ieeeicassp.org/call-for-papers/#breadcrumb\", \"itemListElement\": [ { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://2027.ieeeicassp.org/\" }, { \"@type\": \"ListItem\", \"position\": 2, \"n",
         "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://2027.ieeeicassp.org/call-for-papers/\",\"url\":\"https://2027.ieeeicassp.org/call-for-papers/\",\"name\":\"Call for Papers - 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing\",\"isPartOf\":{\"@id\":\"https:/"
       ],
       "kind": "html",
-      "observed_at": "2026-08-31T05:41:25Z",
-      "sha256": "9a1abd0458be74b42a3a59c3c45c195878ef425f32415449d95698408767ad3b",
+      "observed_at": "2026-09-01T05:14:56Z",
+      "sha256": "221aaba8dc68a71611c6255115eb9454ac6632ad2a27bf227b8b01151aeb7849",
       "url": "https://2027.ieeeicassp.org/call-for-papers/"
     },
     "important-dates": {
