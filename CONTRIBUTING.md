@@ -18,7 +18,7 @@
 
 ## 处理自动监测 PR
 
-定时 Action 会把官网与 OpenReview 中包含日期前后文的证据保存到 `.github/source-state/`，并创建或更新一个 Draft PR。若仓库配置了 `COPILOT_TRIGGER_TOKEN`，Action 会以维护者身份在 PR 中 `@copilot`；Copilot 只负责提出 `current.json` 修改，不能替代人工核对。
+每次 push 到 `main` 后，以及每天 UTC+8 08:00，Action 会把官网与 OpenReview 中包含日期前后文的证据保存到 `.github/source-state/`，并创建或更新一个 Draft PR。若仓库配置了 `COPILOT_TRIGGER_TOKEN`，Action 会以维护者身份在 PR 中 `@copilot`；Copilot 只负责提出 `current.json` 修改，不能替代人工核对。
 
 自动 PR 中的内容只是“网页可能变化”的证据，不等于新的官方日期。逐项访问来源并审阅 Copilot 的 diff 后：
 
