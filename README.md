@@ -47,6 +47,8 @@ App 会定期取得已核对并发布的数据。网络更新失败时，会继�
 
 字段说明、预测方法和数据维护流程见 [`data/README.md`](data/README.md) 与 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
+仓库每天抓取官网和 OpenReview 的日期上下文；发现变化时创建 Draft PR，并可让 Copilot 在同一 PR 中提出 `current.json` 修改。所有数据更新仍需人工核对和合并，不会自动发布未经确认的日期。
+
 ## License
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE)（CC BY-NC-SA 4.0）。

@@ -58,7 +58,9 @@ data/
 
 每个 watcher 使用稳定 `id`、`kind`（`html` 或 `openreview`）和 HTTPS `url`。不稳定或可能尚未建立的端点可标记 `optional: true`。
 
-自动监测只抽取包含日期/截止关键词的片段并比较摘要。变化只会产生人工审阅 PR；脚本永远不会直接修改 `current.json` 或 `history.json`。
+自动监测会从 HTML 保留日期所在章节及相邻文本块，从 OpenReview 保留字段路径、同级字段和值；这些证据写入 `.github/source-state/` 后再比较摘要。变化会创建或更新 Draft PR，并可在 PR 中自动 `@copilot`，请它只对证据明确支持的 `current.json` 值提出修改。
+
+抓取脚本本身永远不会直接修改 `current.json` 或 `history.json`，Copilot 也不会自动合并。网页文字和 API 响应均按不可信证据处理，最终日期、届次、时区和修改范围必须由人核对。
 
 ## 校验
 

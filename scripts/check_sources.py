@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Watch official conference and OpenReview endpoints for date-related changes.
+"""Collect contextual evidence from official conference and OpenReview sources.
 
-The script only updates compact observation state. It never edits current.json or
-history.json; a person must review the generated PR and make any canonical data
-change before merging.
+The script records source evidence but never edits canonical conference data.
+Copilot may propose current.json changes on the resulting pull request; a person
+still reviews and merges those changes.
 """
 
 from __future__ import annotations
@@ -38,20 +38,109 @@ KEYWORD_PATTERN = re.compile(
 )
 OPENREVIEW_KEY_PATTERN = re.compile(
     r"date|deadline|due|expire|start|end|submission|review|rebuttal|response|"
-    r"notification|decision|venue",
+    r"notification|decision",
     re.IGNORECASE,
 )
+IGNORED_HTML_TAGS = {"script", "style", "noscript", "svg", "template"}
+HTML_BLOCK_TAGS = {
+    "article",
+    "aside",
+    "blockquote",
+    "dd",
+    "div",
+    "dl",
+    "dt",
+    "footer",
+    "header",
+    "li",
+    "main",
+    "nav",
+    "p",
+    "section",
+    "tr",
+}
+HTML_HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
+OPENREVIEW_METADATA_KEYS = {
+    "cdate",
+    "mdate",
+    "pdate",
+    "tcdate",
+    "tmdate",
+}
 
 
 class TextExtractor(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
-        self.fragments: list[str] = []
+        self.blocks: list[dict[str, str]] = []
+        self.current_section = ""
+        self._parts: list[str] = []
+        self._heading_tag: str | None = None
+        self._ignored_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        del attrs
+        tag = tag.lower()
+        if self._ignored_depth:
+            if tag in IGNORED_HTML_TAGS:
+                self._ignored_depth += 1
+            return
+        if tag in IGNORED_HTML_TAGS:
+            self._flush_block()
+            self._ignored_depth = 1
+            return
+        if tag in HTML_HEADING_TAGS:
+            self._flush_block()
+            self._heading_tag = tag
+            return
+        if tag in HTML_BLOCK_TAGS:
+            self._flush_block()
+        elif tag in {"td", "th"} and self._parts:
+            self._parts.append(" | ")
+        elif tag == "br" and self._parts:
+            self._parts.append(" ")
+
+    def handle_startendtag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        self.handle_starttag(tag, attrs)
+        self.handle_endtag(tag)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        if self._ignored_depth:
+            if tag in IGNORED_HTML_TAGS:
+                self._ignored_depth -= 1
+            return
+        if tag == self._heading_tag:
+            heading = normalize_text(" ".join(self._parts))
+            self._parts = []
+            self._heading_tag = None
+            if heading:
+                self.current_section = heading
+                self._append_block(heading)
+            return
+        if tag in HTML_BLOCK_TAGS:
+            self._flush_block()
 
     def handle_data(self, data: str) -> None:
+        if self._ignored_depth:
+            return
         value = normalize_text(data)
         if value:
-            self.fragments.append(value)
+            self._parts.append(value)
+
+    def finish(self) -> None:
+        self._flush_block()
+
+    def _flush_block(self) -> None:
+        value = normalize_text(" ".join(self._parts).strip(" |"))
+        self._parts = []
+        if value:
+            self._append_block(value)
+
+    def _append_block(self, value: str) -> None:
+        block = {"section": self.current_section, "text": value}
+        if not self.blocks or self.blocks[-1] != block:
+            self.blocks.append(block)
 
 
 def normalize_text(value: str) -> str:
@@ -70,39 +159,124 @@ def fetch(url: str) -> bytes:
         return response.read(5_000_001)
 
 
-def html_candidates(payload: bytes) -> list[str]:
+def html_evidence(payload: bytes) -> list[dict[str, str]]:
     parser = TextExtractor()
     parser.feed(payload.decode("utf-8", errors="replace"))
-    fragments = parser.fragments
-    candidates: set[str] = set()
-    for index in range(len(fragments)):
-        window = normalize_text(" · ".join(fragments[index:index + 6]))
-        if DATE_PATTERN.search(window) and KEYWORD_PATTERN.search(window):
-            candidates.add(window[:300])
-    return sorted(candidates)[:80]
+    parser.close()
+    parser.finish()
+
+    ranges: list[tuple[int, int, str]] = []
+    for index, block in enumerate(parser.blocks):
+        if not DATE_PATTERN.search(block["text"]):
+            continue
+        start = max(0, index - 2)
+        end = min(len(parser.blocks), index + 3)
+        context = "\n".join(item["text"] for item in parser.blocks[start:end])
+        if not KEYWORD_PATTERN.search(context):
+            continue
+
+        section = block["section"]
+        if ranges:
+            previous_start, previous_end, previous_section = ranges[-1]
+            if (
+                section == previous_section
+                and start <= previous_end
+                and end - previous_start <= 12
+            ):
+                ranges[-1] = (previous_start, max(previous_end, end), section)
+                continue
+        ranges.append((start, end, section))
+
+    evidence: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for start, end, section in ranges:
+        context = "\n".join(item["text"] for item in parser.blocks[start:end])[:2_000]
+        key = (section, context)
+        if key in seen:
+            continue
+        seen.add(key)
+        evidence.append({"section": section, "context": context})
+    return evidence[:80]
 
 
-def openreview_candidates(payload: bytes) -> list[str]:
+def openreview_evidence(payload: bytes) -> list[dict[str, object]]:
     value = json.loads(payload.decode("utf-8"))
-    results: set[str] = set()
+    results: list[dict[str, object]] = []
+    seen_paths: set[str] = set()
+
+    def scalar_value(node: object) -> str | int | float | bool | None:
+        if isinstance(node, (str, int, float, bool)):
+            return node
+        if isinstance(node, dict) and isinstance(
+            node.get("value"), (str, int, float, bool)
+        ):
+            return node["value"]
+        return None
+
+    def sibling_context(node: dict) -> dict[str, object]:
+        context: dict[str, object] = {}
+        for key, child in node.items():
+            if str(key).lower() in OPENREVIEW_METADATA_KEYS:
+                continue
+            scalar = scalar_value(child)
+            if scalar is None:
+                continue
+            context[str(key)] = scalar
+            if len(context) == 12:
+                break
+        return context
+
+    def interpreted_timestamp(node: object) -> str | None:
+        if (
+            not isinstance(node, (int, float))
+            or not 1_000_000_000_000 <= node <= 9_999_999_999_999
+        ):
+            return None
+        return (
+            datetime.fromtimestamp(node / 1_000, timezone.utc)
+            .replace(microsecond=0)
+            .isoformat()
+            .replace("+00:00", "Z")
+        )
 
     def walk(node: object, path: str = "") -> None:
         if isinstance(node, dict):
             for key, child in node.items():
                 child_path = f"{path}.{key}" if path else str(key)
-                if OPENREVIEW_KEY_PATTERN.search(str(key)) and isinstance(child, (str, int, float, bool)):
-                    results.add(f"{child_path}: {child}"[:300])
+                normalized_key = str(key).lower()
+                scalar = scalar_value(child)
+                if (
+                    child_path not in seen_paths
+                    and normalized_key not in OPENREVIEW_METADATA_KEYS
+                    and OPENREVIEW_KEY_PATTERN.search(normalized_key)
+                    and scalar is not None
+                ):
+                    item: dict[str, object] = {
+                        "path": child_path,
+                        "value": scalar,
+                        "context": sibling_context(node),
+                    }
+                    interpreted = interpreted_timestamp(scalar)
+                    if interpreted:
+                        item["interpreted_utc"] = interpreted
+                    seen_paths.add(child_path)
+                    results.append(item)
                 walk(child, child_path)
         elif isinstance(node, list):
             for index, child in enumerate(node[:100]):
                 walk(child, f"{path}[{index}]")
 
     walk(value)
-    return sorted(results)[:80]
+    return sorted(results, key=lambda item: str(item["path"]))[:80]
 
 
-def digest_candidates(candidates: list[str]) -> str:
-    canonical = json.dumps(candidates, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+def digest_evidence(evidence: list[dict[str, object]]) -> str:
+    canonical = json.dumps(
+        evidence,
+        ensure_ascii=False,
+        separators=(",", ":"),
+        sort_keys=True,
+    ).encode("utf-8")
     return hashlib.sha256(canonical).hexdigest()
 
 
@@ -133,12 +307,11 @@ def main() -> int:
     report: list[str] = [
         "# Conference source monitor",
         "",
-        "> This PR records an automated observation; it does not change the canonical conference dates.",
-        "> Compare every item with the linked source, edit the relevant `data/<id>/current.json`",
-        "> (and `history.json` when appropriate), run `python scripts/validate_data.py`, then merge.",
+        "> This PR records untrusted source evidence. Copilot may propose `current.json` changes",
+        "> on this branch, but every proposed date still requires human review before merge.",
         "",
         "- [ ] I checked each changed source.",
-        "- [ ] I updated canonical data, or confirmed that no date change is needed.",
+        "- [ ] I reviewed Copilot's proposed `current.json` diff, or confirmed no change is needed.",
         "- [ ] I checked that official and predicted dates remain clearly distinguished.",
         "",
     ]
@@ -151,8 +324,9 @@ def main() -> int:
         state_path = state_dir / f"{conference_id}.json"
         state = load_object(
             state_path,
-            {"schema_version": 1, "conference_id": conference_id, "sources": {}},
+            {"schema_version": 2, "conference_id": conference_id, "sources": {}},
         )
+        state["schema_version"] = 2
         state_sources = state.setdefault("sources", {})
         conference_changes: list[tuple[dict, dict | None, dict]] = []
 
@@ -162,13 +336,13 @@ def main() -> int:
                 payload = fetch(watcher["url"])
                 if len(payload) > 5_000_000:
                     raise ValueError("response exceeds 5 MB")
-                candidates = (
-                    openreview_candidates(payload)
+                evidence = (
+                    openreview_evidence(payload)
                     if watcher["kind"] == "openreview"
-                    else html_candidates(payload)
+                    else html_evidence(payload)
                 )
-                if not candidates:
-                    raise ValueError("no date-related fields were extracted")
+                if not evidence and not watcher.get("optional", False):
+                    raise ValueError("no date-related evidence was extracted")
             except (HTTPError, URLError, TimeoutError, ValueError, json.JSONDecodeError) as error:
                 optional = watcher.get("optional", False)
                 report.append(f"- ⚠️ `{conference_id}/{watcher_id}` could not be checked: {error}")
@@ -179,9 +353,9 @@ def main() -> int:
             new_state = {
                 "kind": watcher["kind"],
                 "url": watcher["url"],
-                "sha256": digest_candidates(candidates),
+                "sha256": digest_evidence(evidence),
                 "observed_at": observed_at,
-                "candidates": candidates[:30],
+                "evidence": evidence[:30],
             }
             old_state = state_sources.get(watcher_id)
             if not isinstance(old_state, dict) or old_state.get("sha256") != new_state["sha256"]:
@@ -200,10 +374,28 @@ def main() -> int:
                 report.append("")
                 report.append(f"New observation: `{new_state['sha256']}`")
                 report.append("")
-                report.append("Extracted date-related fields:")
+                report.append(
+                    f"Evidence: `.github/source-state/{conference_id}.json` "
+                    f"→ `sources.{watcher['id']}.evidence`"
+                )
                 report.append("")
-                for candidate in new_state["candidates"][:12]:
-                    report.append(f"- {candidate}")
+                for item in new_state["evidence"][:6]:
+                    if "section" in item and item["section"]:
+                        section = str(item["section"]).replace("`", "'")
+                        report.append(f"Section: `{section}`")
+                    elif "path" in item:
+                        field_path = str(item["path"]).replace("`", "'")
+                        report.append(f"Field: `{field_path}`")
+                    report.append("")
+                    preview = item.get("context", item)
+                    if not isinstance(preview, str):
+                        preview = json.dumps(preview, ensure_ascii=False, sort_keys=True)
+                    report.extend([
+                        "```text",
+                        preview[:800].replace("```", "'''"),
+                        "```",
+                        "",
+                    ])
                 report.append("")
 
     if changed_sources == 0:

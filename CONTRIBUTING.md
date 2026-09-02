@@ -18,11 +18,27 @@
 
 ## 处理自动监测 PR
 
-自动 PR 中的片段只是“网页可能变化”的证据，不等于新的官方日期。逐项访问来源后：
+定时 Action 会把官网与 OpenReview 中包含日期前后文的证据保存到 `.github/source-state/`，并创建或更新一个 Draft PR。若仓库配置了 `COPILOT_TRIGGER_TOKEN`，Action 会以维护者身份在 PR 中 `@copilot`；Copilot 只负责提出 `current.json` 修改，不能替代人工核对。
 
-- 确有日期变化：直接在该 PR 分支修改 `current.json`/`history.json`。
+自动 PR 中的内容只是“网页可能变化”的证据，不等于新的官方日期。逐项访问来源并审阅 Copilot 的 diff 后：
+
+- 确有日期变化：确认 `current.json` 中的日期、时区、标签和官方/预测状态均正确；需要时直接修正。
 - 页面变化但日期未变：勾选 PR 清单并说明无需更新。
 - 页面无法可靠解析：可调整 `sources.json` 或 `scripts/check_sources.py`，但不要降低官方来源要求。
+
+确认无误后把 PR 标记为 Ready for review 并合并；自动流程不会自行合并。
+
+## 启用 Copilot 自动提议
+
+此项只需要仓库维护者配置一次：
+
+1. 使用对本仓库有 write 权限且已启用 Copilot coding agent 的账号，创建一个 fine-grained personal access token。Resource owner 选择自己的账号，只授权本仓库，并设置合理的过期时间。
+2. Repository permissions 只授予 `Pull requests: Read and write`。
+3. 打开仓库的 **Settings → Secrets and variables → Actions → New repository secret**，将 secret 命名为 `COPILOT_TRIGGER_TOKEN`，值为刚创建的 token。
+
+token 只能存放在 GitHub Actions secret 中，不要写进代码、配置文件、`.env`、提交记录或 App。它只用于让 Action 以你的 GitHub 身份发布 PR 评论，与本机 Apple 签名无关。
+
+没有配置 token 时，监测和 Draft PR 仍会正常运行，只会跳过 `@copilot`。配置完成后，可在 **Actions → Collect conference source evidence → Run workflow** 手动重跑一次；同一份观测证据不会重复通知 Copilot。
 
 ## 新增会议
 
