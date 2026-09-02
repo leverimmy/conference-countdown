@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "last_verified": "2026-08-14",
+  "last_verified": "2026-09-02",
   "id": "mm",
-  "edition": 2027,
-  "name": "ACM MM 2027",
+  "edition": 2026,
+  "name": "ACM MM 2026",
   "short_name": "MM",
-  "subtitle": "ACM Multimedia · Hong Kong",
+  "subtitle": "ACM Multimedia · Rio de Janeiro",
   "symbol": "photo.on.rectangle.angled",
   "official_url": "https://www.acmmm.org/",
-  "time_zone": "Asia/Hong_Kong",
+  "time_zone": "America/Sao_Paulo",
   "default_event_id": "mm.paper",
   "events": [
     {
@@ -20,7 +20,7 @@
       "detail_label": "公布后再更新提醒",
       "symbol": "paperplane",
       "historical_key": "paper_deadline",
-      "target_year": 2027
+      "target_year": 2026
     },
     {
       "id": "mm.review",
@@ -31,7 +31,7 @@
       "detail_label": "公布后替换历史预测",
       "symbol": "doc.text.fill",
       "historical_key": "review_release",
-      "target_year": 2027
+      "target_year": 2026
     },
     {
       "id": "mm.rebuttal",
@@ -42,7 +42,7 @@
       "detail_label": "公布后替换历史预测",
       "symbol": "bubble.left.and.bubble.right.fill",
       "historical_key": "rebuttal_deadline",
-      "target_year": 2027
+      "target_year": 2026
     },
     {
       "id": "mm.decision",
@@ -53,18 +53,16 @@
       "detail_label": "公布后替换历史预测",
       "symbol": "checkmark.seal.fill",
       "historical_key": "final_decision",
-      "target_year": 2027
+      "target_year": 2026
     },
     {
       "id": "mm.conference",
       "title": "会议开幕",
       "compact_title": "MM 开会",
-      "at": null,
-      "date_label": "日期尚未公布",
-      "detail_label": "中国香港",
-      "symbol": "building.columns",
-      "historical_key": "conference_start",
-      "target_year": 2027
+      "at": "2026-11-10T00:00:00-03:00",
+      "date_label": "2026 年 11 月 10–14 日",
+      "detail_label": "巴西 · 里约热内卢",
+      "symbol": "building.columns"
     }
   ]
 }

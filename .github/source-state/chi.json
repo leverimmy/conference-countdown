@@ -1,0 +1,34 @@
+{
+  "conference_id": "chi",
+  "schema_version": 2,
+  "sources": {
+    "papers": {
+      "evidence": [
+        {
+          "context": "Organizing Committee\nACM CHI 2027\nPittsburgh, 10–14 May, 2027\nHome » Authors » Papers\nPapers",
+          "section": ""
+        },
+        {
+          "context": "Home » Authors » Papers\nPapers\nPaper submission deadline 10 September 2026, Anywhere on Earth\n08 Days\n23 Hours",
+          "section": "Papers"
+        },
+        {
+          "context": "Important Dates\nAll times are in Anywhere on Earth (AoE) time zone. When the deadline is day D , the last time to submit is when D ends AoE. Check your local time in AoE.\nThursday, August 13, 2026 : Submission site open\nNote that there is no abstract deadline.\nThursday, September 10, 2026 : Paper submission deadline, including videos and supplementary materials\nThursday, November 5, 2026 : Reviews released\nThursday, November 5–Thursday, December 3, 2026 : Revise papers\nThursday, December 3, 2026 : Resubmission deadline\nThursday, December 17, 2026 : Final notification\nThursday, January 7, 2027 : E-Rights completion deadline\nThursday, January 14, 2027 : TAPS upload deadline (Author must upload their final paper source to TAPS for processing)\nThursday, February 18, 2027 : Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials and optional video previews)",
+          "section": "Important Dates"
+        },
+        {
+          "context": "Thursday, December 17, 2026 : Final notification\nThursday, January 7, 2027 : E-Rights completion deadline\nThursday, January 14, 2027 : TAPS upload deadline (Author must upload their final paper source to TAPS for processing)\nThursday, February 18, 2027 : Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials and optional video previews)\nThursday, March 4, 2027 : Conference registration deadline\nThursday, March 4, 2027 : Video presentation deadline\nNote: All deadlines include a 24-hour grace period in which submissions can still be edited. This period is provided solely for contingency and should not be treated as an extension. No support will be available, and authors should not contact the chairs regarding submission issues once the official deadline has passed.\nMessage from the Papers Chairs",
+          "section": "Important Dates"
+        },
+        {
+          "context": "ACM Open\nAll CHI 2027 papers will be published under ACM Open .\nStarting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). Note: the corresponding author’s institutional email in the ACM eRights form will determine whether or not an APC is required to be paid.\nAuthors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy . Keep in mind that waivers are rare and are granted based on specific criteria set by ACM. APC for 2027 is $500 for ACM/SIG members and $750 for non-members.\nFor authors who are unable to cover their APCs, we would like to direct them to the financial hardship waiver program , which might cover the APC cost for authors in need.",
+          "section": "ACM Open"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:45:51Z",
+      "sha256": "0a974453a58b3e1a040412367183a438fa03a59c5be4451b5715aceaa70bd247",
+      "url": "https://chi2027.acm.org/authors/papers/"
+    }
+  }
+}

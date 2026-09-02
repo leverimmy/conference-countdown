@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_verified": "2026-08-14",
+  "last_verified": "2026-09-02",
   "id": "chi",
   "edition": 2027,
   "name": "CHI 2027",
@@ -51,12 +51,10 @@
       "id": "chi.conference",
       "title": "会议开幕",
       "compact_title": "CHI 开会",
-      "at": null,
-      "date_label": "会期尚未公布",
+      "at": "2027-05-10T00:00:00-04:00",
+      "date_label": "2027 年 5 月 10–14 日",
       "detail_label": "美国 · 匹兹堡",
-      "symbol": "building.columns.fill",
-      "historical_key": "conference_start",
-      "target_year": 2027
+      "symbol": "building.columns.fill"
     }
   ]
 }
