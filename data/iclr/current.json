@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_verified": "2026-09-02",
+  "last_verified": "2026-08-14",
   "id": "iclr",
   "edition": 2027,
   "name": "ICLR 2027",
   "short_name": "ICLR",
-  "subtitle": "International Conference on Learning Representations · Location TBA",
+  "subtitle": "International Conference on Learning Representations · California",
   "symbol": "brain.head.profile.fill",
   "official_url": "https://iclr.cc/Conferences/2027/Dates",
   "time_zone": "America/Los_Angeles",
@@ -62,7 +62,7 @@
       "compact_title": "ICLR 开会",
       "at": "2027-04-26T00:00:00-07:00",
       "date_label": "2027 年 4 月 26–30 日",
-      "detail_label": "地点待公布",
+      "detail_label": "美国 · 加利福尼亚",
       "symbol": "building.columns.fill"
     }
   ]
