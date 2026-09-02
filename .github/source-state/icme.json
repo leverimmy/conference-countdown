@@ -1,0 +1,34 @@
+{
+  "conference_id": "icme",
+  "schema_version": 2,
+  "sources": {
+    "ieee-event": {
+      "evidence": [
+        {
+          "context": "CAS Industry Forums (CASIF)\nISCAS 2027\nThe IEEE International Symposium on Circuits and Systems (ISCAS 2027) is the flagship global conference of the IEEE Circuits and Systems Society (CASS). It serves as the world’s premier forum for researchers, engineers, and scientists to share advancements in the theory, design, and implementation of circuits and systems. ISCAS 2027 will be held in Bordeaux, France from 6 - 9 June 2027.\nMore Information\nAcronym",
+          "section": "ISCAS 2027"
+        },
+        {
+          "context": "SSCAS with AICAS 2026: AI-Driven Circuits and Systems: Innovations, Design, and Applications\nDate\n14 Sep 2026\nGeographic Location\nHanoi, Vietnam",
+          "section": "SSCAS with AICAS 2026: AI-Driven Circuits and Systems: Innovations, Design, and Applications"
+        },
+        {
+          "context": "2026 IEEE 8th International Conference on Artificial Intelligence Circuits and Systems\nDate\n16 Sep 2026 – 18 Sep 2026\nGeographic Location\nHa Long Bay, Vietnam",
+          "section": "2026 IEEE 8th International Conference on Artificial Intelligence Circuits and Systems"
+        },
+        {
+          "context": "2026 IEEE Conference on AgriFood Electronics\nDate\n23 Sep 2026 – 25 Sep 2026\nGeographic Location\nCagliari, Italy",
+          "section": "2026 IEEE Conference on AgriFood Electronics"
+        },
+        {
+          "context": "2027 IEEE International Conference on Multimedia & Expo (ICME)\nDate\n13 July 2027 – 17 July 2027\nGeographic Location\nXiamen, China",
+          "section": "2027 IEEE International Conference on Multimedia & Expo (ICME)"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "4c42def1f4464e43a5de6a4d26337598d7b75a7074d8222434a49f682dbce8eb",
+      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme"
+    }
+  }
+}

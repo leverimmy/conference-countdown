@@ -1,0 +1,30 @@
+{
+  "conference_id": "acl",
+  "schema_version": 2,
+  "sources": {
+    "acl-portal": {
+      "evidence": [
+        {
+          "context": "Association for Computational Linguistics\nStatement from ACL and EACL 2026 Organizers\nNovember 29, 2025 | BY webmaster\nOn Nov 27, OpenReview was notified of a software bug that allowed unauthorized access to authors, reviewers, and area chairs. We are grateful to the OpenReview team for fixing the issue quickly.\nRead more about Statement from ACL and EACL 2026 Organizers\nPages",
+          "section": "Statement from ACL and EACL 2026 Organizers"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "fe2bc34e52c5702c53ac3544a72ea53681c71da0ca634058479b5b74e10455dd",
+      "url": "https://www.aclweb.org/portal/"
+    },
+    "conference-site": {
+      "evidence": [
+        {
+          "context": "The 65th Annual Meeting of the Association for Computational Linguistics (ACL 2027) will take place in Kyoto, Japan from August 17–22, 2027 .\nNews\nJuly 3, 2026 | The official ACL 2027 website is launched.\nImportant Dates\nARR submission deadline | TBA",
+          "section": "News"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "3cfbad2e186af78d6b01c2562b0d989fe878af46d63c8004bcc4045e2eb894dd",
+      "url": "https://2027.aclweb.org/"
+    }
+  }
+}

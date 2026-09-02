@@ -1,0 +1,46 @@
+{
+  "conference_id": "www",
+  "schema_version": 2,
+  "sources": {
+    "important-dates": {
+      "evidence": [
+        {
+          "context": "All deadlines are 11:59 PM Anywhere on Earth (AoE) unless otherwise specified\nResearch & Industry Track Papers\nAbstract Submission | 18 October 2026\nPaper Submission | 25 October 2026\nResult Release | 21 December 2026\nRebuttal Period | 21-31 December 2026\nNotification | 4 January 2027\nFinal Version Deadline | 31 January 2027\nShort Papers\nAbstract Submission | 9 November 2026",
+          "section": "Research & Industry Track Papers"
+        },
+        {
+          "context": "Final Version Deadline | 31 January 2027\nShort Papers\nAbstract Submission | 9 November 2026\nPaper Submission | 16 November 2026\nNotification | 04 January 2027\nFinal Version Deadline | 31 January 2027\nDemo Papers\nPaper Submission | 16 November 2026",
+          "section": "Short Papers"
+        },
+        {
+          "context": "Final Version Deadline | 31 January 2027\nDemo Papers\nPaper Submission | 16 November 2026\nNotification | 04 January 2027\nFinal Version Deadline | 31 January 2027\nWorkshop Proposals & Papers\nProposal Submission | 21 September 2026",
+          "section": "Demo Papers"
+        },
+        {
+          "context": "Final Version Deadline | 31 January 2027\nWorkshop Proposals & Papers\nProposal Submission | 21 September 2026\nProposal Notification | 28 September 2026\nAccepted Workshop Paper Submission | 04 January 2027\nAccepted Workshop Paper Notification | 01 February 2027\nFinal Version Deadline | 16 February 2027\nTutorials\nProposal Submission | 21 September 2026",
+          "section": "Workshop Proposals & Papers"
+        },
+        {
+          "context": "Final Version Deadline | 16 February 2027\nTutorials\nProposal Submission | 21 September 2026\nProposal Notification | 28 September 2026\nFinal Version Deadline | 16 February 2027\nSpecial Track: Web4Good\nAbstract Submission | 9 November 2026",
+          "section": "Tutorials"
+        },
+        {
+          "context": "Final Version Deadline | 16 February 2027\nSpecial Track: Web4Good\nAbstract Submission | 9 November 2026\nPaper Submission | 16 November 2026\nNotification | 04 January 2027\nFinal Version Deadline | 31 January 2027\nSpecial Track: Competitions\nProposal Submission | 5 October 2026",
+          "section": "Special Track: Web4Good"
+        },
+        {
+          "context": "Final Version Deadline | 31 January 2027\nSpecial Track: Competitions\nProposal Submission | 5 October 2026\nProposal Notification | 19 October 2026\nSeoul Test of Time Award\nNominations | 14 October 2026",
+          "section": "Special Track: Competitions"
+        },
+        {
+          "context": "Proposal Notification | 19 October 2026\nSeoul Test of Time Award\nNominations | 14 October 2026\nAll deadlines are 11:59 PM Anywhere on Earth (AoE) unless otherwise specified\nAbout",
+          "section": "Seoul Test of Time Award"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "fe225e4eb34aebea55afcbde0e50585b8667bbf8852fb62a2b7cd7db3d8ae3dc",
+      "url": "https://acmweb2027.org/important-dates/"
+    }
+  }
+}

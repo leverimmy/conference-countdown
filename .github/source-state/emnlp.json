@@ -1,0 +1,30 @@
+{
+  "conference_id": "emnlp",
+  "schema_version": 2,
+  "sources": {
+    "acl-announcement": {
+      "evidence": [
+        {
+          "context": "Association for Computational Linguistics\nJoint Call for Workshops Proposals 2027\nJuly 20, 2026 | BY blvns\nEvent Notification Type:\nCall for Proposals",
+          "section": "Joint Call for Workshops Proposals 2027"
+        },
+        {
+          "context": "Website:\nSubmission Deadline:\nFriday, 4 September 2026\nThe Association for Computational Linguistics invites proposals for workshops to be held in conjunction with one of the following conferences: EACL 2027, COLING 2027, NAACL 2027, ACL 2027, or EMNLP 2027. We solicit proposals in all areas of computational linguistics, broadly conceived to include related disciplines such as linguistics, speech, information retrieval, and multimodal processing.\nWorkshops will be held at one of the following conference venues:\nEACL 2027 (The 20th Conference of the European Chapter of the Association for Computational Linguistics), which will be held as a hybrid conference, and physically held in Athens, Greece, from March 9-14, 2027.\nCOLING 2027 (The 32nd International Conference on Computational Linguistics), which will be held as a hybrid conference, and physically held in Macau, China, from May 9-14.\nNAACL 2027 (The 2027 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics), which will be held as a hybrid conference, and physically held in San Francisco, USA, June 1-5, 2027.\nACL 2027 (The 65th Annual Meeting of the Association for Computational Linguistics), which will be held as a hybrid conference in the summer of 2027, physically held in Japan August 17-22.\nEMNLP 2027 (The 2027 Conference on Empirical Methods in Natural Language Processing), which will be held as a hybrid conference, tentatively scheduled for early November 2027 and physically held in Mexico or Central America.\nThe workshop and tutorial co-chairs will work together to assign workshops to the conferences. They will take into account location preferences and technical constraints provided by the workshop proposers.",
+          "section": "Joint Call for Workshops Proposals 2027"
+        },
+        {
+          "context": "Important Dates\nACL Conferences Workshop Proposals Shared Dates:\nProposal submission deadline: September 4th, 2026 Notification of acceptance: October 2nd, 2026\nAll deadlines are 11:59PM UTC-12:00 (\"anywhere on Earth\").\nSubmission Information",
+          "section": "Joint Call for Workshops Proposals 2027"
+        },
+        {
+          "context": "Tentative Workshop Timelines\nEACL 2027 (Athens, Greece)\nFirst call for workshop papers: October 13, 2026 Second call for workshop papers: November 13, 2026 Direct paper submission deadline: December 15, 2026 Pre-reviewed ARR commitment deadline: December 22, 2026 Notification of acceptance: January 5, 2027 Camera-ready paper due: January 19, 2027 Proceedings due (hard deadline): February 9, 2027 Pre-recorded video due (hard deadline): February 12, 2027 Conference dates: March 9-14, 2027\nCOLING 2027 (Macau, China)\nFirst call for workshop papers: November 21, 2026 Second call for workshop papers: December 21, 2026 Direct paper submission deadline: January 5, 2027 Pre-reviewed ARR commitment deadline: TBA Notification of acceptance: February 6, 2027 Camera-ready paper due: March 5, 2027 Proceedings due (hard deadline): April 5, 2027 Pre-recorded video due (hard deadline): April 15, 2027 Conference dates: May 9-14, 2027\nNAACL 2027 (San Francisco, USA)\nFirst call for workshop papers: October 26, 2026 Second call for workshop papers: November 23, 2026 Third call for workshop papers (Optional): January 4, 2027 Direct paper submission deadline: February 5, 2027 Pre-reviewed ARR commitment deadline: March 12, 2027 Notification of acceptance: March 26, 2027 Camera-ready paper due: April 16, 2027 Proceedings due (hard deadline; tentative): May 7, 2027 Pre-recorded video due (hard deadline; tentative): May 14, 2027 Conference dates: June 1-June 5, 2027\nACL 2027 (Kyoto, Japan)\nFirst call for workshop papers: December 6, 2026 Second call for workshop papers: January 17, 2027 Third call for workshop papers (Optional): March 13, 2027 Direct paper submission deadline: April 25, 2027 Pre-reviewed ARR commitment deadline: April 2027 Notification of acceptance: May 22, 2027 Camera-ready paper due: June 12, 2027 Proceedings due (hard deadline): July 3, 2027 Pre-recorded video due (hard deadline): July 18, 2027 Conference dates: August 17-22, 2027 Workshop dates: August 21-22, 2027\nEMNLP",
+          "section": "Joint Call for Workshops Proposals 2027"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "d0d240f7042c712df5db195949663f3b68671eb335fc4d98abd9e4d3b5045df6",
+      "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027"
+    }
+  }
+}

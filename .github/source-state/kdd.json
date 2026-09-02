@@ -1,0 +1,18 @@
+{
+  "conference_id": "kdd",
+  "schema_version": 2,
+  "sources": {
+    "research-track": {
+      "evidence": [
+        {
+          "context": "KDD is the premier Data Science and AI conference with a Research track, an Applied Data Science Track, a Datasets & Benchmarks Track, and an AI for Sciences Track. The conference will take place in August 2027 in San Jose, California. KDD has two submission cycles per year. This call details the CFP for the first cycle and invites submissions for the Research Track. Authors should pay special attention to which track is most appropriate; papers may only be submitted to a single track and there are no transfers between tracks.\nThe important dates for the KDD 2027 First Cycle are:\nAbstract Deadline: July 19, 2026\nPaper Deadline: July 26, 2026\nAuthor Rebuttal Period: September 29-October 13, 2026\nNotification: November 14, 2026\nAll deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.\nSubmission Site",
+          "section": "Research Track: Call for Papers"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "572f80d0a2a3f6e83cbe6e87576878c9b7840250d828a5c9cd60231fd529b8c6",
+      "url": "https://kdd2027.kdd.org/research-track-call-for-papers/"
+    }
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "conference_id": "iclr",
+  "schema_version": 2,
+  "sources": {
+    "dates": {
+      "evidence": [
+        {
+          "context": "ICLR 2027 Meeting Dates\nThe Fifteenth annual conference is held (location and dates to be announced) .\nMain Conference | April 26 - 28\nWorkshops | April 29 - 30\nYour timezone is:\nDates and Deadlines",
+          "section": "ICLR 2027 Meeting Dates"
+        },
+        {
+          "context": "Dates and Deadlines\nPaper Submissions\nAbstract Deadline | Sep 18 '26 (Anywhere on Earth)\nPaper Deadline | Sep 25 '26 (Anywhere on Earth)\nReviews Released | Nov 05 '26\nAuthor- Reviewer Discussion Begins | Nov 05 '26\nAuthor- Reviewer Discussion Ends | Nov 18 '26\nReviewer- A C Discussion and Meta-reviewing Begins | Nov 19 '26\nReviewer- A C Discussion and Meta-reviewing Ends | Dec 16 '26\nFinal Decisions | Dec 16 '26\nSuccessful Page Load\nICLR uses cookies for essential functions only. We do not sell your personal information. Our Privacy Policy » | Accept",
+          "section": "Dates and Deadlines"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "39ceff0873d117da4f1f576a727d1ec9ff0a336d9310854c037accfeeed703dd",
+      "url": "https://iclr.cc/Conferences/2027/Dates"
+    },
+    "openreview": {
+      "evidence": [
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.area_chairs_message_submission_id",
+          "value": "ICLR.cc/2027/Conference/Submission{number}/Area_Chairs/-/Message"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.article_endorsement_id",
+          "value": "ICLR.cc/2027/Conference/-/Article_Endorsement"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.automatic_reviewer_assignment",
+          "value": true
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.date",
+          "value": ""
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.decision_email_authors",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.decision_field_name",
+          "value": "decision"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.decision_name",
+          "value": "Decision"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.desk_rejected_submission_id",
+          "value": "ICLR.cc/2027/Conference/-/Desk_Rejected_Submission"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.desk_rejected_submission_reveal_authors",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.full_submission_invitation_id",
+          "value": "ICLR.cc/2027/Conference/-/Full_Submission"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.meta_review_name",
+          "value": "Meta_Review"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.meta_review_recommendation",
+          "value": "recommendation"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.pc_submission_revision_id",
+          "value": "ICLR.cc/2027/Conference/-/PC_Revision"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.public_desk_rejected_submissions",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.public_submissions",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.public_withdrawn_submissions",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.rebuttal_name",
+          "value": "Author_Rebuttal"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.review_confidence",
+          "value": "confidence"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.review_email_pcs",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.review_name",
+          "value": "Official_Review"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.review_rating",
+          "value": "rating"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_affinity_score_id",
+          "value": "ICLR.cc/2027/Conference/Reviewers/-/Affinity_Score"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_anon_name",
+          "value": "Reviewer_"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_assignment_id",
+          "value": "ICLR.cc/2027/Conference/Reviewers/-/Assignment"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_conflict_id",
+          "value": "ICLR.cc/2027/Conference/Reviewers/-/Conflict"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_conflict_n_years",
+          "value": 3
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_conflict_policy",
+          "value": "NeurIPS"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_custom_max_papers_id",
+          "value": "ICLR.cc/2027/Conference/Reviewers/-/Custom_Max_Papers"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_declined_id",
+          "value": "ICLR.cc/2027/Conference/Reviewers/Declined"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "ICLR.cc/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "ICLR.cc/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "ICLR.cc/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "ICLR.cc/2027/Conference/Rejected_Submission",
+            "submission_id": "ICLR.cc/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "ICLR.cc/2027/Conference/Submission",
+            "withdrawn_venue_id": "ICLR.cc/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_id",
+          "value": "ICLR.cc/2027/Conference/Reviewers"
+        }
+      ],
+      "kind": "openreview",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "d6cdd7d91747d97eab9ec004c1ba587be5503dad2965968f91020f6b012e4c21",
+      "url": "https://api2.openreview.net/groups?id=ICLR.cc/2027/Conference"
+    }
+  }
+}
