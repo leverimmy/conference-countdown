@@ -1,0 +1,70 @@
+{
+  "conference_id": "icassp",
+  "schema_version": 2,
+  "sources": {
+    "call-for-papers": {
+      "evidence": [
+        {
+          "context": "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing\n2027 IEEE International Conference on Acoustics, Speech, and Signal Processing\n16-21 May 2027, Toronto, Canada\nsearch Search close\nTop Reading",
+          "section": "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing"
+        },
+        {
+          "context": "The International Conference on Acoustics, Speech, and Signal Processing (ICASSP), is the IEEE Signal Processing Society’s flagship conference on signal processing and its applications. The 52nd edition of ICASSP will be held in the dynamic city of Toronto, Canada; one of the most multicultural and cosmopolitan cities in the world. The programme will include keynotes by pre eminent international speakers, cutting-edge tutorial topics, and forward looking special sessions. ICASSP also provides a great networking opportunity with a wide range of like-minded professionals from academia, industry and government organizations.\nImportant Dates\nFull Paper Submission Deadline | September 16, 2026\nPublished Journal Papers and Letters Due | January 6, 2027\nPaper Acceptance Notification | January 13, 2027\nFinal Paper Deadline | January 27, 2027\nAuthor Registration Deadline | February 10, 2027\nOpen Preview Starts | April 16, 2027\nTechnical Program Chairs\nTim Davidson, McMaster University, CAN Dong Yu, Capital One, USA Junsong Yuan, University of Buffalo SUNY, USA Danilo Comminiello, Sapienza University of Rome, ITA",
+          "section": "Call for Papers"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "f0bbf1cb46728e545a344633d48ca2aa09dce720d561c0bc2cd5002f1309808b",
+      "url": "https://2027.ieeeicassp.org/call-for-papers/"
+    },
+    "important-dates": {
+      "evidence": [
+        {
+          "context": "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing\n2027 IEEE International Conference on Acoustics, Speech, and Signal Processing\n16-21 May 2027, Toronto, Canada\nsearch Search close\nTop Reading",
+          "section": "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing"
+        },
+        {
+          "context": "More Sites\nImportant Dates\n24 Jul 2026\nschedule 5:45 pm\nSpecial Session Proposal Deadline",
+          "section": "24 Jul 2026"
+        },
+        {
+          "context": "Special Session Proposal Deadline\nMore info\n16 Sep 2026\ntoday D H M S schedule 5:45 pm\nFull Paper Submission Deadline",
+          "section": "16 Sep 2026"
+        },
+        {
+          "context": "Full Paper Submission Deadline\nMore info\n02 Nov 2026\ntoday D H M S schedule 5:45 pm\nTutorials Proposal Deadline",
+          "section": "02 Nov 2026"
+        },
+        {
+          "context": "Tutorials Proposal Deadline\nMore info\n06 Jan 2027\ntoday D H M S schedule 5:45 pm\nPublished Journal Papers and Letters Due",
+          "section": "06 Jan 2027"
+        },
+        {
+          "context": "Published Journal Papers and Letters Due\nMore info\n13 Jan 2027\ntoday D H M S schedule 5:45 pm\nPaper Acceptance Notification",
+          "section": "13 Jan 2027"
+        },
+        {
+          "context": "Paper Acceptance Notification\nMore info\n27 Jan 2027\ntoday D H M S schedule 5:45 pm\nFinal Paper Submission",
+          "section": "27 Jan 2027"
+        },
+        {
+          "context": "Final Paper Submission\nMore info\n31 Jan 2027\ntoday D H M S schedule 5:45 pm\nShow & Tell Proposals",
+          "section": "31 Jan 2027"
+        },
+        {
+          "context": "Show & Tell Proposals\nMore info\n10 Feb 2027\ntoday D H M S schedule 5:45 pm\nAuthor Registration Deadline",
+          "section": "10 Feb 2027"
+        },
+        {
+          "context": "Author Registration Deadline\nMore info\n16 Apr 2027\ntoday D H M S schedule 5:45 pm\nOpen Preview Starts",
+          "section": "16 Apr 2027"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "0477da6ba99e74ef8596130d5b108b01fbce3b3d672c59cb6581b196198e136b",
+      "url": "https://2027.ieeeicassp.org/important-dates/"
+    }
+  }
+}

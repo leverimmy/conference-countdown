@@ -1,0 +1,13 @@
+{
+  "conference_id": "icml",
+  "schema_version": 2,
+  "sources": {
+    "future-meetings": {
+      "evidence": [],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://icml.cc/Conferences/FutureMeetings"
+    }
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "conference_id": "aaai",
+  "schema_version": 2,
+  "sources": {
+    "conference-site": {
+      "evidence": [
+        {
+          "context": "LinkedIn\nHome / Conferences / AAAI Conference on Artificial Intelligence /\nMarch 4, 2026\nThe 41st Annual AAAI Conference on Artificial Intelligence\nFebruary 16 – February 23, 2027 | Montréal, Canada",
+          "section": ""
+        },
+        {
+          "context": "March 4, 2026\nThe 41st Annual AAAI Conference on Artificial Intelligence\nFebruary 16 – February 23, 2027 | Montréal, Canada\nAAAI-27\nEAAI-27",
+          "section": "The 41st Annual AAAI Conference on Artificial Intelligence"
+        },
+        {
+          "context": "Main Conference Timetable for Authors\nNote: all deadlines are “anywhere on earth” (UTC-12)\nJune 17, 2026 OpenReview submission site opens for author registration\nJune 30, 2026 OpenReview submission site opens for paper submission\nJuly 21, 2026 Abstracts due at 11:59 PM UTC-12\nJuly 28, 2026 Full papers due at 11:59 PM UTC-12\nJuly 31, 2026 Supplementary material and code due by 11:59 PM UTC-12\nSeptember 24, 2026 Notification of Phase 1 rejections\nOctober 19-25, 2026 Author feedback window\nNovember 30, 2026 Notification of final acceptance or rejection (Main Technical Track)\nDecember 14, 2026 Submission of camera-ready files (Main Technical Track)\nFebruary 16-23, 2027 AAAI-27 Conference",
+          "section": "Main Conference Timetable for Authors"
+        },
+        {
+          "context": "October 19-25, 2026 Author feedback window\nNovember 30, 2026 Notification of final acceptance or rejection (Main Technical Track)\nDecember 14, 2026 Submission of camera-ready files (Main Technical Track)\nFebruary 16-23, 2027 AAAI-27 Conference\nNote: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP.\nAAAI-27",
+          "section": "Main Conference Timetable for Authors"
+        },
+        {
+          "context": "Note: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP.\nAAAI-27\nWe are pleased to announce the Forty-First AAAI Conference on Artificial Intelligence (AAAI-27), which will be held in Montréal, Canada, fr om February 16 to February 23, 2027.\nThe purpose of the AAAI conference series is to promote research in Artificial Intelligence (AI) and foster scientific exchange between researchers, practitioners, scientists, students, and engineers across the entirety of AI and its affiliated disciplines. AAAI-27 will feature technical paper presentations, special tracks, invited speakers, workshops, tutorials, poster sessions, senior member presentations, competitions, and exhibit programs, and a range of other activities to be announced.\nCategories: AAAI Conference",
+          "section": "AAAI-27"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "363560f57df76757fdd13a06f317934badcb4f6802b894b06adcb57842b06009",
+      "url": "https://aaai.org/conference/aaai/aaai-27/"
+    },
+    "openreview": {
+      "evidence": [
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.anon_ethics_reviewer_name",
+          "value": "Ethics_Reviewer_"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.area_chairs_message_submission_id",
+          "value": "AAAI.org/2027/Conference/Submission{number}/Senior_Program_Committee/-/Message"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.article_endorsement_id",
+          "value": "AAAI.org/2027/Conference/-/Article_Endorsement"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.automatic_reviewer_assignment",
+          "value": true
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.date",
+          "value": "Submission Start: Jun 30 2026 11:59AM UTC-0, Abstract Registration: Jul 22 2026 11:59AM UTC-0, Submission Deadline: Jul 29 2026 11:59AM UTC-0"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.decision_email_authors",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.decision_field_name",
+          "value": "decision"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.decision_name",
+          "value": "Decision"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.desk_rejected_submission_id",
+          "value": "AAAI.org/2027/Conference/-/Desk_Rejected_Submission"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.desk_rejected_submission_reveal_authors",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.enable_reviewers_reassignment",
+          "value": true
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.ethics_reviewers_id",
+          "value": "AAAI.org/2027/Conference/Ethics_Reviewers"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.ethics_reviewers_name",
+          "value": "Ethics_Reviewers"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.full_submission_invitation_id",
+          "value": "AAAI.org/2027/Conference/-/Full_Submission"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.meta_review_name",
+          "value": "Meta_Review"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.meta_review_recommendation",
+          "value": "recommendation"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.pc_submission_revision_id",
+          "value": "AAAI.org/2027/Conference/-/PC_Revision"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.public_desk_rejected_submissions",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.public_submissions",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.public_withdrawn_submissions",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.rebuttal_name",
+          "value": "Rebuttal"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.review_confidence",
+          "value": "confidence"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.review_email_pcs",
+          "value": false
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.review_name",
+          "value": "Official_Review"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.review_rating",
+          "value": "rating"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_affinity_score_id",
+          "value": "AAAI.org/2027/Conference/Program_Committee/-/Affinity_Score"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_anon_name",
+          "value": "Program_Committee_"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_assignment_id",
+          "value": "AAAI.org/2027/Conference/Program_Committee/-/Assignment"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_conflict_id",
+          "value": "AAAI.org/2027/Conference/Program_Committee/-/Conflict"
+        },
+        {
+          "context": {
+            "commitments_venue": false,
+            "desk_rejected_venue_id": "AAAI.org/2027/Conference/Desk_Rejected_Submission",
+            "meta_invitation_id": "AAAI.org/2027/Conference/-/Edit",
+            "pc_submission_revision_id": "AAAI.org/2027/Conference/-/PC_Revision",
+            "public_desk_rejected_submissions": false,
+            "public_submissions": false,
+            "public_withdrawn_submissions": false,
+            "rejected_venue_id": "AAAI.org/2027/Conference/Rejected_Submission",
+            "submission_id": "AAAI.org/2027/Conference/-/Submission",
+            "submission_name": "Submission",
+            "submission_venue_id": "AAAI.org/2027/Conference/Submission",
+            "withdrawn_venue_id": "AAAI.org/2027/Conference/Withdrawn_Submission"
+          },
+          "path": "groups[0].content.reviewers_custom_max_papers_id",
+          "value": "AAAI.org/2027/Conference/Program_Committee/-/Custom_Max_Papers"
+        }
+      ],
+      "kind": "openreview",
+      "observed_at": "2026-09-02T12:20:10Z",
+      "sha256": "0bdd7bda997c0c744d576518b4bd248d9444f53f9a3a5c2965d84001bd789562",
+      "url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference"
+    }
+  }
+}
