@@ -1,0 +1,18 @@
+{
+  "conference_id": "mm",
+  "schema_version": 2,
+  "sources": {
+    "conference-site": {
+      "evidence": [
+        {
+          "context": "Next Conference\nACM MM 2026 · Rio de Janeiro\nNovember 10–14, 2026\n2026.acmmm.org\nComing up",
+          "section": "ACM MM 2026 · Rio de Janeiro"
+        }
+      ],
+      "kind": "html",
+      "observed_at": "2026-09-02T12:45:51Z",
+      "sha256": "eee7e1e70632414cdbddd4db9e1835761a698736b78682dba50c49f9bee8949c",
+      "url": "https://www.acmmm.org/"
+    }
+  }
+}
