@@ -274,18 +274,15 @@ final class CountdownModel: ObservableObject {
         }
     }
 
-    func moveConference(_ draggedID: String, over targetID: String) {
-        guard draggedID != targetID,
-              let sourceIndex = conferenceOrder.firstIndex(of: draggedID),
-              let targetIndex = conferenceOrder.firstIndex(of: targetID) else { return }
+    func moveConference(_ draggedID: String, to targetIndex: Int) {
+        guard let sourceIndex = conferenceOrder.firstIndex(of: draggedID) else { return }
 
         var updatedOrder = conferenceOrder
         let movingID = updatedOrder.remove(at: sourceIndex)
-        guard let targetIndexAfterRemoval = updatedOrder.firstIndex(of: targetID) else { return }
-        let insertionIndex = sourceIndex < targetIndex
-            ? targetIndexAfterRemoval + 1
-            : targetIndexAfterRemoval
+        let insertionIndex = min(max(0, targetIndex), updatedOrder.count)
         updatedOrder.insert(movingID, at: insertionIndex)
+
+        guard updatedOrder != conferenceOrder else { return }
         conferenceOrder = updatedOrder
         usesCustomConferenceOrder = true
         saveConferenceOrder()
@@ -314,6 +311,11 @@ final class CountdownModel: ObservableObject {
     func isUpcoming(_ event: CountdownEvent) -> Bool {
         guard let date = effectiveDate(for: event) else { return false }
         return date > now
+    }
+
+    func isPast(_ event: CountdownEvent) -> Bool {
+        guard let date = effectiveDate(for: event) else { return false }
+        return date <= now
     }
 
     func isPredicted(_ event: CountdownEvent) -> Bool {
@@ -661,4 +663,3 @@ final class CountdownModel: ObservableObject {
         }
     }
 }
-
