@@ -9,7 +9,7 @@
           "section": ""
         },
         {
-          "context": "Home » Authors » Papers\nPapers\nPaper submission deadline 10 September 2026, Anywhere on Earth\n08 Days\n23 Hours",
+          "context": "Home » Authors » Papers\nPapers\nPaper submission deadline 10 September 2026, Anywhere on Earth\n08 Days\n09 Hours",
           "section": "Papers"
         },
         {
@@ -26,8 +26,8 @@
         }
       ],
       "kind": "html",
-      "observed_at": "2026-09-02T12:45:51Z",
-      "sha256": "0a974453a58b3e1a040412367183a438fa03a59c5be4451b5715aceaa70bd247",
+      "observed_at": "2026-09-03T02:19:16Z",
+      "sha256": "a6c677ce18dcf1d4b627328b4a26e2ca05d93f0700bf528f669cf0749017b987",
       "url": "https://chi2027.acm.org/authors/papers/"
     }
   }
