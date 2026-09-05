@@ -1,7 +1,49 @@
 {
   "schema_version": 1,
   "id": "mm",
-  "watch": [
-    { "id": "conference-site", "kind": "html", "url": "https://www.acmmm.org/" }
+  "sources": [
+    {
+      "id": "conference-site",
+      "url": "https://www.acmmm.org/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true
+    },
+    {
+      "id": "history-2022",
+      "url": "https://2022.acmmm.org/call-for-papers/",
+      "kind": "html",
+      "edition": 2022,
+      "discover_links": false
+    },
+    {
+      "id": "history-2023",
+      "url": "https://www.acmmm2023.org/dates/",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false
+    },
+    {
+      "id": "history-2024",
+      "url": "https://2024.acmmm.org/files/ACMMM24_CFP_v2.pdf",
+      "kind": "pdf",
+      "edition": 2024,
+      "discover_links": false
+    },
+    {
+      "id": "history-2025",
+      "url": "https://acmmm2025.org/important-dates/",
+      "kind": "html",
+      "edition": 2025,
+      "discover_links": false
+    },
+    {
+      "id": "history-2026",
+      "url": "https://2026.acmmm.org/site/important-dates.html",
+      "kind": "html",
+      "edition": 2026,
+      "discover_links": false,
+      "section_pattern": "^Main Track$"
+    }
   ]
 }

@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "id": "mm",
+  "sources": {
+    "conference-site": {
+      "extractor": "date-context-v1",
+      "config_sha256": "3535a8b383cd4d33a56d3b3ee0f03cdc72f00bd2a233a037ca4f1929c303274d",
+      "url": "https://www.acmmm.org/",
+      "final_url": "https://www.acmmm.org/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:18:58Z",
+      "snippets": [
+        {
+          "section": "Announcements",
+          "text": "Nov 2025\nACM MM 2027 will be in Hong Kong. Dates to be announced.\n▶ Show older announcements",
+          "sha256": "be466fd5cba1729537806ba18d8c27a1d3bd1b1206451ac42d846e188af903b2"
+        }
+      ],
+      "links": [],
+      "sha256": "822946924213279ee3660b8a05716b10c4f00b1786642413651bfa0142b90fe1"
+    },
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "c59f68b30760b35820511525bc09a1bbddfa31acb46b2e20f7bedd563c120428",
+      "url": "https://2022.acmmm.org/call-for-papers/",
+      "final_url": "https://2022.acmmm.org/call-for-papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:18:56Z",
+      "snippets": [
+        {
+          "section": "Submission Instructions",
+          "text": "Deadline:\nPaper registration firm deadline (Abstract): 31 st March 2022 (23:59 AoE)\n( Register your paper by submitting an abstract. No new registration is allowed after this deadline. Authors list cannot be changed after this deadline and we expect abstract to be changed in less than 50%. Submissions without a meaningful abstract will be desk-rejected)\nPaper submission final deadline (PDF submission): 11 th of April 2022 (23:59 AoE) ( [removed] 7 th April 2022 ) [/removed]\n(Submit the final PDF of your full paper)\nSupplementary material firm deadline (PDF submission): 18 th April 2022 (23:59 AoE) ( [removed] 14 th April 2022 [/removed] )\n(Submit the PDF of your supplementary material)",
+          "sha256": "6566553a5c37f3374fe045f1b2bc9632d6746f0d78915216bc2bc1f800181e98"
+        },
+        {
+          "section": "Important Dates:",
+          "text": "Please note: The submission deadline is at 23:59 of the stated deadline date Anywhere on Earth . All submission deadlines are firm .\nPaper registration deadline (Abstract & Authors): 31 st March 2022 (Register your paper by submitting an abstract. No new registration is allowed after this deadline. Authors list cannot be changed after this deadline and we expect abstract to be changed in less than 50%. Submissions without a meaningful abstract will be desk-rejected)\nPaper submission deadline (.pdf submission): [removed] 11 th April 2022 [/removed] ( [removed] 07 th April 2022 [/removed] )\nSupplementary material deadline: [removed] 18 th April 2022 [/removed] ( [removed] 14 th April 2022 [/removed] )\nRegular Paper Reviews to Author: 2nd June 2022 ( [removed] 26 th May 2022 [/removed] )\nRegular Paper Rebuttal Deadline: 14th June 2022 ( [removed] 07 th June 2022 [/removed] )\nNotification: 29 th June 2022\nCamera-ready Submission: 13 th July 2022",
+          "sha256": "5fcff0a216046d780483148f6d10babaee8b435190bc2e153bc4f759f92dd6bf"
+        },
+        {
+          "section": "Contacts:",
+          "text": "Contacts:",
+          "sha256": "03fe06eb721a379d2c80f9bef1f01c406360b3a5e5967f3b8f60dda5852b48c6"
+        }
+      ],
+      "links": [],
+      "sha256": "d77698ad56b630af41b921ed2f70dd35976150b87a49100b0570a2f66693b011"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "e0b7366dd6c624baec38e1757001c928de9f5172ac5841120112f814c992bfeb",
+      "url": "https://www.acmmm2023.org/dates/",
+      "final_url": "https://www.acmmm2023.org/dates/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:19:00Z",
+      "snippets": [
+        {
+          "section": "Dates",
+          "text": "Dates\nConference dates: October 29, 2023 – November 3, 2023\nThe submission deadline is at (23:59 ) 11:59 p.m. of the stated deadline date ( Anywhere on Earth )\nSubject | Date\n[removed] Grand Challenge Proposal Submission [/removed] | [removed] 17 Feb. 2023 [/removed]\n[removed] Grand Challenge Proposal Notification [/removed] | [removed] 24 Feb. 2023 [/removed]\n[removed] Workshop Proposals Submission [/removed] | [removed] 17 March 2023 [/removed]\n[removed] Regular Papers Submission (Abstract) [/removed] | [removed] 23 April 2023 [/removed]",
+          "sha256": "38d6bb54daf0a9dcd42900a1662ba2503def84e0858e8205d70e199290f5df9c"
+        },
+        {
+          "section": "Dates",
+          "text": "Regular Papers Submission —– Deadline for the supplementary materials is one week after that of the submissions | May 4, 2023 —- 11 May 2023\nRegular Paper Reviews To Author | 30 June 2023\nRegular Paper Rebuttal Deadline | 5 July 2023\nRegular Paper Notification: | [removed] 20 July 2023 [/removed] 25 July 2023\nBrave New Ideas Submission | 7 June 2023\nOpen Source Competition Submission | 8 June 2023\nPanel Proposals Submission | 11 June 2023\nTutorial Proposals Submission | 19 June 2023",
+          "sha256": "01c1ea16cd276bf343635638c07887e5202f69d124206a19c0bca4d3c03ac02f"
+        },
+        {
+          "section": "Dates",
+          "text": "Doctorial Symposium Submission | 22 June 2023\nTechnical Demo and Video Program Submission | [removed] 22 June 2023 [/removed] 29 June 2023\nGrand Challenge Solutions Submission (10 Grand Challenges) | 14 July 2023\nWorkshop Papers Submission (16 Workshops) | 21 July 2023 (Workshop organizer can make it earlier)\nWorkshop Papers Notification | August 8\nWorkshop Papers (camera-ready) | 12 August 2023\nRegular paper Camera-ready Submission | 31 July 2023",
+          "sha256": "aa36cc0eebbf40ceefe1f2e1a397e5635490e5584a3eac9cfe08d247029b0725"
+        }
+      ],
+      "links": [],
+      "sha256": "4eee5f4ae23d4e534edaa188b1c36a83ff8109fd6b780926b027a605e8e793a1"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "a959472a620f4d17a377ddd2090b3a70c7f1c497ecf36634850b23bcd4a2f7d9",
+      "url": "https://2024.acmmm.org/files/ACMMM24_CFP_v2.pdf",
+      "final_url": "https://2024.acmmm.org/files/ACMMM24_CFP_v2.pdf",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:19:06Z",
+      "snippets": [
+        {
+          "section": "PDF",
+          "text": "MELBOURNE, AUSTRALIA\nOctober 28 – November 1, 2024\nGeneral Chairs",
+          "sha256": "6aecc3949477c657ff8c5b693f961d1cbdb4055d35eb9b9ce4af3c5ac4b3a4e9"
+        },
+        {
+          "section": "PDF",
+          "text": "Workshop Papers Submission\nMarch 4, 2024\nApril 15, 2024\nJune 3, 2024\nJune 3, 2024\nJune 3, 2024\nJune 3, 2024\nJune 3, 2024",
+          "sha256": "cac1e5ba609892902bc26f550e1c51b45fc0d89a3462469f741be88c65bf0781"
+        },
+        {
+          "section": "PDF",
+          "text": "June 3, 2024\nJune 3, 2024\nJune 3, 2024\nJuly 5, 2024\nJuly 8, 2024\nJuly 8, 2024",
+          "sha256": "810246af434801a2a711d151dae6247c435ba77f38cbe4d0ac632c7c1143d57e"
+        }
+      ],
+      "links": [],
+      "sha256": "34a6f309d2079ec85b278cabc041418aecaeb1092b4829b8caab31a1e4602726"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "9d20be0dba682684ee30e29715262d8ef2d28ff669d925892ead5e931f5290da",
+      "url": "https://acmmm2025.org/important-dates/",
+      "final_url": "https://acmmm2025.org/important-dates/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:19:03Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "Subject | Date\nWorkshop/ Grand Challenge/ Tutorial Proposal | 14.02.2025\nWorkshop/ Grand Challenge/ Tutorial Notification | 28.02.2025\nAbstract submission for regular papers | 04.04.2025\nRegular paper submission (including supplementary materials, if applicable) | 11.04.2025\nReproducibility companion paper submission | 18.04.2025\nTechnical demo and video submission | 30.05.2025\nBrave new ideas (BNI) paper submission | 30.05.2025",
+          "sha256": "2d2bd983bd61f28d27a2a494363a663a991cd34e7c4360a1ead7003bc40b8355"
+        },
+        {
+          "section": "",
+          "text": "Interactive/digital art submission | 30.05.2025\nDataset paper submission | 30.05.2025\nGrand challenge solution submission (indicative; depends on challenge – check challenge webpage ) | June 2025\nRebuttal period | 09.06.2025 – 19.06.2025\nDoctoral symposium (DS) paper submission | 13.06.2025\nOpen source (OS) software paper submission | 13.06.2025\nIndustrial demo abstract submission (1st round) Industrial expert talk submission (1st round) | 15.06.2025\nIndustrial demo notification (1st round) Industrial expert talk notification (1st round) | 24.06.2025",
+          "sha256": "8920150bb768af1745d7d1fdbacf28cfd6bc66dec49d6057190a19de76444904"
+        },
+        {
+          "section": "",
+          "text": "Notification (regular papers, demos and videos) | 04.07.2025\nWorkshop paper submission (indicative; check workshop webpage ) | 11.07.2025\nNotification (OS, [removed] BNI [/removed] , [removed] datasets [/removed] , interactive art, panels, grand challenge, DS, and reproducibility companion papers) | 24.07.2025\nNotification of grand challenge papers (indicative; check challenge webpage ) | July 2025\nIndustrial demo abstract submission (2nd round) Industrial expert talk submission (2nd round) | 31.07.2025\nNotification (BNI, datasets) – extended | 31.07.2025\nNotification of workshop papers (indicative; check workshop webpage ) | 01.08.2025\nCamera ready (regular papers, demos, videos)",
+          "sha256": "f4e94de6bdfe236e1233e9409e572ca6e8ca93213f492902bd62ff06dc76439e"
+        },
+        {
+          "section": "",
+          "text": "Notification (industrial demo 2nd round, industrial expert talk 2nd round)\n03.08.2025\nCamera ready for workshop papers (indicative; check workshop webpage ) | 11.08.2025\nCamera ready (tutorials, OS, BNI, datasets, interactive art, panels, grand challenge, industry, DS, and reproducibility companion papers) | 26.08.2025\nConference | 27.10.2025 – 31.10.2025\nWorkshops and tutorials | 27.10.2025 – 28.10.2025",
+          "sha256": "761d9f26b4d3a3400f1ea88ba59edd2e5087e5d7306d726763090eb5fd36d8bd"
+        }
+      ],
+      "links": [],
+      "sha256": "09c54d8f1a79278218b183aed8de03ac32958c65715568ea5020f2c2d75067d0"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "85c9f6987ee393a99d343e363a98ca0b7500747941b4e07fd65b2f9f7f72a8fe",
+      "url": "https://2026.acmmm.org/site/important-dates.html",
+      "final_url": "https://2026.acmmm.org/site/important-dates.html",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:19:08Z",
+      "snippets": [
+        {
+          "section": "Main Track",
+          "text": "Main Track\nContribution Registration | 25-March\nContribution Submission | 01-April\nSupplementary Submission | 08-April\nRebuttal | 04-June\nAuthor Notification | 09-July\nCamera-Ready | 06-August\nAuthor Registration | 31-August",
+          "sha256": "1e1ea810b8386db0f54d2cc62a1d1d595bb0ddc40762c5ed461907c33e8f916b"
+        }
+      ],
+      "links": [],
+      "sha256": "ec5f6d45419982f871d7840bf74a0e112025d307c06ca26339e8fd462598603b"
+    }
+  },
+  "claims": {
+    "current/mm.paper": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/mm.review": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/mm.rebuttal": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/mm.decision": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/mm.conference": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "history/2022/abstract_deadline": {
+      "value": "2022-03-31",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "6566553a5c37f3374fe045f1b2bc9632d6746f0d78915216bc2bc1f800181e98"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2022-04-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "5fcff0a216046d780483148f6d10babaee8b435190bc2e153bc4f759f92dd6bf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/final_decision": {
+      "value": "2022-06-29",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "5fcff0a216046d780483148f6d10babaee8b435190bc2e153bc4f759f92dd6bf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-10-10",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-10-14",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2023/abstract_deadline": {
+      "value": "2023-04-23",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "38d6bb54daf0a9dcd42900a1662ba2503def84e0858e8205d70e199290f5df9c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2023-05-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "01c1ea16cd276bf343635638c07887e5202f69d124206a19c0bca4d3c03ac02f"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/review_release": {
+      "value": "2023-06-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "01c1ea16cd276bf343635638c07887e5202f69d124206a19c0bca4d3c03ac02f"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/rebuttal_deadline": {
+      "value": "2023-07-05",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "01c1ea16cd276bf343635638c07887e5202f69d124206a19c0bca4d3c03ac02f"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/final_decision": {
+      "value": "2023-07-25",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "01c1ea16cd276bf343635638c07887e5202f69d124206a19c0bca4d3c03ac02f"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-10-29",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "38d6bb54daf0a9dcd42900a1662ba2503def84e0858e8205d70e199290f5df9c",
+          "quote": "Conference dates: October 29, 2023 – November 3, 2023",
+          "highlights": [
+            "October 29, 2023"
+          ]
+        }
+      ],
+      "note": "人工确认采用来源中的日期 2023-10-29。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-11-03",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "38d6bb54daf0a9dcd42900a1662ba2503def84e0858e8205d70e199290f5df9c"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2024-04-12",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/final_decision": {
+      "value": "2024-07-05",
+      "status": "unverified",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "810246af434801a2a711d151dae6247c435ba77f38cbe4d0ac632c7c1143d57e"
+        }
+      ],
+      "note": "已找到含相同月日的候选上下文；需核对届次、阶段、赛道及时间解释。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-10-28",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "6aecc3949477c657ff8c5b693f961d1cbdb4055d35eb9b9ce4af3c5ac4b3a4e9"
+        }
+      ],
+      "note": "对应官方 CFP 页眉所列 Melbourne 会期。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-11-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "6aecc3949477c657ff8c5b693f961d1cbdb4055d35eb9b9ce4af3c5ac4b3a4e9"
+        }
+      ],
+      "note": "对应官方 CFP 页眉所列 Melbourne 会期。"
+    },
+    "history/2025/abstract_deadline": {
+      "value": "2025-04-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "2d2bd983bd61f28d27a2a494363a663a991cd34e7c4360a1ead7003bc40b8355"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2025-04-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "2d2bd983bd61f28d27a2a494363a663a991cd34e7c4360a1ead7003bc40b8355"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2025-06-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "8920150bb768af1745d7d1fdbacf28cfd6bc66dec49d6057190a19de76444904"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2025-06-19",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "8920150bb768af1745d7d1fdbacf28cfd6bc66dec49d6057190a19de76444904"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-07-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "f4e94de6bdfe236e1233e9409e572ca6e8ca93213f492902bd62ff06dc76439e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-10-27",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "761d9f26b4d3a3400f1ea88ba59edd2e5087e5d7306d726763090eb5fd36d8bd"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-10-31",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "761d9f26b4d3a3400f1ea88ba59edd2e5087e5d7306d726763090eb5fd36d8bd"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/abstract_deadline": {
+      "value": "2026-03-25",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "1e1ea810b8386db0f54d2cc62a1d1d595bb0ddc40762c5ed461907c33e8f916b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2026-04-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "1e1ea810b8386db0f54d2cc62a1d1d595bb0ddc40762c5ed461907c33e8f916b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/rebuttal_deadline": {
+      "value": "2026-06-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "1e1ea810b8386db0f54d2cc62a1d1d595bb0ddc40762c5ed461907c33e8f916b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-07-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "1e1ea810b8386db0f54d2cc62a1d1d595bb0ddc40762c5ed461907c33e8f916b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-11-10",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-11-14",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    }
+  },
+  "decisions": [
+    {
+      "target": "history/2023/conference_start",
+      "action": "accept",
+      "reviewed_at": "2026-09-05T08:51:55Z",
+      "reason": "",
+      "previous_value": "2023-10-28",
+      "proposal": {
+        "value": "2023-10-29",
+        "evidence": [
+          {
+            "source": "history-2023",
+            "snippet_sha256": "38d6bb54daf0a9dcd42900a1662ba2503def84e0858e8205d70e199290f5df9c",
+            "quote": "Conference dates: October 29, 2023 – November 3, 2023",
+            "highlights": [
+              "October 29, 2023"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "8d8f9c3cc66f79a08d080b4d664f6745ffbc12280ad310546f2670755051df7c",
+      "undo": {
+        "before": {
+          "record": {
+            "year": 2023,
+            "abstract_deadline": "2023-04-23",
+            "paper_deadline": "2023-05-04",
+            "review_release": "2023-06-30",
+            "rebuttal_deadline": "2023-07-05",
+            "final_decision": "2023-07-25",
+            "conference_start": "2023-10-28",
+            "conference_end": "2023-11-03",
+            "source": "https://www.acmmm2023.org/dates/",
+            "notes": "The regular-paper deadline was extended from April 30 to May 4; notification moved to July 25."
+          },
+          "claim": {
+            "value": "2023-10-28",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "history-2023",
+                "snippet_sha256": "38d6bb54daf0a9dcd42900a1662ba2503def84e0858e8205d70e199290f5df9c",
+                "quote": "Conference dates: October 29, 2023 – November 3, 2023",
+                "highlights": [
+                  "October 29, 2023"
+                ]
+              }
+            ],
+            "candidate": {
+              "value": "2023-10-29",
+              "evidence": [
+                {
+                  "source": "history-2023",
+                  "snippet_sha256": "38d6bb54daf0a9dcd42900a1662ba2503def84e0858e8205d70e199290f5df9c",
+                  "quote": "Conference dates: October 29, 2023 – November 3, 2023",
+                  "highlights": [
+                    "October 29, 2023"
+                  ]
+                }
+              ]
+            },
+            "note": "该页会期从 2023-10-29 开始，记录从 10-28 开始；需核对是否包含其他活动，不能仅凭此页确认。"
+          }
+        },
+        "after_sha256": "5bbe8a949f2b582dfc6bc58beb84c0a6096d242167ae1cfc6d085e1dbe22c467",
+        "guard_sha256": "f0a1ecc5039e44bcd8cbd4c8b95d35b3a118cac7b45352e99bdef49fe6faefbc",
+        "sha256": "a2bff8731e3e35d1e256e3d95de54ee03fcf90e84bf5d8af3731715f3d0ef72c"
+      }
+    }
+  ]
+}

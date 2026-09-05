@@ -17,38 +17,19 @@ private final class NotificationDelegate: NSObject, UNUserNotificationCenterDele
 @MainActor
 final class CountdownModel: ObservableObject {
     @Published private(set) var now = Date()
-    @Published private(set) var selectedConferenceID: String
-    @Published private(set) var selectedTargetID: String
-    @Published private(set) var remindersEnabled: Bool
     @Published private(set) var launchAtLogin: Bool
-    @Published private(set) var conferenceOrder: [String]
-    @Published private(set) var visibleConferenceIDs: Set<String>
-    @Published private(set) var conferences: [Conference]
-    @Published private(set) var dataRevision: String
-    @Published private(set) var dataOrigin: ConferenceDataOrigin
     @Published private(set) var isRefreshingData = false
     @Published var statusMessage: String?
+    @Published private var dataset: ConferenceDataset
+    @Published private var preferences: ConferencePreferences
 
     private let notificationCenter = UNUserNotificationCenter.current()
     private let notificationDelegate = NotificationDelegate()
     private var historicalPredictor: HistoricalPredictor
     private var clockTimer: AnyCancellable?
     private var dataRefreshTimer: AnyCancellable?
-    private var usesCustomConferenceOrder: Bool
-    private var selectedTargetByConference: [String: String]
-
-    private enum DefaultsKey {
-        static let selectedTarget = "selectedTarget"
-        static let selectedTargetsByConference = "selectedTargetsByConference"
-        static let remindersEnabled = "remindersEnabled"
-        static let conferenceOrder = "conferenceOrder"
-        static let visibleConferences = "visibleConferences"
-        static let migratedLegacyDomain = "migratedLegacyWWWCountdownDefaults"
-    }
 
     init() {
-        Self.migrateLegacyDefaultsIfNeeded()
-
         let dataset: ConferenceDataset
         do {
             dataset = try ConferenceDataLoader.loadBestAvailable()
@@ -56,76 +37,11 @@ final class CountdownModel: ObservableObject {
             fatalError("Unable to load bundled conference data: \(error.localizedDescription)")
         }
 
-        let catalog = dataset.conferences
-        let catalogIDs = catalog.map(\.id)
-        let validIDs = Set(catalogIDs)
-        let defaults = UserDefaults.standard
-
-        conferences = catalog
-        dataRevision = dataset.revision
-        dataOrigin = dataset.origin
+        self.dataset = dataset
+        preferences = ConferencePreferences(conferences: dataset.conferences)
         historicalPredictor = HistoricalPredictor(conferences: dataset.histories)
-
-        let savedOrder = defaults.stringArray(forKey: DefaultsKey.conferenceOrder)
-        let knownSavedOrder = savedOrder?.filter(validIDs.contains) ?? []
-        usesCustomConferenceOrder = savedOrder != nil && !knownSavedOrder.isEmpty
-        conferenceOrder = usesCustomConferenceOrder
-            ? knownSavedOrder + catalogIDs.filter { !knownSavedOrder.contains($0) }
-            : catalogIDs
-
-        let savedVisible = defaults
-            .stringArray(forKey: DefaultsKey.visibleConferences)?
-            .filter(validIDs.contains)
-        let initialVisibleIDs = savedVisible.flatMap { $0.isEmpty ? nil : $0 } ?? catalogIDs
-        let initialVisibleIDSet = Set(initialVisibleIDs)
-        visibleConferenceIDs = initialVisibleIDSet
-
-        let events = catalog.flatMap(\.events)
-        let legacyTargets = [
-            "abstract": "www.abstract",
-            "paper": "www.paper",
-            "conference": "www.conference"
-        ]
-        let savedTargetsByConference = defaults
-            .dictionary(forKey: DefaultsKey.selectedTargetsByConference)?
-            .compactMapValues { $0 as? String } ?? [:]
-        var rememberedTargets: [String: String] = [:]
-        for (conferenceID, eventID) in savedTargetsByConference {
-            guard validIDs.contains(conferenceID),
-                  events.contains(where: {
-                      $0.id == eventID && $0.conferenceID == conferenceID
-                  }) else { continue }
-            rememberedTargets[conferenceID] = eventID
-        }
-
-        let savedTarget = defaults.string(forKey: DefaultsKey.selectedTarget)
-        let migratedTarget = savedTarget.flatMap { legacyTargets[$0] ?? $0 }
-        if let migratedTarget,
-           let migratedEvent = events.first(where: { $0.id == migratedTarget }),
-           rememberedTargets[migratedEvent.conferenceID] == nil {
-            rememberedTargets[migratedEvent.conferenceID] = migratedEvent.id
-        }
-
-        let firstVisibleConference = catalog.first(where: { initialVisibleIDSet.contains($0.id) })!
-        let initialEvent = events.first {
-            $0.id == migratedTarget && initialVisibleIDSet.contains($0.conferenceID)
-        } ?? events.first {
-            $0.id == "www.paper" && initialVisibleIDSet.contains($0.conferenceID)
-        } ?? firstVisibleConference.events.first(where: {
-            $0.id == firstVisibleConference.defaultEventID
-        }) ?? firstVisibleConference.events[0]
-
-        selectedTargetID = initialEvent.id
-        selectedConferenceID = initialEvent.conferenceID
-        rememberedTargets[initialEvent.conferenceID] = initialEvent.id
-        selectedTargetByConference = rememberedTargets
-        defaults.set(rememberedTargets, forKey: DefaultsKey.selectedTargetsByConference)
-        remindersEnabled = defaults.bool(forKey: DefaultsKey.remindersEnabled)
         launchAtLogin = SMAppService.mainApp.status == .enabled
-
-        if !usesCustomConferenceOrder {
-            conferenceOrder = conferencesByUpcomingDate.map(\.id)
-        }
+        refreshAutomaticConferenceOrder()
 
         notificationCenter.delegate = notificationDelegate
         clockTimer = Timer.publish(every: 60, on: .main, in: .common)
@@ -150,54 +66,43 @@ final class CountdownModel: ObservableObject {
         }
     }
 
-    var allEvents: [CountdownEvent] {
-        conferences.flatMap(\.events)
-    }
+    private var conferences: [Conference] { dataset.conferences }
+    var selectedTargetID: String { preferences.selectedTargetID }
+    var selectedConferenceID: String { selectedEvent.conferenceID }
+    var remindersEnabled: Bool { preferences.remindersEnabled }
 
-    var visibleEvents: [CountdownEvent] {
-        visibleConferences.flatMap(\.events)
+    private var allEvents: [CountdownEvent] {
+        conferences.flatMap(\.events)
     }
 
     var conferencesInConfiguredOrder: [Conference] {
         let conferencesByID = Dictionary(uniqueKeysWithValues: conferences.map { ($0.id, $0) })
-        return conferenceOrder.compactMap { conferencesByID[$0] }
+        return preferences.order.compactMap { conferencesByID[$0] }
     }
 
     var visibleConferences: [Conference] {
-        conferencesInConfiguredOrder.filter { visibleConferenceIDs.contains($0.id) }
+        conferencesInConfiguredOrder.filter { isConferenceVisible($0.id) }
     }
 
     var selectedConference: Conference {
         conferences.first(where: { $0.id == selectedConferenceID }) ?? visibleConferences[0]
     }
 
-    var conferencesByUpcomingDate: [Conference] {
+    private var conferencesByUpcomingDate: [Conference] {
         conferences.sorted { left, right in
             let leftDate = nextUpcomingDate(for: left)
             let rightDate = nextUpcomingDate(for: right)
-
-            switch (leftDate, rightDate) {
-            case let (leftDate?, rightDate?):
-                if leftDate != rightDate {
-                    return leftDate < rightDate
-                }
-                return left.shortName.localizedStandardCompare(right.shortName) == .orderedAscending
-            case (_?, nil):
-                return true
-            case (nil, _?):
-                return false
-            case (nil, nil):
+            if leftDate == rightDate {
                 return left.shortName.localizedStandardCompare(right.shortName) == .orderedAscending
             }
+            guard let leftDate else { return false }
+            guard let rightDate else { return true }
+            return leftDate < rightDate
         }
     }
 
-    var displayedEvents: [CountdownEvent] {
-        selectedConference.events
-    }
-
     var selectedEvent: CountdownEvent {
-        allEvents.first(where: { $0.id == selectedTargetID }) ?? selectedConference.events[0]
+        allEvents.first(where: { $0.id == selectedTargetID }) ?? visibleConferences[0].defaultEvent
     }
 
     var menuBarTitle: String {
@@ -205,67 +110,49 @@ final class CountdownModel: ObservableObject {
         guard let date = effectiveDate(for: event) else { return "\(event.compactTitle) · 待公布" }
         guard date > now else { return "\(event.compactTitle) · 已截止" }
         let approximation = isPredicted(event) ? "约" : ""
-        return "\(event.compactTitle) · \(approximation)\(remainingDays(to: date))天"
+        let days = Calendar.current.dateComponents([.day], from: now, to: date).day ?? 0
+        return "\(event.compactTitle) · \(approximation)\(max(0, days))天"
     }
 
     var dataSourceDescription: String {
         let source: String
-        switch dataOrigin {
+        switch dataset.origin {
         case .bundled:
             source = "App 内置数据"
         case .cached:
             source = "上次下载的数据"
         case .remote:
-            source = "刚从 GitHub 更新的数据"
+            source = "刚从 GitHub Pages 更新的数据"
         }
-        let revision = dataRevision == "bundled" ? "随 App 发布" : String(dataRevision.prefix(8))
+        let revision = dataset.revision == "bundled" ? "本地构建时的数据" : "main · \(shortRevision)"
         return "\(source) · \(revision)"
     }
 
+    private var shortRevision: String { String(dataset.revision.prefix(8)) }
+
     func selectConference(_ id: String) {
-        guard visibleConferenceIDs.contains(id),
+        guard isConferenceVisible(id),
               let conference = conferences.first(where: { $0.id == id }) else { return }
-        let targetID: String
-        if let rememberedTargetID = selectedTargetByConference[conference.id],
-           conference.events.contains(where: { $0.id == rememberedTargetID }) {
-            targetID = rememberedTargetID
-        } else {
-            targetID = conference.defaultEventID
-        }
-        selectTarget(targetID)
+        preferences.select(preferences.target(for: conference))
     }
 
     func selectTarget(_ id: String) {
         guard let event = allEvents.first(where: { $0.id == id }) else { return }
-        selectedTargetID = event.id
-        selectedConferenceID = event.conferenceID
-        selectedTargetByConference[event.conferenceID] = event.id
-        UserDefaults.standard.set(event.id, forKey: DefaultsKey.selectedTarget)
-        UserDefaults.standard.set(
-            selectedTargetByConference,
-            forKey: DefaultsKey.selectedTargetsByConference
-        )
+        preferences.select(event)
     }
 
     func isConferenceVisible(_ id: String) -> Bool {
-        visibleConferenceIDs.contains(id)
+        preferences.visibleIDs.contains(id)
     }
 
     func canHideConference(_ id: String) -> Bool {
-        !visibleConferenceIDs.contains(id) || visibleConferenceIDs.count > 1
+        preferences.canHide(id)
     }
 
     func setConferenceVisible(_ id: String, visible: Bool) {
-        guard conferences.contains(where: { $0.id == id }) else { return }
-        if visible {
-            visibleConferenceIDs.insert(id)
-        } else {
-            guard visibleConferenceIDs.count > 1 else { return }
-            visibleConferenceIDs.remove(id)
-        }
-
-        saveVisibleConferences()
-        if !visibleConferenceIDs.contains(selectedConferenceID),
+        guard conferences.contains(where: { $0.id == id }), visible || canHideConference(id) else { return }
+        preferences.setVisible(id, visible: visible)
+        if !isConferenceVisible(selectedConferenceID),
            let replacement = visibleConferences.first {
             selectConference(replacement.id)
         }
@@ -275,23 +162,11 @@ final class CountdownModel: ObservableObject {
     }
 
     func moveConference(_ draggedID: String, to targetIndex: Int) {
-        guard let sourceIndex = conferenceOrder.firstIndex(of: draggedID) else { return }
-
-        var updatedOrder = conferenceOrder
-        let movingID = updatedOrder.remove(at: sourceIndex)
-        let insertionIndex = min(max(0, targetIndex), updatedOrder.count)
-        updatedOrder.insert(movingID, at: insertionIndex)
-
-        guard updatedOrder != conferenceOrder else { return }
-        conferenceOrder = updatedOrder
-        usesCustomConferenceOrder = true
-        saveConferenceOrder()
+        preferences.move(draggedID, to: targetIndex)
     }
 
     func resetConferenceOrderByDate() {
-        usesCustomConferenceOrder = false
-        conferenceOrder = conferencesByUpcomingDate.map(\.id)
-        UserDefaults.standard.removeObject(forKey: DefaultsKey.conferenceOrder)
+        preferences.sortByDate(conferencesByUpcomingDate.map(\.id), reset: true)
     }
 
     func remainingText(for event: CountdownEvent) -> String {
@@ -306,11 +181,6 @@ final class CountdownModel: ObservableObject {
             return "\(approximation)\(hours) 小时 \(minutes) 分"
         }
         return "\(approximation)\(days) 天 \(hours) 小时"
-    }
-
-    func isUpcoming(_ event: CountdownEvent) -> Bool {
-        guard let date = effectiveDate(for: event) else { return false }
-        return date > now
     }
 
     func isPast(_ event: CountdownEvent) -> Bool {
@@ -348,14 +218,14 @@ final class CountdownModel: ObservableObject {
         defer { isRefreshingData = false }
 
         do {
-            switch try await RemoteConferenceDataClient.refresh(currentRevision: dataRevision) {
+            switch try await RemoteConferenceDataClient.refresh(currentRevision: dataset.revision) {
             case .unchanged:
                 if manual {
-                    statusMessage = "会议数据已是最新。"
+                    statusMessage = "已是当前发布的数据（\(shortRevision)）。"
                 }
             case let .updated(dataset):
                 apply(dataset)
-                statusMessage = "会议数据已更新至 \(String(dataset.revision.prefix(8)))。"
+                statusMessage = "会议数据已更新至 \(shortRevision)。"
             }
         } catch {
             if manual {
@@ -367,8 +237,7 @@ final class CountdownModel: ObservableObject {
     func setRemindersEnabled(_ enabled: Bool) {
         statusMessage = nil
         if !enabled {
-            remindersEnabled = false
-            UserDefaults.standard.set(false, forKey: DefaultsKey.remindersEnabled)
+            preferences.remindersEnabled = false
             removeMilestoneNotifications()
             return
         }
@@ -377,12 +246,11 @@ final class CountdownModel: ObservableObject {
             Task { @MainActor in
                 guard let self else { return }
                 if let error {
-                    self.remindersEnabled = false
+                    self.preferences.remindersEnabled = false
                     self.statusMessage = "无法开启通知：\(error.localizedDescription)"
                     return
                 }
-                self.remindersEnabled = granted
-                UserDefaults.standard.set(granted, forKey: DefaultsKey.remindersEnabled)
+                self.preferences.remindersEnabled = granted
                 if granted {
                     self.scheduleMilestoneNotifications()
                     self.statusMessage = "已为官方日期和历史预测日期安排里程碑提醒。"
@@ -421,92 +289,14 @@ final class CountdownModel: ObservableObject {
     }
 
     private func apply(_ dataset: ConferenceDataset) {
-        let oldConferenceIDs = Set(conferences.map(\.id))
-        let wasShowingEveryConference = visibleConferenceIDs == oldConferenceIDs
-        let previousSelectedTargetID = selectedTargetID
-
-        conferences = dataset.conferences
+        self.dataset = dataset
         historicalPredictor = HistoricalPredictor(conferences: dataset.histories)
-        dataRevision = dataset.revision
-        dataOrigin = dataset.origin
-
-        let newConferenceIDs = Set(conferences.map(\.id))
-        let catalogOrder = conferences.map(\.id)
-        let knownOrder = conferenceOrder.filter(newConferenceIDs.contains)
-        conferenceOrder = usesCustomConferenceOrder
-            ? knownOrder + catalogOrder.filter { !knownOrder.contains($0) }
-            : catalogOrder
-
-        if wasShowingEveryConference {
-            visibleConferenceIDs = newConferenceIDs
-        } else {
-            visibleConferenceIDs.formIntersection(newConferenceIDs)
-            if visibleConferenceIDs.isEmpty, let firstID = conferenceOrder.first {
-                visibleConferenceIDs = [firstID]
-            }
-        }
-
-        let validEvents = allEvents
-        selectedTargetByConference = selectedTargetByConference.filter { conferenceID, eventID in
-            newConferenceIDs.contains(conferenceID) && validEvents.contains(where: {
-                $0.id == eventID && $0.conferenceID == conferenceID
-            })
-        }
-
-        if let oldEvent = validEvents.first(where: { $0.id == previousSelectedTargetID }),
-           visibleConferenceIDs.contains(oldEvent.conferenceID) {
-            selectedConferenceID = oldEvent.conferenceID
-            selectedTargetID = oldEvent.id
-        } else if let firstConference = conferencesInConfiguredOrder.first(where: {
-            visibleConferenceIDs.contains($0.id)
-        }) {
-            let rememberedID = selectedTargetByConference[firstConference.id]
-            let replacement = firstConference.events.first(where: { $0.id == rememberedID })
-                ?? firstConference.events.first(where: { $0.id == firstConference.defaultEventID })
-                ?? firstConference.events[0]
-            selectedConferenceID = firstConference.id
-            selectedTargetID = replacement.id
-            selectedTargetByConference[firstConference.id] = replacement.id
-        }
-
-        if !usesCustomConferenceOrder {
-            conferenceOrder = conferencesByUpcomingDate.map(\.id)
-        } else {
-            saveConferenceOrder()
-        }
-        saveVisibleConferences()
-        UserDefaults.standard.set(selectedTargetID, forKey: DefaultsKey.selectedTarget)
-        UserDefaults.standard.set(
-            selectedTargetByConference,
-            forKey: DefaultsKey.selectedTargetsByConference
-        )
+        preferences.update(conferences: conferences)
+        refreshAutomaticConferenceOrder()
+        preferences.save()
         if remindersEnabled {
             scheduleMilestoneNotifications()
         }
-    }
-
-    private static func migrateLegacyDefaultsIfNeeded() {
-        let defaults = UserDefaults.standard
-        guard !defaults.bool(forKey: DefaultsKey.migratedLegacyDomain) else { return }
-        if let legacy = UserDefaults(suiteName: "com.leverimmy.wwwcountdown") {
-            let keys = [
-                DefaultsKey.selectedTarget,
-                DefaultsKey.selectedTargetsByConference,
-                DefaultsKey.remindersEnabled,
-                DefaultsKey.conferenceOrder,
-                DefaultsKey.visibleConferences
-            ]
-            for key in keys where defaults.object(forKey: key) == nil {
-                if let value = legacy.object(forKey: key) {
-                    defaults.set(value, forKey: key)
-                }
-            }
-        }
-        defaults.set(true, forKey: DefaultsKey.migratedLegacyDomain)
-    }
-
-    private func remainingDays(to date: Date) -> Int {
-        max(0, Calendar.current.dateComponents([.day], from: now, to: date).day ?? 0)
     }
 
     private func nextUpcomingDate(for conference: Conference) -> Date? {
@@ -516,21 +306,12 @@ final class CountdownModel: ObservableObject {
             .min()
     }
 
-    private func saveConferenceOrder() {
-        UserDefaults.standard.set(conferenceOrder, forKey: DefaultsKey.conferenceOrder)
-    }
-
     private func refreshAutomaticConferenceOrder() {
-        guard !usesCustomConferenceOrder else { return }
+        guard !preferences.usesCustomOrder else { return }
         let chronologicalOrder = conferencesByUpcomingDate.map(\.id)
-        if conferenceOrder != chronologicalOrder {
-            conferenceOrder = chronologicalOrder
+        if preferences.order != chronologicalOrder {
+            preferences.sortByDate(chronologicalOrder)
         }
-    }
-
-    private func saveVisibleConferences() {
-        let orderedVisibleIDs = conferenceOrder.filter(visibleConferenceIDs.contains)
-        UserDefaults.standard.set(orderedVisibleIDs, forKey: DefaultsKey.visibleConferences)
     }
 
     private static let predictedDateFormatter: DateFormatter = {
@@ -627,7 +408,7 @@ final class CountdownModel: ObservableObject {
         let calendar = Calendar.current
         var scheduledRequests: [(date: Date, request: UNNotificationRequest)] = []
 
-        for event in visibleEvents {
+        for event in visibleConferences.flatMap(\.events) {
             guard let eventDate = effectiveDate(for: event) else { continue }
             let conferenceName = conferences.first(where: { $0.id == event.conferenceID })?.shortName ?? "会议"
             let predicted = isPredicted(event)

@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "id": "kdd",
+  "sources": {
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "c68df594afc2c338495fda0d264e55d27e959a0a4e0cdea5ece168da4a225b3d",
+      "url": "https://www.kdd.org/kdd2022/cfpResearch.html",
+      "final_url": "https://www.kdd.org/kdd2022/cfpResearch.html",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:16Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "KDD is a dual track conference hosting both a Research and an Applied Data Science track. A paper should either be submitted to the Research or the Applied Science track but not both. Research track submissions are limited to nine (9 pages), including references, must be in PDF and use ACM Conference Proceeding templates ( two column format ). One recommended setting for Latex file of anonymous manuscript is: \\documentclass[sigconf, anonymous, review]{acmart} . An additional two pages of supplemental material focused on reproducibility can be provided. Additionally, proofs and pseudo-code that could not be included in the main nine-page manuscript may also be included in the two-page supplement. As in previous years, supplement should be included in the same file with the main manuscript. Besides, authors have the option of uploading extra files (e.g., code/data) of their work. Template guidelines are here: https://www.acm.org/publications/proceedings-template .\nPaper Submission: Feb 10th, 2022\nFinal Notification: May 18th, 2022\nCamera-ready: June 9th, 2022\nConference: August 14-18, 2022\nDescription",
+          "sha256": "da2048edbfb688f702331361898fb930ba32933c685903ffa596c9228d8234ed"
+        },
+        {
+          "section": "",
+          "text": "Submission Guidelines\nPapers submitted to KDD follow a double-blind review process. Every effort must be made to preserve the anonymity of the authors. Papers that have been presented as technical reports or workshop papers with listed authors will not be considered for review. An exception to the rule is the papers that have been submitted to arXiv at least one month prior to the deadline (January 8th, 2022), assuming these papers have not been submitted to any other venue (conference, workshop, journal., etc) for consideration or publication. Authors can submit these papers but with a different title and abstract. Papers that appear in arXiv after Jan 8th, 2022 until the end of the review process will not be accepted. After the submission deadline, authors are not allowed to add additional authors to the submitted papers. Conference Submission Website: https://cmt3.research.microsoft.com/SIGKDD2022\nImportant policies",
+          "sha256": "96127d05f1c0b2555a7777343e637268f12684f7013fce8b9c242d533dfb6065"
+        }
+      ],
+      "links": [],
+      "sha256": "14822da42f40119b8bc58dba3fecdec7a5a8275a0648df9efb911aef0be842d5"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "8d0280c0c02e47973c76ed6a10fd3af25389ac24d835e9f7e58a25c111687ab7",
+      "url": "https://www.kdd.org/kdd2023/call-for-research-track-papers/index.html",
+      "final_url": "https://www.kdd.org/kdd2023/call-for-research-track-papers/index.html",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:20Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nPaper Submission: Feb 2, 2023\nAuthor/Reviewer Interaction and Reviewer Discussion: April 6-27, 2023\nFinal Notification: May 16, 2023\nCamera-ready: June 4, 2023\nConference: August 6-10, 2023\nAll deadlines are at 11:59 PM anytime in the world. Access the submission site at OpenReview .",
+          "sha256": "e2a2a02ae9bd691d7f7ec4c457b56e2c1d60f1c6eacbfb244fba51f29b47d025"
+        },
+        {
+          "section": "Blinded Review and No Concurrent Submissions",
+          "text": "Blinded Review and No Concurrent Submissions\nSubmitted papers must describe work that is substantively different from work that has already been published, or accepted for publication in an archival venue. Papers submitted to the KDD Research Track follow a double-blind review process. If a previous version of the paper was submitted to a non-archival venue, such as a workshop or to arXiv, the title and abstract must be changed in the KDD submission. KDD submissions must not be in concurrent submission to any archival conference or journal during the KDD review period. Papers that appear in arXiv after Jan 2th, 2023 until the end of the review process will not be accepted.",
+          "sha256": "11e753fba2591f996113f3e5e462fa8eaa6bf1f1baafe1260fd2f65e5e3cc478"
+        },
+        {
+          "section": "Reproducibility",
+          "text": "Reproducibility",
+          "sha256": "e66d62bd7e2147d8c14eb251ecf82651f4f827789c167e29f1f8307eb6503676"
+        },
+        {
+          "section": "Official Publication Date",
+          "text": "Official Publication Date\nThe official publication date is the date the proceedings are made available in the ACM Digital Library. This date for KDD 2023 is on or after July 15, 2023. The official publication date affects the deadline for any patent filings related to published work.",
+          "sha256": "cbf176bf423ec7ae47ac81a018fa6ddc51ec07f1df803f4824649092c211665f"
+        },
+        {
+          "section": "Transparency",
+          "text": "Transparency",
+          "sha256": "8b773803e66e0fc2e2bb6a629f56a915cf65dffb599302b3d54a08179af6bd07"
+        }
+      ],
+      "links": [],
+      "sha256": "fe634df871d210b12dd4114b134f6029e424ae1e6ca754ad510f2b7611c1cc8a"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "e87481d584b8e5f5df2697ef7ba86d9a54518d9c2b85a1cbdeb45a4fe8e34525",
+      "url": "https://www.kdd.org/kdd2024/",
+      "final_url": "https://www.kdd.org/kdd2024/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:21Z",
+      "snippets": [
+        {
+          "section": "Paper Deadlines",
+          "text": "Paper Deadlines\n1st Paper Abstract Deadline | Feb 1st 2024\n1st Paper Deadline | Feb 8th 2024\n1st Notification to Authors | May 16th 2024\n2nd Paper Abstract Deadline | August 1st 2024\n2nd Paper Deadline | August 8th 2024\nClarification on two paper deadlines:\nIn 2024 there will be two paper deadlines. Accepted papers submitted by Feb 8, 2024 will appear in the KDD 24 conference and proceedings. Accepted papers submitted by Aug 8, 2024 will appear in the KDD 2025 Conference. The reason to move to 2 deadlines a year is to better accommodate the fast growing field. In parallel to this change, SIGKDD is investigating to make the proceedings a journal so papers will be officially published sooner than the conference date.",
+          "sha256": "d2ffd41c9da8ccfa23f0907c50850478182bb3b38255a55ad7a32e881adcf2c8"
+        },
+        {
+          "section": "KDD Calls for Proposals",
+          "text": "KDD Calls for Proposals",
+          "sha256": "a3fd4b1994741282ee142e90732d7840655dddd6499a3f30dfe2167a8664c5f9"
+        }
+      ],
+      "links": [],
+      "sha256": "93dd4dfe3d1241268e07fd1b5b8ffd99664ab3d0bfe959e81381bf9f1b81310b"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "a02edae2ab7cc1a6af65df63969a941e2d7b1f34407e221437d3b3fc872a1eaa",
+      "url": "https://kdd2025.kdd.org/research-track-call-for-papers/",
+      "final_url": "https://kdd.org/kdd2025/research-track-call-for-papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:26Z",
+      "snippets": [
+        {
+          "section": "Research Track: Call for Papers",
+          "text": "August Cycle\nKDD is the premier Data Science conference, hosting both a Research and an Applied Data Science Track. The conference will take place in Toronto, Canada, from Sunday, August 3, 2025 to Thursday, August 7, 2025. It hosts both a Research and an Applied Data Science Track. A paper should either be submitted to the Research Track or the Applied Data Science Track but not both.\nKDD has multiple submission cycles per year . KDD 2025 has two cycles, one already complete with submissions due on August 1, 2024 and a second cycle underway with the following important dates.",
+          "sha256": "3ca597ed68103e0f8b79bbfccd6dd8e595fadf6490babb5b28cb590ef2965fbe"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nAbstract Deadline: Feb 3, 2025\nPaper Deadline: Feb 10, 2025\nAuthor Rebuttal Period: Apr 4-18, 2025\nNotification: May 16, 2025\nCamera-ready: Jun 1, 2025\nRegistration Deadline: Jun 18, 2025\nAll deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "902185ebd6fe02a755259c70f75ef986b7ddfd512d6e711ce5117d74b1fd776f"
+        },
+        {
+          "section": "KDD 2026 (First Cycle) – Important Dates",
+          "text": "As KDD receives two rounds of submissions per year, the anticipated dates for the next round are as follows.\nAbstract Deadline: Jul 24, 2025\nPaper Deadline: Jul 31, 2025\nAuthor Rebuttal Period: Oct 4-18, 2025\nNotification: Nov 16, 2025\nKDD is the premier Data Science conference, hosting both a Research and an Applied Data Science Track. A paper should either be submitted to the Research Track or the Applied Data Science Track but not both.\nKDD has multiple submission cycles per year . KDD 2025 will have two deadlines, one on August 1, 2024 and another on February 1, 2025 (with full paper deadlines a week after the abstract submission deadlines). Likewise, the KDD Proceedings will have two installments. Authors of accepted papers from the August 2024 deadline must opt in for early publication on the rights form in order for their papers to be included in the first installment.\nThe conference will take place in Toronto, Canada, expected in August 2025.",
+          "sha256": "bc5cb5b46bb00f590c849c94d6e569bf6423defb2317df6843ef777a6be30077"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nAbstract Deadline: Aug 1, 2024\nPaper Deadline: Aug 8, 2024\nAuthor Rebuttal Period: Oct 4-18, 2024\nNotification: Nov 16, 2024\nCamera-ready: [removed] Dec 19, 2024 [/removed] Jan 12, 2025\nConference: Aug 3-7, 2025\nAll submission deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "8814d6625ef34a57c5effd19de1076848e83e9347c13317ca1f34a2705b1f1ae"
+        },
+        {
+          "section": "Feb 2025 Deadline – Important Dates",
+          "text": "As KDD receives two rounds of submissions per year, the anticipated dates for the next round are as follows.\nNotification: May 16, 2025\nAbstract Deadline: [removed] Feb 1, 2025 [/removed] Feb 3, 2025\nPaper Deadline: [removed] Feb 8, 2025 [/removed] Feb 10, 2025\nAuthor Rebuttal Period: Apr 4-18, 2025",
+          "sha256": "1f8752f113cdfbbe243146dc7684e824daebe72d08e9781c0be85f57c5730350"
+        }
+      ],
+      "links": [],
+      "sha256": "f783f21ffe14e47b0e069dfdd31c4188ba46c479a98965089d2d1c69dcc81eed"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "243ac8584d09493f91f45e6acd8799e7880e2f5251058d0f4525d393c189c37d",
+      "url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
+      "final_url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:30Z",
+      "snippets": [
+        {
+          "section": "Research Track: Call for Papers",
+          "text": "July Cycle\nKDD is the premier Data Science and AI conference with a Research track, an Applied Data Science Track, a new Datasets & Benchmarks Track, and a new AI for Sciences Track. The conference will take place from August 9 to 13, 2026, in Jeju, Korea. There are now two KDD submission cycles per year and this call for papers is for Cycle 2.\nThe important dates for the KDD 2026 Cycle 2 are:\nAbstract Deadline: Feb 1, 2026\nPaper Deadline: Feb 8, 2026\nAuthor Rebuttal Period: Apr 4-17, 2026\nNotification: May 16, 2026\nCamera-ready: June 1, 2026",
+          "sha256": "5293a589ec76dd100253341188915a4679ae074e62c8ea1ec53f809c775221bb"
+        },
+        {
+          "section": "Research Track: Call for Papers",
+          "text": "All deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "3b7806074dcf98c435424f64791c0c747e83f24597f26ba7b57a958aec98a358"
+        },
+        {
+          "section": "Publication and Presentation Policies",
+          "text": "Important update on ACM’s new open access publishing model for 2026 ACM Conferences!\nStarting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With over 1,800 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 70-75%).\nAuthors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy . Keep in mind that waivers are rare and are granted based on specific criteria set by ACM.",
+          "sha256": "b52e9a0be1dce95a7446351a9027643edc733d833f0ef9b5eccff31ff6dfa76f"
+        },
+        {
+          "section": "Program Committee Co-Chairs",
+          "text": "Xiangliang Zhang (University of Notre Dame)\nKDD is the premier Data Science and AI conference, hosting both a Research and an Applied Data Science Track. The conference will take place from August 9 to 13, 2026, in Jeju, Korea. KDD has two submission cycles per year . This call details the CFP for the first cycle and invites submissions for both the Research and the Applied Data Science Track. An additional Datasets and Benchmarks track call will only be issued in the second cycle along with the other tracks.\nA paper should either be submitted to the Research Track or the Applied Data Science Track but not both. The important dates for the KDD 2026 First Cycle are:\nAbstract Deadline: July 24, 2025\nPaper Deadline: July 31, 2025\nAuthor Rebuttal Period: October 4-18, 2025\nNotification: November 23, 2025\nCamera-ready: TBD",
+          "sha256": "bcd46985787e2b37205402ec556ae4af31120fbe032b33a471b4458a25e12234"
+        },
+        {
+          "section": "Program Committee Co-Chairs",
+          "text": "All deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "3b7806074dcf98c435424f64791c0c747e83f24597f26ba7b57a958aec98a358"
+        },
+        {
+          "section": "Publication and Presentation Policies",
+          "text": "Important update on ACM’s new open access publishing model for 2026 ACM Conferences!\nStarting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With over 1,800 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 70-75%).\nAuthors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy . Keep in mind that waivers are rare and are granted based on specific criteria set by ACM.",
+          "sha256": "b52e9a0be1dce95a7446351a9027643edc733d833f0ef9b5eccff31ff6dfa76f"
+        },
+        {
+          "section": "Program Committee Co-Chairs",
+          "text": "Xiangliang Zhang (University of Notre Dame)\nTBD",
+          "sha256": "e134d0e5ad357c570dbf19a7cb52bd69d1bf046ea8420d110d95ca4efb1e9632"
+        },
+        {
+          "section": "KDD 2026 (Second Cycle) – Important Dates",
+          "text": "KDD 2026 (Second Cycle) – Important Dates\nAs KDD receives two rounds of submissions per year, the anticipated dates for the next round are as follows.\nAbstract Deadline: Feb 1, 2026\nPaper Deadline: Feb 8, 2026\nAuthor Rebuttal Period: Apr 4-18, 2026\nNotification: May 16, 2026",
+          "sha256": "8197a92dd367146b4da613fb3c13c01ed93a61ad0df16139bad5945a5da65f29"
+        }
+      ],
+      "links": [],
+      "sha256": "67cb715691be5ac07f782e0d29b05cd27702bad6969423fd2484646b581131c2"
+    },
+    "research-track": {
+      "extractor": "date-context-v1",
+      "config_sha256": "028fdfef449292faed5d1fb1d314bbac00cfd6306447736fff39552ba7d2e3d8",
+      "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+      "final_url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:17Z",
+      "snippets": [
+        {
+          "section": "Research Track: Call for Papers",
+          "text": "The important dates for the KDD 2027 First Cycle are:\nAbstract Deadline: July 19, 2026\nPaper Deadline: July 26, 2026\nAuthor Rebuttal Period: September 29-October 13, 2026\nNotification: November 14, 2026\nAll deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "e5f787ae4cb80a42b2a542115667bea20cec365005577d4cd68c60e60fd5f073"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://docs.openreview.net/getting-started/creating-an-openreview-profile",
+          "title": "how to create"
+        },
+        {
+          "url": "https://kdd2027.kdd.org/ai4sciences-track-call-for-papers/",
+          "title": "AI for Sciences Track: Call for Papers"
+        },
+        {
+          "url": "https://kdd2027.kdd.org/applied-data-science-ads-track-call-for-papers/",
+          "title": "Applied Data Science (ADS) Track: Call for Papers"
+        },
+        {
+          "url": "https://kdd2027.kdd.org/datasets-and-benchmarks-track-call-for-papers/",
+          "title": "Datasets and Benchmarks Track: Call for Papers"
+        },
+        {
+          "url": "https://openreview.net/group?id=KDD.org/2027/Research_Track_Cycle_1",
+          "title": "KDD 2027 Research Track (First Cycle) | OpenReview"
+        }
+      ],
+      "sha256": "6820d3cacfe46565936d3d71836cfecf71d7be1f12932a20c9cf41646c3aa732"
+    }
+  },
+  "claims": {
+    "current/kdd.cycle1.abstract": {
+      "value": "2026-07-19T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "research-track",
+          "snippet_sha256": "e5f787ae4cb80a42b2a542115667bea20cec365005577d4cd68c60e60fd5f073"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/kdd.cycle1.paper": {
+      "value": "2026-07-26T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "research-track",
+          "snippet_sha256": "e5f787ae4cb80a42b2a542115667bea20cec365005577d4cd68c60e60fd5f073"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/kdd.cycle1.review": {
+      "value": "2026-09-29T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "research-track",
+          "snippet_sha256": "e5f787ae4cb80a42b2a542115667bea20cec365005577d4cd68c60e60fd5f073"
+        }
+      ],
+      "note": "按项目口径，作者回复 / Rebuttal 窗口开始日作为 review_release。原文支持 2026-09-29；窗口开始的精确时刻未明确，保留日期级证据标记。"
+    },
+    "current/kdd.cycle1.rebuttal": {
+      "value": "2026-10-13T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "research-track",
+          "snippet_sha256": "e5f787ae4cb80a42b2a542115667bea20cec365005577d4cd68c60e60fd5f073"
+        }
+      ],
+      "note": "对应第一轮作者回复期的结束日 2026-10-13；官网以 AoE 日末为截止。"
+    },
+    "current/kdd.cycle1.decision": {
+      "value": "2026-11-14T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "research-track",
+          "snippet_sha256": "e5f787ae4cb80a42b2a542115667bea20cec365005577d4cd68c60e60fd5f073"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/kdd.cycle2": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/kdd.cycle2.review": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/kdd.cycle2.rebuttal": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/kdd.cycle2.decision": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/kdd.conference": {
+      "value": "2027-08-01T00:00:00-07:00",
+      "status": "unverified",
+      "evidence": [],
+      "note": "当前精确值为 2027-08-01，但已抓取的日期段落不能支撑这个开幕日；需核对是否只公布到月份。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2022-02-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "da2048edbfb688f702331361898fb930ba32933c685903ffa596c9228d8234ed"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-08-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "da2048edbfb688f702331361898fb930ba32933c685903ffa596c9228d8234ed"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-08-18",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "da2048edbfb688f702331361898fb930ba32933c685903ffa596c9228d8234ed"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2023-02-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e2a2a02ae9bd691d7f7ec4c457b56e2c1d60f1c6eacbfb244fba51f29b47d025"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-08-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e2a2a02ae9bd691d7f7ec4c457b56e2c1d60f1c6eacbfb244fba51f29b47d025"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-08-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e2a2a02ae9bd691d7f7ec4c457b56e2c1d60f1c6eacbfb244fba51f29b47d025"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/abstract_deadline": {
+      "value": "2024-02-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "d2ffd41c9da8ccfa23f0907c50850478182bb3b38255a55ad7a32e881adcf2c8"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2024-02-08",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "d2ffd41c9da8ccfa23f0907c50850478182bb3b38255a55ad7a32e881adcf2c8"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-08-25",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-08-29",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2025/abstract_deadline": {
+      "value": "2025-02-03",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "902185ebd6fe02a755259c70f75ef986b7ddfd512d6e711ce5117d74b1fd776f"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2025-02-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "902185ebd6fe02a755259c70f75ef986b7ddfd512d6e711ce5117d74b1fd776f"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2025-04-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "902185ebd6fe02a755259c70f75ef986b7ddfd512d6e711ce5117d74b1fd776f"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2025-04-18",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "902185ebd6fe02a755259c70f75ef986b7ddfd512d6e711ce5117d74b1fd776f"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-05-16",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "902185ebd6fe02a755259c70f75ef986b7ddfd512d6e711ce5117d74b1fd776f"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-08-03",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "3ca597ed68103e0f8b79bbfccd6dd8e595fadf6490babb5b28cb590ef2965fbe"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-08-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "3ca597ed68103e0f8b79bbfccd6dd8e595fadf6490babb5b28cb590ef2965fbe"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/abstract_deadline": {
+      "value": "2026-02-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5293a589ec76dd100253341188915a4679ae074e62c8ea1ec53f809c775221bb"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2026-02-08",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5293a589ec76dd100253341188915a4679ae074e62c8ea1ec53f809c775221bb"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/review_release": {
+      "value": "2026-04-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5293a589ec76dd100253341188915a4679ae074e62c8ea1ec53f809c775221bb"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2026/rebuttal_deadline": {
+      "value": "2026-04-17",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5293a589ec76dd100253341188915a4679ae074e62c8ea1ec53f809c775221bb"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-05-16",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5293a589ec76dd100253341188915a4679ae074e62c8ea1ec53f809c775221bb"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-08-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5293a589ec76dd100253341188915a4679ae074e62c8ea1ec53f809c775221bb"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-08-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5293a589ec76dd100253341188915a4679ae074e62c8ea1ec53f809c775221bb"
+        }
+      ],
+      "note": "对应 Jeju 会期的结束日 2026-08-13。"
+    }
+  }
+}

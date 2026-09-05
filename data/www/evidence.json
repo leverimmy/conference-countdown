@@ -1,0 +1,812 @@
+{
+  "schema_version": 1,
+  "id": "www",
+  "sources": {
+    "conference-site": {
+      "extractor": "date-context-v1",
+      "config_sha256": "af163df2d80bd09eac37201fce356d85d3002e9eb045dbbc2565251c7cab9063",
+      "url": "https://acmweb2027.org/",
+      "final_url": "https://www2027.thewebconf.org/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:21:01Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "New & Updates\n31 August 2026\nCall for Nominations for the Seoul Test of Time Award is now open on EasyChair . The submission deadline is 14 October, 2026. Details here .\n28 August 2026\nFull paper submissions are now open on OpenReview . Abstract deadline is 18 October, 2026 & submission deadline is 25 October, 2026. Details here .\nShort paper submissions are now open on OpenReview . Abstract deadline is 09 November, 2026 & submission deadline is 16 November, 2026. Details here .",
+          "sha256": "76cc18637f6f6ac459f7a148d165c22cf4c0bfbcac2306202cb07452e4a5a51d"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://openreview.net/group?id=ACM.org/TheWebConf/2027/Conference_Long_Papers",
+          "title": "OpenReview"
+        },
+        {
+          "url": "https://openreview.net/group?id=ACM.org/TheWebConf/2027/Conference_Short_Papers",
+          "title": "OpenReview"
+        },
+        {
+          "url": "https://www2027.thewebconf.org/important-dates/",
+          "title": "Important Dates"
+        },
+        {
+          "url": "https://www2027.thewebconf.org/research-track-chairs/",
+          "title": "Research Track Chairs"
+        },
+        {
+          "url": "https://www2027.thewebconf.org/research-track-papers/",
+          "title": "Research Track Papers"
+        }
+      ],
+      "sha256": "1f41ef373ca713c9837fcc2ee727030722ce799edd7ab7b3c5d7bb7126cc946d"
+    },
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "016e34db71b00113e321315325b2f9b5c25f1bcdee9ebbec25ce1e1e6d6f6043",
+      "url": "https://archives.iw3c2.org/www2022/cfp/research/",
+      "final_url": "https://archives.iw3c2.org/www2022/cfp/research/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:21:01Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "TheWebConf 2022\nOnline, hosted by Lyon, France 25 – 29 April 2022",
+          "sha256": "1da3e30bc5f7d2acf5e12de2d8e3d88c76e7a148d81559bae0ffd05fdfc7ad9a"
+        },
+        {
+          "section": "Research Tracks Call for Papers",
+          "text": "Research Tracks Call for Papers\nWe invite contributions to the research tracks of The Web Conference 2022 (formerly known as WWW). The conference will take place online, hosted by Lyon, France, on April 25-29, 2022.",
+          "sha256": "83ebec7fcbfe1610d20248d797d1f799a8ce5faa0069225932b585eb17c61ed6"
+        },
+        {
+          "section": "Instructions for authors of research tracks submissions",
+          "text": "Instructions for authors of research tracks submissions",
+          "sha256": "e0b6f2472f17fb03d3581c3f5b2272163645691125f92a649af936df1cca166c"
+        },
+        {
+          "section": "Important dates",
+          "text": "Important dates\nAbstract submission: October 14, 2021. This is compulsory for all papers.\nFull Papers submission: October 21, 2021\nRebuttal: December 2-6, 2021\nNotification: January 13, 2022\nAll submission deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "1b8bebc9adc6f49744ff58ee03c467ffa21ab9ce43fc525776f3849a901d80b4"
+        }
+      ],
+      "links": [],
+      "sha256": "e38292efd4cc809938eeb48d6aac90a8f9bf19b8e97de19f8f04d24ed38adac3"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "16dfb1588aa5c4af05a00b476402169b38750d72a16a6e4025f203f7b4724a29",
+      "url": "https://archives.iw3c2.org/www2023/calls/research-tracks/",
+      "final_url": "https://archives.iw3c2.org/www2023/calls/research-tracks/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:21:04Z",
+      "snippets": [
+        {
+          "section": "TheWebConf 2023 Research Tracks Final Call For Papers (CFP) “Web Research with Openness, Fairness and Reproducibility”",
+          "text": "TheWebConf 2023 Research Tracks Final Call For Papers (CFP) “Web Research with Openness, Fairness and Reproducibility”\nWe invite contributions to the research tracks of The Web Conference 2023 (formerly known as WWW). The conference will have a hybrid format, hosted by Austin, TX, US, on April 30 - May 4, 2023.\nInstructions for authors of research tracks submissions",
+          "sha256": "73085bd0614365e64cc556378383a76911649030e510a90e09314393a1217b56"
+        },
+        {
+          "section": "Important dates",
+          "text": "Important dates\nAbstract submission: October 6, 2022. This is compulsory for all papers.\nFull papers submission: October 13, 2022\nRebuttal: December 15 - 22, 2022\nNotification: January 25, 2023\nAll submission deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "8ec23a2c1784ef71f93ae082c8e9105bffbd3f4e3ba1155b0a9e0f8774565451"
+        }
+      ],
+      "links": [],
+      "sha256": "c9834dd8ea9fa20a9cd40526a0af1661e333c3058ad34733306343abc918b772"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "63b2911999444405ec21aa1606b178e83bd48cb7e7fe95a1bc86d2fef0c18aa7",
+      "url": "https://www2024.thewebconf.org/calls/research-tracks/",
+      "final_url": "https://www2024.thewebconf.org/calls/research-tracks/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:21:04Z",
+      "snippets": [
+        {
+          "section": "CALL FOR PAPERS",
+          "text": "CALL FOR PAPERS\nWe invite contributions to the research tracks of The Web Conference 2024 (formerly known as WWW). The conference will take place in Singapore, from May 13 to 17, 2024.\nThe Web Conference is the premier conference focused on understanding the current state and the evolution of the Web through the lens of computer science, computational social science, economics, policy, and many other disciplines.",
+          "sha256": "24983545e034cfc4f0618d5502f17b377f36d0e203966b47ca6ad8417e39e65f"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nAbstract: Thursday, October 5, 2023\nFull paper: Thursday, October 12, 2023\nAuthor and reviewer discussion: December 1-14, 2023\nNotification: February 1, 2024\nAll submission deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "88e4e23019a81e11483f432c9b7fb9977e7f761439c99a90e215833a69b351f1"
+        }
+      ],
+      "links": [],
+      "sha256": "e8b2b6fdbd7e00ed29310d34c752e1eb69633b683d8dfeadf2e3a8bd7ae99c49"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "d3293f3a10da0c04ffeda9bd061d82d08feeb90dd7c7cbb95ed05b93b30a8c44",
+      "url": "https://archives.iw3c2.org/www2025/research-tracks/",
+      "final_url": "https://archives.iw3c2.org/www2025/research-tracks/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:21:09Z",
+      "snippets": [
+        {
+          "section": "CALL FOR PAPERS",
+          "text": "Please ensure all authors’ profiles on OpenReview are up to date, including the correct first and last names (in English), affiliation, and a preferred/primary email address (must be contactable). Failure to provide accurate information may prevent the Publisher from contacting you, which could result in your paper not being included in the conference proceedings.\nWe invite contributions to the research tracks of The Web Conference 2025 (formerly known as WWW). The conference will take place in Sydney, Australia, from 28 April to 02 May 2025.\nThe Web Conference is the premier conference focused on understanding the current state and the evolution of the Web through the lens of computer science, computational social science, economics, policy, and many other disciplines.\nImportant Dates:\nAbstract: October 7, 2024\nFull paper: October 14, 2024\nAuthor and reviewer discussion: December 3-14, 2024\nNotification: January 20, 2025",
+          "sha256": "c4853e9e85e888ae6cf9ddad9a9711222b17c9af9980b976d4a072b840dcb483"
+        },
+        {
+          "section": "CALL FOR PAPERS",
+          "text": "Camera-ready: February 2, 2025\nAll submission deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.",
+          "sha256": "11a43368652bfefd4475c33a5b767b7a8476496be14eadc0b41dddbf28afe71c"
+        }
+      ],
+      "links": [],
+      "sha256": "93a3549eb3554ed1558eb5dc7df362f75a148f2fd8a5e38dd45521d9a9ab3281"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "c793ab34a2548c6987f06baea0a791fa0582cddc52651df2d72a48b283f8ef44",
+      "url": "https://www2026.thewebconf.org/important-dates.html",
+      "final_url": "https://www2026.thewebconf.org/important-dates.html",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:21:07Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nConference | July 1 - 3, 2026\nWorkshops/Tutorials/Co-located Web4All Conference | June 29-30, 2026",
+          "sha256": "e6d228b72b955ea36d1c3870e6bf5298655fc28175d40289363ce3bd364bfcd9"
+        },
+        {
+          "section": "Research & Industry tracks papers",
+          "text": "Research & Industry tracks papers\nAbstract submission | [removed] September 30, 2025 [/removed]\nPaper submission | [removed] October 7, 2025 [/removed]\nRebuttal period | [removed] November 24 – December 1, 2025 [/removed]\nPaper notification | [removed] January 13, 2026 [/removed]\nCamera ready | [removed] January 25, 2026 [/removed]",
+          "sha256": "cab5197a0a416f697393c34c2077a1207506a62f262b41e09006ab4374a3fa4c"
+        },
+        {
+          "section": "Short papers",
+          "text": "Short papers\nAbstract submission | [removed] November 10, 2025 [/removed]\nPaper submission | [removed] November 17, 2025 [/removed]\nPaper notification | [removed] January 13, 2026 [/removed]\nCamera ready | [removed] January 25, 2026 [/removed]",
+          "sha256": "3ef97286b276696c787cc39c89e86da306727c7f3eed7fa8968f76b7c76d41b2"
+        },
+        {
+          "section": "Demo Papers",
+          "text": "Demo Papers\nPaper submission | [removed] November 17, 2025 [/removed]\nPaper notification | [removed] January 13, 2026 [/removed]\nCamera ready | [removed] February 2, 2026 [/removed]\ne",
+          "sha256": "6bce0aecbc9e31a7be988708556ee8fc40a0066b71002d4e0dc8accd712f4cef"
+        },
+        {
+          "section": "Workshops",
+          "text": "Workshops\nProposal submission | [removed] October 20, 2025 [/removed]\nProposal notification | [removed] November 10, 2025 [/removed]\nAccepted workshop paper submission | [removed] December 18, 2025 [/removed]\nAccepted workshop paper notification | [removed] January 13, 2026 [/removed]\nCamera ready | [removed] February 2, 2026 [/removed]",
+          "sha256": "cbade764fc05a72e989c8409f4696ec11ef1479199c43f179f8dd3d732bf4822"
+        },
+        {
+          "section": "Tutorials",
+          "text": "Tutorials\nProposal submission | [removed] November 1, 2025 [/removed]\nProposal notification | [removed] December 5, 2025 [/removed]\nMaterials due | April 1, 2026",
+          "sha256": "230306020aa77e8fb47f234fa5d2dbeb11009756af4c5f719377ee6a8673b9b7"
+        },
+        {
+          "section": "Special Track: Competitions",
+          "text": "Special Track: Competitions\nProposal submission | [removed] October 13, 2025 [/removed]\nProposal notification | [removed] October 17, 2025 [/removed]",
+          "sha256": "bb5cdc4d9f45d97b96675abff22d594ddaa7c77e3c5dc119b2ef72e33acd4864"
+        },
+        {
+          "section": "Seoul Test of Time Award",
+          "text": "Seoul Test of Time Award\nNominations deadline | [removed] October 15, 2025 [/removed]",
+          "sha256": "1ff152e9730261dcc8a9e15e81f68b123a38b9a9a73367ba50def1b3f57c0991"
+        },
+        {
+          "section": "Special Track: Web4Good",
+          "text": "Special Track: Web4Good\nAbstract submission | [removed] November 23, 2025 [/removed]\nPaper submission | [removed] November 30, 2025 [/removed]\nPaper notification | [removed] January 13, 2026 [/removed]\nCamera ready | [removed] January 25, 2026 [/removed]",
+          "sha256": "f6da723aa7b30e073f93030ac77b630ee74f525394e6f684a80136846f3d0066"
+        },
+        {
+          "section": "Seoul Test of Time Award",
+          "text": "Seoul Test of Time Award\nNominations deadline | [removed] October 15, 2025 [/removed]\nAll deadlines are 11:59 PM Anywhere on Earth (AoE) unless otherwise specified.",
+          "sha256": "3aacf53fcaeaab33dac7b0cd15131766e1209df2197f28b383e477d2c250b300"
+        }
+      ],
+      "links": [],
+      "sha256": "fc6c3f733ca1ddcaf9c20b0e9cf81e420508935061b9dd225373820d27218e5c"
+    },
+    "important-dates": {
+      "extractor": "date-context-v1",
+      "config_sha256": "9ffa85686a4b3d871829b90bfc05e5f65c25f5a64a39eab843eb3e4ec608864c",
+      "url": "https://acmweb2027.org/important-dates/",
+      "final_url": "https://acmweb2027.org/important-dates/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:20:59Z",
+      "snippets": [
+        {
+          "section": "Research & Industry Track Papers",
+          "text": "Research & Industry Track Papers\nAbstract Submission | 18 October 2026\nPaper Submission | 25 October 2026\nResult Release | 21 December 2026\nRebuttal Period | 21-31 December 2026\nNotification | 4 January 2027\nFinal Version Deadline | 31 January 2027",
+          "sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+        },
+        {
+          "section": "Seoul Test of Time Award",
+          "text": "All deadlines are 11:59 PM Anywhere on Earth (AoE) unless otherwise specified",
+          "sha256": "3b94f10ba322594eb63105600de313ad15a1dec5ac1feabdf9a421764251a1b0"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www2027.thewebconf.org/important-dates/",
+          "title": "Important Dates"
+        },
+        {
+          "url": "https://www2027.thewebconf.org/research-track-chairs/",
+          "title": "Research Track Chairs"
+        },
+        {
+          "url": "https://www2027.thewebconf.org/research-track-papers/",
+          "title": "Research Track Papers"
+        }
+      ],
+      "sha256": "956293c9eeceb1a2193a213d80a71ee492a249d01ac921ea359135734b5b688c"
+    }
+  },
+  "claims": {
+    "current/www.abstract": {
+      "value": "2026-10-11T23:59:00-12:00",
+      "status": "conflict",
+      "evidence": [
+        {
+          "source": "important-dates",
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+        }
+      ],
+      "candidate": {
+        "value": "2026-10-18",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Abstract Submission | 18 October 2026",
+            "highlights": [
+              "18 October 2026"
+            ]
+          }
+        ]
+      },
+      "note": "官网研究/工业赛道摘要截止为 2026-10-18，现值为 2026-10-11；需本地更新日期与显示文字。"
+    },
+    "current/www.paper": {
+      "value": "2026-10-18T23:59:00-12:00",
+      "status": "conflict",
+      "evidence": [
+        {
+          "source": "important-dates",
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+        }
+      ],
+      "candidate": {
+        "value": "2026-10-25",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Paper Submission | 25 October 2026",
+            "highlights": [
+              "25 October 2026"
+            ]
+          }
+        ]
+      },
+      "note": "官网研究/工业赛道全文截止为 2026-10-25，现值为 2026-10-18；同日摘要不能作为全文的证据。"
+    },
+    "current/www.review": {
+      "value": "2026-12-10T23:59:00-12:00",
+      "status": "conflict",
+      "evidence": [
+        {
+          "source": "important-dates",
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+        }
+      ],
+      "candidate": {
+        "value": "2026-12-21",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Result Release | 21 December 2026",
+            "highlights": [
+              "21 December 2026"
+            ]
+          }
+        ]
+      },
+      "note": "官网 Result Release 为 2026-12-21，现值为 2026-12-10；需本地核对更新。"
+    },
+    "current/www.rebuttal": {
+      "value": "2026-12-19T23:59:00-12:00",
+      "status": "conflict",
+      "evidence": [
+        {
+          "source": "important-dates",
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+        }
+      ],
+      "candidate": {
+        "value": "2026-12-31",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Rebuttal Period | 21-31 December 2026",
+            "highlights": [
+              "31 December 2026"
+            ]
+          }
+        ]
+      },
+      "note": "官网 Rebuttal Period 为 2026-12-21 至 12-31，现值为 2026-12-19；需本地核对更新。"
+    },
+    "current/www.decision": {
+      "value": null,
+      "status": "newly_announced",
+      "evidence": [
+        {
+          "source": "important-dates",
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+        }
+      ],
+      "candidate": {
+        "value": "2027-01-04",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Notification | 4 January 2027",
+            "highlights": [
+              "4 January 2027"
+            ]
+          }
+        ]
+      },
+      "note": "官网已公布 Notification 为 2027-01-04，当前事件仍在使用预测，需本地核对后填入。"
+    },
+    "current/www.conference": {
+      "value": "2027-05-10T00:00:00+01:00",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2022/abstract_deadline": {
+      "value": "2021-10-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "1b8bebc9adc6f49744ff58ee03c467ffa21ab9ce43fc525776f3849a901d80b4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2021-10-21",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "1b8bebc9adc6f49744ff58ee03c467ffa21ab9ce43fc525776f3849a901d80b4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/review_release": {
+      "value": "2021-12-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "1b8bebc9adc6f49744ff58ee03c467ffa21ab9ce43fc525776f3849a901d80b4"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2022/rebuttal_deadline": {
+      "value": "2021-12-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "1b8bebc9adc6f49744ff58ee03c467ffa21ab9ce43fc525776f3849a901d80b4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/final_decision": {
+      "value": "2022-01-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "1b8bebc9adc6f49744ff58ee03c467ffa21ab9ce43fc525776f3849a901d80b4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-04-25",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "83ebec7fcbfe1610d20248d797d1f799a8ce5faa0069225932b585eb17c61ed6"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-04-29",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "83ebec7fcbfe1610d20248d797d1f799a8ce5faa0069225932b585eb17c61ed6"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/abstract_deadline": {
+      "value": "2022-10-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "8ec23a2c1784ef71f93ae082c8e9105bffbd3f4e3ba1155b0a9e0f8774565451"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2022-10-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "8ec23a2c1784ef71f93ae082c8e9105bffbd3f4e3ba1155b0a9e0f8774565451"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/review_release": {
+      "value": "2022-12-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "8ec23a2c1784ef71f93ae082c8e9105bffbd3f4e3ba1155b0a9e0f8774565451"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2023/rebuttal_deadline": {
+      "value": "2022-12-22",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "8ec23a2c1784ef71f93ae082c8e9105bffbd3f4e3ba1155b0a9e0f8774565451"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/final_decision": {
+      "value": "2023-01-25",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "8ec23a2c1784ef71f93ae082c8e9105bffbd3f4e3ba1155b0a9e0f8774565451"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-04-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "73085bd0614365e64cc556378383a76911649030e510a90e09314393a1217b56"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-05-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "73085bd0614365e64cc556378383a76911649030e510a90e09314393a1217b56"
+        }
+      ],
+      "note": "会期为 2023-04-30 至 05-04。"
+    },
+    "history/2024/abstract_deadline": {
+      "value": "2023-10-05",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "88e4e23019a81e11483f432c9b7fb9977e7f761439c99a90e215833a69b351f1"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2023-10-12",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "88e4e23019a81e11483f432c9b7fb9977e7f761439c99a90e215833a69b351f1"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/review_release": {
+      "value": "2023-12-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "88e4e23019a81e11483f432c9b7fb9977e7f761439c99a90e215833a69b351f1"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2024/rebuttal_deadline": {
+      "value": "2023-12-07",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/final_decision": {
+      "value": "2024-02-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "88e4e23019a81e11483f432c9b7fb9977e7f761439c99a90e215833a69b351f1"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-05-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "24983545e034cfc4f0618d5502f17b377f36d0e203966b47ca6ad8417e39e65f"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-05-17",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "24983545e034cfc4f0618d5502f17b377f36d0e203966b47ca6ad8417e39e65f"
+        }
+      ],
+      "note": "会期为 2024-05-13 至 05-17。"
+    },
+    "history/2025/abstract_deadline": {
+      "value": "2024-10-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "c4853e9e85e888ae6cf9ddad9a9711222b17c9af9980b976d4a072b840dcb483"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2024-10-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "c4853e9e85e888ae6cf9ddad9a9711222b17c9af9980b976d4a072b840dcb483"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2024-12-03",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "c4853e9e85e888ae6cf9ddad9a9711222b17c9af9980b976d4a072b840dcb483"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2024-12-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "c4853e9e85e888ae6cf9ddad9a9711222b17c9af9980b976d4a072b840dcb483"
+        }
+      ],
+      "note": "该字段在此届对应作者与评审讨论结束日 12 月 14 日。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-01-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "c4853e9e85e888ae6cf9ddad9a9711222b17c9af9980b976d4a072b840dcb483"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-04-28",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "c4853e9e85e888ae6cf9ddad9a9711222b17c9af9980b976d4a072b840dcb483"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-05-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "c4853e9e85e888ae6cf9ddad9a9711222b17c9af9980b976d4a072b840dcb483"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/abstract_deadline": {
+      "value": "2025-09-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "cab5197a0a416f697393c34c2077a1207506a62f262b41e09006ab4374a3fa4c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2025-10-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "cab5197a0a416f697393c34c2077a1207506a62f262b41e09006ab4374a3fa4c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/review_release": {
+      "value": "2025-11-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "cab5197a0a416f697393c34c2077a1207506a62f262b41e09006ab4374a3fa4c"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2026/rebuttal_deadline": {
+      "value": "2025-12-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "cab5197a0a416f697393c34c2077a1207506a62f262b41e09006ab4374a3fa4c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-01-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "cab5197a0a416f697393c34c2077a1207506a62f262b41e09006ab4374a3fa4c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-06-29",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "e6d228b72b955ea36d1c3870e6bf5298655fc28175d40289363ce3bd364bfcd9"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-07-03",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "e6d228b72b955ea36d1c3870e6bf5298655fc28175d40289363ce3bd364bfcd9"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    }
+  },
+  "decisions": [
+    {
+      "target": "current/www.abstract",
+      "action": "accept",
+      "reviewed_at": "2026-09-05T08:55:29Z",
+      "reason": "",
+      "previous_value": "2026-10-11T23:59:00-12:00",
+      "proposal": {
+        "value": "2026-10-18",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Abstract Submission | 18 October 2026",
+            "highlights": [
+              "18 October 2026"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "6efa5094a2723009c17fd1f0f9a9568c0a40265b81ee04a1a120abc6f23fd954",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "www.abstract",
+            "title": "摘要提交截止",
+            "compact_title": "WWW 摘要",
+            "at": "2026-10-11T23:59:00-12:00",
+            "date_label": "10 月 11 日 23:59 AoE",
+            "detail_label": "北京时间 10 月 12 日 19:59",
+            "symbol": "doc.text"
+          },
+          "claim": {
+            "value": "2026-10-11T23:59:00-12:00",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "important-dates",
+                "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+              }
+            ],
+            "candidate": {
+              "value": "2026-10-18",
+              "evidence": [
+                {
+                  "source": "important-dates",
+                  "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+                  "quote": "Abstract Submission | 18 October 2026",
+                  "highlights": [
+                    "18 October 2026"
+                  ]
+                }
+              ]
+            },
+            "note": "官网研究/工业赛道摘要截止为 2026-10-18，现值为 2026-10-11；需本地更新日期与显示文字。"
+          }
+        },
+        "after_sha256": "4419d82ad64e6aa1ede998a32ff59b785a8d3a9dc5f3e7d58df49208f7a5f299",
+        "guard_sha256": "a14483cd14f2a1f12117c19efb757abe3ccd94c10cac6ebae2b5b291c72b6939",
+        "sha256": "420917b745c81231f3466b114855d9b1a8912b66def23b797f287aff43aeeb90"
+      },
+      "undone_at": "2026-09-05T08:55:36Z",
+      "undo_reason": ""
+    }
+  ]
+}

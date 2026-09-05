@@ -1,7 +1,49 @@
 {
   "schema_version": 1,
   "id": "chi",
-  "watch": [
-    { "id": "papers", "kind": "html", "url": "https://chi2027.acm.org/authors/papers/" }
+  "sources": [
+    {
+      "id": "papers",
+      "url": "https://chi2027.acm.org/authors/papers/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true,
+      "section_pattern": "^(?:Important Dates)?$"
+    },
+    {
+      "id": "history-2022",
+      "url": "https://chi2022.acm.org/for-authors/presenting/papers/",
+      "kind": "html",
+      "edition": 2022,
+      "discover_links": false
+    },
+    {
+      "id": "history-2023",
+      "url": "https://chi2023.acm.org/for-authors/papers/",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false
+    },
+    {
+      "id": "history-2024",
+      "url": "https://chi2024.acm.org/deadlines-table/",
+      "kind": "html",
+      "edition": 2024,
+      "discover_links": false
+    },
+    {
+      "id": "history-2025",
+      "url": "https://chi2025.acm.org/for-authors/papers/",
+      "kind": "html",
+      "edition": 2025,
+      "discover_links": false
+    },
+    {
+      "id": "history-2026",
+      "url": "https://chi2026.acm.org/authors/papers/",
+      "kind": "html",
+      "edition": 2026,
+      "discover_links": false
+    }
   ]
 }

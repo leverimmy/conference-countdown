@@ -1,6 +1,5 @@
 build/
 dist/
-source-monitor-report.md
 __pycache__/
 *.pyc
 .DS_Store

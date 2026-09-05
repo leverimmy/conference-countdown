@@ -1,7 +1,56 @@
 {
   "schema_version": 1,
   "id": "www",
-  "watch": [
-    { "id": "important-dates", "kind": "html", "url": "https://acmweb2027.org/important-dates/" }
+  "sources": [
+    {
+      "id": "conference-site",
+      "url": "https://acmweb2027.org/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true
+    },
+    {
+      "id": "important-dates",
+      "url": "https://acmweb2027.org/important-dates/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true,
+      "section_pattern": "Research & Industry"
+    },
+    {
+      "id": "history-2022",
+      "url": "https://archives.iw3c2.org/www2022/cfp/research/",
+      "kind": "html",
+      "edition": 2022,
+      "discover_links": false
+    },
+    {
+      "id": "history-2023",
+      "url": "https://archives.iw3c2.org/www2023/calls/research-tracks/",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false
+    },
+    {
+      "id": "history-2024",
+      "url": "https://www2024.thewebconf.org/calls/research-tracks/",
+      "kind": "html",
+      "edition": 2024,
+      "discover_links": false
+    },
+    {
+      "id": "history-2025",
+      "url": "https://archives.iw3c2.org/www2025/research-tracks/",
+      "kind": "html",
+      "edition": 2025,
+      "discover_links": false
+    },
+    {
+      "id": "history-2026",
+      "url": "https://www2026.thewebconf.org/important-dates.html",
+      "kind": "html",
+      "edition": 2026,
+      "discover_links": false
+    }
   ]
 }

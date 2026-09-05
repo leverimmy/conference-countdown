@@ -1,4 +1,3 @@
-import CryptoKit
 import Foundation
 
 struct CountdownEvent: Identifiable {
@@ -25,9 +24,18 @@ struct Conference: Identifiable {
     let timeZoneID: String
     let defaultEventID: String
     let events: [CountdownEvent]
+
+    func event(_ id: String?) -> CountdownEvent? {
+        events.first { $0.id == id }
+    }
+
+    var defaultEvent: CountdownEvent {
+        // The loader requires a nonempty event list and a valid default ID.
+        event(defaultEventID) ?? events[0]
+    }
 }
 
-struct HistoricalConferenceFile: Decodable {
+struct HistoricalConferenceFile: Codable {
     let schemaVersion: Int
     let lastVerified: String
     let id: String
@@ -41,7 +49,7 @@ struct HistoricalConferenceFile: Decodable {
     }
 }
 
-struct HistoricalRecord: Decodable {
+struct HistoricalRecord: Codable {
     let year: Int
     let abstractDeadline: String?
     let paperDeadline: String?
@@ -105,7 +113,6 @@ enum ConferenceDataError: LocalizedError {
     case missingResource(String)
     case invalidData(String)
     case invalidServerResponse
-    case checksumMismatch
 
     var errorDescription: String? {
         switch self {
@@ -115,13 +122,11 @@ enum ConferenceDataError: LocalizedError {
             return "会议数据无效：\(message)"
         case .invalidServerResponse:
             return "远程数据服务返回了无效响应"
-        case .checksumMismatch:
-            return "远程数据校验失败"
         }
     }
 }
 
-private struct CatalogFile: Decodable {
+struct CatalogFile: Codable {
     let schemaVersion: Int
     let conferenceOrder: [String]
 
@@ -131,7 +136,7 @@ private struct CatalogFile: Decodable {
     }
 }
 
-private struct CurrentEventFile: Decodable {
+struct CurrentEventFile: Codable {
     let id: String
     let title: String
     let compactTitle: String
@@ -155,7 +160,7 @@ private struct CurrentEventFile: Decodable {
     }
 }
 
-private struct CurrentConferenceFile: Decodable {
+struct CurrentConferenceFile: Codable {
     let schemaVersion: Int
     let lastVerified: String
     let id: String
@@ -185,16 +190,16 @@ private struct CurrentConferenceFile: Decodable {
     }
 }
 
-private struct FeedConferenceFile: Decodable {
+struct ConferenceSnapshotEntry: Codable {
     let current: CurrentConferenceFile
     let history: HistoricalConferenceFile
 }
 
-private struct ConferenceFeedFile: Decodable {
+struct ConferenceSnapshot: Codable {
     let schemaVersion: Int
     let revision: String
     let catalog: CatalogFile
-    let conferences: [FeedConferenceFile]
+    let conferences: [ConferenceSnapshotEntry]
 
     enum CodingKeys: String, CodingKey {
         case schemaVersion = "schema_version"
@@ -202,27 +207,6 @@ private struct ConferenceFeedFile: Decodable {
         case catalog
         case conferences
     }
-}
-
-private struct RemoteManifest: Decodable {
-    let schemaVersion: Int
-    let revision: String
-    let dataURL: String
-    let sha256: String
-    let byteCount: Int
-
-    enum CodingKeys: String, CodingKey {
-        case schemaVersion = "schema_version"
-        case revision
-        case dataURL = "data_url"
-        case sha256
-        case byteCount = "byte_count"
-    }
-}
-
-enum RemoteConferenceDataResult {
-    case unchanged
-    case updated(ConferenceDataset)
 }
 
 enum ConferenceDataLoader {
@@ -236,7 +220,8 @@ enum ConferenceDataLoader {
     static func loadBestAvailable() throws -> ConferenceDataset {
         if let cacheURL = try? cacheURL(),
            let cachedData = try? Data(contentsOf: cacheURL),
-           let cached = try? decodeFeed(cachedData, origin: .cached) {
+           let snapshot = try? decoder.decode(ConferenceSnapshot.self, from: cachedData),
+           let cached = try? dataset(from: snapshot, origin: .cached) {
             return cached
         }
         return try loadBundled()
@@ -248,43 +233,23 @@ enum ConferenceDataLoader {
         }
         let root = resourceURL.appendingPathComponent("ConferenceData", isDirectory: true)
         let catalog: CatalogFile = try decodeFile(root.appendingPathComponent("catalog.json"))
-        guard catalog.schemaVersion == 1 else {
-            throw ConferenceDataError.invalidData("不支持的 catalog schema")
-        }
+        try validateCatalog(catalog)
 
-        var currentFiles: [CurrentConferenceFile] = []
-        var histories: [HistoricalConferenceFile] = []
-        for conferenceID in catalog.conferenceOrder {
+        let entries = try catalog.conferenceOrder.map { conferenceID -> ConferenceSnapshotEntry in
             let directory = root.appendingPathComponent(conferenceID, isDirectory: true)
-            let current: CurrentConferenceFile = try decodeFile(directory.appendingPathComponent("current.json"))
-            let history: HistoricalConferenceFile = try decodeFile(directory.appendingPathComponent("history.json"))
-            currentFiles.append(current)
-            histories.append(history)
+            return try ConferenceSnapshotEntry(
+                current: decodeFile(directory.appendingPathComponent("current.json")),
+                history: decodeFile(directory.appendingPathComponent("history.json"))
+            )
         }
-        return try makeDataset(
-            revision: "bundled",
-            origin: .bundled,
-            catalog: catalog,
-            currentFiles: currentFiles,
-            histories: histories
+        return try dataset(
+            from: ConferenceSnapshot(schemaVersion: 1, revision: "bundled", catalog: catalog, conferences: entries),
+            origin: .bundled
         )
     }
 
-    static func decodeFeed(_ data: Data, origin: ConferenceDataOrigin) throws -> ConferenceDataset {
-        let feed = try decoder.decode(ConferenceFeedFile.self, from: data)
-        guard feed.schemaVersion == 1 else {
-            throw ConferenceDataError.invalidData("不支持的远程 Feed schema")
-        }
-        return try makeDataset(
-            revision: feed.revision,
-            origin: origin,
-            catalog: feed.catalog,
-            currentFiles: feed.conferences.map(\.current),
-            histories: feed.conferences.map(\.history)
-        )
-    }
-
-    static func saveCache(_ data: Data) throws {
+    static func saveCache(_ snapshot: ConferenceSnapshot) throws {
+        let data = try JSONEncoder().encode(snapshot)
         let url = try cacheURL()
         try FileManager.default.createDirectory(
             at: url.deletingLastPathComponent(),
@@ -293,107 +258,110 @@ enum ConferenceDataLoader {
         try data.write(to: url, options: .atomic)
     }
 
-    private static func makeDataset(
-        revision: String,
-        origin: ConferenceDataOrigin,
-        catalog: CatalogFile,
-        currentFiles: [CurrentConferenceFile],
-        histories: [HistoricalConferenceFile]
-    ) throws -> ConferenceDataset {
+    private static func validateCatalog(_ catalog: CatalogFile) throws {
         guard catalog.schemaVersion == 1,
               !catalog.conferenceOrder.isEmpty,
-              Set(catalog.conferenceOrder).count == catalog.conferenceOrder.count else {
-            throw ConferenceDataError.invalidData("会议目录为空或含重复 ID")
+              catalog.conferenceOrder.count <= 100,
+              Set(catalog.conferenceOrder).count == catalog.conferenceOrder.count,
+              catalog.conferenceOrder.allSatisfy({
+                  $0.range(of: "^[a-z0-9]+(?:-[a-z0-9]+)*$", options: .regularExpression) != nil
+              }) else {
+            throw ConferenceDataError.invalidData("会议目录为空、过大或含无效/重复 ID")
         }
+    }
+
+    static func dataset(from snapshot: ConferenceSnapshot, origin: ConferenceDataOrigin) throws -> ConferenceDataset {
+        guard snapshot.schemaVersion == 1 else {
+            throw ConferenceDataError.invalidData("不支持的数据快照 schema")
+        }
+        let catalog = snapshot.catalog
+        try validateCatalog(catalog)
         var currentByID: [String: CurrentConferenceFile] = [:]
-        for current in currentFiles {
+        var historyByID: [String: HistoricalConferenceFile] = [:]
+        for entry in snapshot.conferences {
+            let current = entry.current
+            let history = entry.history
             guard currentByID.updateValue(current, forKey: current.id) == nil else {
                 throw ConferenceDataError.invalidData("current 中有重复会议：\(current.id)")
             }
-        }
-        var historyByID: [String: HistoricalConferenceFile] = [:]
-        for history in histories {
             guard historyByID.updateValue(history, forKey: history.id) == nil else {
                 throw ConferenceDataError.invalidData("history 中有重复会议：\(history.id)")
             }
         }
-        guard currentByID.count == catalog.conferenceOrder.count,
-              historyByID.count == catalog.conferenceOrder.count,
-              Set(currentByID.keys) == Set(catalog.conferenceOrder),
+        guard Set(currentByID.keys) == Set(catalog.conferenceOrder),
               Set(historyByID.keys) == Set(catalog.conferenceOrder) else {
             throw ConferenceDataError.invalidData("catalog、current 和 history 的会议集合不一致")
         }
 
-        var globalEventIDs = Set<String>()
-        let conferences = try catalog.conferenceOrder.map { conferenceID -> Conference in
-            guard let current = currentByID[conferenceID], current.schemaVersion == 1 else {
-                throw ConferenceDataError.invalidData("\(conferenceID) current.json 不可用")
-            }
-            guard TimeZone(identifier: current.timeZone) != nil else {
-                throw ConferenceDataError.invalidData("\(conferenceID) 时区无效")
-            }
-            guard URL(string: current.officialURL)?.scheme == "https" else {
-                throw ConferenceDataError.invalidData("\(conferenceID) 官网地址无效")
-            }
-
-            var localEventIDs = Set<String>()
-            let events = try current.events.map { source -> CountdownEvent in
-                guard source.id.hasPrefix("\(conferenceID)."),
-                      localEventIDs.insert(source.id).inserted,
-                      globalEventIDs.insert(source.id).inserted else {
-                    throw ConferenceDataError.invalidData("事件 ID 重复或不属于 \(conferenceID)：\(source.id)")
-                }
-                let date: Date?
-                if let value = source.at {
-                    guard let parsed = isoFormatter.date(from: value) else {
-                        throw ConferenceDataError.invalidData("\(source.id) 的 at 不是 ISO 8601 时间")
-                    }
-                    date = parsed
-                } else {
-                    guard source.historicalKey != nil, source.targetYear != nil else {
-                        throw ConferenceDataError.invalidData("\(source.id) 无日期且没有预测字段")
-                    }
-                    date = nil
-                }
-                return CountdownEvent(
-                    id: source.id,
-                    conferenceID: conferenceID,
-                    title: source.title,
-                    compactTitle: source.compactTitle,
-                    date: date,
-                    dateLabel: source.dateLabel,
-                    localDateLabel: source.detailLabel,
-                    symbol: source.symbol,
-                    historicalKey: source.historicalKey,
-                    targetYear: source.targetYear
-                )
-            }
-            guard localEventIDs.contains(current.defaultEventID) else {
-                throw ConferenceDataError.invalidData("\(conferenceID) 默认事件不存在")
-            }
-            return Conference(
-                id: current.id,
-                edition: current.edition,
-                name: current.name,
-                shortName: current.shortName,
-                subtitle: current.subtitle,
-                symbol: current.symbol,
-                officialURL: current.officialURL,
-                timeZoneID: current.timeZone,
-                defaultEventID: current.defaultEventID,
-                events: events
-            )
-        }
-
+        let conferences = try catalog.conferenceOrder.map { try makeConference(currentByID[$0]!) }
         let orderedHistories = catalog.conferenceOrder.compactMap { historyByID[$0] }
         guard orderedHistories.allSatisfy({ $0.schemaVersion == 1 && !$0.records.isEmpty }) else {
             throw ConferenceDataError.invalidData("历史数据为空或 schema 不受支持")
         }
         return ConferenceDataset(
-            revision: revision,
+            revision: snapshot.revision,
             origin: origin,
             conferences: conferences,
             histories: orderedHistories
+        )
+    }
+
+    private static func makeConference(_ current: CurrentConferenceFile) throws -> Conference {
+        let id = current.id
+        guard current.schemaVersion == 1 else {
+            throw ConferenceDataError.invalidData("\(id) current.json 不可用")
+        }
+        guard TimeZone(identifier: current.timeZone) != nil else {
+            throw ConferenceDataError.invalidData("\(id) 时区无效")
+        }
+        guard URL(string: current.officialURL)?.scheme == "https" else {
+            throw ConferenceDataError.invalidData("\(id) 官网地址无效")
+        }
+
+        var eventIDs = Set<String>()
+        let events = try current.events.map { source -> CountdownEvent in
+            guard source.id.hasPrefix("\(id)."), eventIDs.insert(source.id).inserted else {
+                throw ConferenceDataError.invalidData("事件 ID 重复或不属于 \(id)：\(source.id)")
+            }
+            let date: Date?
+            if let value = source.at {
+                guard let parsed = isoFormatter.date(from: value) else {
+                    throw ConferenceDataError.invalidData("\(source.id) 的 at 不是 ISO 8601 时间")
+                }
+                date = parsed
+            } else {
+                guard source.historicalKey != nil, source.targetYear != nil else {
+                    throw ConferenceDataError.invalidData("\(source.id) 无日期且没有预测字段")
+                }
+                date = nil
+            }
+            return CountdownEvent(
+                id: source.id,
+                conferenceID: id,
+                title: source.title,
+                compactTitle: source.compactTitle,
+                date: date,
+                dateLabel: source.dateLabel,
+                localDateLabel: source.detailLabel,
+                symbol: source.symbol,
+                historicalKey: source.historicalKey,
+                targetYear: source.targetYear
+            )
+        }
+        guard eventIDs.contains(current.defaultEventID) else {
+            throw ConferenceDataError.invalidData("\(id) 默认事件不存在")
+        }
+        return Conference(
+            id: id,
+            edition: current.edition,
+            name: current.name,
+            shortName: current.shortName,
+            subtitle: current.subtitle,
+            symbol: current.symbol,
+            officialURL: current.officialURL,
+            timeZoneID: current.timeZone,
+            defaultEventID: current.defaultEventID,
+            events: events
         )
     }
 
@@ -414,60 +382,5 @@ enum ConferenceDataLoader {
         return applicationSupport
             .appendingPathComponent("Conference Countdown", isDirectory: true)
             .appendingPathComponent("conference-data.json", isDirectory: false)
-    }
-}
-
-enum RemoteConferenceDataClient {
-    static func refresh(currentRevision: String) async throws -> RemoteConferenceDataResult {
-        guard let value = Bundle.main.object(forInfoDictionaryKey: "ConferenceDataManifestURL") as? String,
-              let manifestURL = URL(string: value) else {
-            throw ConferenceDataError.missingResource("ConferenceDataManifestURL")
-        }
-
-        let (manifestData, manifestResponse) = try await request(manifestURL)
-        guard manifestResponse.statusCode == 200 else {
-            throw ConferenceDataError.invalidServerResponse
-        }
-        let manifest = try JSONDecoder().decode(RemoteManifest.self, from: manifestData)
-        guard manifest.schemaVersion == 1 else {
-            throw ConferenceDataError.invalidData("不支持的远程 manifest schema")
-        }
-        if manifest.revision == currentRevision {
-            return .unchanged
-        }
-
-        guard let dataURL = URL(string: manifest.dataURL, relativeTo: manifestURL)?.absoluteURL else {
-            throw ConferenceDataError.invalidData("manifest 中的数据地址无效")
-        }
-        let (payload, payloadResponse) = try await request(dataURL)
-        guard payloadResponse.statusCode == 200,
-              payload.count == manifest.byteCount else {
-            throw ConferenceDataError.invalidServerResponse
-        }
-        let checksum = SHA256.hash(data: payload).map { String(format: "%02x", $0) }.joined()
-        guard checksum.caseInsensitiveCompare(manifest.sha256) == .orderedSame else {
-            throw ConferenceDataError.checksumMismatch
-        }
-        let dataset = try ConferenceDataLoader.decodeFeed(payload, origin: .remote)
-        guard dataset.revision == manifest.revision else {
-            throw ConferenceDataError.invalidData("manifest 与 Feed revision 不一致")
-        }
-        try ConferenceDataLoader.saveCache(payload)
-        return .updated(dataset)
-    }
-
-    private static func request(_ url: URL) async throws -> (Data, HTTPURLResponse) {
-        var request = URLRequest(
-            url: url,
-            cachePolicy: .reloadRevalidatingCacheData,
-            timeoutInterval: 20
-        )
-        request.setValue("ConferenceCountdown/2", forHTTPHeaderField: "User-Agent")
-        request.setValue("application/json", forHTTPHeaderField: "Accept")
-        let (data, response) = try await URLSession.shared.data(for: request)
-        guard let httpResponse = response as? HTTPURLResponse else {
-            throw ConferenceDataError.invalidServerResponse
-        }
-        return (data, httpResponse)
     }
 }

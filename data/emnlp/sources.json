@@ -1,12 +1,48 @@
 {
   "schema_version": 1,
   "id": "emnlp",
-  "watch": [
+  "sources": [
     {
       "id": "acl-announcement",
-      "kind": "html",
       "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
-      "optional": true
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true
+    },
+    {
+      "id": "history-2022",
+      "url": "https://2022.emnlp.org/calls/main_conference_papers/",
+      "kind": "html",
+      "edition": 2022,
+      "discover_links": false
+    },
+    {
+      "id": "history-2023",
+      "url": "https://2023.emnlp.org/",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false
+    },
+    {
+      "id": "history-2024",
+      "url": "https://2024.emnlp.org/calls/main_conference_papers/",
+      "kind": "html",
+      "edition": 2024,
+      "discover_links": false
+    },
+    {
+      "id": "history-2025",
+      "url": "https://2025.emnlp.org/calls/main_conference_papers/",
+      "kind": "html",
+      "edition": 2025,
+      "discover_links": false
+    },
+    {
+      "id": "history-2026",
+      "url": "https://2026.emnlp.org/calls/main_conference_papers/",
+      "kind": "html",
+      "edition": 2026,
+      "discover_links": false
     }
   ]
 }

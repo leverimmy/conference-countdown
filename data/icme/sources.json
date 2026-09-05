@@ -1,11 +1,48 @@
 {
   "schema_version": 1,
   "id": "icme",
-  "watch": [
+  "sources": [
     {
       "id": "ieee-event",
+      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
       "kind": "html",
-      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme"
+      "edition": 2027,
+      "discover_links": true
+    },
+    {
+      "id": "history-2022",
+      "url": "https://2022.ieeeicme.org/important-dates.html",
+      "kind": "html",
+      "edition": 2022,
+      "discover_links": false
+    },
+    {
+      "id": "history-2023",
+      "url": "https://www.2023.ieeeicme.org/events.icmsaust.com.au/ieeeicme2023/general-calls.html",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false
+    },
+    {
+      "id": "history-2024",
+      "url": "https://ieee-cas.org/event/conference/2024-ieee-international-conference-multimedia-and-expo",
+      "kind": "html",
+      "edition": 2024,
+      "discover_links": false
+    },
+    {
+      "id": "history-2025",
+      "url": "https://ieee-cas.org/files/ieeecass/2024-07/ICME-2025_Call-for-Papers.pdf",
+      "kind": "pdf",
+      "edition": 2025,
+      "discover_links": false
+    },
+    {
+      "id": "history-2026",
+      "url": "https://ieee-cas.org/files/ieeecass/2025-12/icme-2026-cfp.pdf",
+      "kind": "pdf",
+      "edition": 2026,
+      "discover_links": false
     }
   ]
 }

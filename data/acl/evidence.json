@@ -1,0 +1,620 @@
+{
+  "schema_version": 1,
+  "id": "acl",
+  "sources": {
+    "acl-portal": {
+      "extractor": "date-context-v1",
+      "config_sha256": "d02b745e9d686bc0a912913a6ae3f794675abb98aea988a79a03d2db1a6c4e26",
+      "url": "https://www.aclweb.org/portal/",
+      "final_url": "https://www.aclweb.org/portal/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:09:36Z",
+      "snippets": [
+        {
+          "section": "Statement from ACL and EACL 2026 Organizers",
+          "text": "Statement from ACL and EACL 2026 Organizers\nNovember 29, 2025 | BY webmaster\nOn Nov 27, OpenReview was notified of a software bug that allowed unauthorized access to authors, reviewers, and area chairs. We are grateful to the OpenReview team for fixing the issue quickly.\nRead more about Statement from ACL and EACL 2026 Organizers",
+          "sha256": "6f90c9d116e5891135342a26bde8ee37c5cf702b8d2970a9f12148abcdb59023"
+        }
+      ],
+      "links": [],
+      "sha256": "627809849f16cebeb3273ffe1c6552063f3d49b66a3877bb49e959ce7893aff0"
+    },
+    "conference-site": {
+      "extractor": "date-context-v1",
+      "config_sha256": "eaa100334f046c314128032b86b852eebb615c0cde9690f27832e560ff764d5f",
+      "url": "https://2027.aclweb.org/",
+      "final_url": "https://2027.aclweb.org/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:09:35Z",
+      "snippets": [
+        {
+          "section": "The 65th Annual Meeting of the Association for Computational Linguistics",
+          "text": "The 65th Annual Meeting of the Association for Computational Linguistics\nKyoto, Japan August 17–22, 2027\nPhoto by Max Iijima",
+          "sha256": "640e5e7a5153aaed44484aa4b56cefbe8845867637755f0abd17fe36dd41d0d5"
+        },
+        {
+          "section": "Welcome!",
+          "text": "Welcome!\nThe 65th Annual Meeting of the Association for Computational Linguistics (ACL 2027) will take place in Kyoto, Japan from August 17–22, 2027 .",
+          "sha256": "503c114675564ff2189f06605315a920a7ca480bae2414973c588904ec0a2883"
+        },
+        {
+          "section": "News",
+          "text": "News\nJuly 3, 2026 | The official ACL 2027 website is launched.",
+          "sha256": "6bbe131ccbfb4eaf8705befb122a07b672e1a0751c2a7375e8379778e44b1a75"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nARR submission deadline | TBA\nCommitment deadline for ACL 2027 | TBA\nNotification of acceptance | TBA\nCamera-ready deadline | TBA\nOverall conference | TBA\nAll deadlines are 11.59 pm UTC -12h (anywhere on earth).",
+          "sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+        }
+      ],
+      "links": [],
+      "sha256": "8e500164538ca9461554735af13c90a2b9d9586acbde6eb05020f4a7eb42c5e1"
+    },
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "99a072ff68937e2e3c53607b395ca8e9046593e1c0c82485567ada997c54fbb8",
+      "url": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html",
+      "final_url": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:09:42Z",
+      "snippets": [
+        {
+          "section": "FAQ for Paper Submission and Commitment and for Reviewers/Action Editors for ARR w.r.t. ACL 2022",
+          "text": "4) How can I commit my paper to ACL 2022?\nFor ACL 2022, we have a two-step submission process, where authors first submit their paper to the ACL Rolling Review (ARR), and then once the paper has received reviews and a meta-review, in a second step, the authors need to commit it to ACL 2022 via the ACL 2022 Commitment site . The deadline for committing a paper to ACL 2022 is January 15, 2022 11:59pm, UTC-12 (i.e., Anywhere On Earth timezone). We have prepared an ACL 2022 Authors’ Guide to OpenReview to support authors in this process.\nWhen committing to ACL 2022, you will need to provide a link to your paper in ARR that contains the latest version of the paper with the associated reviews, and meta-review. You will also need to select a track (including the special Theme track), as ACL 2022 has tracks, while ARR does not. Finally, you will be allowed to submit optional comments to the ACL 2022 Senior Area Chairs (SACs).",
+          "sha256": "8fcaf1bf21a5f93c8cf39b8f0e7c0462ce867284a95d00705e0009c6e693bfb4"
+        },
+        {
+          "section": "FAQ for Paper Submission and Commitment and for Reviewers/Action Editors for ARR w.r.t. ACL 2022",
+          "text": "9) What is the anonymity period for ACL 2022?\nACL 2022 has a commitment anonymity period for papers committed to ACL 2022: it starts one month before the commitment deadline (i.e., on December 16, 2021 as the commitment deadline is January 15, 2022), and it ends on the date of notification (February 23, 2022). Note that this ACL 2022 commitment anonymity period is separate from the submission anonymity period for ARR reviewing (yet, both are mentioned in the ARR CFP guidelines) : for ARR, the reviewing anonymity period starts one month before submission to ARR and ends either when the authors receive their reviews or when they withdraw their paper (see the ARR CFP). From the ARR CFP page: “A paper can only be (re)submitted to ARR if no deanonymized preprint has been posted in the month prior to submission. Also, a paper can only be submitted to a venue if no deanonymized preprint has been posted in the month prior to submission. Submissions will be rejected if not properly anonymized.” Be careful that the anonymity periods for ARR reviewing and for ACL 2022 commitment can overlap (again from the ARR CFP page): “So, if you submit to the June deadline and get reviews in July, then on July 21st your paper is no longer under review. If you then post a deanonymized preprint on July 22nd, you can’t resubmit to ARR or to a conference in the August round but you can in September.” From an ACL 2022 perspective, you need to comply (i) with the ARR reviewing anonymity, and (ii) with the ACL 2022 commitment anonymity. Both of these are as per the ARR policy.\n10) Can I submit/commit my paper to another ARR conference/workshop in parallel to ACL 2022?\nAs per the ARR Multiple Submission Policy , ACL 2022 will not consider any paper that is under review in a journal or another conference at the time of commitment, and committed papers must not be submitted/committed elsewhere during the ACL 2022 commitment period. This policy covers all refereed and archival conferences and workshops (e.g., IJCAI, SIGIR, NAACL, etc.), including all events registered in the ACL Rolling Review: at any given time, a paper could be committed to no more than one ARR event . We have made sure that the notification date for ACL 2022 (February 23, 2022) allows for a subsequent commitment to ACL 2022 workshops (which all have a submission/commitment deadline on February 28, 2022 ), and also to NAACL 2022 ( whose commitment deadline is March 2, 2022 ). Moreover, we will not consider any paper that overlaps significantly in content or results with papers that will be (or have been) published elsewhere. Authors committing more than one paper to ACL 2022 must ensure that their submissions do not overlap significantly (>25%) with each other in content or results.\n11) I submitted my paper for the November 15 ARR deadline; will I get my reviews and a meta-review in time to commit my paper to ACL 2022?\nThe ARR reviewing for November is ongoing, and the authors will receive their reviews by January 10, 2022 , which would be in time for the commitment deadline for ACL 2022 , which we have now pushed to January 15, 2022 . Here is the ACL 2022 timeline :\n● Last deadline for submission to the ACL Rolling Review: November 15, 2021;\n● Anonymity period for ACL 2022 starts: December 16, 2021;",
+          "sha256": "26979e75f6220302bad7e49f029e6435a01912b472ed25c8ece92feea323167b"
+        },
+        {
+          "section": "FAQ for Paper Submission and Commitment and for Reviewers/Action Editors for ARR w.r.t. ACL 2022",
+          "text": "● Commitment deadline for ACL 2022: January 15, 2022;\n● Notification of acceptance: February 23, 2022;\n● Deadline to withdraw papers: February 26, 2022;\n● Camera-ready due: March 15, 2022.\nFAQ About Paper Submission\n1) If I submit my paper to the ACL Rolling Review by November 15, 2021, is there a guarantee that my paper will be considered for ACL 2022 (i.e., will I get reviews and meta-reviews in time, so that I would be able to commit my paper to ACL 2022 by the January 15, 2022 deadline)?\nYes. The ACL 2022 Program Co-chairs are working very hard to guarantee that all submissions sent by the November 15, 2021 deadline in ARR would be guaranteed to have reviews and meta-reviews, and thus could be considered for ACL 2022 if the authors decide to commit to ACL 2022. See our ACL 2022 Program Co-Chairs Blog Post 2 , which gives more detail on what we are doing to help ARR scale up for the expected huge number of submissions in November, 2021.\n2) Do ALL authors of a paper need to have a complete OpenReview profile?",
+          "sha256": "d378f402abac172f040fbf3d1b86bebd7e054537007b53b28ecb61ce21967de2"
+        },
+        {
+          "section": "FAQ for Paper Submission and Commitment and for Reviewers/Action Editors for ARR w.r.t. ACL 2022",
+          "text": "Yes. The setup of OpeReview for ARR is such that you cannot submit your paper unless ALL co-authors of your paper have an OpenReview profile. Similarly to how all authors had to have an up-to-date Global Profile in START for EMNLP 2021, all authors of a paper submitted to ARR (and thus potentially eligible for ACL 2022) need to have an OpenReview account and a complete profile. This will be mandatory for the November 15 submissions, so plan ahead!\n3) How do I create an OpenReviewProfile?",
+          "sha256": "e914a85794ab35c8340f695e8e618a428fcf3692c2195412c0f4e95bc75169e4"
+        },
+        {
+          "section": "FAQ for Paper Submission and Commitment and for Reviewers/Action Editors for ARR w.r.t. ACL 2022",
+          "text": "9) I am not available to review year-round for ARR, but I would be happy to review for the November submissions or at other specific times. Can I do that?\nYes . If you were invited to be a reviewer for ARR and you would like to review for the November 15, 2021 cycle please accept by November 11, 2021 , and then fill in your OpenReview profile (see FAQ 3 above); then, you can fill in the ARR Unavailability form (e.g., if you are unavailable for some periods of time during the year, you can fill that in and you will not be asked to serve for the submission cycles where your duties overlap with those dates). Similarly, if you would like to volunteer, you should fill in the ARR Reviewer Interest Survey by November 11, 2021 and if invited, you should accept right away and fill in your OpenReview profile as discussed above.\nOTHER FAQ",
+          "sha256": "3cd77ac236ee128411b4301dbae63e3f14de1815046057e0769cf01b93c91074"
+        },
+        {
+          "section": "Recent Posts",
+          "text": "Post not marked as liked\nACL 2022 PC Chairs Blog Post 2: Preparations for November 15, 2021 Submissions\nPlease note that there have been changes to the important dates, and in particular the commitment deadline for ACL 2022 has been moved from January 7, 2022 to January 15, 2022 (23:59, UTC-12). As part\n5,263",
+          "sha256": "ad8c7f61ca7cd44a400d0f6f17cf1c2aa176fd5cd5f91a6f25d956a516f68cc0"
+        }
+      ],
+      "links": [],
+      "sha256": "6a9931f1aedab32cf4f5eb5407289e79b4d45b16e5fe482110f83931cda238ea"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "228978d143f5cb91a626930d9d09bc0b8b85f51a848eaa745ddae3971ce75d4a",
+      "url": "https://2023.aclweb.org/calls/main_conference/",
+      "final_url": "https://2023.aclweb.org/calls/main_conference/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:09:38Z",
+      "snippets": [
+        {
+          "section": "Main Conference",
+          "text": "Main Conference\nThe 2nd Call: December 20, 2022\nACL 2023 invites the submission of long and short papers featuring substantial, original, and unpublished research in all aspects of Computational Linguistics and Natural Language Processing. As in recent years, some of the presentations at the conference will be of papers accepted by the Transactions of the ACL (TACL) and by the Computational Linguistics (CL) journals.",
+          "sha256": "e6ee1c98c7535d42b5e88ec3b89951e030b404e8c74a1743a48199a7fc6f2766"
+        },
+        {
+          "section": "Important Dates",
+          "text": "All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).\nSubmission template available | November 1, 2022\nAnonymity period for ARR papers | November 15, 2022\nSubmission deadline for papers submitted to ARR | December 15, 2022\nAnonymity period for papers submitted through Softconf START | December 20, 2022\nAbstract deadline for Softconf START direct submissions | January 13, 2023\nDirect paper submission deadline | January 20, 2023\nAnonymity period for ARR papers to be committed to ACL 2023 | Februrary 17, 2023",
+          "sha256": "70fcff0af0d66cf81d53fadc609ec0cc4d73f7bbec21f4f69bc3fadbf95da0cf"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Commitment deadline for ARR papers | March 17, 2023\nAuthor response period | March 17-24, 2023\nDiscussion period | March 25-April 7, 2023\nNotification of acceptance | May 1, 2023\nWithdrawal deadline | May 8, 2023\nCamera-ready papers due | May 25, 2023\nTutorials | July 9, 2023\nConference | July 10-12, 2023",
+          "sha256": "e9789ab9e26f67aee210840b2d75af85a6ece3e991824c8d6ca13a505b2f8898"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Workshops | July 13-14, 2023",
+          "sha256": "f71099cadc37144e913c695ba60c80c92a27df689bccda3956694f4c04d20133"
+        },
+        {
+          "section": "Mandatory abstract submission",
+          "text": "Mandatory abstract submission\nThe paper title, author names, contact details, and a brief abstract must be submitted electronically through the ACL 2023 paper submission site by the abstract submission deadline (January 13). It will be possible to make minor edits to the title and abstract until the full paper submission deadline, but you cannot change authors and subject areas. Submissions with “placeholder” abstracts will be removed without consideration.\nImportant : if you miss the abstract submission deadline, then you cannot submit the full paper.",
+          "sha256": "e1461de1141413fbf4ee76c6d0ac060e1506fe60afb8871194f3d759ce7fef8b"
+        },
+        {
+          "section": "Paper Submission Process",
+          "text": "Following EMNLP 2022 and EACL 2023, ACL 2023 will continue to offer a hybrid submission format with respect to ACL Rolling Review (ARR): the submissions may come through ARR, but it will also be possible to submit directly to ACL through the Softconf START system. A given submission may only choose one of these two options, i.e. it is not possible to submit a paper to ACL directly while being under review at ARR and vice versa.\nThe papers submitted directly to ACL will have the “regular” review process: a paper is reviewed by 3 reviewers, and authors are invited to write an author response and revise their paper before the camera-ready deadline, if accepted. The deadline for submitting papers through the START system is January 13, 2023.\nPapers submitted to ACL 2023, but not selected for the main conference, will also automatically be considered for publication in the Findings of the Association of Computational Linguistics. The notifications for the main track and Findings will come out simultaneously, and the authors of submissions accepted to Findings may opt to withdraw until May 8.\nARR papers committed to ACL will be handled by the Senior Area Chairs. For these papers, the authors may provide an author response but not revise their paper (with the exception of adding the required “Limitations” section, if it is missing from the ARR submission; see below).\nTo be considered by ACL 2023, ARR papers need to be submitted to ARR and obtain all its reviews and meta-review by the commitment deadline of March 17. These papers cannot be modified except that they can be associated with an author response. They also cannot be revised and re-submitted to ARR for a new review cycle while they are considered by ACL 2023.\nNote: Generally, to receive reviews by the commitment deadline, the regular ARR timeline suggests that ARR suggestions should be made by December 15th. Note that the cycle length will change in December to 8 weeks.\nIf you have submitted a paper to ARR but do not want to use the review result of ARR, it must be inactive in the ARR system in order for the paper to be submitted directly to ACL. This means that the submission must either be explicitly withdrawn by the authors, or the ARR reviews are finished and shared with the authors before January 1st, 2023, and the paper was not re-submitted to ARR. Authors can withdraw a paper from ARR by January 1st, regardless of how many reviews they have received, and submit the paper directly to ACL 2023.\nPapers submitted to ACL 2023 may not be submitted for review elsewhere (including ARR) while being under review at ACL 2023. However, we allow an exception of the multiple submission policy for papers under review for EACL 2023 and ICLR 2023. See the Multiple Submission Policy below.",
+          "sha256": "cf76015ca8a3dcca4631b35aa2004023f98343070fdcc462a67a3538172eca0c"
+        },
+        {
+          "section": "Paper Submission Policies",
+          "text": "Anonymity Period\nThe direct submissions to ACL may not be made available online (e.g. via a preprint server) in a non-anonymized form after December 20 11:59PM UTC-12:00 (for arXiv, note that this refers to [removed] publication time , not [/removed] submission time). The respective deadline for ARR is November 15th. Non-anonymous preprints that were published before the start of the anonymity period may not be updated until ACL notifications come out. The only exception is for the purpose of correcting names, in which case the PC chairs should be notified per ACL policy . The existence of non-anonymous preprints must be disclosed in the submission form.\nACL does not prohibit giving talks about work under review in small groups, but we ask you not to advertise the preprint (or such talks) on social media, blog about this work, or have it covered in the media during the anonymity period. Anonymous preprints (e.g. on ARR) can be posted after the start of the anonymity period, but likewise should not be advertised by their authors or their close colleagues, as that can compromise the review process.",
+          "sha256": "4209ae623c188f10525b8bd45a56cf7742fc41fd61657a59602046f7f4b4016c"
+        },
+        {
+          "section": "Paper Submission Policies",
+          "text": "Multiple Submission Policy\nIn principle, papers submitted directly to ACL must not be under review for any other archival venue at any time during the ACL review process. We will not consider any paper that overlaps significantly in content or results with papers that will be (or have been) published elsewhere. However, considering the overlap of the paper submission due and the notification of acceptance of EACL 2023 and ICLR 2023, we allow an exception for the multiple submission policy; a work under review for EACL 2023 or ICLR 2023 can be submitted to ACL, but must be declared at submission time. If the work is accepted, it must be withdrawn from ACL no later than January 31 (when accepted to EACL 2023) and no later than January 22 (when accepted to ICLR 2023) . Papers submitted to ICLR 2023 and ACL 2023 must follow the anonymization policy of ACL 2023.\nOptional: Sticky Reviews",
+          "sha256": "e084041e6756b6c6760813b6463a21d0180bba94c8287d46c0463884ee574849"
+        }
+      ],
+      "links": [],
+      "sha256": "6c6003fe86e7d5333f1fcc39c7fb21ef60449f72201742cf43a5c7953d89f455"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "84349174de121ec84895739d130dc6a4465e1b412ce9aefa92d22efa9fb8566a",
+      "url": "https://2024.aclweb.org/calls/main_conference_papers/",
+      "final_url": "https://2024.aclweb.org/calls/main_conference_papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:09:40Z",
+      "snippets": [
+        {
+          "section": "ACL 2024",
+          "text": "ACL 2024\nWebsite: https://2024.aclweb.org/ Submission Deadline: 15 February 2024 (February ARR cycle) Conference Dates: August 11-16 2024 Location: Bangkok, Thailand Special Theme: “Open science, open data, and open models for reproducible NLP research” Contact:\nClaire Gardent (General Chair)",
+          "sha256": "83edd02be1e5f97027f7132d0383a81654d6deb954522f8af5c0323403990f00"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nAnonymity period: ACL changed its policy for review and citation on January 12, 2022 https://www.aclweb.org/adminwiki/index.php/ACL_Policies_for_Review_and_Citation . As a result, no anonymity period will be required for papers submitted for the Feb. 1, 2024 TACL deadline or the Feb. 15, 2024 ARR deadline https://aclrollingreview.org/dates . The submissions themselves must still be fully anonymized.\nPlease see https://www.aclweb.org/adminwiki/index.php/ACL_Anonymity_Policy for details.\nSubmission deadline (all papers are submitted to ARR) | February 15, 2024\nPapers submitted to ARR no later than February 15, 2024 will have reviews and meta-reviews by April 15, 2024, in time for the ACL 2024 commitment deadline (see below). At submission time to ARR, authors will be asked to select one preferred venue to calculate the acceptance rate. However, selecting ACL 2024 as a preferred venue does not require authors to commit to ACL 2024.\nARR reviews & meta-reviews available to authors of February cycle | April 15, 2024\nCommitment deadline for ACL 2024 | April 20, 2024\nDeadline for authors to commit their reviewed papers, reviews, and meta-review to ACL 2024. It is not necessary to have selected ACL as a preferred venue during submission.",
+          "sha256": "66a7af09baf6f446289c6adc6aa2380607701c83c6c7d806caaeee5e192deeb8"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Notification of acceptance | May 15, 2024\nWithdrawal deadline | June 5, 2024\nCamera-ready papers due | June 5, 2024\nTutorials | August 11, 2024\nConference | August 12-14, 2024\nWorkshops | August 15-16, 2024\nAll deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).",
+          "sha256": "6d9c409a5ec07bd8400ee21f3f1a0f7c905a535a3bd0e16064d74317f99ddaa6"
+        }
+      ],
+      "links": [],
+      "sha256": "2e96c63616fa589385ada88629dd852225e696872321309ff0981ea79e53b2f7"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "9aa336f1ff419546b67e2329aba773bf6e95729c09b541966386b4932ff39782",
+      "url": "https://2025.aclweb.org/calls/main_conference_papers/",
+      "final_url": "https://2025.aclweb.org/calls/main_conference_papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:09:42Z",
+      "snippets": [
+        {
+          "section": "ACL 2025",
+          "text": "Website: https://2025.aclweb.org/\nSubmission Deadline : February 15, 2025\nConference Dates : July 27 to August 1, 2025\nLocation : Vienna, Austria",
+          "sha256": "1c882f6c6e846e4df698d6203e36dc700c72892b0caff0b6c80ce43aecf66276"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nSubmission deadline (all papers are submitted to ARR) : February 15, 2025\nARR reviews & meta-reviews available to authors of the February cycle : April 15, 2025\nCommitment deadline for ACL 2025 : April 20, 2025\nNotification of acceptance : May 15, 2025\nWithdrawal deadline : May 30, 2025\nCamera-ready papers due : May 30, 2025\nTutorials : July 27, 2025",
+          "sha256": "31169869d4dae9eaf630eba84e7edd44f941efde03fa6a9007eccdaf921b10cf"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Main Conference : July 28-30, 2025\nWorkshops : July 31-August 1, 2025\nNote: All deadlines are at 11:59PM UTC-12:00 (“anywhere on Earth”).",
+          "sha256": "b16056d6cb49f0ccd9510a787e73c85fe9d93e85aa6150ac7ee0bddcd04210e3"
+        }
+      ],
+      "links": [],
+      "sha256": "067dff11a12f4d52fc2ef2313e1c6012bbb67803b0ba724058525d6defa3b205"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "11b650ace8171d4b334ef7dfc5b0e4f3b4bd42893fdb59194e207738a05c01dd",
+      "url": "https://2026.aclweb.org/",
+      "final_url": "https://2026.aclweb.org/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:09:44Z",
+      "snippets": [
+        {
+          "section": "The 64th Annual Meeting of the Association for Computational Linguistics",
+          "text": "The 64th Annual Meeting of the Association for Computational Linguistics\nSan Diego, California, United States July 2–7, 2026\nPhoto by Frank Mckenna",
+          "sha256": "2b5000ba5571c033b993d582876527096351146b8f2286b14adbbe7af513d6b2"
+        },
+        {
+          "section": "Welcome!",
+          "text": "Welcome!\nThe 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026) will take place in San Diego, California , from July 2 - 7, 2026 .",
+          "sha256": "fe6d670f2bc6cafdd0e9e4a769718c182df16a5cb94d548824a52a4fb6b2db63"
+        },
+        {
+          "section": "News",
+          "text": "News",
+          "sha256": "69752f2313b2f0173a64afafc8fd7c6342a4a03ebaf47f7fe56792c146082232"
+        },
+        {
+          "section": "News",
+          "text": "April 11, 2026 | Call for volunteers is out.\nApril 9, 2026 | The list of ACL workshops is out.\nJanuary 12, 2026 | System Demonstration call for papers is out.\nDecember 28, 2025 | Student Research Workshop call for papers is out.\nDecember 22, 2025 | Industry track call for papers is out.\nOctober 8, 2025 | Call for papers is out.\nMay 23, 2025 | The official ACL 2026 website is launched.",
+          "sha256": "2c665c89a96fc1510871d09d09239a4d381ce4a672dc3deb1982816dd084c0ea"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nSubmission deadline (all papers are submitted to ARR) | January 5, 2026\nARR reviews & meta-reviews available to authors of January cycle | March 10, 2026\nCommitment deadline for ACL 2026 | March 14, 2026\nNotification of acceptance | April 4, 2026\nWithdrawal deadline | April 19, 2026\nCamera-ready deadline | April 19, 2026\nOverall Conference | July 2 - 7, 2026",
+          "sha256": "1b84dd0fc98e8273fcb59abb594b605e9704b5ec8ee8c70085630ab75fe97cbf"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Tutorials | July 2, 2026\nWorkshops | July 3 - 4, 2026\nWelcome Reception | July 4, 2026\nMain Conference | July 5 - 7, 2026\nAll deadlines are 11.59 pm UTC -12h (anywhere on earth).",
+          "sha256": "326e90555ec953710cb88f66e7d47ef7c3be7532a71229f05960d064d8e9d512"
+        }
+      ],
+      "links": [],
+      "sha256": "4ba8b1761cbc5ac903b18c1938490921deacb6ff19fa0fba4e2a9ca993da8472"
+    }
+  },
+  "claims": {
+    "current/acl.arr": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/acl.review": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/acl.rebuttal": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/acl.commitment": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/acl.decision": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/acl.conference": {
+      "value": "2027-08-17T00:00:00+09:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "503c114675564ff2189f06605315a920a7ca480bae2414973c588904ec0a2883"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2021-11-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "26979e75f6220302bad7e49f029e6435a01912b472ed25c8ece92feea323167b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/commitment_deadline": {
+      "value": "2022-01-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "8fcaf1bf21a5f93c8cf39b8f0e7c0462ce867284a95d00705e0009c6e693bfb4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/review_release": {
+      "value": "2022-01-10",
+      "status": "unverified",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "26979e75f6220302bad7e49f029e6435a01912b472ed25c8ece92feea323167b"
+        }
+      ],
+      "note": "该页说会在这一日期之前取得 reviews/meta-reviews；这是上界，不能证明评审恰好在当天公布。"
+    },
+    "history/2022/final_decision": {
+      "value": "2022-02-23",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "26979e75f6220302bad7e49f029e6435a01912b472ed25c8ece92feea323167b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-05-22",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-05-27",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2022-12-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "70fcff0af0d66cf81d53fadc609ec0cc4d73f7bbec21f4f69bc3fadbf95da0cf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/commitment_deadline": {
+      "value": "2023-03-17",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e9789ab9e26f67aee210840b2d75af85a6ece3e991824c8d6ca13a505b2f8898"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/review_release": {
+      "value": "2023-03-17",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e9789ab9e26f67aee210840b2d75af85a6ece3e991824c8d6ca13a505b2f8898"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2023/rebuttal_deadline": {
+      "value": "2023-03-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e9789ab9e26f67aee210840b2d75af85a6ece3e991824c8d6ca13a505b2f8898"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/final_decision": {
+      "value": "2023-05-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e9789ab9e26f67aee210840b2d75af85a6ece3e991824c8d6ca13a505b2f8898"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-07-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e9789ab9e26f67aee210840b2d75af85a6ece3e991824c8d6ca13a505b2f8898"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-07-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "f71099cadc37144e913c695ba60c80c92a27df689bccda3956694f4c04d20133"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2024-02-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "83edd02be1e5f97027f7132d0383a81654d6deb954522f8af5c0323403990f00"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/commitment_deadline": {
+      "value": "2024-04-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "66a7af09baf6f446289c6adc6aa2380607701c83c6c7d806caaeee5e192deeb8"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/review_release": {
+      "value": "2024-04-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "66a7af09baf6f446289c6adc6aa2380607701c83c6c7d806caaeee5e192deeb8"
+        }
+      ],
+      "note": "日期表直接列出 February cycle 的 ARR reviews & meta-reviews available to authors 为 2024-04-15；并非只依赖正文的 by April 15 表述。"
+    },
+    "history/2024/final_decision": {
+      "value": "2024-05-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "6d9c409a5ec07bd8400ee21f3f1a0f7c905a535a3bd0e16064d74317f99ddaa6"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-08-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "83edd02be1e5f97027f7132d0383a81654d6deb954522f8af5c0323403990f00"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-08-16",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "83edd02be1e5f97027f7132d0383a81654d6deb954522f8af5c0323403990f00"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2025-02-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "1c882f6c6e846e4df698d6203e36dc700c72892b0caff0b6c80ce43aecf66276"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/commitment_deadline": {
+      "value": "2025-04-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "31169869d4dae9eaf630eba84e7edd44f941efde03fa6a9007eccdaf921b10cf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2025-03-27",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2025-04-03",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-05-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "31169869d4dae9eaf630eba84e7edd44f941efde03fa6a9007eccdaf921b10cf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-07-27",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "1c882f6c6e846e4df698d6203e36dc700c72892b0caff0b6c80ce43aecf66276"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-08-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "1c882f6c6e846e4df698d6203e36dc700c72892b0caff0b6c80ce43aecf66276"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2026-01-05",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "1b84dd0fc98e8273fcb59abb594b605e9704b5ec8ee8c70085630ab75fe97cbf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/commitment_deadline": {
+      "value": "2026-03-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "1b84dd0fc98e8273fcb59abb594b605e9704b5ec8ee8c70085630ab75fe97cbf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/review_release": {
+      "value": "2026-03-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "1b84dd0fc98e8273fcb59abb594b605e9704b5ec8ee8c70085630ab75fe97cbf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-04-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "1b84dd0fc98e8273fcb59abb594b605e9704b5ec8ee8c70085630ab75fe97cbf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-07-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "fe6d670f2bc6cafdd0e9e4a769718c182df16a5cb94d548824a52a4fb6b2db63"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-07-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "fe6d670f2bc6cafdd0e9e4a769718c182df16a5cb94d548824a52a4fb6b2db63"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    }
+  }
+}

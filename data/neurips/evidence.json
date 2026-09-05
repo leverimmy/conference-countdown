@@ -1,0 +1,799 @@
+{
+  "schema_version": 1,
+  "id": "neurips",
+  "sources": {
+    "future-meetings": {
+      "extractor": "date-context-v1",
+      "config_sha256": "951570de0e921ebb3cf54a9dbd14faea741af1a6b2393554a25f1658e0c8ea12",
+      "url": "https://neurips.cc/Conferences/FutureMeetings",
+      "final_url": "https://neurips.cc/Conferences/FutureMeetings",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:30Z",
+      "snippets": [
+        {
+          "section": "Future Meetings",
+          "text": "Future Meetings\n2026 -- Sydney Austraila Dec 6th - 12th + 2 Satellite Meetings (satellite information coming soon)\n2027 -- Europe\n2028 -- Western United States\nBEWARE of Predatory NeurIPS conferences. All current and future NeurIPS conference information will be only be provided through this website and OpenReview.net.",
+          "sha256": "463948a6c6840144c7c5d7bae809eaa106ef9a5ee71a46928e28d2c3e4d1965a"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+          "title": "Call for Papers"
+        },
+        {
+          "url": "https://neurips.cc/Conferences/2026/CallForPositionPapers",
+          "title": "Call for Position Papers"
+        },
+        {
+          "url": "https://neurips.cc/Conferences/2026/Dates",
+          "title": "Dates"
+        },
+        {
+          "url": "https://neurips.cc/public/JournalToConference",
+          "title": "Call for Journal Papers"
+        }
+      ],
+      "sha256": "75b515f5ef6c3c42554f71be4c12d5c0efeca82ab6def35f87ef041aa00311e3"
+    },
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "67e3718ecced384726fc66965d4b68e2a5082647200c86aec3e48091f6f99dd9",
+      "url": "https://neurips.cc/Conferences/2022/Dates",
+      "final_url": "https://neurips.cc/Conferences/2022/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:33Z",
+      "snippets": [
+        {
+          "section": "NeurIPS 2022 Meeting Dates",
+          "text": "NeurIPS 2022 Meeting Dates\nExpo | Mon Nov 28th\nVirtual Pass | Mon Nov 28th through Sat Dec 3rd\nTutorials\nMon Dec 5th\nAffinity Workshops | Mon Nov 28th\nAffinity Poster Session | Mon Dec 5th\nConference Sessions | Tue Nov 29th through Thu Dec 1st",
+          "sha256": "f7abc2faa29cbbd532d9b1c37fec3a8e7e6cf85cdbeb8d3590287d60d21c8058"
+        },
+        {
+          "section": "NeurIPS 2022 Meeting Dates",
+          "text": "Workshops | Fri Dec 2nd through Sat the 3rd\nYour timezone is:",
+          "sha256": "22c984e7e0f760a4cbbcdaaaa8b9601d5720206e889f75fc9b3447526af2785d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Main Conference Paper Submission\nAbstract Submission Deadline | May 16 '22 08:00 PM UTC\nPaper Submission Deadline | May 19 '22 08:00 PM UTC\nSupplementary Material Submission Deadline | May 26 '22 08:00 PM UTC\nAuthor Rebuttal Begins | Jul 26 '22 04:00 PM UTC\nAuthor Rebuttal Ends | Aug 02 '22 08:00 PM UTC\nAuthor- Reviewer Discussion Begins | Aug 02 '22 08:01 PM UTC\nAuthor- Reviewer Discussion Ends | Aug 09 '22 08:00 PM UTC",
+          "sha256": "44b67bfb4d4d3dd672acf35ec7fe305d2cc9ad8327f02d5c20faa352e170b46a"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Reviewer- Metareviewer Discussion Begins | Aug 09 '22 08:01 PM UTC\nReviewer- Metareviewer Discussion Ends | Aug 19 '22 08:00 PM UTC\nJournal Confirmation | Sep 08 '22 11:59 AM UTC\nAuthor Notification | Sep 14 '22 08:00 PM UTC\nCamera Ready Deadline | Oct 12 '22 08:00 PM UTC\nSlidesLive Paper Video Upload Deadline | Oct 22 '22 (Anywhere on Earth)\nAttendee\nEarly Registration Deadline | Oct 14 '22 (Anywhere on Earth)",
+          "sha256": "46cfe5a23296d5d16817ddb0177e50ca16936a3306c0a6e333ba12112654b7bf"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Child Care Registration Deadline | Nov 04 '22 (Anywhere on Earth)\nLast Chance for Registration Refund | Nov 08 '22 07:00 AM UTC\nCompetitions\nCompetition Submission Deadline | Apr 20 '22 11:59 AM UTC\nCompetition Acceptance Notifications | Apr 27 '22 11:59 AM UTC\nDatasets and Benchmarks\nSlidesLive Paper Video Upload Deadline | Oct 22 '22 (Anywhere on Earth)\nDatasets and Benchmarks Abstract Deadline | Jun 01 '23 08:00 PM UTC",
+          "sha256": "4fa19350cb69a62d7136efc124f457875331134c57cc9abb6c9beb7fc20d2d4d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Datasets and Benchmarks Submission Deadline | Jun 07 '23 08:00 PM UTC\nDatasets and Benchmarks Supplementary Material Deadline | Jun 14 '23 08:00 PM UTC\nDatasets and Benchmarks Author Notifications | Sep 21 '23 08:00 PM UTC\nSponsor/Expo\nExpo Calls Deadline | Oct 08 '22 (Anywhere on Earth)\nSponsors\nSponsor Payment Deadline | Oct 27 '22 (Anywhere on Earth)\nTutorials",
+          "sha256": "8e177e05eb1f6fabba204a2ed05b187f212c181d14d2b0321c39a4f6fcbac176"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Tutorial Proposal Submission Deadline | Jun 08 '22 (Anywhere on Earth)\nTutorial Notifications | Aug 24 '22 07:00 AM UTC\nVolunteers\nVolunteer and Travel Applications Open | Jul 04 '22 04:00 PM UTC\nVolunteer Application Deadline | Oct 04 '22 01:00 AM UTC\nFinancial Assistance and Scholar Application Deadline | Oct 04 '22 01:00 AM UTC\nVolunteer Application Notification | Oct 12 '22 (Anywhere on Earth)\nVolunteer Available Dates Due | Oct 22 '22 (Anywhere on Earth)",
+          "sha256": "9425f6ecf981a3d4625660ae417af5fa6b85b22e5769d7c72205d520b5ee182c"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshops\nAffinity Workshop Application Deadline | May 27 '22 (Anywhere on Earth)\nAffinity Workshop Notifications | May 30 '22 (Anywhere on Earth)\nWorkshop Application Deadline | Jun 06 '22 (Anywhere on Earth)\nWorkshop Notifications | Jul 05 '22 (Anywhere on Earth)\nSuggested Submission Date for Workshop Contributions | Sep 22 '22 (Anywhere on Earth)\nWorkshop Mandatory Accept/ Reject Notification Date | Oct 20 '22 (Anywhere on Earth)\nMandatory Slides Live Upload Deadline | Nov 10 '22 (Anywhere on Earth)",
+          "sha256": "8966e6c671ae0f23bc08785035bb7293188a6de685cd47d7b5b7dfa5cccabe44"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Virtual Workshops Start and End Times Final (does not apply to physical) | Nov 15 '22 08:00 PM UTC\nSuccessful Page Load",
+          "sha256": "4e4a9df2ee35fdbd9879ce098db585c5b464e78757cf5a160a85fb1b4b85d066"
+        }
+      ],
+      "links": [],
+      "sha256": "e8c7debb29561d9ca8c92bb1ccd556ac0cf9273be5636c7ef6dc92ce5c5e56a9"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "8dd45dff441f386a13dfb9662ddc4dd0b6c2af6ba20e349be07b3f7a1bb4ae77",
+      "url": "https://neurips.cc/Conferences/2023/Dates",
+      "final_url": "https://neurips.cc/Conferences/2023/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:35Z",
+      "snippets": [
+        {
+          "section": "NeurIPS 2023 Meeting Dates",
+          "text": "NeurIPS 2023 Meeting Dates\nExpo | Sun Dec 10th\nVirtual Pass | Sun Dec 11th through Sat the 16th\nTutorials\nMon Dec 11th\nAffinity Workshops | Mon Dec 11th\nConference Sessions | Tue Dec 12th through Thu Dec 14th\nWorkshops | Fri Dec 15th through Sat the 16th",
+          "sha256": "46a85ea82507a0d342eea4ea6c8e8744ebc232a4b0be144edde0fe746ea7b40d"
+        },
+        {
+          "section": "NeurIPS 2023 Meeting Dates",
+          "text": "Your timezone is:",
+          "sha256": "6dbb2dc1ce561d4ea29a8e18bc23d915e5bb6d09e3a384f252a2e3a29c091f5d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Main Conference Paper Submission\nAbstract Submission Deadline | May 11 '23 08:00 PM UTC\nPaper Submission Deadline | May 17 '23 08:00 PM UTC\nSupplementary Material Submission Deadline | May 24 '23 08:00 PM UTC\nAuthor Rebuttal Begins | Aug 02 '23 08:00 PM UTC\nAuthor Rebuttal Ends | Aug 10 '23 05:00 AM UTC\nAuthor Notification | Sep 22 '23 01:00 AM UTC\nPoster Topics Deadline | Oct 16 '23 (Anywhere on Earth)",
+          "sha256": "4abbea3c82847883b17ec738828767f8a1c2786db83b0979dffb5cc45d768ef9"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Camera Ready Deadline | Oct 27 '23 (Anywhere on Earth)\nPoster Printing Service Deadline | Nov 09 '23 (Anywhere on Earth)\nSlidesLive Main Conference Paper Video Upload Deadline | Nov 13 '23 (Anywhere on Earth)\nAffinity Workshops\nAffinity Workshop Application Deadline | Jun 10 '23 (Anywhere on Earth)\nAffinity Workshop Notifications | Jun 19 '23 (Anywhere on Earth)\nPoster Printing Service Deadline | Nov 09 '23 (Anywhere on Earth)\nWorkshops Start and End Times Final | Nov 21 '23 02:00 AM UTC",
+          "sha256": "bb39bda7388cb3c8e656c9195ff506ba40d19d946161f1f8359c77fde41d4ceb"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "SlidesLive Workshop Paper Video Upload Deadline | Nov 20 '23 (Anywhere on Earth)\nSpecify Streaming Engineer Volunteers | Nov 27 '23 08:00 PM UTC\nAttendee\nRegistration Open | Apr 11 '23 10:10 PM UTC\nEarly Registration Deadline | Oct 21 '23 (Anywhere on Earth)\nLast Chance for Registration Refund | Nov 14 '23 (Anywhere on Earth)\nVisa Assistance Deadline | Nov 26 '23 (Anywhere on Earth)\nPress Application Deadline | Dec 01 '23 05:59 AM UTC",
+          "sha256": "83f80046a149654eddabc7393abf096e42610329c9ee4c4aef2ba147487539c4"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Tutorials | Dec 11 '23 03:00 PM UTC\nRegistration Close | Dec 17 '23 12:00 PM UTC\nCompetitions\nCompetition - Submission Deadline | Apr 27 '23 (Anywhere on Earth)\nCompetition - Acceptance Notifications | May 24 '23 08:00 PM UTC\nWorkshops Start and End Times Final | Nov 21 '23 02:00 AM UTC\nSpecify Streaming Engineer Volunteers | Nov 27 '23 08:00 PM UTC\nDatasets and Benchmarks",
+          "sha256": "4ee7667723cd19d4ebc8048bbb88f9c36357f1270baf73cd0a9e85766d33c0b4"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Datasets and Benchmarks - Abstract Submission Deadline | Jun 01 '23 08:00 PM UTC\nDatasets and Benchmarks - Full Paper Submission and Co-author Registration | Jun 07 '23 10:01 PM UTC\nDatasets and Benchmarks - Supplementary materials submission deadline | Jun 14 '23 08:00 PM UTC\nDatasets and Benchmarks - End of the reviewing process | Jul 21 '23 08:00 PM UTC\nDatasets and Benchmarks - Start of Author discussions | Aug 03 '23 08:00 PM UTC\nDatasets and Benchmarks - End of author/reviewer discussions | Aug 31 '23 12:00 PM UTC\nDatasets and Benchmarks - Author Notification | Sep 22 '23 04:00 AM UTC\nPoster Topics Deadline | Oct 16 '23 (Anywhere on Earth)",
+          "sha256": "da0a98dc423425bede1fb84b290448f001714c8b8f36c9f02e564af8bb4f44ac"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Datasets and Benchmarks - Camera ready | Oct 27 '23 (Anywhere on Earth)\nPoster Printing Service Deadline | Nov 09 '23 (Anywhere on Earth)\nSlidesLive Main Conference Paper Video Upload Deadline | Nov 13 '23 (Anywhere on Earth)\nSocials\nSocial Application Deadline | Sep 05 '23 (Anywhere on Earth)\nSocial Acceptance Notifications | Sep 18 '23 (Anywhere on Earth)\nSponsor/Expo\nSponsor Portal Applications open | Apr 04 '23 06:46 PM UTC",
+          "sha256": "da9824c9302d9e804464ede234b0b071447b7a9e36e17ae364c9e8ab239cf7bf"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Expo Call For Talks And Panels Deadline | Nov 02 '23 11:00 PM UTC\nExpo Call For Talks And Panels Notification | Nov 03 '23 11:00 PM UTC\nTutorials\nTutorial Submission Deadline | Jun 21 '23 (Anywhere on Earth)\nTutorial Notifications | Aug 02 '23 (Anywhere on Earth)\nSlidesLive Main Conference Paper Video Upload Deadline | Nov 13 '23 (Anywhere on Earth)\nTutorials | Dec 11 '23 03:00 PM UTC\nVolunteers",
+          "sha256": "230e6e39307a305739afc85a924ea0fc62340e18ae608dc854a4d7c7e63a9404"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Volunteer Application Open | Sep 26 '23 01:00 PM UTC\nFinancial Assistance Application Open | Sep 26 '23 01:00 PM UTC\nVolunteer Application Deadline | Oct 07 '23 01:00 AM UTC\nFinancial Assistance Application Deadline | Oct 07 '23 01:00 AM UTC\nFinancial Assistance and Volunteer Application Notification | Oct 23 '23 11:00 PM UTC\nVolunteer Available Dates Due | Oct 31 '23 11:00 AM UTC\nVolunteer Shift Selection Available | Nov 06 '23 05:00 PM UTC\nWorkshops",
+          "sha256": "09ad334cfb2d8664c7b160700ae7d70ce4dd2dd6eee6814ae77523c271108450"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshop Application Open | Apr 21 '23 (Anywhere on Earth)\nWorkshop Proposal Deadline | May 31 '23 (Anywhere on Earth)\nWorkshop Notifications | Jul 05 '23 (Anywhere on Earth)\nSuggested Submission Date for Workshop Contributions | Sep 29 '23 (Anywhere on Earth)\nWorkshop Accept/Reject Notification Date | Oct 27 '23 (Anywhere on Earth)\nPoster Printing Service Deadline | Nov 09 '23 (Anywhere on Earth)\nWorkshops Start and End Times Final | Nov 21 '23 02:00 AM UTC\nSlidesLive Workshop Paper Video Upload Deadline | Nov 20 '23 (Anywhere on Earth)",
+          "sha256": "c6e8e4a45ff64dd13b1ce72a9317c9ef2894fb66bee3318eeaa9192783d5d7a3"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Specify Streaming Engineer Volunteers | Nov 27 '23 08:00 PM UTC\nSuccessful Page Load",
+          "sha256": "1d50aae81ef61d74abc166117e1016f780533e8690d992140896ed64dc3753ff"
+        }
+      ],
+      "links": [],
+      "sha256": "5debcc409e0e3ad6b1ce902c9444af3648c0711e2966781d86d03f451227ae57"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "3379818e9a93166a0ddf8f495a390fded814c8105a3b54ea47786a7ad1e24306",
+      "url": "https://neurips.cc/Conferences/2024/Dates",
+      "final_url": "https://neurips.cc/Conferences/2024/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:37Z",
+      "snippets": [
+        {
+          "section": "NeurIPS 2024 Meeting Dates",
+          "text": "NeurIPS 2024 Meeting Dates\nExpo | Tue Dec 10th\nVirtual Pass | Tue Dec 10th through Sun the 15th\nTutorials | Tue Dec 10th\nAffinity Workshops | Tue Dec 10th through Thur the 12th\nConference Sessions | Wed Dec 11th through Fri Dec 13th\nWorkshops | Sat Dec 14th through Sun the 15th\nYour timezone is:",
+          "sha256": "8cb22788aa7f3be1a448ed196db1b6208c2132f73b8cad7945a8423580f9ca8e"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Main Conference Paper Submission\nMain Conference Submission Site Opens | Apr 23 '24 01:00 AM UTC\nAbstractSubmissionDeadline | May 15 '24 08:00 PM UTC\nMain Conference Full Paper Submission Deadline | May 22 '24 08:00 PM UTC\nMain Conference Paper Submission Deadline | May 22 '24 08:00 PM UTC\nAuthor Rebuttal Begins | Jul 30 '24 (Anywhere on Earth)\nAuthor Rebuttal Ends | Aug 06 '24 (Anywhere on Earth)\nMain Conference Author Notification | Sep 26 '24 01:00 AM UTC",
+          "sha256": "e996b65aebaaec098db5da4e7cc26a493241169d78191e9a0892b151a63bc8a9"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Camera-ready | Oct 30 '24 (Anywhere on Earth)\nMain Conference Video Pre-record Deadline | Nov 12 '24 (Anywhere on Earth)\nPoster Topics Deadline | Nov 15 '24 (Anywhere on Earth)\nAffinity Events\nAffinity Event Application Deadline | Jun 07 '24 (Anywhere on Earth)\nAffinity Event Notifications | Jun 14 '24 (Anywhere on Earth)\nAttendee\nRegistration Open | Mar 27 '24 01:00 PM UTC",
+          "sha256": "0541fcb17d54eb99012645f28c15b83efa51df2cafa0127ecd09b3f39a023bcf"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Careers Site Opens | Sep 01 '24 01:00 PM UTC\nFinancial Assistance and Volunteer Applications open | Sep 01 '24 01:00 PM UTC\nFinancial Assistance and Volunteer Applications closed | Oct 01 '24 (Anywhere on Earth)\nFinancial Assistance and Volunteer Notification | Oct 11 '24 (Anywhere on Earth)\nEarly Registration Deadline | Oct 20 '24 (Anywhere on Earth)\nVisa Application Deadline to Qualify for Extended Cancelation Deadline | Oct 23 '24 (Anywhere on Earth)\nDeadline to set your Dietary Preference | Nov 01 '24 (Anywhere on Earth)\nLast Chance for Registration Refund | Nov 16 '24 07:00 AM UTC",
+          "sha256": "dac234b8d3f388c78e4ca1fc6caf915ffbb1c72d48effedb097323ba4cd53c9b"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Competitions\nCompetition Proposal Submission Deadline | Apr 05 '24 (Anywhere on Earth)\nCompetition Proposal Submission Notification | May 11 '24 01:00 AM UTC\nCompetitions Should Be Wrapping Up | Nov 01 '24 01:00 AM UTC\nCreative AI\nCreative AI Submission Deadline | Aug 16 '24 (Anywhere on Earth)\nCreativeAI Submission Decision | Oct 21 '24 07:00 PM UTC\nCreative AI Camera Ready Deadline | Oct 30 '24 (Anywhere on Earth)",
+          "sha256": "3e9e54426c944c3d4cdcb46d2a38ecadcc6c56248cccceed8d1e7cec1d3f9baa"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Datasets and Benchmarks\nDatasets and Benchmarks Submission Site Opens | Apr 16 '24 12:00 AM UTC\nDatasets and Benchmarks - Abstract Submission Deadline | May 29 '24 (Anywhere on Earth)\nDatasets and Benchmarks - Full Paper Submission and Co-author Registration | Jun 05 '24 (Anywhere on Earth)\nDatasets and Benchmarks - Supplementary materials submission deadline | Jun 12 '24 (Anywhere on Earth)\nDatasets and Benchmarks - End of the reviewing process | Jul 24 '24 (Anywhere on Earth)\nDatasets and Benchmarks - Start of Author discussions | Aug 07 '24 (Anywhere on Earth)\nDatasets and Benchmarks - Rebuttal deadline | Aug 16 '24 (Anywhere on Earth)",
+          "sha256": "a4169039e847a53ac2c7152fe884c83509736431022186ef410d3326267c05b4"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Datasets and Benchmarks - End of author/reviewer discussions | Aug 31 '24 (Anywhere on Earth)\nDatasets and Benchmarks - Author Notification | Sep 26 '24 (Anywhere on Earth)\nDatasets and Benchmarks - Camera ready | Oct 30 '24 (Anywhere on Earth)\nPoster Topics Deadline | Nov 15 '24 (Anywhere on Earth)\nHighSchool Project\nHigh School Project Application Deadline | Jun 27 '24 08:00 PM UTC\nHigh School Project Application Notification | Sep 25 '24 07:00 PM UTC\nSocials",
+          "sha256": "873a32a3575d120fc250c0d04c48abaff9d6659b8d2ea476e14815bcc6f55805"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Social Application Deadline | Sep 05 '24 (Anywhere on Earth)\nSocial Acceptance Notification Round1 | Sep 17 '24 (Anywhere on Earth)\nSocial Acceptance Notification Round2 | Oct 18 '24 (Anywhere on Earth)\nSponsor/Expo\nSponsor Portal Applications open | Mar 15 '24 06:46 PM UTC\nExpo Call Application Deadline | Oct 11 '24 11:00 PM UTC\nExpo Call Application Notification | Oct 18 '24 11:00 PM UTC\nSponsors",
+          "sha256": "84b3fcb82daf3969ddb5460f03fac844f50a544005dd2c73c086c9546a6b0126"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Careers Site Opens | Sep 01 '24 01:00 PM UTC\nCareers Site Posting Deadline | Dec 13 '24 08:00 PM UTC\nTutorials\nTutorial Submission Deadline | Jun 14 '24 (Anywhere on Earth)\nTutorial Decision Notification | Aug 10 '24 01:00 AM UTC\nWorkshops\nWorkshop Application Open | Apr 21 '24 (Anywhere on Earth)\nWorkshop Proposal Deadline | Jun 07 '24 (Anywhere on Earth)",
+          "sha256": "1033757ae4d6638df6b139b3a2c56ddbacbdc4b8e86135025263bc0cb73e175e"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshop Workshop Notifications | Jul 11 '24 (Anywhere on Earth)\nSuggested Submission Date for Workshop Contributions | Aug 29 '24 (Anywhere on Earth)\nWorkshop Accept/Reject Notification Date | Oct 09 '24 (Anywhere on Earth)\nWorkshop Import Accepted Papers Recommendation | Nov 03 '24 (Anywhere on Earth)\nWorkshop Finalize Schedule | Nov 19 '24 (Anywhere on Earth)\nWorkshop Video Pre-record Deadline | Nov 19 '24 (Anywhere on Earth)\nWorkshops Assign Comps | Nov 25 '24 (Anywhere on Earth)\nSuccessful Page Load",
+          "sha256": "656f0f5d2b4981f5de185013022c229c1fa39dee2a69b257ac0098a736fd11fe"
+        }
+      ],
+      "links": [],
+      "sha256": "0cea67e84dba62ba855cc69d48daf7a7c55d101beee98206b9ffdfb34b444ae2"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "94c8214a0503aba0b94b282acfb47cb70432e1e94725c1101d5ad389cc3a14be",
+      "url": "https://neurips.cc/Conferences/2025/Dates",
+      "final_url": "https://neurips.cc/Conferences/2025/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:40Z",
+      "snippets": [
+        {
+          "section": "NeurIPS 2025 Meeting Dates",
+          "text": "NeurIPS 2025 Meeting Dates\nExpo Talks | Tue Dec 2nd\nVirtual Pass | Tue Dec 2nd through Sun the 7th\nTutorials | Tue Dec 2nd\nAffinity Workshops | Tue Dec 2nd through Wed the 4th\nConference Sessions | Wed Dec 3rd through Fri Dec 5th\nWorkshops | Sat Dec 6th through Sun the 7th\nYour timezone is:",
+          "sha256": "4b899f748dad59632598d593e71e1de2ba15d7aaaa9c24006d35c66587888f7d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Main Conference Paper Submission\nPaper Submissions Open | Apr 03 '25 (Anywhere on Earth)\nPaper Abstract Submission Deadline | May 11 '25 (Anywhere on Earth)\nFull Paper Submission Deadline | May 15 '25 (Anywhere on Earth)\nPaper Supplemental Material Submission Deadline | May 22 '25 (Anywhere on Earth)\nReviewing Begins | May 29 '25 (Anywhere on Earth)\nReviewing Ends | Jul 02 '25 (Anywhere on Earth)\nAuthor Rebuttal Begins | Jul 24 '25 (Anywhere on Earth)",
+          "sha256": "2f9d35656375fc56cc3289f22bfee9d41424fa2690198dea7ab2616a8e1b7775"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Author Rebuttal Ends | Jul 30 '25 (Anywhere on Earth)\nReviewer Author Discussions Begins | Jul 31 '25 (Anywhere on Earth)\nReviewer Author Discussions Ends | Aug 06 '25 (Anywhere on Earth)\nPaper Author Notifications | Sep 18 '25 (Anywhere on Earth)\nChoose San Diego or Mexico City | Oct 03 '25 (Anywhere on Earth)\nPaper Camera Ready Deadline | Oct 23 '25 (Anywhere on Earth)\nPoster Topics Deadline | Nov 09 '25 (Anywhere on Earth)\nAffinity Events",
+          "sha256": "bc958515ac2baa5ac92139c0d806076043172f69673cded0e08100e2ab06418b"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Affinity Event Application Deadline | Jun 14 '25 (Anywhere on Earth)\nAttendee\nFinancial Assistance and Volunteer Applications open | Sep 01 '25 01:00 PM UTC\nFinancial Assistance Applications closed | Oct 02 '25 (Anywhere on Earth)\nFinancial Assistance Notification | Oct 10 '25 (Anywhere on Earth)\nVolunteer Application Notification | Oct 11 '25 (Anywhere on Earth)\nEarly Registration Deadline | Oct 11 '25 (Anywhere on Earth)\nLast Chance for Registration Refund | Nov 06 '25 (Anywhere on Earth)",
+          "sha256": "0244f30b8fb57b81c819a379f7cb8ebda6c945ce7fd2452c0f157f1e33024ba0"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Dietary Preference Selection Deadline | Nov 14 '25 (Anywhere on Earth)\nRegistration Open | Dec 05 '25 02:00 PM UTC\nCareers Site Closes | Feb 20 '26 02:00 AM UTC\nCompetitions\nCompetition Proposal Submission Deadline | Apr 20 '25 (Anywhere on Earth)\nCompetition Proposal Submission Notification | May 18 '25 (Anywhere on Earth)\nCreative AI\nCreative AI Submission Deadline | Aug 09 '25 (Anywhere on Earth)",
+          "sha256": "4fe779d861c2450c05fedb33ae40dd862661b3622d36036c28c00c6add7df8ef"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "CreativeAI Submission Decision | Sep 18 '25 (Anywhere on Earth)\nCreative AI Camera Ready Deadline | Oct 29 '25 (Anywhere on Earth)\nDatasets and Benchmarks\nDatasets and Benchmarks - Abstract Submission Deadline | May 11 '25 (Anywhere on Earth)\nDatasets and Benchmarks - Full Paper Submission and Co-author Registration | May 15 '25 (Anywhere on Earth)\nDatasets and Benchmarks - Supplementary materials submission deadline | May 22 '25 (Anywhere on Earth)\nReviewing Begins | May 29 '25 (Anywhere on Earth)\nReviewing Ends | Jul 02 '25 (Anywhere on Earth)",
+          "sha256": "be1d08c1f9cd835ec1af284af6ed9c9afc00348dbc937b44947c1234ebe47337"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Author Rebuttal Begins | Jul 24 '25 (Anywhere on Earth)\nAuthor Rebuttal Ends | Jul 30 '25 (Anywhere on Earth)\nReviewer Author Discussions Begins | Jul 31 '25 (Anywhere on Earth)\nReviewer Author Discussions Ends | Aug 06 '25 (Anywhere on Earth)\nPaper Author Notifications | Sep 18 '25 (Anywhere on Earth)\nChoose San Diego or Mexico City | Oct 03 '25 (Anywhere on Earth)\nPaper Camera Ready Deadline | Oct 23 '25 (Anywhere on Earth)\nPoster Topics Deadline | Nov 09 '25 (Anywhere on Earth)",
+          "sha256": "5dfb0503b1e705ed7a0d0c39b76bf45cb8e0a3f26fcbb42b2b45e2bb4186da25"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Socials\nSocial Application Deadline | Sep 05 '25 (Anywhere on Earth)\nSocial Acceptance Notification | Oct 01 '25 (Anywhere on Earth)\nSponsor/Expo\nExpo Calls Open | Aug 01 '25 01:00 PM UTC\nExpo Calls Deadline | Oct 12 '25 (Anywhere on Earth)\nSponsors\nCareers Site Posting Deadline | Dec 04 '25 08:00 PM UTC",
+          "sha256": "fce2093bdf32574af89a97c7f31e6694411094c522da47ab4cf5f7cec1a9cb61"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "The deadline to accept applications to apply | Dec 04 '25 08:00 PM UTC\nCareers Site Closes | Feb 20 '26 02:00 AM UTC\nTutorials\nTutorial Submission Deadline | Jul 05 '25 (Anywhere on Earth)\nTutorial Decision Notification | Aug 08 '25 (Anywhere on Earth)\nVolunteers\nVolunteer Application Deadline | Oct 01 '25 (Anywhere on Earth)\nWorkshops",
+          "sha256": "7d64f4329fbbc55949bec37be1c8bd23d19282bfaddfeaa33e6363e8d41a4e2a"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshop Application Open | Apr 14 '25 (Anywhere on Earth)\nWorkshop Application Deadline | May 30 '25 (Anywhere on Earth)\nWorkshop Acceptance Notifications | Jul 04 '25 (Anywhere on Earth)\nSuggested Submission Date for Workshop Contributions | Aug 22 '25 (Anywhere on Earth)\nWorkshop Mandatory Accept Reject Notification Date | Sep 22 '25 07:00 PM UTC\nWorkshop Mandatory Accept/Reject Notification Date | Sep 22 '25 (Anywhere on Earth)\nWorkshop Import Accepted Papers Deadline | Oct 29 '25 07:00 PM UTC\nWorkshop Slides Live Video Upload Deadline | Nov 05 '25 08:00 PM UTC",
+          "sha256": "c7dbdbdc6070bd058c3004bdfb3ec4d9be905259537738a1797a6d72ec92e5fd"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshops Start And End Time Freeze Deadline | Nov 21 '25 08:00 PM UTC\nWorkshops Assign Complimentary Registration Deadline | Dec 01 '25 08:00 PM UTC\nWorkshops Schedule Finalized Deadline | Dec 01 '25 08:00 PM UTC\nEducation Materials\nCall For Education Materials Submission Deadline | Sep 02 '25 (Anywhere on Earth)\nCall For Education Materials Submission Notification | Sep 26 '25 (Anywhere on Earth)\nPosition Papers\nPosition Paper Submission Deadline: | May 22 '25 (Anywhere on Earth)",
+          "sha256": "620791b85c4eae140449b9bbcad9f9f20a3e5af75e5f48906a1fafc29d88ce6d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Discussion and Meta-review Starts | Aug 08 '25 (Anywhere on Earth)\nDeadline For Meta Reviews | Sep 11 '25 (Anywhere on Earth)\nPosition Paper Author Notification | Sep 25 '25 (Anywhere on Earth)\nPoster Topics Deadline | Nov 09 '25 (Anywhere on Earth)\nSuccessful Page Load",
+          "sha256": "4e815d1a12442ac2c1e0f1092b07f596c19321fe294be23b288dc5ba5956f132"
+        }
+      ],
+      "links": [],
+      "sha256": "f9de030b5b9be74f042ca875d0e1b370d57d7e9ac890841aa8e868ffc9e7ebd1"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "fd4a75b59f01bc6c329d0ee61a9e5f6909ca735ad65309fc0d8cc9d98543e7ec",
+      "url": "https://neurips.cc/Conferences/2026/Dates",
+      "final_url": "https://neurips.cc/Conferences/2026/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:41Z",
+      "snippets": [
+        {
+          "section": "NeurIPS 2026 Meeting Dates",
+          "text": "NeurIPS Sydney\nDec 6th | Expo Day\nDec 7th | Tutorial Day\nDec 7th – 10th | Exhibit Hall Open\nDec 8th – 10th | Main Conference\nDec 11th & 12th | Workshops & Competitions\nNeurIPS Atlanta\nDec 9th | Main Conference + Tutorials",
+          "sha256": "15389b1f97d587051b8725ed58cb07c934759061d5867cc7f83c34da258e8fb1"
+        },
+        {
+          "section": "NeurIPS 2026 Meeting Dates",
+          "text": "Dec 9th – 12th | Exhibit Hall Open\nDec 10th & 11th | Main Conference\nDec 12th & 13th | Workshops\nNeurIPS Paris\nDec 9th - 11th | Main Conference + Tutorials\nDec 9th – 11th | Exhibit Hall Open\nDec 12th & 13th | Workshops\nYour timezone is:",
+          "sha256": "8c895df22531497de724763baa364e358320e025de7cc994c164c67ae36a86f9"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Main Conference Paper Submission\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)\nFull Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nReviews Released to Authors | Jul 22 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Ends | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Starts | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Ends | Aug 10 '26 (Anywhere on Earth)",
+          "sha256": "af46f48807f8a8783dff0272ee28b6c6da4af5ca0d8de40cfa5dabd3127febbc"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Paper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nAffinity Events\nAffinity Event Submission Deadline | Jun 28 '26 (Anywhere on Earth)\nAttendee\nRegistration Open | Sep 03 '26 01:00 PM UTC\nEarly Registration Deadline | Oct 30 '26 (Anywhere on Earth)\nLast Chance for Registration Refund | Nov 04 '26 (Anywhere on Earth)\nChild Care Registration Deadline (Sydney & Atlanta) | Nov 07 '26 01:00 AM UTC",
+          "sha256": "b5be6f73e19c34f8dfa0d53ca7036c3817dda03089b5b845f1a680ff53fccf42"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Competitions\nCompetition Submission Deadline | May 15 '26 (Anywhere on Earth)\nCompetition Acceptance Notification | Jun 15 '26 (Anywhere on Earth)\nEvaluations and Datasets\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)\nFull Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nReviews Released to Authors | Jul 22 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)",
+          "sha256": "7c6ea6b5ee9e40367293f5d191cc2cf99aa06b92fbe0c34fae191b122b66887c"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Author + Reviewer + AC Discussion Period Ends | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Starts | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Ends | Aug 10 '26 (Anywhere on Earth)\nPaper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nSocials\nSocial Application Deadline | Sep 05 '26 (Anywhere on Earth)\nSocial Acceptance Notification | Oct 10 '26 (Anywhere on Earth)\nSponsor/Expo",
+          "sha256": "59b8ef8e24d2f3c8931aafba90d40f74742571fa4fc1e691b3dd4c15c00d8b47"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Expo Calls Open | Aug 10 '26 01:00 PM UTC\nCareer Site Opens | Sep 01 '26 (Anywhere on Earth)\nCall for Educational Resources Deadline | Sep 04 '26 (Anywhere on Earth)\nExpo Calls Deadline | Oct 07 '26 (Anywhere on Earth)\nExpo Calls Notification | Oct 14 '26 (Anywhere on Earth)\nSponsor Insurance Certificate Deadline | Nov 01 '26 (Anywhere on Earth)\nSponsorApplicationClose | Nov 03 '26 (Anywhere on Earth)\nSponsor Payment Deadline | Nov 07 '26 (Anywhere on Earth)",
+          "sha256": "00d675a3d5d211c910bbd3378009c43c1eaf5f31c9b45c102f4d037a6f2dfb37"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Career Site Accepting Applications Until | Dec 08 '26 (Anywhere on Earth)\nCareer Site Closes | Jan 12 '27 (Anywhere on Earth)\nTutorials\nTutorial Submission Deadline | Jul 04 '26 (Anywhere on Earth)\nTutorial Decision Notification | Aug 07 '26 (Anywhere on Earth)\nWorkshops\nWorkshop Application Open | Apr 20 '26 (Anywhere on Earth)\nWorkshop Application Deadline | Jun 06 '26 (Anywhere on Earth)",
+          "sha256": "4bb4feafc5c311d2eb8e4f22ae68874a9f6284179554a03e99323408dc943623"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshop Acceptance Notifications | Jul 11 '26 (Anywhere on Earth)\nSuggested Submission Date for Workshop Contributions | Aug 29 '26 (Anywhere on Earth)\nWorkshop Mandatory Accept/Reject Notification Date | Sep 29 '26 (Anywhere on Earth)\nEducation Resources\nCall for Educational Resources Deadline | Sep 04 '26 (Anywhere on Earth)\nCall for Educational Resources Notification | Sep 28 '26 (Anywhere on Earth)\nPosition Papers\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)",
+          "sha256": "2264472600c3e695630fc5e715aa6aa405d2760bc4b49578d1274dedd632041d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Full Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)\nPaper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nSuccessful Page Load",
+          "sha256": "ea7c8bc0fda2cee348575fa0fbb6e24e58cf74a645d1d4b4f1221ebfb22b0411"
+        }
+      ],
+      "links": [],
+      "sha256": "7437c19f0ea9332827a4d5fb0b43af7e72e3912f57df2fd7ef6b95bc2ce9c044"
+    },
+    "openreview": {
+      "extractor": "date-context-v1",
+      "config_sha256": "50da530f5f48a8380c33778e0975cbf3246df8a0ad584548c86c2faac0f4b486",
+      "url": "https://api2.openreview.net/groups?id=NeurIPS.cc/2027/Conference",
+      "final_url": "https://api2.openreview.net/groups?id=NeurIPS.cc/2027/Conference",
+      "status": 404,
+      "retrieved_at": "2026-09-05T04:10:32Z",
+      "snippets": [],
+      "links": [],
+      "sha256": "5d724765095a49f12eb8a6966d71d6f07f029e9049064eeb97525acc813a602f"
+    }
+  },
+  "claims": {
+    "current/neurips.abstract": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/neurips.paper": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/neurips.review": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/neurips.rebuttal": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/neurips.decision": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/neurips.conference": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "history/2022/abstract_deadline": {
+      "value": "2022-05-16",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "44b67bfb4d4d3dd672acf35ec7fe305d2cc9ad8327f02d5c20faa352e170b46a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2022-05-19",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "44b67bfb4d4d3dd672acf35ec7fe305d2cc9ad8327f02d5c20faa352e170b46a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/review_release": {
+      "value": "2022-07-26",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "44b67bfb4d4d3dd672acf35ec7fe305d2cc9ad8327f02d5c20faa352e170b46a"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2022/rebuttal_deadline": {
+      "value": "2022-08-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "44b67bfb4d4d3dd672acf35ec7fe305d2cc9ad8327f02d5c20faa352e170b46a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/final_decision": {
+      "value": "2022-09-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "46cfe5a23296d5d16817ddb0177e50ca16936a3306c0a6e333ba12112654b7bf"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-11-28",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "f7abc2faa29cbbd532d9b1c37fec3a8e7e6cf85cdbeb8d3590287d60d21c8058"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-12-03",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "22c984e7e0f760a4cbbcdaaaa8b9601d5720206e889f75fc9b3447526af2785d"
+        }
+      ],
+      "note": "对应当届研讨会结束日，会期包含 Expo、主会与研讨会。"
+    },
+    "history/2023/abstract_deadline": {
+      "value": "2023-05-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "4abbea3c82847883b17ec738828767f8a1c2786db83b0979dffb5cc45d768ef9"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2023-05-17",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "4abbea3c82847883b17ec738828767f8a1c2786db83b0979dffb5cc45d768ef9"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/review_release": {
+      "value": "2023-08-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "4abbea3c82847883b17ec738828767f8a1c2786db83b0979dffb5cc45d768ef9"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2023/rebuttal_deadline": {
+      "value": "2023-08-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "4abbea3c82847883b17ec738828767f8a1c2786db83b0979dffb5cc45d768ef9"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/final_decision": {
+      "value": "2023-09-22",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "4abbea3c82847883b17ec738828767f8a1c2786db83b0979dffb5cc45d768ef9"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-12-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "46a85ea82507a0d342eea4ea6c8e8744ebc232a4b0be144edde0fe746ea7b40d"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-12-16",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "46a85ea82507a0d342eea4ea6c8e8744ebc232a4b0be144edde0fe746ea7b40d"
+        }
+      ],
+      "note": "对应当届研讨会结束日，会期包含 Expo、主会与研讨会。"
+    },
+    "history/2024/abstract_deadline": {
+      "value": "2024-05-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "e996b65aebaaec098db5da4e7cc26a493241169d78191e9a0892b151a63bc8a9"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2024-05-22",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "e996b65aebaaec098db5da4e7cc26a493241169d78191e9a0892b151a63bc8a9"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/review_release": {
+      "value": "2024-07-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "e996b65aebaaec098db5da4e7cc26a493241169d78191e9a0892b151a63bc8a9"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2024/rebuttal_deadline": {
+      "value": "2024-08-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "e996b65aebaaec098db5da4e7cc26a493241169d78191e9a0892b151a63bc8a9"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/final_decision": {
+      "value": "2024-09-26",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "e996b65aebaaec098db5da4e7cc26a493241169d78191e9a0892b151a63bc8a9"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-12-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "8cb22788aa7f3be1a448ed196db1b6208c2132f73b8cad7945a8423580f9ca8e"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-12-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "8cb22788aa7f3be1a448ed196db1b6208c2132f73b8cad7945a8423580f9ca8e"
+        }
+      ],
+      "note": "对应当届研讨会结束日，会期包含 Expo、主会与研讨会。"
+    },
+    "history/2025/abstract_deadline": {
+      "value": "2025-05-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "2f9d35656375fc56cc3289f22bfee9d41424fa2690198dea7ab2616a8e1b7775"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2025-05-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "2f9d35656375fc56cc3289f22bfee9d41424fa2690198dea7ab2616a8e1b7775"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2025-07-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "2f9d35656375fc56cc3289f22bfee9d41424fa2690198dea7ab2616a8e1b7775"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2025-07-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "bc958515ac2baa5ac92139c0d806076043172f69673cded0e08100e2ab06418b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-09-18",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "bc958515ac2baa5ac92139c0d806076043172f69673cded0e08100e2ab06418b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-12-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "4b899f748dad59632598d593e71e1de2ba15d7aaaa9c24006d35c66587888f7d"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-12-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "4b899f748dad59632598d593e71e1de2ba15d7aaaa9c24006d35c66587888f7d"
+        }
+      ],
+      "note": "对应当届研讨会结束日，会期包含 Expo、主会与研讨会。"
+    },
+    "history/2026/abstract_deadline": {
+      "value": "2026-05-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "af46f48807f8a8783dff0272ee28b6c6da4af5ca0d8de40cfa5dabd3127febbc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2026-05-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "af46f48807f8a8783dff0272ee28b6c6da4af5ca0d8de40cfa5dabd3127febbc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/review_release": {
+      "value": "2026-07-22",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "af46f48807f8a8783dff0272ee28b6c6da4af5ca0d8de40cfa5dabd3127febbc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/rebuttal_deadline": {
+      "value": "2026-08-03",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "af46f48807f8a8783dff0272ee28b6c6da4af5ca0d8de40cfa5dabd3127febbc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-09-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "b5be6f73e19c34f8dfa0d53ca7036c3817dda03089b5b845f1a680ff53fccf42"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-12-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "15389b1f97d587051b8725ed58cb07c934759061d5867cc7f83c34da258e8fb1"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-12-12",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "15389b1f97d587051b8725ed58cb07c934759061d5867cc7f83c34da258e8fb1"
+        }
+      ],
+      "note": "按 Sydney 主会场记录；Atlanta/Paris 卫星会场延续到 12 月 13 日，不能混用。"
+    }
+  }
+}

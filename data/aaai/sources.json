@@ -1,13 +1,57 @@
 {
   "schema_version": 1,
   "id": "aaai",
-  "watch": [
-    { "id": "conference-site", "kind": "html", "url": "https://aaai.org/conference/aaai/aaai-27/" },
+  "sources": [
+    {
+      "id": "conference-site",
+      "url": "https://aaai.org/conference/aaai/aaai-27/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true
+    },
     {
       "id": "openreview",
-      "kind": "openreview",
       "url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
-      "optional": true
+      "kind": "json",
+      "edition": 2027,
+      "discover_links": false,
+      "allow_missing": true,
+      "allow_empty": true
+    },
+    {
+      "id": "history-2022",
+      "url": "https://aaai.org/conference/aaai/aaai-22/",
+      "kind": "html",
+      "edition": 2022,
+      "discover_links": false
+    },
+    {
+      "id": "history-2023",
+      "url": "https://aaai.org/conference/aaai/aaai-23/",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false
+    },
+    {
+      "id": "history-2024",
+      "url": "https://aaai.org/conference/aaai/aaai-24/",
+      "kind": "html",
+      "edition": 2024,
+      "discover_links": false
+    },
+    {
+      "id": "history-2025",
+      "url": "https://aaai.org/conference/aaai/aaai-25/",
+      "kind": "html",
+      "edition": 2025,
+      "discover_links": false
+    },
+    {
+      "id": "history-2026",
+      "url": "https://aaai.org/conference/aaai/aaai-26/",
+      "kind": "html",
+      "edition": 2026,
+      "discover_links": false
     }
   ]
 }

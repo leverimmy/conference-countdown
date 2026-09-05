@@ -1,0 +1,610 @@
+{
+  "schema_version": 1,
+  "id": "aaai",
+  "sources": {
+    "conference-site": {
+      "extractor": "date-context-v1",
+      "config_sha256": "c224d3c588f438c8351eee751dc2b3739297c69d67c0ce358e90ed8e4593a6c3",
+      "url": "https://aaai.org/conference/aaai/aaai-27/",
+      "final_url": "https://aaai.org/conference/aaai/aaai-27/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:29Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "Home / Conferences / AAAI Conference on Artificial Intelligence /\nMarch 4, 2026",
+          "sha256": "1bf19fed7358a7e42725db2d869478c72bdf39a50e82a1c960ac472ac1eda9d7"
+        },
+        {
+          "section": "The 41st Annual AAAI Conference on Artificial Intelligence",
+          "text": "The 41st Annual AAAI Conference on Artificial Intelligence\nFebruary 16 – February 23, 2027 | Montréal, Canada\nAAAI-27",
+          "sha256": "23f556e6203c8afb5b30866ba8ae7bebf411ea89a4f38e9aa9f29c762774674e"
+        },
+        {
+          "section": "Main Conference Timetable for Authors",
+          "text": "Note: all deadlines are “anywhere on earth” (UTC-12)\nJune 17, 2026 OpenReview submission site opens for author registration\nJune 30, 2026 OpenReview submission site opens for paper submission\nJuly 21, 2026 Abstracts due at 11:59 PM UTC-12\nJuly 28, 2026 Full papers due at 11:59 PM UTC-12\nJuly 31, 2026 Supplementary material and code due by 11:59 PM UTC-12\nSeptember 24, 2026 Notification of Phase 1 rejections\nOctober 19-25, 2026 Author feedback window",
+          "sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+        },
+        {
+          "section": "Main Conference Timetable for Authors",
+          "text": "November 30, 2026 Notification of final acceptance or rejection (Main Technical Track)\nDecember 14, 2026 [removed] [/removed] Submission of camera-ready files (Main Technical Track)\nFebruary 16-23, 2027 AAAI-27 Conference\nNote: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP.",
+          "sha256": "d0cae6bfdc5e4b2fc6105aba072bad230c711aa9a172e22745b13a11b5aef99d"
+        },
+        {
+          "section": "AAAI-27",
+          "text": "AAAI-27\nWe are pleased to announce the Forty-First AAAI Conference on Artificial Intelligence (AAAI-27), which will be held in Montréal, Canada, fr om February 16 to February 23, 2027.\nThe purpose of the AAAI conference series is to promote research in Artificial Intelligence (AI) and foster scientific exchange between researchers, practitioners, scientists, students, and engineers across the entirety of AI and its affiliated disciplines. AAAI-27 will feature technical paper presentations, special tracks, invited speakers, workshops, tutorials, poster sessions, senior member presentations, competitions, and exhibit programs, and a range of other activities to be announced.\nClose",
+          "sha256": "8b55de9ab47f427f592da3f8c0cd3ac55efac7f1c3866517b9a5f7b6fc4982dd"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://aaai.org/conference/aaai/aaai-27/journal-track-call-for-papers/",
+          "title": "Journal Track"
+        },
+        {
+          "url": "https://openreview.net/group?id=AAAI.org/2027/Conference",
+          "title": "paper submission"
+        },
+        {
+          "url": "https://openreview.net/signup",
+          "title": "author registration"
+        }
+      ],
+      "sha256": "92910ee9d7f55a503d759a92c9f1f67ad76524fdc382fefef3b6dd3571893c0c"
+    },
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "0f9b09d905ecaa2ef161a7e9bab0d2d5d6123c6fe35c6dc02897cd0d856aac0d",
+      "url": "https://aaai.org/conference/aaai/aaai-22/",
+      "final_url": "https://aaai.org/conference/aaai/aaai-22/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:33Z",
+      "snippets": [
+        {
+          "section": "AAAI 2022 Conference",
+          "text": "AAAI 2022 Conference\nJanuary 29, 2023\nThe 36th AAAI Conference on Artificial Intelligence",
+          "sha256": "950ee88ed3eefead3f5b0d48173b80b7303788478d3ab23b744a02411462de42"
+        }
+      ],
+      "links": [],
+      "sha256": "0f0798ac117c7d42679c79957e3362dff2ff3981e561952cc9512175a24bf5e3"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "40cbfce3b4a777b71a3d88a2bbf5245abc76db6efe880170b7f6f595720c16e4",
+      "url": "https://aaai.org/conference/aaai/aaai-23/",
+      "final_url": "https://aaai.org/conference/aaai/aaai-23/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:34Z",
+      "snippets": [
+        {
+          "section": "AAAI 2023 Conference",
+          "text": "AAAI 2023 Conference\nJanuary 29, 2023\nThe purpose of the AAAI conference series is to promote research in Artificial Intelligence (AI) and foster scientific exchange between researchers, practitioners, scientists, students, and engineers across the entirety of AI and its affiliated disciplines. AAAI-23 is the Thirty-Seventh AAAI Conference on Artificial Intelligence. The theme of this conference is to create collaborative bridges within and beyond AI. Like previous AAAI conferences, AAAI-23 will feature technical paper presentations, special tracks, invited speakers, workshops, tutorials, poster sessions, senior member presentations, competitions, and exhibit programs, and two new activities: a Bridge Program and a Lab Program. Many of these activities are tailored to the theme of bridges and all are selected according to the highest standards, with additional programs for students and young researchers.",
+          "sha256": "90d0a5a80b3c2b2cd88414313b1bd106b06c52043a9df9f8c40162de29ad5044"
+        },
+        {
+          "section": "AAAI 2023 Conference",
+          "text": "Yetunde Folajimi @profyetty ·\nGood news! Deadline for International Workshop on Social Impact of AI for Africa (#SIAIA) at @RealAAAI has been extended to Jan 21, 2023. #AAAI23. We invite you to join the conversation to make positive social impact in Africa. Submit your paper now at http://siaia.co!\nAAAI @realaaai ·",
+          "sha256": "cc71f1554fe72bfdd194e73b3c9cfebde75ca99c68b22e1b532a572c8b7cbe58"
+        },
+        {
+          "section": "AAAI 2023 Conference",
+          "text": "Visit us at #AAAI23\nhttps://www.nytimes.com/2023/01/15/opinion/ai-chatgpt-lobbying-democracy.html?unlocked_article_code=Sbpe35uY0FT4DFI2M3UueuZOkISmcdsBJUpz9_kDc2_oV-49wg0uQFOddUsQPbIx3BPt0Nwp4LFvqxpPr15cKP4r0I2MUa3qm3dxdt5yX-Ql4z1o15gJvH8EipZjAVwM39ApcYaHRaBc-ENkMV7khzNHYM8duZGHKbeXF-lPERrEA41iDyYQa3qDycFsfEqiAaQrvpDIqV3sI2xRugUINbeJh7_yz5QBj23ja8Xhazne5PiRU3vRmJIwbAYs9S7zlBd4lN3QUSaNr7mhCopbpZIemIdhNz3-bajFpRcsmLnK8tCpbXVZKCOKNWqs1lHt3Rm9DhpmS3vBZmBeXe-qivrTAq9SPQ&smid=tw-share\nClose",
+          "sha256": "c684b75e87f5e5cfcd8e49c2474c864e248c208d153631eaf59639234ba0f6ab"
+        }
+      ],
+      "links": [],
+      "sha256": "6474d200e47c0e7bac0102d6d1997096f757032c2d8b7ef2e8ab08b62109893d"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "7c984c57f2403d7e5380d30b10ca163c7e41e8b9e2e83ffa8535f5153900f3d9",
+      "url": "https://aaai.org/conference/aaai/aaai-24/",
+      "final_url": "https://aaai.org/conference/aaai/aaai-24/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:36Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "Home / Conferences / AAAI Conference on Artificial Intelligence /\nJune 6, 2024",
+          "sha256": "f19ea408056f17d8d6ac5cdb2853bef11ddc859d130819e375f3262b791fc503"
+        },
+        {
+          "section": "The 38th Annual AAAI Conference on Artificial Intelligence",
+          "text": "The 38th Annual AAAI Conference on Artificial Intelligence\nFebruary 20-27, 2024 | Vancouver, Canada Vancouver Convention Centre – West Building",
+          "sha256": "356bc2cbbae2bb837bf0a1a816adbb881f774f7c57a997f6e6e6473a6a8b26c4"
+        },
+        {
+          "section": "Post-Conference Announcements",
+          "text": "Post-Conference Announcements",
+          "sha256": "79934de5d52d97aa69383dce302bc8aed3c74b55e4ff372919fb361fb0bb3042"
+        },
+        {
+          "section": "AAAI-24",
+          "text": "AAAI-24\nWe are pleased to announce the Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI-24), which will be held in Vancouver, British Columbia at the Vancouver Convention Centre – West Building from 20-27 February 2024.\nThe purpose of the AAAI conference series is to promote research in Artificial Intelligence (AI) and foster scientific exchange between researchers, practitioners, scientists, students, and engineers across the entirety of AI and its affiliated disciplines. AAAI-24 will feature technical paper presentations, special tracks, invited speakers, workshops, tutorials, poster sessions, senior member presentations, competitions, and exhibit programs, and a range of other activities to be announced.\nWe expect for AAAI-24 to be an in-person conference – one author of all accepted papers will be expected to present work in person unless there are exceptional circumstances that prevent this. Remote attendance, where available, can be accessed via Underline . You will receive an email from Underline granting you access to the event page one week prior to the event.",
+          "sha256": "1d4bc2f33a1264085a1d813636a10894e91de44c7065aecf56b2b8e5ac0a042f"
+        },
+        {
+          "section": "Main Conference Timetable for Authors",
+          "text": "Note: all deadlines are “anywhere on earth” (UTC-12)\nFebruary 22 – February 25, 2024 AAAI-24 conference",
+          "sha256": "2334fd1dce3920c9ba6e45112307600951654310b15f5fefd6dd343aee554509"
+        },
+        {
+          "section": "Previous Deadlines",
+          "text": "Previous Deadlines\nJuly 4, 2023 AAAI-24 web site open for author registration\nJuly 11, 2023 AAAI-24 web site open for paper submission\nAugust 8, 2023 Abstracts due at 11:59 PM UTC-12\nAugust 15, 2023 Full papers due at 11:59 PM UTC-12\nAugust 18, 2023 Supplementary material and code due by 11:59 PM UTC-12\nSeptember 25, 2023 Registration, abstracts and full papers for NeurIPS fast track submissions due by 11:59 PM UTC-12\nSeptember 27, 2023 Notification of Phase 1 rejections",
+          "sha256": "5a7d3d0233f5d4d64d9a64ff8dc039c6931804d381e8a292316f20c27a03f34e"
+        },
+        {
+          "section": "Previous Deadlines",
+          "text": "September 28, 2023 Supplementary material and code for NeurIPS fast track submissions due by 11:59 PM UTC-12\nNovember 2-7, 2023 Author feedback window\nDecember 9, 2023 Notification of final acceptance or rejection (Main Technical Track)\nDecember 19, 2023 Submission of camera-ready files (Main Technical Track)\nNote: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP.",
+          "sha256": "4fc7ff075b478106c56ed9512cdaa9b02430690b96cae517fb8860357321daca"
+        }
+      ],
+      "links": [],
+      "sha256": "6dd771b7895f5e08d4d73de88ca149d0caacb3eb2ecf0047933598b6fc0a7a8d"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "4a42b6ece40e4e96ef5893adfe3336b7d6ef8da5ac9f474ad068012545530518",
+      "url": "https://aaai.org/conference/aaai/aaai-25/",
+      "final_url": "https://aaai.org/conference/aaai/aaai-25/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:38Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "Home / Conferences / AAAI Conference on Artificial Intelligence /\nNovember 22, 2023",
+          "sha256": "c974c529320355b8b4d80fff690966590e12a43aa5bf5bb86d4384ef42677dfe"
+        },
+        {
+          "section": "The 39th Annual AAAI Conference on Artificial Intelligence",
+          "text": "The 39th Annual AAAI Conference on Artificial Intelligence\nFebruary 25 – March 4, 2025 | Philadelphia, Pennsylvania, USA\nAAAI-25",
+          "sha256": "769b442531bc09671c069a1ccd02f3ba6d94547656fcc8a7ca6c165e44f0d32d"
+        },
+        {
+          "section": "The 39th Annual AAAI Conference on Artificial Intelligence",
+          "text": "Note: all deadlines are “anywhere on earth” (UTC-12)\nJuly 8, 2024 AAAI-25 web site open for paper submission\nAugust 7, 2024 Abstracts due at 11:59 PM UTC-12\nAugust 15, 2024 Full papers due at 11:59 PM UTC-12\nAugust 19, 2024 Supplementary material and code due by 11:59 PM UTC-12\nOctober 14, 2024 Notification of Phase 1 rejections\nNovember 4-8, 2024 Author feedback window\nDecember 9, 2024 Notification of final acceptance or rejection (Main Technical Track)",
+          "sha256": "dc27098df95ae698d24aaf0269d6abf544b2d5df1e63604b99be7d7fd078469c"
+        },
+        {
+          "section": "The 39th Annual AAAI Conference on Artificial Intelligence",
+          "text": "December 19, 2024 Submission of camera-ready files (Main Technical Track)\nFebruary 27 – March 4, 2025 AAAI-25 Conference\nNote: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP.",
+          "sha256": "620db5b515689b4e54be35eb3f56509b9411c535826134eb757212c4b60c3a69"
+        },
+        {
+          "section": "The 39th Annual AAAI Conference on Artificial Intelligence",
+          "text": "View AAAI-25 Photo Gallery\nWe are pleased to announce the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25), which will be held in Philadelphia, Pennsylvania at the Pennsylvania Convention Center from February 25 to March 4, 2025.\nThe purpose of the AAAI conference series is to promote research in Artificial Intelligence (AI) and foster scientific exchange between researchers, practitioners, scientists, students, and engineers across the entirety of AI and its affiliated disciplines. AAAI-25 will feature technical paper presentations, special tracks, invited speakers, workshops, tutorials, poster sessions, senior member presentations, competitions, and exhibit programs, and a range of other activities to be announced.",
+          "sha256": "e0565489ca266d742af66bad8546b19948c0f045dcb61d7b392b48aad44a67c2"
+        },
+        {
+          "section": "Submission Site",
+          "text": "Submission Site",
+          "sha256": "6d7770f46109e4cbfc6a6d9551c619fce6ae8f08b92e853c29b343a19fe105fe"
+        }
+      ],
+      "links": [],
+      "sha256": "34bd02e94ca5795f90b727844b7055834ad718fdd87dd46e0cdba82273891d5c"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "bd6d33c58a0604c7113ad93ab5c35842cc7b2580d92524d243afa538df0e4de9",
+      "url": "https://aaai.org/conference/aaai/aaai-26/",
+      "final_url": "https://aaai.org/conference/aaai/aaai-26/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:40Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "Home / Conferences / AAAI Conference on Artificial Intelligence /\nJanuary 10, 2025",
+          "sha256": "1aad21b78bbced1ec304054b3d09a87a4373681352a935b673ceeb258c4408fb"
+        },
+        {
+          "section": "The 40th Annual AAAI Conference on Artificial Intelligence",
+          "text": "The 40th Annual AAAI Conference on Artificial Intelligence\nJanuary 20 – January 27, 2026 | Singapore\nAAAI-26",
+          "sha256": "e7bcdeef126917aa5f904e670b2ab402b307eb9a3eb84c20a5d00c31fde3ebb4"
+        },
+        {
+          "section": "Main Conference Timetable for Authors",
+          "text": "Note: all deadlines are “anywhere on earth” (UTC-12)\nJune 16, 2025 Open Review submission site opens for author registration\nJune 25, 2025 Open Review submission site opens for paper submission\nJuly 25, 2025 Abstracts due at 11:59 PM UTC-12\nAugust 1, 2025 Full papers due at 11:59 PM UTC-12\nAugust 4, 2025 Supplementary material and code due by 11:59 PM UTC-12\nSeptember 15, 2025 Notification of Phase 1 rejections\nOctober 7-13, 2025 Author feedback window",
+          "sha256": "32aed587f1f4e0f66f78134396d4309ebcf26bd544cdf5d402aee1a1ef5a5257"
+        },
+        {
+          "section": "Main Conference Timetable for Authors",
+          "text": "November 8, 2025 Notification of final acceptance or rejection (Main Technical Track)\n[removed] November 13, 2025 [/removed] November 16, 2025 [removed] [/removed] Submission of camera-ready files (Main Technical Track)\nJanuary 20-27, 2026 AAAI-26 Conference\nNote: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP.",
+          "sha256": "4164c88cea3d7d48edd8701054b744bf1565d030b3ccafa240a8ed958cdde26a"
+        },
+        {
+          "section": "Main Conference Timetable for Authors",
+          "text": "AAAI-26 Underline Content\nWe are pleased to announce the Fortieth AAAI Conference on Artificial Intelligence (AAAI-26), which will be held in Singapore EXPO from January 20 to January 27, 2026.\nThe purpose of the AAAI conference series is to promote research in Artificial Intelligence (AI) and foster scientific exchange between researchers, practitioners, scientists, students, and engineers across the entirety of AI and its affiliated disciplines. AAAI-26 will feature technical paper presentations, special tracks, invited speakers, workshops, tutorials, poster sessions, senior member presentations, competitions, and exhibit programs, and a range of other activities to be announced.\nStudent Activities",
+          "sha256": "65cd6933bd01c17ac07a0a4c21607583ec82b3f509a4f914bc1e22265422d5d7"
+        }
+      ],
+      "links": [],
+      "sha256": "d84d8dc39a166d9364768725eea7964290f4f6626a0e08b3c655c6958a989f91"
+    },
+    "openreview": {
+      "extractor": "date-context-v1",
+      "config_sha256": "eb7a603b6ce7840974eb34e0267d77a828a3a733cbc5d617769bc338b16a0c3c",
+      "url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
+      "final_url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:30Z",
+      "snippets": [
+        {
+          "section": "/groups/0/cdate",
+          "text": "{\"path\": \"/groups/0/cdate\", \"value\": 1777567568114}\nUTC: 2026-04-30T16:46:08.114000+00:00",
+          "sha256": "429fc90a90cee6509e60f386750547b7394e9b70c79a0b3e4d7ad9fdb4ed54fa"
+        },
+        {
+          "section": "/groups/0/content/date",
+          "text": "{\"path\": \"/groups/0/content/date\", \"value\": \"Submission Start: Jun 30 2026 11:59AM UTC-0, Abstract Registration: Jul 22 2026 11:59AM UTC-0, Submission Deadline: Jul 29 2026 11:59AM UTC-0\"}",
+          "sha256": "4f74999847f8d78f1eb4206d7011313bb9f6ab8c6a02e017c9169999958e5623"
+        },
+        {
+          "section": "/groups/0/content/start_date",
+          "text": "{\"path\": \"/groups/0/content/start_date\", \"value\": \"Feb 16 2027\"}",
+          "sha256": "2b2de15a4593c32278846e60df8d0a3095e57cc1166b17956999dff113a3937f"
+        },
+        {
+          "section": "/groups/0/mdate",
+          "text": "{\"path\": \"/groups/0/mdate\", \"value\": 1788537709212}\nUTC: 2026-09-04T16:01:49.212000+00:00",
+          "sha256": "7de2195461f205a3ddc4e1176f63bfa94f2eea2059652cb6ff967de3ca84a16c"
+        },
+        {
+          "section": "/groups/0/tcdate",
+          "text": "{\"path\": \"/groups/0/tcdate\", \"value\": 1777567568114}\nUTC: 2026-04-30T16:46:08.114000+00:00",
+          "sha256": "66ef073b78f715e73aec997227111ba96ba8bff079522455190ff47c8b12d0f2"
+        },
+        {
+          "section": "/groups/0/tmdate",
+          "text": "{\"path\": \"/groups/0/tmdate\", \"value\": 1788537709212}\nUTC: 2026-09-04T16:01:49.212000+00:00",
+          "sha256": "83742f3c91f30bf7160de8281a46032480337b466fed86671510745b7c5917f7"
+        }
+      ],
+      "links": [],
+      "sha256": "f10f8e1e74702877d3a5e5798af28a773b76eb1b665cf20ec2dfd52d13cc9232"
+    }
+  },
+  "claims": {
+    "current/aaai.abstract": {
+      "value": "2026-07-21T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/aaai.paper": {
+      "value": "2026-07-28T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/aaai.phase1": {
+      "value": "2026-09-24T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/aaai.rebuttal": {
+      "value": "2026-10-25T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/aaai.decision": {
+      "value": "2026-11-30T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "d0cae6bfdc5e4b2fc6105aba072bad230c711aa9a172e22745b13a11b5aef99d"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/aaai.conference": {
+      "value": "2027-02-16T00:00:00-05:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "d0cae6bfdc5e4b2fc6105aba072bad230c711aa9a172e22745b13a11b5aef99d"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "history/2022/abstract_deadline": {
+      "value": "2021-08-30",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2021-09-08",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-02-22",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-03-01",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2023/abstract_deadline": {
+      "value": "2022-08-08",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2022-08-15",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-02-07",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-02-14",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/abstract_deadline": {
+      "value": "2023-08-08",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "5a7d3d0233f5d4d64d9a64ff8dc039c6931804d381e8a292316f20c27a03f34e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2023-08-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "5a7d3d0233f5d4d64d9a64ff8dc039c6931804d381e8a292316f20c27a03f34e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/review_release": {
+      "value": "2023-09-27",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "5a7d3d0233f5d4d64d9a64ff8dc039c6931804d381e8a292316f20c27a03f34e"
+        }
+      ],
+      "note": "本历史字段在 AAAI 中记录 Phase 1 拒稿通知（首轮结果），不是完整评审意见公布；预测时须保持相同阶段。"
+    },
+    "history/2024/rebuttal_deadline": {
+      "value": "2023-11-05",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/final_decision": {
+      "value": "2023-12-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "4fc7ff075b478106c56ed9512cdaa9b02430690b96cae517fb8860357321daca"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-02-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "1d4bc2f33a1264085a1d813636a10894e91de44c7065aecf56b2b8e5ac0a042f"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-02-27",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "1d4bc2f33a1264085a1d813636a10894e91de44c7065aecf56b2b8e5ac0a042f"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/abstract_deadline": {
+      "value": "2024-08-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "dc27098df95ae698d24aaf0269d6abf544b2d5df1e63604b99be7d7fd078469c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2024-08-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "dc27098df95ae698d24aaf0269d6abf544b2d5df1e63604b99be7d7fd078469c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2024-10-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "dc27098df95ae698d24aaf0269d6abf544b2d5df1e63604b99be7d7fd078469c"
+        }
+      ],
+      "note": "本历史字段在 AAAI 中记录 Phase 1 拒稿通知（首轮结果），不是完整评审意见公布；预测时须保持相同阶段。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2024-11-08",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "dc27098df95ae698d24aaf0269d6abf544b2d5df1e63604b99be7d7fd078469c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/final_decision": {
+      "value": "2024-12-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "dc27098df95ae698d24aaf0269d6abf544b2d5df1e63604b99be7d7fd078469c"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-02-25",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "e0565489ca266d742af66bad8546b19948c0f045dcb61d7b392b48aad44a67c2"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-03-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "620db5b515689b4e54be35eb3f56509b9411c535826134eb757212c4b60c3a69"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/abstract_deadline": {
+      "value": "2025-07-25",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "32aed587f1f4e0f66f78134396d4309ebcf26bd544cdf5d402aee1a1ef5a5257"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2025-08-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "32aed587f1f4e0f66f78134396d4309ebcf26bd544cdf5d402aee1a1ef5a5257"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/review_release": {
+      "value": "2025-09-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "32aed587f1f4e0f66f78134396d4309ebcf26bd544cdf5d402aee1a1ef5a5257"
+        }
+      ],
+      "note": "本历史字段在 AAAI 中记录 Phase 1 拒稿通知（首轮结果），不是完整评审意见公布；预测时须保持相同阶段。"
+    },
+    "history/2026/rebuttal_deadline": {
+      "value": "2025-10-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "32aed587f1f4e0f66f78134396d4309ebcf26bd544cdf5d402aee1a1ef5a5257"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/final_decision": {
+      "value": "2025-11-08",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "4164c88cea3d7d48edd8701054b744bf1565d030b3ccafa240a8ed958cdde26a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-01-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "4164c88cea3d7d48edd8701054b744bf1565d030b3ccafa240a8ed958cdde26a"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-01-27",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "4164c88cea3d7d48edd8701054b744bf1565d030b3ccafa240a8ed958cdde26a"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    }
+  }
+}

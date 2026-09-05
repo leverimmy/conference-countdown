@@ -1,0 +1,693 @@
+{
+  "schema_version": 1,
+  "id": "icml",
+  "sources": {
+    "future-meetings": {
+      "extractor": "date-context-v1",
+      "config_sha256": "7fa8ee7bc9118e2aea60f5c75ade7c0bec3bb84714002fabd7da7be0aa1d64e9",
+      "url": "https://icml.cc/Conferences/FutureMeetings",
+      "final_url": "https://icml.cc/Conferences/FutureMeetings",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:45Z",
+      "snippets": [
+        {
+          "section": "Future Meetings",
+          "text": "Future Meetings\n2027 -- South America\n2028 -- Eastern United States\nSuccessful Page Load",
+          "sha256": "cc65346e024f92ae7fd6e37180fb1b8861fb226bd7f794d9372574cf37606d1a"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://icml.cc/Conferences/2026/CallForPapers",
+          "title": "Call for Papers"
+        },
+        {
+          "url": "https://icml.cc/Conferences/2026/CallForPositionPapers",
+          "title": "Call for Position Papers"
+        },
+        {
+          "url": "https://icml.cc/Conferences/2026/Dates",
+          "title": "Dates"
+        }
+      ],
+      "sha256": "68d17d11ada7183e49194430c1d0bd4e6cefda35ffdeeef02ad2307f64b84d66"
+    },
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "44b1c986fa9b304ae52d390525f841930c33f51b1a41bfe28fce159389ba1e77",
+      "url": "https://icml.cc/Conferences/2022/Dates",
+      "final_url": "https://icml.cc/Conferences/2022/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:48Z",
+      "snippets": [
+        {
+          "section": "ICML 2022 Meeting Dates",
+          "text": "Expo\nSun Jul 17th\nVirtual Pass | Mon Jul 18th through Sat the 23rd\nTutorials | Mon Jul 18th\nConference Sessions | Tue Jul 19th through Thu the 21st\nWorkshops | Fri Jul 22nd through Sat the 23rd\nYour timezone is:",
+          "sha256": "70b1a77f93da4e3c4eea191732741c5bb8b02084ec16d098f978801ad7f2764b"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Attendees\nEarly pricing before this date | Jun 11 '22 06:59 AM UTC\nLast chance for a refund on registration fees | Jul 14 '22 11:59 PM UTC\nFinancial Assistance\nParticipation Grant Deadline | May 29 '22 (Anywhere on Earth)\nParticipation Grant Notification | Jun 08 '22 01:00 AM UTC\nPaper Submissions\nPaper Submissions Open on CMT | Jan 12 '22 02:00 AM UTC",
+          "sha256": "117ba7689a12e2460d4c31b944b9ddb6c5c287dd557707fc13e297cab2119308"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Abstract Submission Deadline | Jan 20 '22 (Anywhere on Earth)\nFull Paper Submission Deadline | Jan 27 '22 (Anywhere on Earth)\nNotification Of Phase 1 Rejections | Mar 11 '22 (Anywhere on Earth)\nAuthor Feedback Opens | Apr 06 '22 (Anywhere on Earth)\nAuthor Feedback Closes | Apr 11 '22 (Anywhere on Earth)\nAuthor Notification | May 14 '22 (Anywhere on Earth)\nCamera Ready | Jun 16 '22 (Anywhere on Earth)\nPoster Printing Deadline | Jun 25 '22 06:59 AM UTC",
+          "sha256": "21fd7c71d071a35ec60c0fb68fb25b178d6445f369dc06704e5642ac1073fca4"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "SlidesLive Video Upload Deadline | Jun 27 '22 (Anywhere on Earth)\nSponsors / Expo\nSponsor Portal Open | Feb 14 '22 08:00 PM UTC\nExpo Calls Deadline | Jun 10 '22 06:59 AM UTC\nSponsor Payment Deadline | Jun 18 '22 01:00 AM UTC\nSponsor Portal Close | Aug 24 '22 01:00 AM UTC\nTutorials\nTutorial Proposal Submission Deadline | Feb 26 '22 (Anywhere on Earth)",
+          "sha256": "ca07521b0b67c43261520bff5fd4d98b2cb69d618bda5f0fc27d17354ec27256"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Tutorial Proposal Announcements | May 08 '22 01:00 AM UTC\nVolunteers\nVolunteer Application Opens | Apr 12 '22 07:32 PM UTC\nVolunteer Application Closes | Jul 06 '22 (Anywhere on Earth)\nWorkshops\nWorkshop Application Open | Feb 01 '22 11:59 PM UTC\nWorkshop Application Deadline | Feb 23 '22 (Anywhere on Earth)\nWorkshop Application Notification | Mar 16 '22 (Anywhere on Earth)",
+          "sha256": "644496ec9dc3aa442a6bab232036f6456d4a5e3a2e63f432cf3b10a78e2d8f0c"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshop Mandatory Accept Reject | Jun 13 '22 (Anywhere on Earth)\nWorkshop Video Upload Deadline | Jul 01 '22 (Anywhere on Earth)\nSuccessful Page Load",
+          "sha256": "c4289a65e4ef4d20baef08b174e69c8ae473fa0b94bea20521424ab4bb4b8410"
+        }
+      ],
+      "links": [],
+      "sha256": "32b85bce699a312efbf22119217ab5018ab9a6e7390d13e07efb3e90a4f04f80"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "c0830a2fb93ba896b1483cdbc3d7d32723f91d8ec352aabc211bddc254cd247d",
+      "url": "https://icml.cc/Conferences/2023/Dates",
+      "final_url": "https://icml.cc/Conferences/2023/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:50Z",
+      "snippets": [
+        {
+          "section": "ICML 2023 Meeting Dates",
+          "text": "ICML 2023 Meeting Dates\nExpo | Sun Jul 23rd\nVirtual Pass | Sun Jul 23rd through Sat the 29th\nTutorials | Mon Jul 24th\nConference Sessions | Tue Jul 25th through Thu the 27th\nWorkshops | Fri Jul 28th through Sat the 29th\nYour timezone is:",
+          "sha256": "ecb460373f6fa56d82b5e554d78de63abd92cc7505103fefd11aff5938f35594"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Attendees\nRegistration Open | Feb 03 '23 08:00 PM UTC\nEarly pricing before this date | Jun 17 '23 06:59 AM UTC\nRegistration Cancellation Deadline | Jul 01 '23 11:59 PM UTC\nFinancial Assistance\nGrant Application Deadline | Apr 14 '23 (Anywhere on Earth)\nGrant Application Notification | May 06 '23 01:00 AM UTC\nPaper Submissions",
+          "sha256": "af423e9a9b84d5134457e93960a410b561bf7770fe2cba505e9e7fd2f4888898"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Paper Submissions Open on OpenReview | Jan 09 '23 02:00 PM UTC\nFull Paper Submission Deadline | Jan 26 '23 07:59 PM UTC\nReview release to authors | Mar 13 '23 (Anywhere on Earth)\nAuthor rebuttal period ends | Mar 19 '23 07:00 PM UTC\nAuthor Reviewer Discussion Ends | Mar 26 '23 07:00 PM UTC\nReviewer-AC Discussion Starts | Mar 27 '23 07:00 PM UTC\nReviewer-AC Discussion Ends | Apr 02 '23 07:00 PM UTC\nMetareview Deadline | Apr 02 '23 07:00 PM UTC",
+          "sha256": "6b4e448197f79c944afc26de0ff2553a76426999fd895a7de94ac6d641f69fbc"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "SAC Agreement Period Start | Apr 03 '23 02:00 PM UTC\nSAC Agreement Period Ends | Apr 09 '23 07:00 PM UTC\nPaper Decision notification | Apr 24 '23 (Anywhere on Earth)\nCamera-ready version deadline | May 31 '23 (Anywhere on Earth)\nPoster Printing Service Deadline | Jun 25 '23 06:59 AM UTC\nSlidesLive Video Upload Deadline | Jun 30 '23 (Anywhere on Earth)\nSocials\nSocials Application Open | Feb 01 '23 (Anywhere on Earth)",
+          "sha256": "2df045382e3575cca9a041958f48dd99f7e42e0c53d4688121d13b4947a5cc4b"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Social Deadline Date | Jun 11 '23 (Anywhere on Earth)\nSocial Notification Date | Jun 18 '23 (Anywhere on Earth)\nSponsors / Expo\nSponsor Portal Open | Dec 18 '22 07:59 PM UTC\nExpo Calls Open | Dec 26 '22 (Anywhere on Earth)\nExpo Calls Deadline | Jun 01 '23 04:00 AM UTC\nExpo Decision Notifications | Jun 07 '23 (Anywhere on Earth)\nTutorials",
+          "sha256": "6bbf942a9a2e53aaa4a982f72964483281767ee5115e8db40f8ae72c41f666e4"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Tutorial Proposal Submission Deadline | Feb 17 '23 (Anywhere on Earth)\nTutorial Proposal Announcements | May 12 '23 (Anywhere on Earth)\nVolunteers\nVolunteer Application Closes | May 23 '23 (Anywhere on Earth)\nWorkshops\nWorkshop Application Open | Feb 01 '23 05:00 PM UTC\nWorkshop Application Deadline | Feb 16 '23 (Anywhere on Earth)\nWorkshop Application Notification | Mar 16 '23 10:00 PM UTC",
+          "sha256": "4450fb367c4601e905dbf64aa751bba528c65de609d984029e0581d763ee7f95"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Poster Printing Service Deadline | Jun 25 '23 06:59 AM UTC\nSuccessful Page Load",
+          "sha256": "a45273d01688d93724b02b867a6a159be27b23ecdec3fbf6a9a73f5bc0335b01"
+        }
+      ],
+      "links": [],
+      "sha256": "26575d52c93344a285c20cf2822ae757c74afe9e485700bb0d621ed01c08fa62"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "289b4e1cf0e7a08039159dfdc6812dc303955aeb2b1459be261570848fb49d53",
+      "url": "https://icml.cc/Conferences/2024/Dates",
+      "final_url": "https://icml.cc/Conferences/2024/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:50Z",
+      "snippets": [
+        {
+          "section": "ICML 2024 Meeting Dates",
+          "text": "ICML 2024 Meeting Dates\nExpo | Sun Jul 21st\nVirtual Pass | Mon Jul 22nd through Sat the 27th\nTutorials | Mon Jul 22nd\nConference Sessions | Tue Jul 23rd through Thu the 25th\nWorkshops | Fri Jul 26th through Sat the 27th\nYour timezone is:",
+          "sha256": "9b311e9280db9322b329a19413cb19a9640e473f729db8a264cef00f04b2bc04"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Attendees\nRegistration Open | Aug 27 '23 08:00 PM UTC\nCareer Site - Opens | Feb 01 '24 05:00 AM UTC\nEarly pricing before this date | Jun 15 '24 06:59 AM UTC\nRegistration Cancellation Deadline | Jun 29 '24 11:59 PM UTC\nDeadline to request attendance of minor children | Jul 10 '24 (Anywhere on Earth)\nCareers Site - Closes | Aug 30 '24 10:00 PM UTC\nFinancial Assistance",
+          "sha256": "276ea3eba29e1e476c3e448331c6eff2375f39a042d878edbdf0a12af81f2bbf"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Grant Application Deadline | May 28 '24 (Anywhere on Earth)\nGrant Application Notification | Jun 06 '24 (Anywhere on Earth)\nPaper Submissions\nPaper Submissions Open on OpenReview | Jan 09 '24 02:00 PM UTC\nFull Paper Submission Deadline | Feb 01 '24 (Anywhere on Earth)\nReview release to authors | Mar 20 '24 (Anywhere on Earth)\nAuthor rebuttal period ends | Mar 28 '24 (Anywhere on Earth)\nReviewer-AC Discussion Starts | Apr 04 '24 (Anywhere on Earth)",
+          "sha256": "9e89dc3b8c687cb0dd18a904a9281f9533f0f94928f8035b5267b81825909253"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Author Reviewer Discussion Ends | Apr 04 '24 (Anywhere on Earth)\nReviewer-AC Discussion Ends | Apr 11 '24 (Anywhere on Earth)\nSAC Agreement Period Start | Apr 13 '24 (Anywhere on Earth)\nSAC Agreement Period Ends | Apr 18 '24 (Anywhere on Earth)\nPaper Decision notification | May 01 '24 (Anywhere on Earth)\nCamera-ready version deadline | May 29 '24 (Anywhere on Earth)\nPoster Topic Selection | Jun 28 '24 (Anywhere on Earth)\nPoster Metadata Deadline | Jul 13 '24 09:59 PM UTC",
+          "sha256": "298f6c872f3ab817cfb85d7852817a5f592bb119f54e49e5d3933cdd6c0733c5"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Socials\nSocials Application Open | Jan 28 '24 (Anywhere on Earth)\nSocial Application Deadline | May 25 '24 (Anywhere on Earth)\nSocial Application Notification | Jun 09 '24 (Anywhere on Earth)\nSponsors / Expo\nCareer Site - Opens | Feb 01 '24 05:00 AM UTC\nExpo Calls Deadline | Jun 03 '24 (Anywhere on Earth)\nExpo Decision Notifications | Jun 10 '24 10:00 AM UTC",
+          "sha256": "a77ae935ae87c066e171c7d99f364dc089367ec6c1ce11733149cdc6ceace0a8"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Career Site - Posting Application Deadline | Jul 26 '24 09:59 PM UTC\nCareers Site Posting Deadline | Jul 26 '24 09:59 PM UTC\nCareers Site - Closes | Aug 30 '24 10:00 PM UTC\nWorkshops\nWorkshop Application Open | Jan 24 '24 05:00 PM UTC\nWorkshop Application Deadline | Feb 15 '24 (Anywhere on Earth)\nWorkshop Application Notification | Mar 27 '24 10:00 PM UTC\nWorkshop Organizer Admin Portal Opens | Jun 05 '24 04:00 AM UTC",
+          "sha256": "d2d46c4b6391a255252e0241b7f9d82afffeefd56a7b34e1ddad2ea6c9567808"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshop Organizer Meetings Start | Jun 05 '24 10:00 AM UTC\nUniversal notification deadline for all submissions to individual ICML workshops | Jun 17 '24 09:59 PM UTC\nWorkshop Import Accepted Papers Recommendation | Jun 21 '24 10:00 AM UTC\nWorkshop Schedule Is Final | Jul 12 '24 10:00 AM UTC\nWorkshop Organizer Meetings End | Jul 17 '24 10:00 AM UTC\nWorkshop Zooms Visible On Event Page | Jul 18 '24 10:00 AM UTC\nWorkshop Complimentary Registration Assignments Due | Jul 18 '24 10:00 AM UTC\nWorkshop Post Production Edits | Aug 05 '24 10:00 AM UTC",
+          "sha256": "a3a23c977a4fe7c77bf853948bcc526439f7c03506b0d4771be5b44704df924e"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Successful Page Load",
+          "sha256": "84e3515a0462bb98eb5bb979df782d4f8a37f2fa0250b315febbef04b03b5993"
+        }
+      ],
+      "links": [],
+      "sha256": "87fb359abbbfeb86e5460df33dbe8d44be248c4dee17289ac90bc2ce125a049c"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "558fc038fcea9b636f25419285f9638bfff5e93682da043f415c988678dd5622",
+      "url": "https://icml.cc/Conferences/2025/Dates",
+      "final_url": "https://icml.cc/Conferences/2025/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:54Z",
+      "snippets": [
+        {
+          "section": "ICML 2025 Meeting Dates",
+          "text": "ICML 2025 Meeting Dates\nExpo | Sun Jul 13th\nVirtual Pass | Mon Jul 14th through Sat the 19th\nTutorials | Mon Jul 14th\nConference Sessions | Tue Jul 15th through Thu the 17th\nWorkshops | Fri Jul 18th through Sat the 19th\nYour timezone is:",
+          "sha256": "ec41964d4a3755c65728e24805d086a418251a22cba55fd7344482aa544053d1"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Attendees\nRegistration Open | Oct 19 '24 08:00 PM UTC\nCareer Site - Opens | Mar 05 '25 08:00 AM UTC\nEarly pricing before this date | May 31 '25 (Anywhere on Earth)\nDeadline to set your Dietary Preference | Jun 10 '25 (Anywhere on Earth)\nRegistration Cancellation Deadline | Jun 22 '25 11:59 AM UTC\nCareers Site - Closes | Aug 23 '25 01:00 AM UTC\nFinancial Assistance",
+          "sha256": "7d84a9a5319962c2cd942aa360516d6534ecc4334a7c3a8c4ac7c906c491e29f"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Financial Aid Application Deadline | May 30 '25 (Anywhere on Earth)\nFinancial Aid Notification | Jun 12 '25 (Anywhere on Earth)\nPaper Submissions\nPaper Submissions Open on OpenReview | Jan 09 '25 11:59 PM UTC\nAbstract Submission Deadline | Jan 23 '25 (Anywhere on Earth)\nFull Paper Submission Deadline | Jan 30 '25 (Anywhere on Earth)\nDeadline for reviews | Mar 13 '25 (Anywhere on Earth)\nAuthor-Reviewer Discussion Starts | Mar 25 '25 (Anywhere on Earth)",
+          "sha256": "24a48e9dac3000b106f6cde20646510e6bebb457b1673c746e63a5558f1a80e7"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Author Response Deadline | Mar 31 '25 (Anywhere on Earth)\nAC-Reviewer Discussion Starts | Apr 01 '25 (Anywhere on Earth)\nDeadline to Acknowledge Author Response | Apr 04 '25 (Anywhere on Earth)\nAuthor Reviewer Discussion Ends | Apr 08 '25 (Anywhere on Earth)\nAC-Reviewer Discussion Ends | Apr 13 '25 (Anywhere on Earth)\nAuthor Notification | May 01 '25 (Anywhere on Earth)\nCamera Ready Deadline | Jun 09 '25 (Anywhere on Earth)\nSlides Live Video Upload Deadline | Jun 15 '25 (Anywhere on Earth)",
+          "sha256": "22f878248578ffa2d1ca7a317ab22ff4fb5f1496a76846747f119ba5e6055749"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Select Poster Session for Topic Grouping | Jun 27 '25 (Anywhere on Earth)\nPoster Topics Deadline | Jun 27 '25 (Anywhere on Earth)\nSocials\nSocials Application Open | Feb 11 '25 11:59 AM UTC\nSocial Application Deadline | May 26 '25 (Anywhere on Earth)\nSocial Application Notification | Jun 09 '25 (Anywhere on Earth)\nSponsors / Expo\nSponsor Portal Open | Feb 01 '25 02:00 PM UTC",
+          "sha256": "ad21470c045d3dd4a29ea1b947df6919a16fe06712782c6379702d8cc0e6595d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Career Site - Opens | Mar 05 '25 08:00 AM UTC\nExpo Calls Deadline | May 11 '25 (Anywhere on Earth)\nCareer Site - Posting Application Deadline | Jul 04 '25 (Anywhere on Earth)\nCareers Site Posting Deadline | Jul 13 '25 (Anywhere on Earth)\nCareers Site - Closes | Aug 23 '25 01:00 AM UTC\nTutorials\nTutorial Application Deadline | Feb 10 '25 (Anywhere on Earth)\nVolunteers",
+          "sha256": "a633de3f60631d36dc92bdf5d58b8a1990ce28c3be497cc2b08147de81f9b393"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Volunteer Application Deadline | May 29 '25 (Anywhere on Earth)\nVolunteer Notification | Jun 16 '25 (Anywhere on Earth)\nWorkshops\nWorkshop Application Open | Jan 21 '25 (Anywhere on Earth)\nWorkshop Application Deadline | Feb 10 '25 (Anywhere on Earth)\nWorkshop Application Notification | Mar 18 '25 (Anywhere on Earth)\nWorkshop Import Accepted Papers Deadline | Jun 09 '25 12:00 PM PDT\nUniversal notification deadline for all submissions to individual ICML workshops | Jun 09 '25 12:00 PM PDT",
+          "sha256": "36424c237cf9c15df8fdd73728e087974933228a38efdb82e8553f5011c48d6a"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Workshop Slides Live Video Upload Deadline | Jun 15 '25 (Anywhere on Earth)\nWorkshops Schedule Finalized Deadline | Jul 14 '25 07:00 PM UTC\nWorkshops Camera Ready Deadline | Jul 14 '25 07:00 PM UTC\nWorkshops Assign Complimentary Registration Deadline | Jul 15 '25 07:00 PM UTC\nSuccessful Page Load",
+          "sha256": "fe949ce89830ecc13c1589f8f5426ebe42dcc68fd5b6f3e6f3ccbab1b407ba65"
+        }
+      ],
+      "links": [],
+      "sha256": "5316e90be9e974da45b21205d1987ee92e926830a6c70aca88dfb4b7ee44ab57"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "6f574db7f7a7d1a26a03d73bf936bee3145b3f7e451aaf6e196ad895c3dd7800",
+      "url": "https://icml.cc/Conferences/2026/Dates",
+      "final_url": "https://icml.cc/Conferences/2026/Dates",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:10:53Z",
+      "snippets": [
+        {
+          "section": "ICML 2026 Meeting Dates",
+          "text": "ICML 2026 Meeting Dates\nTutorials / Expo Talks | Mon Jul 6th\nMain Conference | Tue Jul 7th through Thu the 9th\nWorkshops | Fri Jul 10th through Sat the 11th\nExhibit Sponsor Hall | Tues July 7 (11 am - 7 pm), Wed July 8 (9am - 6pm), Thurs July 9 (9am - 6pm)\nYour timezone is:",
+          "sha256": "dd9c34da1c1f6039d83d028216701e7d83aaeed7756f272fbf2679fc570082bd"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Attendees\nCareer Site - Opens | Mar 02 '26 08:00 AM UTC\nEarly pricing before this date | May 24 '26 (Anywhere on Earth)\nDeadline to set your Dietary Preference | Jun 03 '26 (Anywhere on Earth)\nRegistration Cancellation Deadline | Jun 17 '26 (Anywhere on Earth)\nCareers Site - Closes | Aug 16 '26 01:00 AM UTC\nFinancial Assistance\nFinancial Aid Application Open | Feb 09 '26 (Anywhere on Earth)",
+          "sha256": "06f02e2a469058898499ef17ce7fc243675f44a2603353748658e9cfdac23180"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Financial Aid Application Deadline | May 18 '26 (Anywhere on Earth)\nFinancial Aid Notification | Jun 01 '26 (Anywhere on Earth)\nPaper Submissions\nPaper Submission Opens for Main Conference | Jan 08 '26 12:00 AM UTC\nAbstract Submission Deadline | Jan 23 '26 (Anywhere on Earth)\nFull Paper Submission Deadline | Jan 28 '26 (Anywhere on Earth)\nDeadline for Reviews | Mar 12 '26 (Anywhere on Earth)\nDeadline for Emergency Reviews | Mar 23 '26 (Anywhere on Earth)",
+          "sha256": "4cb5287581a8c430038684674ab3ab9bfc2c96350ed649a95dd2b0d27444741e"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Reviews Released to Authors | Mar 24 '26 (Anywhere on Earth)\nAuthor Response Deadline | Mar 30 '26 (Anywhere on Earth)\nAC-Reviewer Discussion Starts | Mar 31 '26 (Anywhere on Earth)\nDeadline to Acknowledge Author Response | Apr 03 '26 (Anywhere on Earth)\nAuthor Reviewer Discussion Ends | Apr 07 '26 (Anywhere on Earth)\nAC-Reviewer Discussion Ends | Apr 12 '26 (Anywhere on Earth)\nAuthor Notification | Apr 30 '26 (Anywhere on Earth)\nPoster Topics Deadline | Jun 17 '26 (Anywhere on Earth)",
+          "sha256": "583fddfe9f2bdfa45427680fdf204cc31197b42abb8fc20394949d3857ae2f87"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Change Poster Session for Topic Grouping | Jun 17 '26 (Anywhere on Earth)\nSocials\nSocial Application Deadline | May 18 '26 (Anywhere on Earth)\nSocial Application Notification | Jun 01 '26 (Anywhere on Earth)\nSponsors / Expo\nSponsor Portal Open | Jan 29 '26 09:23 PM UTC\nCareer Site - Opens | Mar 02 '26 08:00 AM UTC\nExpo Calls Deadline | May 04 '26 (Anywhere on Earth)",
+          "sha256": "62b326fd810abcbe20718397c11460bb6c2ecf482f61581b2aef299aefc62f44"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Sponsor Payment Deadline | May 23 '26 07:00 AM UTC\nCareer Site - Posting Application Deadline | Jun 26 '26 (Anywhere on Earth)\nCareers Site Posting Deadline | Jul 02 '26 (Anywhere on Earth)\nCareers Site - Closes | Aug 16 '26 01:00 AM UTC\nSponsor Portal Close | Aug 19 '26 07:00 AM UTC\nTutorials\nTutorial Community Nomination Deadline | Dec 07 '25 (Anywhere on Earth)\nTutorial Application Deadline | Feb 06 '26 (Anywhere on Earth)",
+          "sha256": "463ce9db8e1fa8985b567990c31939900b21d9c1c9635d3622c154058ca04283"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Volunteers\nVolunteer Application Open | Feb 09 '26 (Anywhere on Earth)\nVolunteer Application Deadline | May 18 '26 (Anywhere on Earth)\nVolunteer Notification | Jun 01 '26 (Anywhere on Earth)\nWorkshops\nWorkshop Application Open | Jan 21 '26 (Anywhere on Earth)\nWorkshop Application Deadline | Feb 13 '26 (Anywhere on Earth)\nWorkshop Application Notification | Mar 20 '26 (Anywhere on Earth)",
+          "sha256": "6d75e22a131654cc85e23ebea9759421ce16621e504dbd2cfc98e23106baeb3d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Suggested Submission Date for Workshop Contributions | Apr 24 '26 (Anywhere on Earth)\nUniversal notification deadline for all submissions to individual ICML workshops | May 14 '26 (Anywhere on Earth)\nSuccessful Page Load",
+          "sha256": "3d750f4749d668c8e85958101c52a734c7da59831e932c7252fe7d04b98b7719"
+        }
+      ],
+      "links": [],
+      "sha256": "d3e1ee98f72e7ab5502931ae2145ff093d6cbc9b4ba9fa0de9694616e09105eb"
+    },
+    "openreview": {
+      "extractor": "date-context-v1",
+      "config_sha256": "e250101ae022ed95d16ab1675f4190c5d93e7fe96475e55260f683f7215f14e3",
+      "url": "https://api2.openreview.net/groups?id=ICML.cc/2027/Conference",
+      "final_url": "https://api2.openreview.net/groups?id=ICML.cc/2027/Conference",
+      "status": 404,
+      "retrieved_at": "2026-09-05T04:10:44Z",
+      "snippets": [],
+      "links": [],
+      "sha256": "7bb089c1b3c75ad430d9efb915f608c489721800f923ca50158e9fe5bc73fb54"
+    }
+  },
+  "claims": {
+    "current/icml.abstract": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/icml.paper": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/icml.review": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/icml.rebuttal": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/icml.decision": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/icml.conference": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "history/2022/abstract_deadline": {
+      "value": "2022-01-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "21fd7c71d071a35ec60c0fb68fb25b178d6445f369dc06704e5642ac1073fca4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2022-01-27",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "21fd7c71d071a35ec60c0fb68fb25b178d6445f369dc06704e5642ac1073fca4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/review_release": {
+      "value": "2022-04-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "21fd7c71d071a35ec60c0fb68fb25b178d6445f369dc06704e5642ac1073fca4"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2022/rebuttal_deadline": {
+      "value": "2022-04-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "21fd7c71d071a35ec60c0fb68fb25b178d6445f369dc06704e5642ac1073fca4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/final_decision": {
+      "value": "2022-05-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "21fd7c71d071a35ec60c0fb68fb25b178d6445f369dc06704e5642ac1073fca4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-07-17",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "70b1a77f93da4e3c4eea191732741c5bb8b02084ec16d098f978801ad7f2764b"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-07-23",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "70b1a77f93da4e3c4eea191732741c5bb8b02084ec16d098f978801ad7f2764b"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2023-01-26",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "6b4e448197f79c944afc26de0ff2553a76426999fd895a7de94ac6d641f69fbc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/review_release": {
+      "value": "2023-03-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "6b4e448197f79c944afc26de0ff2553a76426999fd895a7de94ac6d641f69fbc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/rebuttal_deadline": {
+      "value": "2023-03-19",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "6b4e448197f79c944afc26de0ff2553a76426999fd895a7de94ac6d641f69fbc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/final_decision": {
+      "value": "2023-04-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "2df045382e3575cca9a041958f48dd99f7e42e0c53d4688121d13b4947a5cc4b"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-07-23",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "ecb460373f6fa56d82b5e554d78de63abd92cc7505103fefd11aff5938f35594"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-07-29",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "ecb460373f6fa56d82b5e554d78de63abd92cc7505103fefd11aff5938f35594"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2024-02-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "9e89dc3b8c687cb0dd18a904a9281f9533f0f94928f8035b5267b81825909253"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/review_release": {
+      "value": "2024-03-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "9e89dc3b8c687cb0dd18a904a9281f9533f0f94928f8035b5267b81825909253"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/rebuttal_deadline": {
+      "value": "2024-03-28",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "9e89dc3b8c687cb0dd18a904a9281f9533f0f94928f8035b5267b81825909253"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/final_decision": {
+      "value": "2024-05-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "298f6c872f3ab817cfb85d7852817a5f592bb119f54e49e5d3933cdd6c0733c5"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-07-21",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "9b311e9280db9322b329a19413cb19a9640e473f729db8a264cef00f04b2bc04"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-07-27",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "9b311e9280db9322b329a19413cb19a9640e473f729db8a264cef00f04b2bc04"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2025/abstract_deadline": {
+      "value": "2025-01-23",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "24a48e9dac3000b106f6cde20646510e6bebb457b1673c746e63a5558f1a80e7"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2025-01-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "24a48e9dac3000b106f6cde20646510e6bebb457b1673c746e63a5558f1a80e7"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2025-03-25",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "24a48e9dac3000b106f6cde20646510e6bebb457b1673c746e63a5558f1a80e7"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2025-03-31",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "22f878248578ffa2d1ca7a317ab22ff4fb5f1496a76846747f119ba5e6055749"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-05-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "22f878248578ffa2d1ca7a317ab22ff4fb5f1496a76846747f119ba5e6055749"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-07-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "ec41964d4a3755c65728e24805d086a418251a22cba55fd7344482aa544053d1"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-07-19",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "ec41964d4a3755c65728e24805d086a418251a22cba55fd7344482aa544053d1"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2026/abstract_deadline": {
+      "value": "2026-01-23",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "4cb5287581a8c430038684674ab3ab9bfc2c96350ed649a95dd2b0d27444741e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2026-01-28",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "4cb5287581a8c430038684674ab3ab9bfc2c96350ed649a95dd2b0d27444741e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/review_release": {
+      "value": "2026-03-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "583fddfe9f2bdfa45427680fdf204cc31197b42abb8fc20394949d3857ae2f87"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/rebuttal_deadline": {
+      "value": "2026-03-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "583fddfe9f2bdfa45427680fdf204cc31197b42abb8fc20394949d3857ae2f87"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-04-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "583fddfe9f2bdfa45427680fdf204cc31197b42abb8fc20394949d3857ae2f87"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-07-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "dd9c34da1c1f6039d83d028216701e7d83aaeed7756f272fbf2679fc570082bd"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-07-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "dd9c34da1c1f6039d83d028216701e7d83aaeed7756f272fbf2679fc570082bd"
+        }
+      ],
+      "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
+    }
+  }
+}

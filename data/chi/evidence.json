@@ -1,0 +1,684 @@
+{
+  "schema_version": 1,
+  "id": "chi",
+  "sources": {
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "74656e571be54bad13d27c7f52de2e669f54ab832d582454dda8bcd3b9f3028c",
+      "url": "https://chi2022.acm.org/for-authors/presenting/papers/",
+      "final_url": "https://chi2022.acm.org/for-authors/presenting/papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:17:54Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "ACM CHI Conference on Human Factors in Computing Systems\nApril 30 - May 5 2022 | New Orleans, LA\nMenu",
+          "sha256": "c9cd54d492635bfb1928266bac9db669b10f5b97afdd107c859c9fdf9e4e1412"
+        },
+        {
+          "section": "Quick Facts",
+          "text": "Quick Facts\nCHI 2022 is structured as a Hybrid-Onsite full conference from April 30–May 5 in New Orleans, LA.",
+          "sha256": "52ce9e2b7cb57b362d8c00872903499066ac41951e8ba29ef77d60b6ff6641ed"
+        },
+        {
+          "section": "Important Facts",
+          "text": "Important Facts",
+          "sha256": "478a85697b2b7def67fd51c45240fdc836da681c9201a6e1ddb297cfc7854398"
+        },
+        {
+          "section": "Important Dates",
+          "text": "All times are in Anywhere on Earth (AoE) time zone. When the deadline is day D , the last time to submit is when D ends AoE. Check your local time in AoE.\nSubmission site open: Thursday August 12, 2021\nAbstract deadline (title, abstract, authors, subcommittee choices, and other metadata)): Thursday September 2, 2021\nSubmission deadline: Thursday September 9, 2021\n1st round decision notification: Thursday November 18, 2021\ne-rights completion deadline: Thursday November 25, 2021\ninitial upload to TAPS deadline: Thursday December 23, 2021\npublication-ready deadline (including supplemental materials and optional video previews ): Thursday January 6, 2022",
+          "sha256": "319a131e2582858f713db1aa8a653845e04736043097fcd545633c37ce0bd6dc"
+        },
+        {
+          "section": "Important Dates",
+          "text": "8-min video for presentation at the conference: Thursday February 3, 2022\nSubmission site open for resubmission: Thursday December 30, 2021\nResubmission deadline for revise and resubmit papers: Monday January 10, 2022\n2nd round decision notification: Thursday February 10, 2022\ne-rights completion deadline: Thursday February 17, 2022\ninitial upload to TAPS deadline: Thursday March 10, 2022\n8-min video for presentation at the conference: Thursday March 17, 2022\npublication-ready deadline (including supplemental materials and optional video previews ): Thursday March 24, 2022",
+          "sha256": "9b421d5d37e0715149c8eb1c6165eca0cd1b954e25e8887d9580aaffcb027624"
+        },
+        {
+          "section": "Submission Details",
+          "text": "Submission Details",
+          "sha256": "5934d20aa2036437000e3d6fc9376a56228375a9255db17fd11dd41004710d2f"
+        }
+      ],
+      "links": [],
+      "sha256": "27bc992945d890a772aa039d76f21b9568825c86aa15776d187c4f66f9ec331b"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "0904c8c08a1736b9cb6c22988a2bd30ff307ae2402f5180fad6b733d674eecce",
+      "url": "https://chi2023.acm.org/for-authors/papers/",
+      "final_url": "https://chi2023.acm.org/for-authors/papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:17:58Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "All times are in Anywhere on Earth (AoE) time zone. When the deadline is day D , the last time to submit is when D ends AoE. Check your local time in AoE.\nSubmission site open: Thursday August 11, 2022\nAbstract deadline (title, abstract, authors, subcommittee choices, and other metadata): Thursday September 8, 2022\nPaper deadline: Thursday September 15, 2022\nVideo and Supplementary Material deadline: Thursday September 22, 2022\nReviews Released: Monday November 7, 2022\nRevise Papers: Tuesday November 8 – Tuesday December 13, 2022\nResubmission deadline: Tuesday December 13, 2022",
+          "sha256": "31eda9b4f78729d7dd445707c356270968529d2a30f3a9f559385f22cd5a1b1e"
+        },
+        {
+          "section": "Important Dates",
+          "text": "PC Meeting: Wednesday January 11 – Friday January 13, 2023\nDecision Notification: Friday January 13, 2023\nReviews Released: Monday January 16, 2023\nE-Rights Completion Deadline: Thursday January 19, 2023\nInitial TAPS Upload Milestone: Thursday January 26, 2023\nPublication-Ready deadline (including supplemental materials and optional video previews): Thursday February 16, 2023\nVideo Presentation: Thursday March 23, 2023",
+          "sha256": "8a6ccc9dbe173e2d8157a275614b0026c1a283c17fe43a07c0592c073f91f172"
+        },
+        {
+          "section": "Selection Process",
+          "text": "Selection Process",
+          "sha256": "fa6c2f1b88ab30a4342d992c9fb01f33388a7b3ce5370ea1f4dd013c1fb6b874"
+        }
+      ],
+      "links": [],
+      "sha256": "661c332aacee0194e72fd9859a209ad19db788118604f2965077687abfbb4373"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "7899a98d5d24ed7bae63f9fb6e76e5bd661e203ba1c5758ee9e3293994446839",
+      "url": "https://chi2024.acm.org/deadlines-table/",
+      "final_url": "https://chi2024.acm.org/deadlines-table/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:17:58Z",
+      "snippets": [
+        {
+          "section": "Overview of Submission Deadlines and Notifications",
+          "text": "Submission | Notification\nPapers (Abstracts & Metadata) | 2023/09/07\nPapers | 2023/09/14 | 2024/01/19\nCase Studies | 2023/10/12 | 2023/12/07\nCourses | 2023/10/12 | 2023/11/30\nIn-Person Doctoral Consortium | 2023/11/09 | 2023/12/14\nRemote Doctoral Consortium | 2024/01/25 | 2024/02/29\nWorkshops | 2023/10/12 | 2023/11/30",
+          "sha256": "9ac0690ef6f53cc85a53a25bcac77ead30cad31b1aecf30b984eb6469aab2429"
+        },
+        {
+          "section": "Overview of Submission Deadlines and Notifications",
+          "text": "alt.chi | 2023/12/14 | 2024/02/01\nPanels | 2023/12/14 | 2024/02/01\nSIGs | 2023/12/14 | 2024/02/01\nInteractivity | 2024/01/17 | 2024/02/15\nLate Breaking Work | 2024/01/25 | 2024/02/29\nStudent Game Competition | 2024/01/18 | 2024/02/08\nStudent Research Competition | 2024/01/18 | 2024/02/08\nStudent Design Competition | 2024/01/18 | 2024/02/08",
+          "sha256": "a395f998602e276b6fe558971a3ff12765aba6c52223a8a4b1839df65bfa95e5"
+        },
+        {
+          "section": "Overview of Submission Deadlines and Notifications",
+          "text": "Journal Article Presentations | 2023/12/21\nVideo Showcase | 2024/01/17 | 2024/02/15",
+          "sha256": "3d5573ae1a2fec1c6a4c73a5e9a595e411a1a31891c51a950d0abff5d6056443"
+        },
+        {
+          "section": "CHI 2024 Sponsors",
+          "text": "CHI 2024 Sponsors",
+          "sha256": "217d4ba3a670e1f007ef93d9822e2f183ea6534b6eb070b4ce8eb755c5db45f3"
+        }
+      ],
+      "links": [],
+      "sha256": "5f7acd9681c2fad9fe82b063d64896acc117772fb5d23744c620771c3a19c6fd"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "45e70af8099eb7e82fbc076f828d281bce453bbda6a25bcc0f999725c6f431a4",
+      "url": "https://chi2025.acm.org/for-authors/papers/",
+      "final_url": "https://chi2025.acm.org/for-authors/papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:18:01Z",
+      "snippets": [
+        {
+          "section": "Upcoming Deadlines",
+          "text": "All times are in Anywhere on Earth (AoE) time zone. The submission site of each track will open approximately four weeks before its submission deadline.",
+          "sha256": "3ae702af674ba9736cedb2cfb9677ece8c534f07cb636111bc0a6604b1b0cf2e"
+        },
+        {
+          "section": "Submission [removed] September 12, 2024 [/removed]",
+          "text": "Submission [removed] September 12, 2024 [/removed]",
+          "sha256": "eb0c7f232d908bc17ca395edb26d5000d87fe0a5d5cbcda6c65e330d06d1ccb2"
+        },
+        {
+          "section": "Notification [removed] January 16, 2025 [/removed]",
+          "text": "Notification [removed] January 16, 2025 [/removed]\nPapers",
+          "sha256": "024c81ab78b28bf277d4291db17f3bf2d10b73f5b2df811893a27fcc39c887d4"
+        },
+        {
+          "section": "Submission [removed] October 10, 2024 [/removed]",
+          "text": "Submission [removed] October 10, 2024 [/removed]",
+          "sha256": "2ca8df7ec36c9b06e0fca6c3a495088788b0f5826edec18f6c3fafcda8b76bd2"
+        },
+        {
+          "section": "Notification [removed] November 28, 2024 [/removed]",
+          "text": "Notification [removed] November 28, 2024 [/removed]\nCase Studies of HCI in Practice",
+          "sha256": "49c95ec239746011631a5decabe0818bf16139a72015cf20a55e9265c73637da"
+        },
+        {
+          "section": "Notification [removed] November 28, 2024 [/removed]",
+          "text": "Workshops",
+          "sha256": "1e96eaa7aca1dc57ab21c1e91aa388abbcaa9825b2ca094fc53113d0a327f278"
+        },
+        {
+          "section": "Submission [removed] October 24, 2024 [/removed]",
+          "text": "Submission [removed] October 24, 2024 [/removed]",
+          "sha256": "7f109b7b1bd9a855876e1c6e255416b053b82b3458ad6129f16e7169e9e0eab1"
+        },
+        {
+          "section": "Notification [removed] December 5, 2024 [/removed]",
+          "text": "Notification [removed] December 5, 2024 [/removed]\nIn-Person Doctoral Consortium",
+          "sha256": "30264e63dc9bbfd81a98a86424c654ca04cf97ba4c9f113edb0e0f00b3185f5f"
+        },
+        {
+          "section": "Submission [removed] December 5, 2024 [/removed]",
+          "text": "Submission [removed] December 5, 2024 [/removed]",
+          "sha256": "196735f2fcaa1965861131b9cda749257ffa089730be1ae06dfaac8d6e8aff53"
+        },
+        {
+          "section": "Notification [removed] January 30, 2025 [/removed]",
+          "text": "Notification [removed] January 30, 2025 [/removed]\nalt.CHI",
+          "sha256": "f5957dc3f3b6c6c2e3d5456423cd702ce21a4bc61cf8816aa865cf68c691596b"
+        },
+        {
+          "section": "Notification [removed] January 30, 2025 [/removed]",
+          "text": "SIG",
+          "sha256": "cc71096a4704326ea71ccc01985f841a8219653132992dede069d092971c61ce"
+        },
+        {
+          "section": "Submission [removed] December 19, 2024 [/removed]",
+          "text": "Submission [removed] December 19, 2024 [/removed]",
+          "sha256": "55064ea195bc51156a8d62e21f6afa26add713bd9059ad1a23cdc0fe1b31662f"
+        },
+        {
+          "section": "Notification [removed] January 16, 2025 [/removed]",
+          "text": "Notification [removed] January 16, 2025 [/removed]\nJournal",
+          "sha256": "74066112bf8ca0c3540ddeb770ca42d8de59ad6ae1d529742206f3c94014f65d"
+        },
+        {
+          "section": "Submission [removed] January 22, 2025 [/removed]",
+          "text": "Submission [removed] January 22, 2025 [/removed]",
+          "sha256": "7d6f410b60fdb13df7d503b9e6a1d6c241a0de2fed432761d05bc8a7109ed9bb"
+        },
+        {
+          "section": "Notification [removed] January 27, 2025 [/removed]",
+          "text": "Notification [removed] January 27, 2025 [/removed]\nStudent Volunteer",
+          "sha256": "ec7a42edbc07b778124ba3be68777ab07b461921801d73f23f935379215a3369"
+        },
+        {
+          "section": "Submission [removed] January 23, 2025 [/removed]",
+          "text": "Submission [removed] January 23, 2025 [/removed]",
+          "sha256": "d8a06a1411e52e06c435538e09cc75cff999d944ff58fede669ae49b228cd102"
+        },
+        {
+          "section": "Notification [removed] February 20, 2025 [/removed]",
+          "text": "Notification [removed] February 20, 2025 [/removed]\nLate Breaking Work",
+          "sha256": "14437a3eea410adbdaf72c0b7bef9190a98592f7373944ff0c83a5384b70f8e4"
+        },
+        {
+          "section": "Important Facts",
+          "text": "Inclusivity: Authors should ensure their work and writing are as inclusive as possible.\nMandatory Video Presentation: All accepted authors are required to upload a video presentation by the video presentation deadline, Thursday, March 13, 2025 . Note that this deadline for submitting a video presentation is earlier than in 2024.\nNo Video Previews: Unlike previous years, CHI 2025 has decided NOT to collect video previews (30-second videos to show the core idea of your work), and authors do not need to prepare them.",
+          "sha256": "8b6f32899f1cb068fecfad507f2a575117c813cd7fa237c26e9577c4c4dd8734"
+        },
+        {
+          "section": "Important Dates",
+          "text": "All times are in Anywhere on Earth (AoE) time zone. When the deadline is day D , the last time to submit is when D ends AoE. Check your local time in AoE.\nSubmission site open: Thursday, August 1, 2024\nAbstract/metadata deadline (title, abstract, authors, subcommittee choices, and other metadata; please note that changes on authors are NOT allowed after this date for the whole review process) : Thursday, September 5, 2024\nFull paper deadline: Thursday, September 12, 2024\nVideo figures (optional videos about the work) and Supplementary Material (e.g., longer appendices) deadline: Thursday, September 19, 2024\nReviews Released: Tuesday, November 5, 2024\nRevise Papers: Wednesday, November 6 – Tuesday, December 10, 2024\nResubmission deadline: Tuesday, December 10, 2024",
+          "sha256": "4be684cc2e41991cc13fbcbf25358f845d143d95ddd0f9a3e28ba446b81b8c8e"
+        },
+        {
+          "section": "Important Dates",
+          "text": "PC Meeting: Tuesday, January 14, 2025\nDecision Notification: Thursday, January 16, 2025\nReviews Released: Friday, January 17, 2025\nE-Rights Completion Deadline: Thursday, January 23, 2025\nPublication-Ready deadline (including supplemental materials and optional video previews): Thursday, February 13, 2025\nTAPS Closes: Thursday, February 20, 2025\nVideo Presentation Deadline (Mandatory) : Thursday, March 13, 2025",
+          "sha256": "45d9aba06b3099261c9d7678f3e3e2eb1c00a9d47ca6643798a69923a5ef070b"
+        },
+        {
+          "section": "ACM Selection Process Category",
+          "text": "ACM Selection Process Category",
+          "sha256": "6410802d73d6f70d1034928d0bde74523ef2052a32cbb78f970daa8963c565b4"
+        },
+        {
+          "section": "Video Presentations",
+          "text": "Video Presentations\nAll accepted authors are required to upload a video presentation (a presentation video of your accepted work) by the video presentation deadline of Thursday March 13, 2025. See technical requirements for video content at CHI as a guidance for preparing a video presentation. Accepted authors will receive the details of video presentations separately.\nIf authors fail to submit their video presentations by the deadline, their accepted work would be withdrawn from the ACM Digital Library.",
+          "sha256": "ff676460d2fd5eda4be2d96a3347c875220bcbb5e253dc7e1400d52c93cc6ff2"
+        }
+      ],
+      "links": [],
+      "sha256": "729d4b7630d63d816583d8757793cfe727dd4fc6e1d0f5819e6970ebe1a741a2"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "6b0d23aaa8e11476920ca35cf584ed679820df61b9ad94070297024c19314878",
+      "url": "https://chi2026.acm.org/authors/papers/",
+      "final_url": "https://chi2026.acm.org/authors/papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:18:01Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "Papers\n2025-09-04 Abstract/Metadata Due 2025-09-11 Full Paper Due 2025-11-04 Reviews Released 2025-12-04 Resubmission Due 2026-01-15 Decisions Notification\nPosters\n2026-01-22 Submission deadline 2026-02-19 Notification\nInteractive Demos\n2026-01-22 Submission deadline 2026-02-19 Notification\nPanels\n2025-11-20 Submission deadline 2026-01-15 Notification deadline",
+          "sha256": "963b9fb1104bdf04d5d8829421b45e59392ca1aee07b2ae823d29846b1550838"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Workshops\n2025-10-02 Organizer submission deadline 2025-11-20 Organizer notification 2025-12-18 Accepted Workshops Websites Up\nMeet-Ups\n2025-10-02 Submission Deadline 2025-11-20 Notification Deadline\nStudent Mentoring Program\n2026-01-22 Submission deadline 2026-02-19 Notification\nStudent Research Competition\n2026-01-22 Submission deadline 2026-02-19 Notification",
+          "sha256": "1f761d683aa979cccea7ab7f481bd139fa34e4177a7e87e7fec7a7c6d78c5913"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Journals\n2025-11-17 Invitation sent to authors 2026-01-22 Submission deadline 2026-02-19 Notification\nSearch",
+          "sha256": "8bbf99eb4831de24017a2269c9b6f9fb7facee3717f01a49891519d76143d21c"
+        },
+        {
+          "section": "Important Facts",
+          "text": "Inclusivity: Authors should ensure their work and writing are as inclusive as possible.\nOptional Video Presentation: All accepted authors can upload a video presentation by the video presentation deadline, Thursday, March 12, 2026 .",
+          "sha256": "f83e59f601ba7d8aa661b81dfa3d427f4317e753ec92bd30a3fdfef53a266293"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nAll times are in Anywhere on Earth (AoE) time zone. When the deadline is day D , the last time to submit is when D ends AoE. Check your local time in AoE.\nThursday, July 31, 2025 : Submission site open\nThursday, September 4, 2025 : Abstract/metadata deadline (title, abstract, authors, subcommittee choices, and other metadata; please note that changes on authors are NOT allowed after this date for the whole review and publication process) :\nThursday, September 11, 2025 : Full paper deadline\nThursday, September 18, 2025 : Video figures (optional videos about the work) and Supplementary Material (e.g., longer appendices) deadline\nTuesday, November 4, 2025 : Reviews Released\nWednesday, November 5–Thursday, December 4, 2025 : Revise Papers",
+          "sha256": "2b37b010ef937bbe414db4a5c403b317a73c724fc053b25c7cd36c3445f42abe"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Thursday, December 4, 2025 : Resubmission deadline\nMonday – Wednesday, January 12–14, 2026 : PC Meeting (Virtual)\nThursday, January 15, 2026 : Decision Notification\nFriday, January 16, 2026 : Reviews Released\nThursday, January 22, 2026 : E-Rights Completion Deadline\nMonday, January 26, 2026 : Initial TAPS upload deadline (Author must upload their paper to TAPS)\nFriday, February 6, 2026 : Publication-Ready deadline (Authors upload FINAL TAPS-approved version to PCS)\nThursday, March 12, 2026 : (optional) Video Presentation",
+          "sha256": "3cde5744d4058c742926392da06188e86bcfc56bca542c39b1fb9dca246eef68"
+        },
+        {
+          "section": "ACM Selection Process Category",
+          "text": "ACM Selection Process Category",
+          "sha256": "6410802d73d6f70d1034928d0bde74523ef2052a32cbb78f970daa8963c565b4"
+        },
+        {
+          "section": "ACM Open",
+          "text": "All CHI 2026 papers will be published under ACM Open .\nStarting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With over 1,800 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 70-75%).\nAuthors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy . Keep in mind that waivers are rare and are granted based on specific criteria set by ACM.",
+          "sha256": "83655023c6e27b6d61711c350a8f0f5e9c653f9819c3ca653c33285dadc43f34"
+        },
+        {
+          "section": "Video Presentations",
+          "text": "Video Presentations\nAuthors can optionally upload a video presentation (a presentation video of your accepted work) by the video presentation deadline of Thursday, March 12, 2026. See technical requirements for video content at CHI for guidance when preparing a video presentation. Accepted authors will receive the details of video presentations separately.",
+          "sha256": "4009e1e7cb1ad82d3602c0f39d80bd94af1c7c48d9ef40db63a2ee0ec134d390"
+        },
+        {
+          "section": "Your Paper at the Conference",
+          "text": "Your Paper at the Conference",
+          "sha256": "6c85e644341b4b9ffb890dff2f2e91967969d55c56de2e7841644e350eecefab"
+        }
+      ],
+      "links": [],
+      "sha256": "993a3aaba61b90a63149f7cdcfa5879b5a0c6a382a7c827ce7271bce886af53d"
+    },
+    "papers": {
+      "extractor": "date-context-v1",
+      "config_sha256": "e6f520b3c56d51df2a9f394894f8ef5c26fd8230ac78b4e59ee3a7014a40dc04",
+      "url": "https://chi2027.acm.org/authors/papers/",
+      "final_url": "https://chi2027.acm.org/authors/papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:17:53Z",
+      "snippets": [
+        {
+          "section": "",
+          "text": "ACM CHI 2027\nPittsburgh, 10–14 May, 2027\nHome » Authors » Papers",
+          "sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3"
+        },
+        {
+          "section": "Papers",
+          "text": "Paper submission deadline 10 September 2026, Anywhere on Earth",
+          "sha256": "fe0412200c5651d90be72b72dc09ee47547483a9688da70c6dac51d548b62c34"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nAll times are in Anywhere on Earth (AoE) time zone. When the deadline is day D , the last time to submit is when D ends AoE. Check your local time in AoE.\nThursday, August 13, 2026 : Submission site open\nNote that there is no abstract deadline.\nThursday, September 10, 2026 : Paper submission deadline, including videos and supplementary materials\nThursday, November 5, 2026 : Reviews released\nThursday, November 5–Thursday, December 3, 2026 : Revise papers\nThursday, December 3, 2026 : Resubmission deadline",
+          "sha256": "e67f5e7ac40c0aed8c29022634d40e23a2967c3941a723e18f9ccabb12b51b5c"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Thursday, December 17, 2026 : Final notification\nThursday, January 7, 2027 : E-Rights completion deadline\nThursday, January 14, 2027 : TAPS upload deadline (Author must upload their final paper source to TAPS for processing)\nThursday, February 18, 2027 : Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials and optional video previews)\nThursday, March 4, 2027 : Conference registration deadline\nThursday, March 4, 2027 : Video presentation deadline\nNote: All deadlines include a 24-hour grace period in which submissions can still be edited. This period is provided solely for contingency and should not be treated as an extension. No support will be available, and authors should not contact the chairs regarding submission issues once the official deadline has passed.",
+          "sha256": "a5a83173f313ac573c7ab351c60a86f113e055efb19a44e58a3fbf4e4c1c60ec"
+        }
+      ],
+      "links": [],
+      "sha256": "fed3f50695adc5843c942f6a2ce49e45314d52f701f520853c803e8e1b31faf5"
+    }
+  },
+  "claims": {
+    "current/chi.paper": {
+      "value": "2026-09-10T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "papers",
+          "snippet_sha256": "fe0412200c5651d90be72b72dc09ee47547483a9688da70c6dac51d548b62c34"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/chi.review": {
+      "value": "2026-11-05T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "papers",
+          "snippet_sha256": "e67f5e7ac40c0aed8c29022634d40e23a2967c3941a723e18f9ccabb12b51b5c"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/chi.rebuttal": {
+      "value": "2026-12-03T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "papers",
+          "snippet_sha256": "e67f5e7ac40c0aed8c29022634d40e23a2967c3941a723e18f9ccabb12b51b5c"
+        }
+      ],
+      "note": "对应 CHI 修订稿重新提交截止日，不是单独的文字 rebuttal。"
+    },
+    "current/chi.decision": {
+      "value": "2026-12-17T23:59:00-12:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "papers",
+          "snippet_sha256": "a5a83173f313ac573c7ab351c60a86f113e055efb19a44e58a3fbf4e4c1c60ec"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "current/chi.conference": {
+      "value": null,
+      "status": "newly_announced",
+      "evidence": [
+        {
+          "source": "papers",
+          "snippet_sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3"
+        }
+      ],
+      "candidate": {
+        "value": "2027-05-10",
+        "evidence": [
+          {
+            "source": "papers",
+            "snippet_sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3",
+            "quote": "Pittsburgh, 10–14 May, 2027",
+            "highlights": [
+              "10–14 May, 2027"
+            ]
+          }
+        ]
+      },
+      "note": "官网已公布匹兹堡会期为 2027-05-10 至 05-14，当前事件仍是预测，需核对时区后更新。"
+    },
+    "history/2022/abstract_deadline": {
+      "value": "2021-09-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "319a131e2582858f713db1aa8a653845e04736043097fcd545633c37ce0bd6dc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2021-09-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "319a131e2582858f713db1aa8a653845e04736043097fcd545633c37ce0bd6dc"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-04-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "52ce9e2b7cb57b362d8c00872903499066ac41951e8ba29ef77d60b6ff6641ed"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-05-05",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "52ce9e2b7cb57b362d8c00872903499066ac41951e8ba29ef77d60b6ff6641ed"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2022-09-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "31eda9b4f78729d7dd445707c356270968529d2a30f3a9f559385f22cd5a1b1e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/review_release": {
+      "value": "2022-11-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "31eda9b4f78729d7dd445707c356270968529d2a30f3a9f559385f22cd5a1b1e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/rebuttal_deadline": {
+      "value": "2022-12-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "31eda9b4f78729d7dd445707c356270968529d2a30f3a9f559385f22cd5a1b1e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/final_decision": {
+      "value": "2023-01-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "8a6ccc9dbe173e2d8157a275614b0026c1a283c17fe43a07c0592c073f91f172"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-04-23",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-04-28",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/abstract_deadline": {
+      "value": "2023-09-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "9ac0690ef6f53cc85a53a25bcac77ead30cad31b1aecf30b984eb6469aab2429"
+        }
+      ],
+      "note": "对应 Deadlines Table 的 Papers 行；左右列分别为 Submission 与 Notification。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2023-09-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "9ac0690ef6f53cc85a53a25bcac77ead30cad31b1aecf30b984eb6469aab2429"
+        }
+      ],
+      "note": "对应 Deadlines Table 的 Papers 行；左右列分别为 Submission 与 Notification。"
+    },
+    "history/2024/review_release": {
+      "value": "2023-11-06",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/rebuttal_deadline": {
+      "value": "2023-12-12",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/final_decision": {
+      "value": "2024-01-19",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "9ac0690ef6f53cc85a53a25bcac77ead30cad31b1aecf30b984eb6469aab2429"
+        }
+      ],
+      "note": "对应 Deadlines Table 的 Papers 行；左右列分别为 Submission 与 Notification。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-05-11",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-05-16",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2025/abstract_deadline": {
+      "value": "2024-09-05",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "4be684cc2e41991cc13fbcbf25358f845d143d95ddd0f9a3e28ba446b81b8c8e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2024-09-12",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "eb0c7f232d908bc17ca395edb26d5000d87fe0a5d5cbcda6c65e330d06d1ccb2"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2024-11-05",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "4be684cc2e41991cc13fbcbf25358f845d143d95ddd0f9a3e28ba446b81b8c8e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2024-12-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "4be684cc2e41991cc13fbcbf25358f845d143d95ddd0f9a3e28ba446b81b8c8e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-01-16",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "024c81ab78b28bf277d4291db17f3bf2d10b73f5b2df811893a27fcc39c887d4"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-04-26",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-05-01",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2026/abstract_deadline": {
+      "value": "2025-09-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "963b9fb1104bdf04d5d8829421b45e59392ca1aee07b2ae823d29846b1550838"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2025-09-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "963b9fb1104bdf04d5d8829421b45e59392ca1aee07b2ae823d29846b1550838"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/review_release": {
+      "value": "2025-11-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "963b9fb1104bdf04d5d8829421b45e59392ca1aee07b2ae823d29846b1550838"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/rebuttal_deadline": {
+      "value": "2025-12-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "963b9fb1104bdf04d5d8829421b45e59392ca1aee07b2ae823d29846b1550838"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-01-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "963b9fb1104bdf04d5d8829421b45e59392ca1aee07b2ae823d29846b1550838"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-04-13",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-04-17",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    }
+  }
+}

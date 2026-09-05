@@ -1,6 +1,6 @@
 import Foundation
 
-enum HistoricalEventKey: String, Decodable {
+enum HistoricalEventKey: String, Codable {
     case abstractDeadline = "abstract_deadline"
     case paperDeadline = "paper_deadline"
     case commitmentDeadline = "commitment_deadline"

@@ -1,11 +1,48 @@
 {
   "schema_version": 1,
   "id": "kdd",
-  "watch": [
+  "sources": [
     {
       "id": "research-track",
+      "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
       "kind": "html",
-      "url": "https://kdd2027.kdd.org/research-track-call-for-papers/"
+      "edition": 2027,
+      "discover_links": true
+    },
+    {
+      "id": "history-2022",
+      "url": "https://www.kdd.org/kdd2022/cfpResearch.html",
+      "kind": "html",
+      "edition": 2022,
+      "discover_links": false
+    },
+    {
+      "id": "history-2023",
+      "url": "https://www.kdd.org/kdd2023/call-for-research-track-papers/index.html",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false
+    },
+    {
+      "id": "history-2024",
+      "url": "https://www.kdd.org/kdd2024/",
+      "kind": "html",
+      "edition": 2024,
+      "discover_links": false
+    },
+    {
+      "id": "history-2025",
+      "url": "https://kdd2025.kdd.org/research-track-call-for-papers/",
+      "kind": "html",
+      "edition": 2025,
+      "discover_links": false
+    },
+    {
+      "id": "history-2026",
+      "url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
+      "kind": "html",
+      "edition": 2026,
+      "discover_links": false
     }
   ]
 }

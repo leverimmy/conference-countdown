@@ -1,13 +1,63 @@
 {
   "schema_version": 1,
   "id": "iclr",
-  "watch": [
-    { "id": "dates", "kind": "html", "url": "https://iclr.cc/Conferences/2027/Dates" },
+  "sources": [
+    {
+      "id": "dates",
+      "url": "https://iclr.cc/Conferences/2027/Dates",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true,
+      "section_pattern": "Meeting Dates|Dates and Deadlines"
+    },
     {
       "id": "openreview",
-      "kind": "openreview",
       "url": "https://api2.openreview.net/groups?id=ICLR.cc/2027/Conference",
-      "optional": true
+      "kind": "json",
+      "edition": 2027,
+      "discover_links": false,
+      "allow_missing": true,
+      "allow_empty": true
+    },
+    {
+      "id": "history-2022",
+      "url": "https://iclr.cc/Conferences/2022/Dates",
+      "kind": "html",
+      "edition": 2022,
+      "discover_links": false,
+      "section_pattern": "Meeting Dates|Dates and Deadlines"
+    },
+    {
+      "id": "history-2023",
+      "url": "https://iclr.cc/Conferences/2023/Dates",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false,
+      "section_pattern": "Meeting Dates|Dates and Deadlines"
+    },
+    {
+      "id": "history-2024",
+      "url": "https://iclr.cc/Conferences/2024/Dates",
+      "kind": "html",
+      "edition": 2024,
+      "discover_links": false,
+      "section_pattern": "Meeting Dates|Dates and Deadlines"
+    },
+    {
+      "id": "history-2025",
+      "url": "https://iclr.cc/Conferences/2025/Dates",
+      "kind": "html",
+      "edition": 2025,
+      "discover_links": false,
+      "section_pattern": "Meeting Dates|Dates and Deadlines"
+    },
+    {
+      "id": "history-2026",
+      "url": "https://iclr.cc/Conferences/2026/Dates",
+      "kind": "html",
+      "edition": 2026,
+      "discover_links": false,
+      "section_pattern": "Meeting Dates|Dates and Deadlines"
     }
   ]
 }

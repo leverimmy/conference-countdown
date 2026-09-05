@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "id": "emnlp",
+  "sources": {
+    "acl-announcement": {
+      "extractor": "date-context-v1",
+      "config_sha256": "c3bbbdfad1df2d4d600cd9bb4a0e1dda3447395f56efe9440aad9ece71e357c6",
+      "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
+      "final_url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:09Z",
+      "snippets": [
+        {
+          "section": "Joint Call for Workshops Proposals 2027",
+          "text": "Joint Call for Workshops Proposals 2027\nJuly 20, 2026 | BY blvns\nEvent Notification Type:",
+          "sha256": "9cf1bd5a2a67cb3a79ec39b0291e96f46ba0e7e4b5c990055ee01eb408f735e7"
+        },
+        {
+          "section": "Joint Call for Workshops Proposals 2027",
+          "text": "Submission Deadline:\nFriday, 4 September 2026\nThe Association for Computational Linguistics invites proposals for workshops to be held in conjunction with one of the following conferences: EACL 2027, COLING 2027, NAACL 2027, ACL 2027, or EMNLP 2027. We solicit proposals in all areas of computational linguistics, broadly conceived to include related disciplines such as linguistics, speech, information retrieval, and multimodal processing.\nWorkshops will be held at one of the following conference venues:\nEACL 2027 (The 20th Conference of the European Chapter of the Association for Computational Linguistics), which will be held as a hybrid conference, and physically held in Athens, Greece, from March 9-14, 2027.\nCOLING 2027 (The 32nd International Conference on Computational Linguistics), which will be held as a hybrid conference, and physically held in Macau, China, from May 9-14.\nNAACL 2027 (The 2027 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics), which will be held as a hybrid conference, and physically held in San Francisco, USA, June 1-5, 2027.\nACL 2027 (The 65th Annual Meeting of the Association for Computational Linguistics), which will be held as a hybrid conference in the summer of 2027, physically held in Japan August 17-22.",
+          "sha256": "41686716589eb22b1b25fdce54c2d53f819f91a235260e93c466ab381a45f8bb"
+        },
+        {
+          "section": "Joint Call for Workshops Proposals 2027",
+          "text": "EMNLP 2027 (The 2027 Conference on Empirical Methods in Natural Language Processing), which will be held as a hybrid conference, tentatively scheduled for early November 2027 and physically held in Mexico or Central America.",
+          "sha256": "996f93a7a28795ed1a3ea2e24f9bf7e1081e197f0d7b81a9228d870b77fcbeac"
+        },
+        {
+          "section": "Joint Call for Workshops Proposals 2027",
+          "text": "ACL Conferences Workshop Proposals Shared Dates:\nProposal submission deadline: September 4th, 2026 Notification of acceptance: October 2nd, 2026\nAll deadlines are 11:59PM UTC-12:00 (\"anywhere on Earth\").",
+          "sha256": "3e0dcfcd4580a56e33cdbf523fbb82a3651cf718d6cac945723df5714485c91c"
+        },
+        {
+          "section": "Joint Call for Workshops Proposals 2027",
+          "text": "EACL 2027 (Athens, Greece)\nFirst call for workshop papers: October 13, 2026 Second call for workshop papers: November 13, 2026 Direct paper submission deadline: December 15, 2026 Pre-reviewed ARR commitment deadline: December 22, 2026 Notification of acceptance: January 5, 2027 Camera-ready paper due: January 19, 2027 Proceedings due (hard deadline): February 9, 2027 Pre-recorded video due (hard deadline): February 12, 2027 Conference dates: March 9-14, 2027\nCOLING 2027 (Macau, China)\nFirst call for workshop papers: November 21, 2026 Second call for workshop papers: December 21, 2026 Direct paper submission deadline: January 5, 2027 Pre-reviewed ARR commitment deadline: TBA Notification of acceptance: February 6, 2027 Camera-ready paper due: March 5, 2027 Proceedings due (hard deadline): April 5, 2027 Pre-recorded video due (hard deadline): April 15, 2027 Conference dates: May 9-14, 2027\nNAACL 2027 (San Francisco, USA)\nFirst call for workshop papers: October 26, 2026 Second call for workshop papers: November 23, 2026 Third call for workshop papers (Optional): January 4, 2027 Direct paper submission deadline: February 5, 2027 Pre-reviewed ARR commitment deadline: March 12, 2027 Notification of acceptance: March 26, 2027 Camera-ready paper due: April 16, 2027 Proceedings due (hard deadline; tentative): May 7, 2027 Pre-recorded video due (hard deadline; tentative): May 14, 2027 Conference dates: June 1-June 5, 2027\nACL 2027 (Kyoto, Japan)\nFirst call for workshop papers: December 6, 2026 Second call for workshop papers: January 17, 2027 Third call for workshop papers (Optional): March 13, 2027 Direct paper submission deadline: April 25, 2027 Pre-reviewed ARR commitment deadline: April 2027 Notification of acceptance: May 22, 2027 Camera-ready paper due: June 12, 2027 Proceedings due (hard deadline): July 3, 2027 Pre-recorded video due (hard deadline): July 18, 2027 Conference dates: August 17-22, 2027 Workshop dates: August 21-22, 2027",
+          "sha256": "fe5655ee99ff189fa8e1b56db887f82949d4e1fcfb3a2e2eae1573f2166d2ba8"
+        },
+        {
+          "section": "Joint Call for Workshops Proposals 2027",
+          "text": "EMNLP 2027 (TBA)\nConference dates: TBA\nWorkshop Chairs",
+          "sha256": "2ead97dbae19d00fff22f664d2d7df08d09efc2bef7f29ed0ae5ba733642c43d"
+        }
+      ],
+      "links": [],
+      "sha256": "c6f9983fcc6748736da0c1adcc75c383f6a372831836223fc561fc3843017d6f"
+    },
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "72b330bb1c2b32ecc71e7eda09d2d54e521170a3e28b73e1b07676ee591ca33f",
+      "url": "https://2022.emnlp.org/calls/main_conference_papers/",
+      "final_url": "https://2022.emnlp.org/calls/main_conference_papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:08Z",
+      "snippets": [
+        {
+          "section": "Cross Submission Policy with ARR",
+          "text": "Cross Submission Policy with ARR\nAny ARR-reviewed paper that got all of its reviews and meta-reviews available by the ARR-to-conference submission deadline (July 24, 2022), can be committed to EMNLP 2022 .\nNote: submissions from ARR cannot be modified except that they can be associated with an author response.\nNote: While EMNLP will consider any ARR paper that has been fully reviewed by July 24, 2022, unlike in ACL and NAACL, ARR does not guarantee a date such that all papers submitted to ARR before the date are guaranteed to receive necessary reviews in time for the EMNLP deadline. Consequently, care must be taken in deciding whether a submission should be made to ARR or EMNLP directly if the work has not been submitted anywhere before the call. Plan accordingly.\nNote: The START system deadline for direct submission papers, namely non-ARR submission papers, is June 24, 2022.\nPapers submitted to ARR before May 24, 2022, can be withdrawn and submitted to EMNLP 2022 .\nNote : In order for a paper to be submitted directly to EMNLP 2022, it must be inactive in the ARR system. This means that the submission must either be explicitly withdrawn by the authors, or the ARR reviews are finished and shared with the authors before May 24, and the paper was not re-submitted to ARR.\nNote : The authors can withdraw from ARR by May 24, 2022, regardless of how many reviews they have received.",
+          "sha256": "8a66b1d972270180e27a9de6cd0bdd3304b076073d4fc595e61ea73360f7524e"
+        },
+        {
+          "section": "Cross Submission Policy with ARR",
+          "text": "Papers that are in the ARR system after May 24, 2022, either submitted after or submitted before and not withdrawn, cannot be submitted to EMNLP 2022 .\nPapers submitted to EMNLP 2022 may not be submitted for review elsewhere (including ARR) while being under review at EMNLP 2022.",
+          "sha256": "602a07b068abd7cf11fbf151f89e2394edf85f487de0f7beefb17e3520abd115"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nAnonymity period begins | May 24, 2022\nAbstract deadline for START direct submissions | June 17, 2022\nDirect paper submission deadline (long & short papers) | June 24, 2022\nSubmission deadline for ARR papers | July 24, 2022\nAuthor response period | Aug 23 – Aug 29, 2022\nNotification of acceptance (long & short papers) | Oct 6, 2022\nCamera-ready papers due (long & short papers) | Oct 21, 2022",
+          "sha256": "e4581e03244fddeb45dbc00928a5c36e7ed3b38ebf5ab60c0d0affbcea9e36f2"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Workshops & Tutorials | December 7-8, 2022\nConference | December 9-11, 2022\nAll deadlines are 11.59 pm UTC -12h (“anywhere on Earth”).",
+          "sha256": "9908092169c4c0eefef5eaf1f7f163cfd21e1606a58b95eb6cc9f369f9840972"
+        },
+        {
+          "section": "Mandatory abstract submission",
+          "text": "Mandatory abstract submission\nThe paper title, author names, contact details, and a brief abstract must be submitted electronically through the EMNLP 2022 paper submission site by the abstract submission deadline (June 17). It will be possible to make minor edits to the title and abstract until the full paper submission deadline, but you cannot change authors and subject areas. Submissions with “placeholder” abstracts will be removed without consideration;\nImportant : if you miss the abstract submission deadline, then you cannot submit the full paper.",
+          "sha256": "3bd0b80716819d540616563dae16e04c18a4eefe5b0a7d5ffd2a14ad2007f137"
+        },
+        {
+          "section": "Anonymity Period",
+          "text": "Anonymity Period\nThe following rules and guidelines are meant to protect the integrity of double-blind review and ensure that submissions are reviewed fairly. The rules make reference to the anonymity period, which runs from 1 month before the submission deadline (starting May 24, 2022) up to the date when your paper is accepted or rejected (Oct 6, 2022). Papers that are withdrawn during this period will no longer be subject to these rules.\nYou may not make a non-anonymized version of your paper available online to the general community (for example, via a preprint server) during the anonymity period. Versions of the paper include papers having essentially the same scientific content but possibly differing in minor details (including title and structure) and/or in length.",
+          "sha256": "224731e293db0784c3c3d7715885c8a7b51c6143c289770e4aa61bfb9aba331e"
+        },
+        {
+          "section": "Anonymity Period",
+          "text": "You may make an anonymized version of your paper available (for example, on OpenReview), even during the anonymity period.\nFor arXiv submissions, May 24, 2022 11:59pm UTC-12h (anywhere on earth) is the latest time the paper can be uploaded.",
+          "sha256": "cd11d6c39f530217fbcd5cbba8b92e55f1e8018aa4a7d857c1d40345eac37772"
+        },
+        {
+          "section": "Instructions For Double-Blind Review",
+          "text": "Instructions For Double-Blind Review",
+          "sha256": "0837b9c908b558b9d6b4d89ac60e74338a32f914cc7eb151313470d6f490caac"
+        }
+      ],
+      "links": [],
+      "sha256": "68ee3858a1e4e8241a4e8b9c769ce0764d79c0838c64da14816d4fe968502b49"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "c4aff3381bdb283c642f56464774b21aaa1d59f77b73822e4f080685e643ea90",
+      "url": "https://2023.emnlp.org/",
+      "final_url": "https://2023.emnlp.org/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:11Z",
+      "snippets": [
+        {
+          "section": "The 2023 Conference on Empirical Methods in Natural Language Processing",
+          "text": "The 2023 Conference on Empirical Methods in Natural Language Processing\nDecember 6 –10 Resorts World Convention Centre",
+          "sha256": "bc834df2be20ec6ab64abdef58d45e29368461b74bbb84c3954b00fb581843d0"
+        },
+        {
+          "section": "Welcome!",
+          "text": "Welcome!",
+          "sha256": "cc8fd9eb7f959b13f36a65625796d0b359ce5bce5551d159a3a920f41cb341ee"
+        },
+        {
+          "section": "News",
+          "text": "News\n2023-12-10 | The awards for best papers , outstanding senior area chairs , outstanding area chairs , and outstanding reviewers have been announced.\n2023-11-30 | One could follow our official account in X(Twitter) and Wechat .\n2023-11-29 | For visa letter request, please reach out at emnlp2023_visa_help@googlegroups.com .\n2023-11-29 | Accepted Papers for Findings is posted under the Program.\n2023-11-29 | Accepted Papers for Main Conference is posted under the Program.\n2023-11-29 | Accepted Papers for Industry Track is posted under the Program.\n2023-11-29 | Accepted Papers for System Demonstration is posted under the Program.",
+          "sha256": "9642e9a7d03a177b04f974354749eaf733a2be81d8d53badf2250a2e3a9dd1f3"
+        },
+        {
+          "section": "News",
+          "text": "2023-11-29 | Conference Handbook is posted under the Program.\n2023-11-28 | The link of Mini Conference is posted.\n2023-11-22 | Please check the Visa -related info in Visa .\n2023-11-21 | Presentation Schedule is posted under the Program.",
+          "sha256": "13a0805722b669dc4df6c1f14aacf7fe6089dc8e1c6aa46c05f03efe92d473b5"
+        },
+        {
+          "section": "News",
+          "text": "2023-10-9 | Registration and Participants are posted.\n2023-9-21 | Call For Diversity and Inclusion Subsidies and Call For Volunteers are posted under the Calls.\n2023-8-3 | The ARR commitment link is available.\n2023-7-19 | EMNLP 2023 will be a hybrid conference. The virtual component will be hosted by Underline.\n2023-7-11 | Industry Track Papers submission deadline delay see industry track for more details.\n2023-7-11 | Industry Track Papers submission link is now available.\n2023-6-12 | Call For Industry Track is posted under the Calls.\n2023-6-2 | Main Conference Papers submission link is now available.",
+          "sha256": "fa11aa35542b640abad594d94721d5d67333e37863942ab2638d98de96e0c30d"
+        },
+        {
+          "section": "News",
+          "text": "2023-5-28 | Call For System Demonstrations is posted under the Calls.\n2023-3-18 | Style Files and Formatting is posted under the Calls.\n2023-3-17 | Call for Main Conference Papers is posted.\n2023-3-17 | The official EMNLP 2023 website is launched.",
+          "sha256": "ecc5ab1539df6f817286c9d511b160f9a6502cf13c673451141b633b096e4090"
+        },
+        {
+          "section": "BLOG POSTS",
+          "text": "BLOG POSTS\n2023-3-17 | EMNLP 2023 Blog",
+          "sha256": "7d8a1f854d1d03471d27ee002697622829a03fc995dfcd7744dd695885260ef5"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Important Dates",
+          "sha256": "96345edc68e820b696aab0d3d9d04e2316fbea817b178a248ee30a01c47d507c"
+        },
+        {
+          "section": "Main Conference Papers",
+          "text": "Main Conference Papers\nAnonymity period begins | May 23, 2023\nAbstract deadline for direct submissions | June 16, 2023\nDirect paper submission deadline (long & short papers) | June 23, 2023\nCommitment deadline for ARR papers | August 22, 2023\nAuthor response period | Aug 22 – Aug 28, 2023\nNotification of acceptance (long & short papers) | Oct 6, 2023\nCamera-ready papers due (long & short papers) | Oct 20, 2023",
+          "sha256": "2d33d56d292ae5dc0c59a88fd5490c54883255c20ad63ad4e49517ea0b3d211a"
+        },
+        {
+          "section": "Main Conference Papers",
+          "text": "Workshops & Tutorials & Conference | December 6-10, 2023",
+          "sha256": "5e772df2b7a691c38e8a1845bbd2869a8dfcd1ee854c9d1934d597183757fee6"
+        }
+      ],
+      "links": [],
+      "sha256": "b316c9adbf2241ffe727a0a89131aa3ad84ce1d8b878fcf60c0d3169468fa830"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "283abe2524b3df1bfa9af744cc8583de94f7bee924c3fa6627a2186d0e7ffd9c",
+      "url": "https://2024.emnlp.org/calls/main_conference_papers/",
+      "final_url": "https://2024.emnlp.org/calls/main_conference_papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:12Z",
+      "snippets": [
+        {
+          "section": "Important Dates for EMNLP 2024",
+          "text": "Important Dates for EMNLP 2024\nARR submission deadline (long & short papers) | June 15, 2024\nCommitment deadline for EMNLP 2024 | August 20, 2024\nNotification of acceptance (long & short papers) | September 20, 2024\nCamera-ready papers due (long & short) | October 3, 2024\nMain Conference | November 12-14, 2024\nWorkshops and Tutorials | November 15-16, 2024\nNote: All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).",
+          "sha256": "b4fff954137364fc53aa599dcec8a25c048ecf821bdaed994e16e6fd2e6e6d51"
+        }
+      ],
+      "links": [],
+      "sha256": "623c7d1dc4fe0549841ee232a345b67e3971091f186261427de27470bc261c83"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "748835094cae9f242cf9ea9b7c79980f433d52041181038a478dc05a99d262e5",
+      "url": "https://2025.emnlp.org/calls/main_conference_papers/",
+      "final_url": "https://2025.emnlp.org/calls/main_conference_papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:14Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nARR submission deadline (long & short papers) | May 19, 2025\nReviewer registration deadline for ALL authors | May 21, 2025\nReview submission deadline ( guidelines ) | June 18, 2025\nAuthor response and author-reviewer discussion | June 26 - July 2, 2025\nCommitment deadline ( link ) | August 1, 2025\nNotification of acceptance (long & short papers) | August 20, 2025\nCamera-ready papers due (long & short) | September 19, 2025",
+          "sha256": "964f41e818ae489a1ec8ed408b9d674e377cb0f3ccef24c8d57d0bedb6d15809"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Main Conference (dates for Workshops/Tutorials TBD) | November 5-9, 2025\nNote: All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).",
+          "sha256": "66c3c7dcc12363fd558fcaff7b925c37e7d9e6bcc3b13462a139193f78278f99"
+        },
+        {
+          "section": "Mandatory Reviewing Workload",
+          "text": "Mandatory Reviewing Workload\nACL adopted a policy similar to CVPR 2025 policy. All authors are expected to sign up to review, with assignments subsequently based on qualifications. The highly irresponsible reviewers may become ineligible from committing their paper(s) to EMNLP or resubmitting in the next cycle. The submitting authors should (a) make sure that all other authors are aware of this policy, and (b) check that everybody on their team(s) submits their (meta-)reviews on time and in accordance with the guidelines. After submission, all authors must complete the author registration form by May 21 2025 EoD AoE. If they get assignments, reviews must be completed by June 18, and meta-reviews - by July 15. In case of any emergencies, the chairs should be warned via the emergency declaration form. More details on the policy here: https://aclrollingreview.org/incentives2025",
+          "sha256": "5c1110dcb69a4d3d3630b34cba9c310d864d9917d3c98b194f11043cb6f96ab1"
+        },
+        {
+          "section": "Additional Policies",
+          "text": "Additional Policies",
+          "sha256": "1b16215cabe80f26acb3a6eaa584a5f5ebfb75f68e5fb88037781faa42567953"
+        }
+      ],
+      "links": [],
+      "sha256": "2af19c7c33f60e3de3ceb0ee3b585dfc155c2891e5c0da704a47a88ab59825d8"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "27e4da756a4e46b2d31fbdbb113d18fd9ec5b684516e516f8c402e8230123497",
+      "url": "https://2026.emnlp.org/calls/main_conference_papers/",
+      "final_url": "https://2026.emnlp.org/calls/main_conference_papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:11:14Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nARR submission deadline (long & short papers) | May 25, 2026\nReviewer registration deadline for ALL authors | May 27, 2026\nAuthor response and author-reviewer discussion | July 7 - July 13, 2026\nMeta review released | July 30, 2026\nEMNLP commitment deadline | August 2, 2026\nNotification of acceptance (long & short papers) | August 20, 2026\nCamera-ready papers due (long & short) | August 30, 2026",
+          "sha256": "01c065478f39930ab9132a1ec46e463990121e3e1fe6e1ffa81b92e051bc1863"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Main Conference (dates for Workshops/Tutorials TBD) | October 24 - 29, 2026\nNote: All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).",
+          "sha256": "3e3d650559da2b49fd62f453db21a1ccd1900332e9cb9af0617b3549fb5d277f"
+        },
+        {
+          "section": "Mandatory Reviewing Workload",
+          "text": "Mandatory Reviewing Workload\nAll authors are expected to sign up to review, or serve as an Area Chair or Senior Area Chair, with assignments subsequently based on qualifications. After submission, all authors must complete the author registration form by May 27, 2026 EoD AoE. If you receive assignments, your reviews must be completed by July 6, or your meta-reviews - by July 29. In case of any emergencies, the chairs should be warned via the emergency declaration form. Exemptions to this policy are detailed in the ARR Author Reviewer Exemption Policy Page .\nHighly irresponsible reviewers may be ineligible to (re-)submit or commit their work during the next ARR cycle. The submitting authors should (a) make sure that all other authors are aware of this policy, and (b) check that everybody on their team(s) submits their (meta-)reviews on time and in accordance with the guidelines. You can read additional details on the definition of highly irresponsible reviewers and the corresponding ARR policy here: https://aclrollingreview.org/incentives2025",
+          "sha256": "3b1eb53ba30df7818c71621932123b3a1b6ca43481b0b99d646a65af27ce117d"
+        }
+      ],
+      "links": [],
+      "sha256": "73510cc71b3ae77c0e53319a6e7d6bde2fa4eaeab42c77a14b115dc945ada7e0"
+    }
+  },
+  "claims": {
+    "current/emnlp.paper": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/emnlp.review": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/emnlp.rebuttal": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/emnlp.commitment": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/emnlp.decision": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/emnlp.conference": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "history/2022/abstract_deadline": {
+      "value": "2022-06-17",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "e4581e03244fddeb45dbc00928a5c36e7ed3b38ebf5ab60c0d0affbcea9e36f2"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2022-06-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "8a66b1d972270180e27a9de6cd0bdd3304b076073d4fc595e61ea73360f7524e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/commitment_deadline": {
+      "value": "2022-07-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "8a66b1d972270180e27a9de6cd0bdd3304b076073d4fc595e61ea73360f7524e"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/review_release": {
+      "value": "2022-08-23",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "e4581e03244fddeb45dbc00928a5c36e7ed3b38ebf5ab60c0d0affbcea9e36f2"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2022/rebuttal_deadline": {
+      "value": "2022-08-29",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "e4581e03244fddeb45dbc00928a5c36e7ed3b38ebf5ab60c0d0affbcea9e36f2"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/final_decision": {
+      "value": "2022-10-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "e4581e03244fddeb45dbc00928a5c36e7ed3b38ebf5ab60c0d0affbcea9e36f2"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-12-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "9908092169c4c0eefef5eaf1f7f163cfd21e1606a58b95eb6cc9f369f9840972"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-12-11",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "9908092169c4c0eefef5eaf1f7f163cfd21e1606a58b95eb6cc9f369f9840972"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/abstract_deadline": {
+      "value": "2023-06-16",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "2d33d56d292ae5dc0c59a88fd5490c54883255c20ad63ad4e49517ea0b3d211a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2023-06-23",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "2d33d56d292ae5dc0c59a88fd5490c54883255c20ad63ad4e49517ea0b3d211a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/commitment_deadline": {
+      "value": "2023-08-22",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "2d33d56d292ae5dc0c59a88fd5490c54883255c20ad63ad4e49517ea0b3d211a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/review_release": {
+      "value": "2023-08-22",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "2d33d56d292ae5dc0c59a88fd5490c54883255c20ad63ad4e49517ea0b3d211a"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2023/rebuttal_deadline": {
+      "value": "2023-08-28",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "2d33d56d292ae5dc0c59a88fd5490c54883255c20ad63ad4e49517ea0b3d211a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/final_decision": {
+      "value": "2023-10-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "2d33d56d292ae5dc0c59a88fd5490c54883255c20ad63ad4e49517ea0b3d211a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-12-06",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "5e772df2b7a691c38e8a1845bbd2869a8dfcd1ee854c9d1934d597183757fee6"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-12-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "5e772df2b7a691c38e8a1845bbd2869a8dfcd1ee854c9d1934d597183757fee6"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2024-06-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "b4fff954137364fc53aa599dcec8a25c048ecf821bdaed994e16e6fd2e6e6d51"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/commitment_deadline": {
+      "value": "2024-08-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "b4fff954137364fc53aa599dcec8a25c048ecf821bdaed994e16e6fd2e6e6d51"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/final_decision": {
+      "value": "2024-09-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "b4fff954137364fc53aa599dcec8a25c048ecf821bdaed994e16e6fd2e6e6d51"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-11-12",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "b4fff954137364fc53aa599dcec8a25c048ecf821bdaed994e16e6fd2e6e6d51"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-11-16",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "b4fff954137364fc53aa599dcec8a25c048ecf821bdaed994e16e6fd2e6e6d51"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2025-05-19",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "964f41e818ae489a1ec8ed408b9d674e377cb0f3ccef24c8d57d0bedb6d15809"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/commitment_deadline": {
+      "value": "2025-08-01",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "964f41e818ae489a1ec8ed408b9d674e377cb0f3ccef24c8d57d0bedb6d15809"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/review_release": {
+      "value": "2025-06-26",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "964f41e818ae489a1ec8ed408b9d674e377cb0f3ccef24c8d57d0bedb6d15809"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2025/rebuttal_deadline": {
+      "value": "2025-07-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "964f41e818ae489a1ec8ed408b9d674e377cb0f3ccef24c8d57d0bedb6d15809"
+        }
+      ],
+      "note": "对应作者回复和讨论窗口的结束日。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-08-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "964f41e818ae489a1ec8ed408b9d674e377cb0f3ccef24c8d57d0bedb6d15809"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-11-04",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-11-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "66c3c7dcc12363fd558fcaff7b925c37e7d9e6bcc3b13462a139193f78278f99"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2026-05-25",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "01c065478f39930ab9132a1ec46e463990121e3e1fe6e1ffa81b92e051bc1863"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/commitment_deadline": {
+      "value": "2026-08-02",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "01c065478f39930ab9132a1ec46e463990121e3e1fe6e1ffa81b92e051bc1863"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/review_release": {
+      "value": "2026-07-07",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "01c065478f39930ab9132a1ec46e463990121e3e1fe6e1ffa81b92e051bc1863"
+        }
+      ],
+      "note": "按项目口径，作者回复、Rebuttal 或作者—评审讨论窗口的开始日作为 review_release；所附原文支持记录中的日期。"
+    },
+    "history/2026/rebuttal_deadline": {
+      "value": "2026-07-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "01c065478f39930ab9132a1ec46e463990121e3e1fe6e1ffa81b92e051bc1863"
+        }
+      ],
+      "note": "对应作者回复和讨论窗口的结束日。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-08-20",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "01c065478f39930ab9132a1ec46e463990121e3e1fe6e1ffa81b92e051bc1863"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-10-24",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "3e3d650559da2b49fd62f453db21a1ccd1900332e9cb9af0617b3549fb5d277f"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-10-29",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "3e3d650559da2b49fd62f453db21a1ccd1900332e9cb9af0617b3549fb5d277f"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    }
+  }
+}

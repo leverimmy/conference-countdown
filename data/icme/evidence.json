@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "id": "icme",
+  "sources": {
+    "history-2022": {
+      "extractor": "date-context-v1",
+      "config_sha256": "ba38b4f21a07e8cad613a35d7bffcef4279461f89d91bc1afea0f8d6090065eb",
+      "url": "https://2022.ieeeicme.org/important-dates.html",
+      "final_url": "https://2022.ieeeicme.org/important-dates.html",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:15:49Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "Date | Event\nDecember 6, 2021 | Special Session Proposals (Extended to December 6, 2021)\nDecember 6, 2021 | Panel Proposals (Extended to December 6, 2021)\nDecember 6, 2021 | Grand Challenge Proposals (Extended to December 6, 2021)\nDecember 6, 2021 | Workshop Proposals (Extended to December 6, 2021)\nDecember 6, 2021 | Tutorial Proposals (Extended to December 6, 2021)\nDecember 22, 2021 [11:59 p.m. PST] | Regular/Special Session Paper Submission (Extended to December 22, 2021)\nMarch 5, 2022 | Regular Paper Acceptance Notification",
+          "sha256": "fba07fcc871d2fe393e5348e4e252e4fd0dd5dfad9d2f7ec3d18195537dc7258"
+        },
+        {
+          "section": "Important Dates",
+          "text": "March 21 - April 9, 2022 (workshop dependent) | Workshop Paper Submission (Extended)\nApril 1, 2022 | Industry/Application Track Paper Submission (Extended to April 1, 2022)\nApril 6, 2022 | Camera-Ready Regular Paper Submission (Extended to April 6, 2022)\nApril 15, 2022 | Demo Paper Submission (Extended to April 15, 2022)\nMay 1, 2022 | Industry Expo Proposals\nMay 13, 2022 | Camera-Ready Workshop, Industry/Application, Demo, Grand Challenge Paper Submission\nJune 30, 2022 | Deadline for nominations",
+          "sha256": "149a079c85db37fcb60ba8ccee13ead5aab0126397dbfd900381330237fa2752"
+        }
+      ],
+      "links": [],
+      "sha256": "aa823ff123743bd29c0bb86d941da66e13f14431edd0972a6f837ed18fe14a88"
+    },
+    "history-2023": {
+      "extractor": "date-context-v1",
+      "config_sha256": "06578e5dc53cb4b2259d6f7b5cd1bca0847ca7c8eebfb86dbb0a89624783fb06",
+      "url": "https://www.2023.ieeeicme.org/events.icmsaust.com.au/ieeeicme2023/general-calls.html",
+      "final_url": "https://www.2023.ieeeicme.org/events.icmsaust.com.au/ieeeicme2023/general-calls.html",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:15:51Z",
+      "snippets": [
+        {
+          "section": "General Calls",
+          "text": "General Calls\nICME 2023 will take place July 10-14, 2023 in Brisbane, Australia. ICME 2023 will convene leading researchers and practitioners to share the latest developments and advances in the discipline. The conference will showcase high quality oral and poster presentations, as well as relevant Workshops sponsored by IEEE societies. An exhibition of multimedia products will be also held in conjunction to the conference. ICME 2023 will also nominate prestigious awards for exceptional papers and contributors.",
+          "sha256": "fed1b3c767b5d9da2be478067db84d39dcdbbb91944a2c9152d74f1b936bb718"
+        },
+        {
+          "section": "Topics of Interest include, but are not limited to:",
+          "text": "Topics of Interest include, but are not limited to:",
+          "sha256": "72fabebf584cc2453cd520bb368269139ac02f2ce658ed488b56e4ba993ffac8"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Key Dates\nSpecial Session Proposals | 20-Nov-22 | Industry Expo Proposals | 23-Mar-23\nWorkshop Proposals | 20-Nov-22 15-Dec-22 | Panels Proposals | 23-Mar-23\nTutorial Proposals | 20-Nov-22 15-Dec-22 | Industry/Application Paper Submission | 23-Mar-23\nGrand Challenge Proposals | 13-Nov-22 15-Dec-22 | Demo proposal submission deadline | 23-Mar-23\nRegular Paper Submissions (including Special Sessions) | 11-Dec-22 15-Dec-22 22-Dec-22 | Workshop Paper Submissions | 23-Mar-23\nRegular Paper Acceptance Notification | 12-Mar-23 | Industry Technology Workshop Proposals | 23-Mar-23\nAuthors Registration Deadline | 01 May 2023",
+          "sha256": "e92965d07be07b535306991d69885b5c2c3343f233fd430c6b3e69b5744e104a"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Portal for Submission of regular Papers and Special Session Paper Submissions: https://cmt3.research.microsoft.com/ICME2023",
+          "sha256": "08de3187034022e2004bb72f374b4fda8a12a61ad725337540b909b669e213e4"
+        }
+      ],
+      "links": [],
+      "sha256": "6c025b12beaebaa9cdc50fb5b3bac78245da9c1e9ede034450ac0d9acb1ac6ff"
+    },
+    "history-2024": {
+      "extractor": "date-context-v1",
+      "config_sha256": "9120a39b6662e9472f3356b9d34bfb2f43005853e93feb88e93579b1b956a9e9",
+      "url": "https://ieee-cas.org/event/conference/2024-ieee-international-conference-multimedia-and-expo",
+      "final_url": "https://ieee-cas.org/event/conference/2024-ieee-international-conference-multimedia-and-expo",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:15:56Z",
+      "snippets": [
+        {
+          "section": "2024 IEEE International Conference on Multimedia and Expo",
+          "text": "Date\n15 July 2024 – 19 July 2024\nGeographic Location",
+          "sha256": "f23f4030c50bf91d2bb306e01761781ae0b2d62105d773688950370e966caa14"
+        },
+        {
+          "section": "ICME 2024 CFP",
+          "text": "Deadline:\n30 Dec 2023 (Extended)",
+          "sha256": "20931cf9b7068de8eac906eb1e53bf8d31f26f457b5b60f5c9115900b45cbad6"
+        }
+      ],
+      "links": [],
+      "sha256": "7c560852f149ca087c52b4a43bfbd2fe6d023e10ff7706eb4cd82d563121a5d6"
+    },
+    "history-2025": {
+      "extractor": "date-context-v1",
+      "config_sha256": "d728ae1a0102e8f4ff313ba1945517758b138350d7472073821e17f1273a0cab",
+      "url": "https://ieee-cas.org/files/ieeecass/2024-07/ICME-2025_Call-for-Papers.pdf",
+      "final_url": "https://ieee-cas.org/files/ieeecass/2024-07/ICME-2025_Call-for-Papers.pdf",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:15:57Z",
+      "snippets": [
+        {
+          "section": "PDF",
+          "text": "societies since 2000, promoting the exchange of the latest advances in multimedia technologies, systems, and applications from\nboth research and development perspectives. ICME 2025 will be held in Nantes, France, from June 30 to July 4, 2025. It will\nbring together leading researchers and practitioners to share the latest developments and advances in the discipline. Featuring",
+          "sha256": "542f530acbf16c6c71f3b3471bbcbe0c173f8babc39fa0885366af5a2aaa883c"
+        },
+        {
+          "section": "PDF",
+          "text": "venue for hosting international congresses.\n22 Nov 2024\nSpecial session proposals\nWorkshop proposals\n29 Nov 2024\nTutorial proposals\n15 Nov 2024\nGrand Challenge proposals",
+          "sha256": "6b4e8200f6727c0d481a4cba8f4e58903cd120635f65f586724e6db30821ab84"
+        },
+        {
+          "section": "PDF",
+          "text": "13 Dec 2024\nRegular Paper Submissions\n(including Special Sessions)\n14 Mar 2025\nRegular Paper Acceptance\nnotification\n25 Mar 2025\nIndustry Expo Proposals",
+          "sha256": "83b6ab4c9c35faea10e9235e27d30889a4aef796f165808201c7ae7709223c42"
+        }
+      ],
+      "links": [],
+      "sha256": "48774d178d8a85e24a258cd22c839f3554e9fe53d1f58efbf55a4d9760e73b4a"
+    },
+    "history-2026": {
+      "extractor": "date-context-v1",
+      "config_sha256": "104870e809a4a1b6ebcde70189349901d93dd289f2c9bde5b168fd20e48aad30",
+      "url": "https://ieee-cas.org/files/ieeecass/2025-12/icme-2026-cfp.pdf",
+      "final_url": "https://ieee-cas.org/files/ieeecass/2025-12/icme-2026-cfp.pdf",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:16:06Z",
+      "snippets": [
+        {
+          "section": "PDF",
+          "text": "Marriott Marquis Queen’s Park Hotel, Bangkok, Thailand\n5 - 9 July 2026\nHosted by:\nICME 2026\nBangkok, Thailand | 5 - 9 July 2026\nThe IEEE International Conference on Multimedia & Expo (ICME), sponsored by four IEEE societies since 2000, is the IEEE\nflagship event for multimedia innovation. ICME 2026, held in Bangkok from July 5–9, embraces the theme:\n“BEYOND PERCEPTION: INTELLIGENT MEDIA IN THE AGE OF AUTONOMOUS AGENTS”",
+          "sha256": "5c75a24d18ffe9f15deb9facaea6d69979be8e6c480f183ea2c3d7178ff13c8c"
+        },
+        {
+          "section": "PDF",
+          "text": "IMPORTANT DATES\n21 Nov 2025 1 Dec 2025\nSpecial session proposals\nWorkshop proposals\n29 Nov 2025 9 Dec 2025\nTutorial proposals\nAWARD CHAIRS\n12 Dec 2025",
+          "sha256": "7910a78a1f235404d5bd1fe592909fb5bb1c98d419c22855060bc21420ebd3cb"
+        },
+        {
+          "section": "PDF",
+          "text": "STUDENTS PROGRAM CHAIRS",
+          "sha256": "512dae227aabebe15d3619d7bf24208d67ca060e1b34c0b6b7dc4193a58b30a8"
+        },
+        {
+          "section": "PDF",
+          "text": "Regular Paper Submissions\n13 Mar 2026\nRegular Paper Acceptance notification\n25 Mar 2026\nPanels proposals",
+          "sha256": "61671d2a23ee3a2e23fe0e5ec5c97183b48d1447c943942b2b3427f0a6afe480"
+        },
+        {
+          "section": "PDF",
+          "text": "proposals\n15 Dec 2025\nGrand Challenge proposals",
+          "sha256": "c397708cdefafcc06d7c00549b8a431b1589cc5a1cd7c14de566349333cd563a"
+        },
+        {
+          "section": "PDF",
+          "text": "Huanyu He ‣ Shanghai Jiao Tong University, China\nCPF Ver. 5-Dec-2025",
+          "sha256": "4f29c810aa80b2d73f350a014dcc4af2f66130f3b239281517a2cfcc43e6f92f"
+        }
+      ],
+      "links": [],
+      "sha256": "b86942bc4e145166ace47bb893fa942b40c09b065b9ae9acd56c93dcaff5cb90"
+    },
+    "ieee-event": {
+      "extractor": "date-context-v1",
+      "config_sha256": "f07b6f7cd527c75cbffff90529de455d1cd06583a48597b75017238c342ad311",
+      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
+      "final_url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
+      "status": 200,
+      "retrieved_at": "2026-09-05T04:15:52Z",
+      "snippets": [
+        {
+          "section": "2027 IEEE International Conference on Multimedia & Expo (ICME)",
+          "text": "Date\n13 July 2027 – 17 July 2027\nGeographic Location",
+          "sha256": "c7e77a6db5de34d6ef82c5320db996b9d285a361fc872388b464d2a1bdcd06fa"
+        }
+      ],
+      "links": [],
+      "sha256": "f24e4a90bb52697da0639b8af7dbb7579c94d18b132bc440f96fa96fb2180a8d"
+    }
+  },
+  "claims": {
+    "current/icme.paper": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/icme.decision": {
+      "value": null,
+      "status": "predicted",
+      "evidence": [],
+      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+    },
+    "current/icme.conference": {
+      "value": "2027-07-13T00:00:00+08:00",
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "ieee-event",
+          "snippet_sha256": "c7e77a6db5de34d6ef82c5320db996b9d285a361fc872388b464d2a1bdcd06fa"
+        }
+      ],
+      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+    },
+    "history/2022/paper_deadline": {
+      "value": "2021-12-22",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "fba07fcc871d2fe393e5348e4e252e4fd0dd5dfad9d2f7ec3d18195537dc7258"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/final_decision": {
+      "value": "2022-03-05",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2022",
+          "snippet_sha256": "fba07fcc871d2fe393e5348e4e252e4fd0dd5dfad9d2f7ec3d18195537dc7258"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2022/conference_start": {
+      "value": "2022-07-18",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2022/conference_end": {
+      "value": "2022-07-22",
+      "status": "unverified",
+      "evidence": [],
+      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+    },
+    "history/2023/paper_deadline": {
+      "value": "2022-12-22",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e92965d07be07b535306991d69885b5c2c3343f233fd430c6b3e69b5744e104a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/final_decision": {
+      "value": "2023-03-12",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "e92965d07be07b535306991d69885b5c2c3343f233fd430c6b3e69b5744e104a"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2023/conference_start": {
+      "value": "2023-07-10",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "fed1b3c767b5d9da2be478067db84d39dcdbbb91944a2c9152d74f1b936bb718"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2023/conference_end": {
+      "value": "2023-07-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2023",
+          "snippet_sha256": "fed1b3c767b5d9da2be478067db84d39dcdbbb91944a2c9152d74f1b936bb718"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/paper_deadline": {
+      "value": "2023-12-30",
+      "status": "unverified",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "20931cf9b7068de8eac906eb1e53bf8d31f26f457b5b60f5c9115900b45cbad6"
+        }
+      ],
+      "note": "已找到含相同月日的候选上下文；需核对届次、阶段、赛道及时间解释。"
+    },
+    "history/2024/conference_start": {
+      "value": "2024-07-15",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "f23f4030c50bf91d2bb306e01761781ae0b2d62105d773688950370e966caa14"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2024/conference_end": {
+      "value": "2024-07-19",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2024",
+          "snippet_sha256": "f23f4030c50bf91d2bb306e01761781ae0b2d62105d773688950370e966caa14"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/paper_deadline": {
+      "value": "2024-12-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "83b6ab4c9c35faea10e9235e27d30889a4aef796f165808201c7ae7709223c42"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/final_decision": {
+      "value": "2025-03-14",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "83b6ab4c9c35faea10e9235e27d30889a4aef796f165808201c7ae7709223c42"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2025/conference_start": {
+      "value": "2025-06-30",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "542f530acbf16c6c71f3b3471bbcbe0c173f8babc39fa0885366af5a2aaa883c"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2025/conference_end": {
+      "value": "2025-07-04",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2025",
+          "snippet_sha256": "542f530acbf16c6c71f3b3471bbcbe0c173f8babc39fa0885366af5a2aaa883c"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/paper_deadline": {
+      "value": "2025-12-12",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "7910a78a1f235404d5bd1fe592909fb5bb1c98d419c22855060bc21420ebd3cb",
+          "quote": "12 Dec 2025",
+          "highlights": [
+            "12 Dec 2025"
+          ]
+        },
+        {
+          "source": "history-2026",
+          "snippet_sha256": "61671d2a23ee3a2e23fe0e5ec5c97183b48d1447c943942b2b3427f0a6afe480"
+        }
+      ],
+      "note": "人工确认采用来源中的日期 2025-12-12。"
+    },
+    "history/2026/final_decision": {
+      "value": "2026-03-13",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "61671d2a23ee3a2e23fe0e5ec5c97183b48d1447c943942b2b3427f0a6afe480"
+        }
+      ],
+      "note": "原文中的事件与记录日期对应；按该届来源的日历日期记录。"
+    },
+    "history/2026/conference_start": {
+      "value": "2026-07-05",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5c75a24d18ffe9f15deb9facaea6d69979be8e6c480f183ea2c3d7178ff13c8c"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    },
+    "history/2026/conference_end": {
+      "value": "2026-07-09",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "history-2026",
+          "snippet_sha256": "5c75a24d18ffe9f15deb9facaea6d69979be8e6c480f183ea2c3d7178ff13c8c"
+        }
+      ],
+      "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
+    }
+  },
+  "decisions": [
+    {
+      "target": "history/2026/paper_deadline",
+      "action": "accept",
+      "reviewed_at": "2026-09-05T08:18:11Z",
+      "reason": "",
+      "previous_value": "2025-12-31",
+      "proposal": {
+        "value": "2025-12-12",
+        "evidence": [
+          {
+            "source": "history-2026",
+            "snippet_sha256": "7910a78a1f235404d5bd1fe592909fb5bb1c98d419c22855060bc21420ebd3cb",
+            "quote": "12 Dec 2025",
+            "highlights": [
+              "12 Dec 2025"
+            ]
+          },
+          {
+            "source": "history-2026",
+            "snippet_sha256": "61671d2a23ee3a2e23fe0e5ec5c97183b48d1447c943942b2b3427f0a6afe480"
+          }
+        ]
+      },
+      "proposal_sha256": "4e00de7b01c8442603dce731a4222d1e16b04279a25e59cd1636fff354ae231c"
+    }
+  ]
+}

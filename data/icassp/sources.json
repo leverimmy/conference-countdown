@@ -1,8 +1,57 @@
 {
   "schema_version": 1,
   "id": "icassp",
-  "watch": [
-    { "id": "important-dates", "kind": "html", "url": "https://2027.ieeeicassp.org/important-dates/" },
-    { "id": "call-for-papers", "kind": "html", "url": "https://2027.ieeeicassp.org/call-for-papers/" }
+  "sources": [
+    {
+      "id": "important-dates",
+      "url": "https://2027.ieeeicassp.org/important-dates/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true
+    },
+    {
+      "id": "call-for-papers",
+      "url": "https://2027.ieeeicassp.org/call-for-papers/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true,
+      "start_text": "Important Dates",
+      "end_text": "Technical Program Chairs"
+    },
+    {
+      "id": "history-2022",
+      "url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/08/Call-for-Papers.pdf",
+      "kind": "pdf",
+      "edition": 2022,
+      "discover_links": false
+    },
+    {
+      "id": "history-2023",
+      "url": "https://2023.ieeeicassp.org/important-dates/",
+      "kind": "html",
+      "edition": 2023,
+      "discover_links": false
+    },
+    {
+      "id": "history-2024",
+      "url": "https://cmsworkshops.com/ICASSP2024/papers/paper_kit.php",
+      "kind": "html",
+      "edition": 2024,
+      "discover_links": false
+    },
+    {
+      "id": "history-2025",
+      "url": "https://signalprocessingsociety.org/events/icassp-2025-2025-ieee-international-conference-acoustics-speech-and-signal-processing",
+      "kind": "html",
+      "edition": 2025,
+      "discover_links": false
+    },
+    {
+      "id": "history-2026",
+      "url": "https://2026.ieeeicassp.org/call-for-papers/",
+      "kind": "html",
+      "edition": 2026,
+      "discover_links": false
+    }
   ]
 }
