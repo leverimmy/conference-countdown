@@ -8,7 +8,7 @@
       "url": "https://www.aclweb.org/portal/",
       "final_url": "https://www.aclweb.org/portal/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:36Z",
+      "retrieved_at": "2026-09-13T14:10:22Z",
       "snippets": [
         {
           "section": "Statement from ACL and EACL 2026 Organizers",
@@ -25,7 +25,7 @@
       "url": "https://2027.aclweb.org/",
       "final_url": "https://2027.aclweb.org/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:35Z",
+      "retrieved_at": "2026-09-13T14:10:21Z",
       "snippets": [
         {
           "section": "The 65th Annual Meeting of the Association for Computational Linguistics",
@@ -57,7 +57,7 @@
       "url": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html",
       "final_url": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:42Z",
+      "retrieved_at": "2026-09-13T14:10:23Z",
       "snippets": [
         {
           "section": "FAQ for Paper Submission and Commitment and for Reviewers/Action Editors for ARR w.r.t. ACL 2022",
@@ -99,7 +99,7 @@
       "url": "https://2023.aclweb.org/calls/main_conference/",
       "final_url": "https://2023.aclweb.org/calls/main_conference/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:38Z",
+      "retrieved_at": "2026-09-13T14:10:23Z",
       "snippets": [
         {
           "section": "Main Conference",
@@ -151,7 +151,7 @@
       "url": "https://2024.aclweb.org/calls/main_conference_papers/",
       "final_url": "https://2024.aclweb.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:40Z",
+      "retrieved_at": "2026-09-13T14:10:23Z",
       "snippets": [
         {
           "section": "ACL 2024",
@@ -178,7 +178,7 @@
       "url": "https://2025.aclweb.org/calls/main_conference_papers/",
       "final_url": "https://2025.aclweb.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:42Z",
+      "retrieved_at": "2026-09-13T14:10:23Z",
       "snippets": [
         {
           "section": "ACL 2025",
@@ -205,7 +205,7 @@
       "url": "https://2026.aclweb.org/",
       "final_url": "https://2026.aclweb.org/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:44Z",
+      "retrieved_at": "2026-09-13T14:10:23Z",
       "snippets": [
         {
           "section": "The 64th Annual Meeting of the Association for Computational Linguistics",
@@ -246,32 +246,57 @@
     "current/acl.arr": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
     },
     "current/acl.review": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
     },
     "current/acl.rebuttal": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
     },
     "current/acl.commitment": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
     },
     "current/acl.decision": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
     },
     "current/acl.conference": {
       "value": "2027-08-17T00:00:00+09:00",

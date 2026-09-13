@@ -8,7 +8,7 @@
       "url": "https://iclr.cc/Conferences/2027/Dates",
       "final_url": "https://iclr.cc/Conferences/2027/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:44Z",
+      "retrieved_at": "2026-09-13T14:10:24Z",
       "snippets": [
         {
           "section": "ICLR 2027 Meeting Dates",
@@ -48,7 +48,7 @@
       "url": "https://iclr.cc/Conferences/2022/Dates",
       "final_url": "https://iclr.cc/Conferences/2022/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:48Z",
+      "retrieved_at": "2026-09-13T14:10:24Z",
       "snippets": [
         {
           "section": "ICLR 2022 Meeting Dates",
@@ -85,7 +85,7 @@
       "url": "https://iclr.cc/Conferences/2023/Dates",
       "final_url": "https://iclr.cc/Conferences/2023/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:49Z",
+      "retrieved_at": "2026-09-13T14:10:24Z",
       "snippets": [
         {
           "section": "ICLR 2023 Meeting Dates",
@@ -127,7 +127,7 @@
       "url": "https://iclr.cc/Conferences/2024/Dates",
       "final_url": "https://iclr.cc/Conferences/2024/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:50Z",
+      "retrieved_at": "2026-09-13T14:10:25Z",
       "snippets": [
         {
           "section": "ICLR 2024 Meeting Dates",
@@ -169,7 +169,7 @@
       "url": "https://iclr.cc/Conferences/2025/Dates",
       "final_url": "https://iclr.cc/Conferences/2025/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:53Z",
+      "retrieved_at": "2026-09-13T14:10:24Z",
       "snippets": [
         {
           "section": "ICLR 2025 Meeting Dates",
@@ -211,7 +211,7 @@
       "url": "https://iclr.cc/Conferences/2026/Dates",
       "final_url": "https://iclr.cc/Conferences/2026/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:53Z",
+      "retrieved_at": "2026-09-13T14:10:25Z",
       "snippets": [
         {
           "section": "ICLR 2026 Meeting Dates",
@@ -253,7 +253,7 @@
       "url": "https://api2.openreview.net/groups?id=ICLR.cc/2027/Conference",
       "final_url": "https://api2.openreview.net/groups?id=ICLR.cc/2027/Conference",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:09:45Z",
+      "retrieved_at": "2026-09-13T14:10:23Z",
       "snippets": [
         {
           "section": "/groups/0/cdate",
@@ -283,30 +283,63 @@
       ],
       "links": [],
       "sha256": "73012662efc2fc80a04c06d39c8bb9ad742c5b8e7073dea8d3c1a0ec4958fa9a"
+    },
+    "call-for-papers": {
+      "extractor": "date-context-v1",
+      "config_sha256": "28e1b1bf7dc7ec389cb7d6981b3ad7011d86c6e1e34a3b13988205b3e3f49ea8",
+      "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "final_url": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "status": 200,
+      "retrieved_at": "2026-09-13T14:14:42Z",
+      "snippets": [
+        {
+          "section": "Key dates",
+          "text": "The planned dates are as follows (all times are UTC-12h, aka “Anywhere on Earth”):\nAbstract deadline Sep 18, 2026 11:59 PM AOE or\nPaper deadline Sep 25, 2026 11:59 PM AOE or\nReviews released Nov 05, 2026\nAuthor-reviewer discussion Nov 05, 2026–Nov 18, 2026\nReviewer-AC discussion Nov 19, 2026–Dec 16, 2026\nFinal decisions : Dec 16, 2026",
+          "sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d"
+        }
+      ],
+      "links": [],
+      "sha256": "484735678a08678c10c797255d17e3be01f7a40ff1867125a037664ea1e12f56"
     }
   },
   "claims": {
     "current/iclr.abstract": {
       "value": "2026-09-18T23:59:00-12:00",
-      "status": "date_only",
+      "status": "supported",
       "evidence": [
         {
           "source": "dates",
           "snippet_sha256": "c4d6cef4a2ec54b974f91e2d7038b8b9f9f35353902f6b6c4c27d50fbd174046"
+        },
+        {
+          "source": "call-for-papers",
+          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
+          "quote": "Abstract deadline Sep 18, 2026 11:59 PM AOE or",
+          "highlights": [
+            "Sep 18, 2026 11:59 PM AOE"
+          ]
         }
       ],
-      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+      "note": "2026-09-13 核对：官方 Call for Papers 的 Key dates 明确列出 11:59 PM AoE，与现有日期、时刻及 UTC-12 时区一致。"
     },
     "current/iclr.paper": {
       "value": "2026-09-25T23:59:00-12:00",
-      "status": "date_only",
+      "status": "supported",
       "evidence": [
         {
           "source": "dates",
           "snippet_sha256": "c4d6cef4a2ec54b974f91e2d7038b8b9f9f35353902f6b6c4c27d50fbd174046"
+        },
+        {
+          "source": "call-for-papers",
+          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
+          "quote": "Paper deadline Sep 25, 2026 11:59 PM AOE or",
+          "highlights": [
+            "Sep 25, 2026 11:59 PM AOE"
+          ]
         }
       ],
-      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+      "note": "2026-09-13 核对：官方 Call for Papers 的 Key dates 明确列出 11:59 PM AoE，与现有日期、时刻及 UTC-12 时区一致。"
     },
     "current/iclr.review": {
       "value": "2026-11-05T23:59:00-12:00",
@@ -315,6 +348,14 @@
         {
           "source": "dates",
           "snippet_sha256": "c4d6cef4a2ec54b974f91e2d7038b8b9f9f35353902f6b6c4c27d50fbd174046"
+        },
+        {
+          "source": "call-for-papers",
+          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
+          "quote": "Reviews released Nov 05, 2026",
+          "highlights": [
+            "Nov 05, 2026"
+          ]
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
@@ -326,6 +367,14 @@
         {
           "source": "dates",
           "snippet_sha256": "c4d6cef4a2ec54b974f91e2d7038b8b9f9f35353902f6b6c4c27d50fbd174046"
+        },
+        {
+          "source": "call-for-papers",
+          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
+          "quote": "Author-reviewer discussion Nov 05, 2026–Nov 18, 2026",
+          "highlights": [
+            "Nov 05, 2026–Nov 18, 2026"
+          ]
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
@@ -337,6 +386,14 @@
         {
           "source": "dates",
           "snippet_sha256": "5f1173a6b2d6d80d7c1759fe453f1777a9cd85d456c9f59d341222091a8fa5a7"
+        },
+        {
+          "source": "call-for-papers",
+          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
+          "quote": "Final decisions : Dec 16, 2026",
+          "highlights": [
+            "Dec 16, 2026"
+          ]
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"

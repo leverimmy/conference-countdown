@@ -8,7 +8,7 @@
       "url": "https://www.acmmm.org/",
       "final_url": "https://www.acmmm.org/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:18:58Z",
+      "retrieved_at": "2026-09-13T14:10:25Z",
       "snippets": [
         {
           "section": "Announcements",
@@ -25,7 +25,7 @@
       "url": "https://2022.acmmm.org/call-for-papers/",
       "final_url": "https://2022.acmmm.org/call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:18:56Z",
+      "retrieved_at": "2026-09-13T14:14:44Z",
       "snippets": [
         {
           "section": "Submission Instructions",
@@ -52,7 +52,7 @@
       "url": "https://www.acmmm2023.org/dates/",
       "final_url": "https://www.acmmm2023.org/dates/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:19:00Z",
+      "retrieved_at": "2026-09-13T14:10:28Z",
       "snippets": [
         {
           "section": "Dates",
@@ -79,7 +79,7 @@
       "url": "https://2024.acmmm.org/files/ACMMM24_CFP_v2.pdf",
       "final_url": "https://2024.acmmm.org/files/ACMMM24_CFP_v2.pdf",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:19:06Z",
+      "retrieved_at": "2026-09-13T14:10:30Z",
       "snippets": [
         {
           "section": "PDF",
@@ -106,7 +106,7 @@
       "url": "https://acmmm2025.org/important-dates/",
       "final_url": "https://acmmm2025.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:19:03Z",
+      "retrieved_at": "2026-09-13T14:10:28Z",
       "snippets": [
         {
           "section": "",
@@ -138,7 +138,7 @@
       "url": "https://2026.acmmm.org/site/important-dates.html",
       "final_url": "https://2026.acmmm.org/site/important-dates.html",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:19:08Z",
+      "retrieved_at": "2026-09-13T14:10:26Z",
       "snippets": [
         {
           "section": "Main Track",
@@ -154,32 +154,57 @@
     "current/mm.paper": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "be466fd5cba1729537806ba18d8c27a1d3bd1b1206451ac42d846e188af903b2"
+        }
+      ],
+      "note": "2026-09-13 核对：ACM Multimedia 官方公告只确认 2027 年在香港举办，日期仍为 “Dates to be announced”；本轮未找到主会投稿、作者回复或最终通知的日期。"
     },
     "current/mm.review": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "be466fd5cba1729537806ba18d8c27a1d3bd1b1206451ac42d846e188af903b2"
+        }
+      ],
+      "note": "2026-09-13 核对：ACM Multimedia 官方公告只确认 2027 年在香港举办，日期仍为 “Dates to be announced”；本轮未找到主会投稿、作者回复或最终通知的日期。"
     },
     "current/mm.rebuttal": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "be466fd5cba1729537806ba18d8c27a1d3bd1b1206451ac42d846e188af903b2"
+        }
+      ],
+      "note": "2026-09-13 核对：ACM Multimedia 官方公告只确认 2027 年在香港举办，日期仍为 “Dates to be announced”；本轮未找到主会投稿、作者回复或最终通知的日期。"
     },
     "current/mm.decision": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "be466fd5cba1729537806ba18d8c27a1d3bd1b1206451ac42d846e188af903b2"
+        }
+      ],
+      "note": "2026-09-13 核对：ACM Multimedia 官方公告只确认 2027 年在香港举办，日期仍为 “Dates to be announced”；本轮未找到主会投稿、作者回复或最终通知的日期。"
     },
     "current/mm.conference": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "be466fd5cba1729537806ba18d8c27a1d3bd1b1206451ac42d846e188af903b2"
+        }
+      ],
+      "note": "2026-09-13 核对：ACM Multimedia 官方公告只确认 2027 年在香港举办，日期仍为 “Dates to be announced”；本轮未找到主会投稿、作者回复或最终通知的日期。"
     },
     "history/2022/abstract_deadline": {
       "value": "2022-03-31",

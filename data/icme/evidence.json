@@ -8,7 +8,7 @@
       "url": "https://2022.ieeeicme.org/important-dates.html",
       "final_url": "https://2022.ieeeicme.org/important-dates.html",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:15:49Z",
+      "retrieved_at": "2026-09-13T14:10:29Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -30,7 +30,7 @@
       "url": "https://www.2023.ieeeicme.org/events.icmsaust.com.au/ieeeicme2023/general-calls.html",
       "final_url": "https://www.2023.ieeeicme.org/events.icmsaust.com.au/ieeeicme2023/general-calls.html",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:15:51Z",
+      "retrieved_at": "2026-09-13T14:10:29Z",
       "snippets": [
         {
           "section": "General Calls",
@@ -62,7 +62,7 @@
       "url": "https://ieee-cas.org/event/conference/2024-ieee-international-conference-multimedia-and-expo",
       "final_url": "https://ieee-cas.org/event/conference/2024-ieee-international-conference-multimedia-and-expo",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:15:56Z",
+      "retrieved_at": "2026-09-13T14:10:30Z",
       "snippets": [
         {
           "section": "2024 IEEE International Conference on Multimedia and Expo",
@@ -84,7 +84,7 @@
       "url": "https://ieee-cas.org/files/ieeecass/2024-07/ICME-2025_Call-for-Papers.pdf",
       "final_url": "https://ieee-cas.org/files/ieeecass/2024-07/ICME-2025_Call-for-Papers.pdf",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:15:57Z",
+      "retrieved_at": "2026-09-13T14:10:30Z",
       "snippets": [
         {
           "section": "PDF",
@@ -111,7 +111,7 @@
       "url": "https://ieee-cas.org/files/ieeecass/2025-12/icme-2026-cfp.pdf",
       "final_url": "https://ieee-cas.org/files/ieeecass/2025-12/icme-2026-cfp.pdf",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:16:06Z",
+      "retrieved_at": "2026-09-13T14:10:31Z",
       "snippets": [
         {
           "section": "PDF",
@@ -153,7 +153,7 @@
       "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
       "final_url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:15:52Z",
+      "retrieved_at": "2026-09-13T14:10:29Z",
       "snippets": [
         {
           "section": "2027 IEEE International Conference on Multimedia & Expo (ICME)",
@@ -169,14 +169,24 @@
     "current/icme.paper": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "ieee-event",
+          "snippet_sha256": "c7e77a6db5de34d6ef82c5320db996b9d285a361fc872388b464d2a1bdcd06fa"
+        }
+      ],
+      "note": "2026-09-13 核对：IEEE CASS 的官方活动页确认 2027-07-13 至 07-17 的会期；本轮未找到 2027 年主会投稿及录用通知的确切日期，保留预测。"
     },
     "current/icme.decision": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "ieee-event",
+          "snippet_sha256": "c7e77a6db5de34d6ef82c5320db996b9d285a361fc872388b464d2a1bdcd06fa"
+        }
+      ],
+      "note": "2026-09-13 核对：IEEE CASS 的官方活动页确认 2027-07-13 至 07-17 的会期；本轮未找到 2027 年主会投稿及录用通知的确切日期，保留预测。"
     },
     "current/icme.conference": {
       "value": "2027-07-13T00:00:00+08:00",

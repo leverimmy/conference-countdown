@@ -7,7 +7,8 @@
       "url": "https://2027.ieeeicassp.org/important-dates/",
       "kind": "html",
       "edition": 2027,
-      "discover_links": true
+      "discover_links": true,
+      "section_pattern": "^2027 IEEE International Conference"
     },
     {
       "id": "call-for-papers",
@@ -17,6 +18,15 @@
       "discover_links": true,
       "start_text": "Important Dates",
       "end_text": "Technical Program Chairs"
+    },
+    {
+      "id": "paper-kit",
+      "url": "https://cmsworkshops.com/ICASSP2027/papers/paper_kit.php",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "start_text": "Important Dates",
+      "end_text": "Correspondence"
     },
     {
       "id": "history-2022",

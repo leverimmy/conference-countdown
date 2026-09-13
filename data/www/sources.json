@@ -18,6 +18,20 @@
       "section_pattern": "Research & Industry"
     },
     {
+      "id": "openreview",
+      "url": "https://api2.openreview.net/groups?id=ACM.org/TheWebConf/2027/Conference_Long_Papers",
+      "kind": "json",
+      "edition": 2027,
+      "discover_links": false
+    },
+    {
+      "id": "research-track",
+      "url": "https://www2027.thewebconf.org/research-track-papers/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false
+    },
+    {
       "id": "history-2022",
       "url": "https://archives.iw3c2.org/www2022/cfp/research/",
       "kind": "html",

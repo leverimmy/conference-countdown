@@ -10,6 +10,24 @@
       "discover_links": true
     },
     {
+      "id": "conference-site",
+      "url": "https://kdd2027.kdd.org/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": true,
+      "start_text": "ACM KDD 2027 | San Jose, United States",
+      "end_text": "The Journey Continues | From Jeju island to San Jose"
+    },
+    {
+      "id": "faq",
+      "url": "https://kdd2027.kdd.org/frequently-asked-questions/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "start_text": "What are the notification dates for papers?",
+      "end_text": "I have a paper accepted at the conference — do I have to register to the conference?"
+    },
+    {
       "id": "history-2022",
       "url": "https://www.kdd.org/kdd2022/cfpResearch.html",
       "kind": "html",

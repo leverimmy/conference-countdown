@@ -20,6 +20,14 @@
       "allow_empty": true
     },
     {
+      "id": "call-for-papers",
+      "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "section_pattern": "Key dates"
+    },
+    {
       "id": "history-2022",
       "url": "https://iclr.cc/Conferences/2022/Dates",
       "kind": "html",

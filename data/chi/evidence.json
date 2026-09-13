@@ -8,7 +8,7 @@
       "url": "https://chi2022.acm.org/for-authors/presenting/papers/",
       "final_url": "https://chi2022.acm.org/for-authors/presenting/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:17:54Z",
+      "retrieved_at": "2026-09-13T14:10:34Z",
       "snippets": [
         {
           "section": "",
@@ -50,7 +50,7 @@
       "url": "https://chi2023.acm.org/for-authors/papers/",
       "final_url": "https://chi2023.acm.org/for-authors/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:17:58Z",
+      "retrieved_at": "2026-09-13T14:10:33Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -77,7 +77,7 @@
       "url": "https://chi2024.acm.org/deadlines-table/",
       "final_url": "https://chi2024.acm.org/deadlines-table/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:17:58Z",
+      "retrieved_at": "2026-09-13T14:10:34Z",
       "snippets": [
         {
           "section": "Overview of Submission Deadlines and Notifications",
@@ -109,7 +109,7 @@
       "url": "https://chi2025.acm.org/for-authors/papers/",
       "final_url": "https://chi2025.acm.org/for-authors/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:18:01Z",
+      "retrieved_at": "2026-09-13T14:10:34Z",
       "snippets": [
         {
           "section": "Upcoming Deadlines",
@@ -231,7 +231,7 @@
       "url": "https://chi2026.acm.org/authors/papers/",
       "final_url": "https://chi2026.acm.org/authors/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:18:01Z",
+      "retrieved_at": "2026-09-13T14:10:34Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -293,7 +293,7 @@
       "url": "https://chi2027.acm.org/authors/papers/",
       "final_url": "https://chi2027.acm.org/authors/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:17:53Z",
+      "retrieved_at": "2026-09-13T14:10:34Z",
       "snippets": [
         {
           "section": "",
@@ -366,28 +366,19 @@
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
     },
     "current/chi.conference": {
-      "value": null,
-      "status": "newly_announced",
+      "value": "2027-05-10T23:59:59-12:00",
+      "status": "date_only",
       "evidence": [
         {
           "source": "papers",
-          "snippet_sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3"
+          "snippet_sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3",
+          "quote": "Pittsburgh, 10–14 May, 2027",
+          "highlights": [
+            "10–14 May, 2027"
+          ]
         }
       ],
-      "candidate": {
-        "value": "2027-05-10",
-        "evidence": [
-          {
-            "source": "papers",
-            "snippet_sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3",
-            "quote": "Pittsburgh, 10–14 May, 2027",
-            "highlights": [
-              "10–14 May, 2027"
-            ]
-          }
-        ]
-      },
-      "note": "官网已公布匹兹堡会期为 2027-05-10 至 05-14，当前事件仍是预测，需核对时区后更新。"
+      "note": "人工确认采用来源中的日期 2027-05-10。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "history/2022/abstract_deadline": {
       "value": "2021-09-02",
@@ -680,5 +671,70 @@
       "evidence": [],
       "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
     }
-  }
+  },
+  "decisions": [
+    {
+      "target": "current/chi.conference",
+      "action": "accept",
+      "reviewed_at": "2026-09-13T14:31:15Z",
+      "reason": "",
+      "previous_value": null,
+      "proposal": {
+        "value": "2027-05-10",
+        "evidence": [
+          {
+            "source": "papers",
+            "snippet_sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3",
+            "quote": "Pittsburgh, 10–14 May, 2027",
+            "highlights": [
+              "10–14 May, 2027"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "f4e4a1ce2419ca7bce69ebb0e73ff32459ef47651251008625203844e128dafd",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "chi.conference",
+            "title": "会议开幕",
+            "compact_title": "CHI 开会",
+            "at": null,
+            "date_label": "会期尚未公布",
+            "detail_label": "美国 · 匹兹堡",
+            "symbol": "building.columns.fill",
+            "historical_key": "conference_start",
+            "target_year": 2027
+          },
+          "claim": {
+            "value": null,
+            "status": "newly_announced",
+            "evidence": [
+              {
+                "source": "papers",
+                "snippet_sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3"
+              }
+            ],
+            "candidate": {
+              "value": "2027-05-10",
+              "evidence": [
+                {
+                  "source": "papers",
+                  "snippet_sha256": "e27d6a5b2fc3320d80f8db8a758aa7fe9bc209d1acfd7b676b99b33aa0b25cf3",
+                  "quote": "Pittsburgh, 10–14 May, 2027",
+                  "highlights": [
+                    "10–14 May, 2027"
+                  ]
+                }
+              ]
+            },
+            "note": "官网已公布匹兹堡会期为 2027-05-10 至 05-14，当前事件仍是预测，需核对时区后更新。"
+          }
+        },
+        "after_sha256": "52f2bdc26e8e8e30f70645df0ab97e4e90e18c1e10989c5108e943f21d3ea21a",
+        "guard_sha256": "c3f292dd77915d873a51ba8c2a12ba8ea67ec497f0890562c23da8f2eef0e5d0",
+        "sha256": "1b60867c6f97b6fe8c773d04a2bfb30653571b181f65772f293bde4b391c5120"
+      }
+    }
+  ]
 }

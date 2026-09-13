@@ -8,7 +8,7 @@
       "url": "https://icml.cc/Conferences/FutureMeetings",
       "final_url": "https://icml.cc/Conferences/FutureMeetings",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:45Z",
+      "retrieved_at": "2026-09-13T14:10:31Z",
       "snippets": [
         {
           "section": "Future Meetings",
@@ -38,12 +38,12 @@
       "url": "https://icml.cc/Conferences/2022/Dates",
       "final_url": "https://icml.cc/Conferences/2022/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:48Z",
+      "retrieved_at": "2026-09-13T14:10:32Z",
       "snippets": [
         {
           "section": "ICML 2022 Meeting Dates",
-          "text": "Expo\nSun Jul 17th\nVirtual Pass | Mon Jul 18th through Sat the 23rd\nTutorials | Mon Jul 18th\nConference Sessions | Tue Jul 19th through Thu the 21st\nWorkshops | Fri Jul 22nd through Sat the 23rd\nYour timezone is:",
-          "sha256": "70b1a77f93da4e3c4eea191732741c5bb8b02084ec16d098f978801ad7f2764b"
+          "text": "Expo\nSun Jul 17th\nVirtual Pass | Mon Jul 18th through Sat the 23rd\nTutorials | Mon Jul 18th\nConference Sessions | Tue Jul 19th through Thu the 21st\nWorkshops | Fri Jul 22nd through Sat the 23rd\nYour time zone is: Conference local time zone",
+          "sha256": "91ec526299d84bc400e238b689ec74a9caa4d9c3bdbf5c2b981d7d46fe888d53"
         },
         {
           "section": "Dates and Deadlines",
@@ -72,7 +72,7 @@
         }
       ],
       "links": [],
-      "sha256": "32b85bce699a312efbf22119217ab5018ab9a6e7390d13e07efb3e90a4f04f80"
+      "sha256": "17793e7df0e4f19d32af62edc96dfa1465f938470f6de90759de69fe89613541"
     },
     "history-2023": {
       "extractor": "date-context-v1",
@@ -80,12 +80,12 @@
       "url": "https://icml.cc/Conferences/2023/Dates",
       "final_url": "https://icml.cc/Conferences/2023/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:50Z",
+      "retrieved_at": "2026-09-13T14:10:32Z",
       "snippets": [
         {
           "section": "ICML 2023 Meeting Dates",
-          "text": "ICML 2023 Meeting Dates\nExpo | Sun Jul 23rd\nVirtual Pass | Sun Jul 23rd through Sat the 29th\nTutorials | Mon Jul 24th\nConference Sessions | Tue Jul 25th through Thu the 27th\nWorkshops | Fri Jul 28th through Sat the 29th\nYour timezone is:",
-          "sha256": "ecb460373f6fa56d82b5e554d78de63abd92cc7505103fefd11aff5938f35594"
+          "text": "ICML 2023 Meeting Dates\nExpo | Sun Jul 23rd\nVirtual Pass | Sun Jul 23rd through Sat the 29th\nTutorials | Mon Jul 24th\nConference Sessions | Tue Jul 25th through Thu the 27th\nWorkshops | Fri Jul 28th through Sat the 29th\nYour time zone is: Conference local time zone",
+          "sha256": "60d62b795394a8af32cb14c075952f32fe3fdbfd9463c153fc9408140ca0a64c"
         },
         {
           "section": "Dates and Deadlines",
@@ -119,7 +119,7 @@
         }
       ],
       "links": [],
-      "sha256": "26575d52c93344a285c20cf2822ae757c74afe9e485700bb0d621ed01c08fa62"
+      "sha256": "62af02028d14df808354a47b5b57260279e53aa3a478820695c2460539643438"
     },
     "history-2024": {
       "extractor": "date-context-v1",
@@ -127,12 +127,12 @@
       "url": "https://icml.cc/Conferences/2024/Dates",
       "final_url": "https://icml.cc/Conferences/2024/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:50Z",
+      "retrieved_at": "2026-09-13T14:10:32Z",
       "snippets": [
         {
           "section": "ICML 2024 Meeting Dates",
-          "text": "ICML 2024 Meeting Dates\nExpo | Sun Jul 21st\nVirtual Pass | Mon Jul 22nd through Sat the 27th\nTutorials | Mon Jul 22nd\nConference Sessions | Tue Jul 23rd through Thu the 25th\nWorkshops | Fri Jul 26th through Sat the 27th\nYour timezone is:",
-          "sha256": "9b311e9280db9322b329a19413cb19a9640e473f729db8a264cef00f04b2bc04"
+          "text": "ICML 2024 Meeting Dates\nExpo | Sun Jul 21st\nVirtual Pass | Mon Jul 22nd through Sat the 27th\nTutorials | Mon Jul 22nd\nConference Sessions | Tue Jul 23rd through Thu the 25th\nWorkshops | Fri Jul 26th through Sat the 27th\nYour time zone is: Conference local time zone",
+          "sha256": "b85f7ede40159fcb9d3f0bd3967c7a81b9912728c5a91db89558134e2dc36c7a"
         },
         {
           "section": "Dates and Deadlines",
@@ -171,7 +171,7 @@
         }
       ],
       "links": [],
-      "sha256": "87fb359abbbfeb86e5460df33dbe8d44be248c4dee17289ac90bc2ce125a049c"
+      "sha256": "2cb80babddbc11451338674d91c0a0833c3e4f800f12be6bc7d73ef77d72528d"
     },
     "history-2025": {
       "extractor": "date-context-v1",
@@ -179,12 +179,12 @@
       "url": "https://icml.cc/Conferences/2025/Dates",
       "final_url": "https://icml.cc/Conferences/2025/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:54Z",
+      "retrieved_at": "2026-09-13T14:10:33Z",
       "snippets": [
         {
           "section": "ICML 2025 Meeting Dates",
-          "text": "ICML 2025 Meeting Dates\nExpo | Sun Jul 13th\nVirtual Pass | Mon Jul 14th through Sat the 19th\nTutorials | Mon Jul 14th\nConference Sessions | Tue Jul 15th through Thu the 17th\nWorkshops | Fri Jul 18th through Sat the 19th\nYour timezone is:",
-          "sha256": "ec41964d4a3755c65728e24805d086a418251a22cba55fd7344482aa544053d1"
+          "text": "ICML 2025 Meeting Dates\nExpo | Sun Jul 13th\nVirtual Pass | Mon Jul 14th through Sat the 19th\nTutorials | Mon Jul 14th\nConference Sessions | Tue Jul 15th through Thu the 17th\nWorkshops | Fri Jul 18th through Sat the 19th\nYour time zone is: Conference local time zone",
+          "sha256": "2e45201c8c228d6adf78d2b49943949232feb6e4dea3e5f793fc2e51a166a2e4"
         },
         {
           "section": "Dates and Deadlines",
@@ -223,7 +223,7 @@
         }
       ],
       "links": [],
-      "sha256": "5316e90be9e974da45b21205d1987ee92e926830a6c70aca88dfb4b7ee44ab57"
+      "sha256": "d8bd2052b148b3ff982d4d0ff8fc76c3dd98d4bb38520093c7d82017c68c3f41"
     },
     "history-2026": {
       "extractor": "date-context-v1",
@@ -231,12 +231,12 @@
       "url": "https://icml.cc/Conferences/2026/Dates",
       "final_url": "https://icml.cc/Conferences/2026/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:53Z",
+      "retrieved_at": "2026-09-13T14:10:33Z",
       "snippets": [
         {
           "section": "ICML 2026 Meeting Dates",
-          "text": "ICML 2026 Meeting Dates\nTutorials / Expo Talks | Mon Jul 6th\nMain Conference | Tue Jul 7th through Thu the 9th\nWorkshops | Fri Jul 10th through Sat the 11th\nExhibit Sponsor Hall | Tues July 7 (11 am - 7 pm), Wed July 8 (9am - 6pm), Thurs July 9 (9am - 6pm)\nYour timezone is:",
-          "sha256": "dd9c34da1c1f6039d83d028216701e7d83aaeed7756f272fbf2679fc570082bd"
+          "text": "ICML 2026 Meeting Dates\nTutorials / Expo Talks | Mon Jul 6th\nMain Conference | Tue Jul 7th through Thu the 9th\nWorkshops | Fri Jul 10th through Sat the 11th\nExhibit Sponsor Hall | Tues July 7 (11 am - 7 pm), Wed July 8 (9am - 6pm), Thurs July 9 (9am - 6pm)\nYour time zone is: Conference local time zone",
+          "sha256": "58ee953f9c436cd9e02292fc96f60ee6db60448b02073566b5917242acb9f20d"
         },
         {
           "section": "Dates and Deadlines",
@@ -275,7 +275,7 @@
         }
       ],
       "links": [],
-      "sha256": "d3e1ee98f72e7ab5502931ae2145ff093d6cbc9b4ba9fa0de9694616e09105eb"
+      "sha256": "3b4ffa3384bcc83826c988da8e3bc4c2de88b0b2199a5a1f3d3483d3d139d464"
     },
     "openreview": {
       "extractor": "date-context-v1",
@@ -283,7 +283,7 @@
       "url": "https://api2.openreview.net/groups?id=ICML.cc/2027/Conference",
       "final_url": "https://api2.openreview.net/groups?id=ICML.cc/2027/Conference",
       "status": 404,
-      "retrieved_at": "2026-09-05T04:10:44Z",
+      "retrieved_at": "2026-09-13T14:10:31Z",
       "snippets": [],
       "links": [],
       "sha256": "7bb089c1b3c75ad430d9efb915f608c489721800f923ca50158e9fe5bc73fb54"
@@ -293,38 +293,68 @@
     "current/icml.abstract": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "cc65346e024f92ae7fd6e37180fb1b8861fb226bd7f794d9372574cf37606d1a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 South America，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/icml.paper": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "cc65346e024f92ae7fd6e37180fb1b8861fb226bd7f794d9372574cf37606d1a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 South America，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/icml.review": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "cc65346e024f92ae7fd6e37180fb1b8861fb226bd7f794d9372574cf37606d1a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 South America，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/icml.rebuttal": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "cc65346e024f92ae7fd6e37180fb1b8861fb226bd7f794d9372574cf37606d1a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 South America，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/icml.decision": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "cc65346e024f92ae7fd6e37180fb1b8861fb226bd7f794d9372574cf37606d1a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 South America，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/icml.conference": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "cc65346e024f92ae7fd6e37180fb1b8861fb226bd7f794d9372574cf37606d1a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 South America，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "history/2022/abstract_deadline": {
       "value": "2022-01-20",
@@ -387,7 +417,7 @@
       "evidence": [
         {
           "source": "history-2022",
-          "snippet_sha256": "70b1a77f93da4e3c4eea191732741c5bb8b02084ec16d098f978801ad7f2764b"
+          "snippet_sha256": "91ec526299d84bc400e238b689ec74a9caa4d9c3bdbf5c2b981d7d46fe888d53"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -398,7 +428,7 @@
       "evidence": [
         {
           "source": "history-2022",
-          "snippet_sha256": "70b1a77f93da4e3c4eea191732741c5bb8b02084ec16d098f978801ad7f2764b"
+          "snippet_sha256": "91ec526299d84bc400e238b689ec74a9caa4d9c3bdbf5c2b981d7d46fe888d53"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -453,7 +483,7 @@
       "evidence": [
         {
           "source": "history-2023",
-          "snippet_sha256": "ecb460373f6fa56d82b5e554d78de63abd92cc7505103fefd11aff5938f35594"
+          "snippet_sha256": "60d62b795394a8af32cb14c075952f32fe3fdbfd9463c153fc9408140ca0a64c"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -464,7 +494,7 @@
       "evidence": [
         {
           "source": "history-2023",
-          "snippet_sha256": "ecb460373f6fa56d82b5e554d78de63abd92cc7505103fefd11aff5938f35594"
+          "snippet_sha256": "60d62b795394a8af32cb14c075952f32fe3fdbfd9463c153fc9408140ca0a64c"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -519,7 +549,7 @@
       "evidence": [
         {
           "source": "history-2024",
-          "snippet_sha256": "9b311e9280db9322b329a19413cb19a9640e473f729db8a264cef00f04b2bc04"
+          "snippet_sha256": "b85f7ede40159fcb9d3f0bd3967c7a81b9912728c5a91db89558134e2dc36c7a"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -530,7 +560,7 @@
       "evidence": [
         {
           "source": "history-2024",
-          "snippet_sha256": "9b311e9280db9322b329a19413cb19a9640e473f729db8a264cef00f04b2bc04"
+          "snippet_sha256": "b85f7ede40159fcb9d3f0bd3967c7a81b9912728c5a91db89558134e2dc36c7a"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -596,7 +626,7 @@
       "evidence": [
         {
           "source": "history-2025",
-          "snippet_sha256": "ec41964d4a3755c65728e24805d086a418251a22cba55fd7344482aa544053d1"
+          "snippet_sha256": "2e45201c8c228d6adf78d2b49943949232feb6e4dea3e5f793fc2e51a166a2e4"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -607,7 +637,7 @@
       "evidence": [
         {
           "source": "history-2025",
-          "snippet_sha256": "ec41964d4a3755c65728e24805d086a418251a22cba55fd7344482aa544053d1"
+          "snippet_sha256": "2e45201c8c228d6adf78d2b49943949232feb6e4dea3e5f793fc2e51a166a2e4"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -673,7 +703,7 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "dd9c34da1c1f6039d83d028216701e7d83aaeed7756f272fbf2679fc570082bd"
+          "snippet_sha256": "58ee953f9c436cd9e02292fc96f60ee6db60448b02073566b5917242acb9f20d"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"
@@ -684,7 +714,7 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "dd9c34da1c1f6039d83d028216701e7d83aaeed7756f272fbf2679fc570082bd"
+          "snippet_sha256": "58ee953f9c436cd9e02292fc96f60ee6db60448b02073566b5917242acb9f20d"
         }
       ],
       "note": "会期包含该页列出的 Expo、教程、主会及研讨会。"

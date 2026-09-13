@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_verified": "2026-08-14",
+  "last_verified": "2026-09-13",
   "id": "icassp",
   "records": [
     {
       "year": 2022,
-      "paper_deadline": "2021-10-06",
+      "paper_deadline": "2021-10-01",
       "review_release": "2022-01-03",
       "rebuttal_deadline": "2022-01-10",
       "final_decision": "2022-01-21",

@@ -8,7 +8,7 @@
       "url": "https://neurips.cc/Conferences/FutureMeetings",
       "final_url": "https://neurips.cc/Conferences/FutureMeetings",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:30Z",
+      "retrieved_at": "2026-09-13T14:10:30Z",
       "snippets": [
         {
           "section": "Future Meetings",
@@ -42,7 +42,7 @@
       "url": "https://neurips.cc/Conferences/2022/Dates",
       "final_url": "https://neurips.cc/Conferences/2022/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:33Z",
+      "retrieved_at": "2026-09-13T14:10:31Z",
       "snippets": [
         {
           "section": "NeurIPS 2022 Meeting Dates",
@@ -51,8 +51,8 @@
         },
         {
           "section": "NeurIPS 2022 Meeting Dates",
-          "text": "Workshops | Fri Dec 2nd through Sat the 3rd\nYour timezone is:",
-          "sha256": "22c984e7e0f760a4cbbcdaaaa8b9601d5720206e889f75fc9b3447526af2785d"
+          "text": "Workshops | Fri Dec 2nd through Sat the 3rd\nYour time zone is: Conference local time zone",
+          "sha256": "1eb7bed73c08525d60e75573e8e760f06de0a175b8cd8118f024f5afb3da8f56"
         },
         {
           "section": "Dates and Deadlines",
@@ -91,7 +91,7 @@
         }
       ],
       "links": [],
-      "sha256": "e8c7debb29561d9ca8c92bb1ccd556ac0cf9273be5636c7ef6dc92ce5c5e56a9"
+      "sha256": "9038db1c6bcc88db274c103e9d9b8c7d55aa2045d9a78eabf79b1f82f9610497"
     },
     "history-2023": {
       "extractor": "date-context-v1",
@@ -99,7 +99,7 @@
       "url": "https://neurips.cc/Conferences/2023/Dates",
       "final_url": "https://neurips.cc/Conferences/2023/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:35Z",
+      "retrieved_at": "2026-09-13T14:10:31Z",
       "snippets": [
         {
           "section": "NeurIPS 2023 Meeting Dates",
@@ -108,8 +108,8 @@
         },
         {
           "section": "NeurIPS 2023 Meeting Dates",
-          "text": "Your timezone is:",
-          "sha256": "6dbb2dc1ce561d4ea29a8e18bc23d915e5bb6d09e3a384f252a2e3a29c091f5d"
+          "text": "Your time zone is: Conference local time zone",
+          "sha256": "fcfcaa3c4011fb85e961386ab90bb2bb9f0a11adf0de0e71bc65fd4158e49584"
         },
         {
           "section": "Dates and Deadlines",
@@ -163,7 +163,7 @@
         }
       ],
       "links": [],
-      "sha256": "5debcc409e0e3ad6b1ce902c9444af3648c0711e2966781d86d03f451227ae57"
+      "sha256": "4af9c5f503fa4e9275c48080d90d2fc134eab96971b764ec37d38b99ee92a36a"
     },
     "history-2024": {
       "extractor": "date-context-v1",
@@ -171,12 +171,12 @@
       "url": "https://neurips.cc/Conferences/2024/Dates",
       "final_url": "https://neurips.cc/Conferences/2024/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:37Z",
+      "retrieved_at": "2026-09-13T14:10:32Z",
       "snippets": [
         {
           "section": "NeurIPS 2024 Meeting Dates",
-          "text": "NeurIPS 2024 Meeting Dates\nExpo | Tue Dec 10th\nVirtual Pass | Tue Dec 10th through Sun the 15th\nTutorials | Tue Dec 10th\nAffinity Workshops | Tue Dec 10th through Thur the 12th\nConference Sessions | Wed Dec 11th through Fri Dec 13th\nWorkshops | Sat Dec 14th through Sun the 15th\nYour timezone is:",
-          "sha256": "8cb22788aa7f3be1a448ed196db1b6208c2132f73b8cad7945a8423580f9ca8e"
+          "text": "NeurIPS 2024 Meeting Dates\nExpo | Tue Dec 10th\nVirtual Pass | Tue Dec 10th through Sun the 15th\nTutorials | Tue Dec 10th\nAffinity Workshops | Tue Dec 10th through Thur the 12th\nConference Sessions | Wed Dec 11th through Fri Dec 13th\nWorkshops | Sat Dec 14th through Sun the 15th\nYour time zone is: Conference local time zone",
+          "sha256": "731862f21c25e575853f870d54206efb4b9ced8c6bd7d4b65650b84105c77a27"
         },
         {
           "section": "Dates and Deadlines",
@@ -225,7 +225,7 @@
         }
       ],
       "links": [],
-      "sha256": "0cea67e84dba62ba855cc69d48daf7a7c55d101beee98206b9ffdfb34b444ae2"
+      "sha256": "9976cdf6e06981c35bcc137ddca0535a5eb44e8982bf7bbe21ebe4afc6991df0"
     },
     "history-2025": {
       "extractor": "date-context-v1",
@@ -233,12 +233,12 @@
       "url": "https://neurips.cc/Conferences/2025/Dates",
       "final_url": "https://neurips.cc/Conferences/2025/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:40Z",
+      "retrieved_at": "2026-09-13T14:10:32Z",
       "snippets": [
         {
           "section": "NeurIPS 2025 Meeting Dates",
-          "text": "NeurIPS 2025 Meeting Dates\nExpo Talks | Tue Dec 2nd\nVirtual Pass | Tue Dec 2nd through Sun the 7th\nTutorials | Tue Dec 2nd\nAffinity Workshops | Tue Dec 2nd through Wed the 4th\nConference Sessions | Wed Dec 3rd through Fri Dec 5th\nWorkshops | Sat Dec 6th through Sun the 7th\nYour timezone is:",
-          "sha256": "4b899f748dad59632598d593e71e1de2ba15d7aaaa9c24006d35c66587888f7d"
+          "text": "NeurIPS 2025 Meeting Dates\nExpo Talks | Tue Dec 2nd\nVirtual Pass | Tue Dec 2nd through Sun the 7th\nTutorials | Tue Dec 2nd\nAffinity Workshops | Tue Dec 2nd through Wed the 4th\nConference Sessions | Wed Dec 3rd through Fri Dec 5th\nWorkshops | Sat Dec 6th through Sun the 7th\nYour time zone is: Conference local time zone",
+          "sha256": "699b6f716e96a9386f66407e5c172ad6deb809b801b9d02c361b23ba38ae5574"
         },
         {
           "section": "Dates and Deadlines",
@@ -297,7 +297,7 @@
         }
       ],
       "links": [],
-      "sha256": "f9de030b5b9be74f042ca875d0e1b370d57d7e9ac890841aa8e868ffc9e7ebd1"
+      "sha256": "f229526b6892d0f426fe32eaff94466d6ba5be6a0407578bd7b03d66f92d35a7"
     },
     "history-2026": {
       "extractor": "date-context-v1",
@@ -305,7 +305,7 @@
       "url": "https://neurips.cc/Conferences/2026/Dates",
       "final_url": "https://neurips.cc/Conferences/2026/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:10:41Z",
+      "retrieved_at": "2026-09-13T14:10:32Z",
       "snippets": [
         {
           "section": "NeurIPS 2026 Meeting Dates",
@@ -314,8 +314,8 @@
         },
         {
           "section": "NeurIPS 2026 Meeting Dates",
-          "text": "Dec 9th – 12th | Exhibit Hall Open\nDec 10th & 11th | Main Conference\nDec 12th & 13th | Workshops\nNeurIPS Paris\nDec 9th - 11th | Main Conference + Tutorials\nDec 9th – 11th | Exhibit Hall Open\nDec 12th & 13th | Workshops\nYour timezone is:",
-          "sha256": "8c895df22531497de724763baa364e358320e025de7cc994c164c67ae36a86f9"
+          "text": "Dec 9th – 12th | Exhibit Hall Open\nDec 10th & 11th | Main Conference\nDec 12th & 13th | Workshops\nNeurIPS Paris\nDec 9th - 11th | Main Conference + Tutorials\nDec 9th – 11th | Exhibit Hall Open\nDec 12th & 13th | Workshops\nYour time zone is: Conference local time zone",
+          "sha256": "24cf239e6f1d03547c891a1672646fde5f4e279120cc356da87cef4b091bf37f"
         },
         {
           "section": "Dates and Deadlines",
@@ -359,7 +359,7 @@
         }
       ],
       "links": [],
-      "sha256": "7437c19f0ea9332827a4d5fb0b43af7e72e3912f57df2fd7ef6b95bc2ce9c044"
+      "sha256": "18646ec2b172a4ebccba3bce703a1066c20a611c2b28a1a2cdd5d0233f7481cd"
     },
     "openreview": {
       "extractor": "date-context-v1",
@@ -367,7 +367,7 @@
       "url": "https://api2.openreview.net/groups?id=NeurIPS.cc/2027/Conference",
       "final_url": "https://api2.openreview.net/groups?id=NeurIPS.cc/2027/Conference",
       "status": 404,
-      "retrieved_at": "2026-09-05T04:10:32Z",
+      "retrieved_at": "2026-09-13T14:10:30Z",
       "snippets": [],
       "links": [],
       "sha256": "5d724765095a49f12eb8a6966d71d6f07f029e9049064eeb97525acc813a602f"
@@ -377,38 +377,68 @@
     "current/neurips.abstract": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "463948a6c6840144c7c5d7bae809eaa106ef9a5ee71a46928e28d2c3e4d1965a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 Europe，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/neurips.paper": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "463948a6c6840144c7c5d7bae809eaa106ef9a5ee71a46928e28d2c3e4d1965a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 Europe，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/neurips.review": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "463948a6c6840144c7c5d7bae809eaa106ef9a5ee71a46928e28d2c3e4d1965a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 Europe，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/neurips.rebuttal": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "463948a6c6840144c7c5d7bae809eaa106ef9a5ee71a46928e28d2c3e4d1965a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 Europe，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/neurips.decision": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "463948a6c6840144c7c5d7bae809eaa106ef9a5ee71a46928e28d2c3e4d1965a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 Europe，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "current/neurips.conference": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "future-meetings",
+          "snippet_sha256": "463948a6c6840144c7c5d7bae809eaa106ef9a5ee71a46928e28d2c3e4d1965a"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Future Meetings 对 2027 年只列出 Europe，OpenReview 对应会场尚未建立；本轮未找到该届主会的确切日程。"
     },
     "history/2022/abstract_deadline": {
       "value": "2022-05-16",
@@ -482,7 +512,7 @@
       "evidence": [
         {
           "source": "history-2022",
-          "snippet_sha256": "22c984e7e0f760a4cbbcdaaaa8b9601d5720206e889f75fc9b3447526af2785d"
+          "snippet_sha256": "1eb7bed73c08525d60e75573e8e760f06de0a175b8cd8118f024f5afb3da8f56"
         }
       ],
       "note": "对应当届研讨会结束日，会期包含 Expo、主会与研讨会。"
@@ -625,7 +655,7 @@
       "evidence": [
         {
           "source": "history-2024",
-          "snippet_sha256": "8cb22788aa7f3be1a448ed196db1b6208c2132f73b8cad7945a8423580f9ca8e"
+          "snippet_sha256": "731862f21c25e575853f870d54206efb4b9ced8c6bd7d4b65650b84105c77a27"
         }
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
@@ -636,7 +666,7 @@
       "evidence": [
         {
           "source": "history-2024",
-          "snippet_sha256": "8cb22788aa7f3be1a448ed196db1b6208c2132f73b8cad7945a8423580f9ca8e"
+          "snippet_sha256": "731862f21c25e575853f870d54206efb4b9ced8c6bd7d4b65650b84105c77a27"
         }
       ],
       "note": "对应当届研讨会结束日，会期包含 Expo、主会与研讨会。"
@@ -702,7 +732,7 @@
       "evidence": [
         {
           "source": "history-2025",
-          "snippet_sha256": "4b899f748dad59632598d593e71e1de2ba15d7aaaa9c24006d35c66587888f7d"
+          "snippet_sha256": "699b6f716e96a9386f66407e5c172ad6deb809b801b9d02c361b23ba38ae5574"
         }
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
@@ -713,7 +743,7 @@
       "evidence": [
         {
           "source": "history-2025",
-          "snippet_sha256": "4b899f748dad59632598d593e71e1de2ba15d7aaaa9c24006d35c66587888f7d"
+          "snippet_sha256": "699b6f716e96a9386f66407e5c172ad6deb809b801b9d02c361b23ba38ae5574"
         }
       ],
       "note": "对应当届研讨会结束日，会期包含 Expo、主会与研讨会。"

@@ -8,7 +8,7 @@
       "url": "https://2027.ieeeicassp.org/call-for-papers/",
       "final_url": "https://2027.ieeeicassp.org/call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:12Z",
+      "retrieved_at": "2026-09-13T14:10:26Z",
       "snippets": [
         {
           "section": "Call for Papers",
@@ -34,7 +34,7 @@
       "url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/08/Call-for-Papers.pdf",
       "final_url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/08/Call-for-Papers.pdf",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:18Z",
+      "retrieved_at": "2026-09-13T14:10:30Z",
       "snippets": [
         {
           "section": "PDF",
@@ -66,7 +66,7 @@
       "url": "https://2023.ieeeicassp.org/important-dates/",
       "final_url": "https://2023.ieeeicassp.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:16Z",
+      "retrieved_at": "2026-09-13T14:10:28Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -123,7 +123,7 @@
       "url": "https://cmsworkshops.com/ICASSP2024/papers/paper_kit.php",
       "final_url": "https://cmsworkshops.com/ICASSP2024/papers/paper_kit.php",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:18Z",
+      "retrieved_at": "2026-09-13T14:10:28Z",
       "snippets": [
         {
           "section": "",
@@ -180,7 +180,7 @@
       "url": "https://signalprocessingsociety.org/events/icassp-2025-2025-ieee-international-conference-acoustics-speech-and-signal-processing",
       "final_url": "https://signalprocessingsociety.org/events/icassp-2025-2025-ieee-international-conference-acoustics-speech-and-signal-processing",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:21Z",
+      "retrieved_at": "2026-09-13T14:10:29Z",
       "snippets": [
         {
           "section": "06",
@@ -197,7 +197,7 @@
       "url": "https://2026.ieeeicassp.org/call-for-papers/",
       "final_url": "https://2026.ieeeicassp.org/call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:21Z",
+      "retrieved_at": "2026-09-13T14:10:28Z",
       "snippets": [
         {
           "section": "2026 IEEE International Conference on Acoustics, Speech, and Signal Processing",
@@ -225,31 +225,16 @@
     },
     "important-dates": {
       "extractor": "date-context-v1",
-      "config_sha256": "e86e092e302602214a170f11c04981e740366b1765e336e67e66294e73597af0",
+      "config_sha256": "848e03a7452fafd69c90ba9f2e8f6ffe5fbdcdfe5e3c44d6d460ba2197f4caba",
       "url": "https://2027.ieeeicassp.org/important-dates/",
       "final_url": "https://2027.ieeeicassp.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:11Z",
+      "retrieved_at": "2026-09-13T14:19:02Z",
       "snippets": [
         {
           "section": "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing",
           "text": "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing\n16-21 May 2027, Toronto, Canada",
           "sha256": "33ab84a6bcf0af450335f2d14096169f1050221eec75eb5d15ee4d0c4eeec51a"
-        },
-        {
-          "section": "Top Reading",
-          "text": "Top Reading",
-          "sha256": "f77b372f457dcbe67074c4125f51d797070e076a72f03b1fa6332fb62a03e67c"
-        },
-        {
-          "section": "Important Dates",
-          "text": "Important Dates",
-          "sha256": "96345edc68e820b696aab0d3d9d04e2316fbea817b178a248ee30a01c47d507c"
-        },
-        {
-          "section": "24 Jul 2026",
-          "text": "24 Jul 2026\nschedule 12:19 am",
-          "sha256": "832f4311006478db66225d7fb32ae03a10b33f4f9ff6c6f9e5204eb35a047a3e"
         }
       ],
       "links": [
@@ -258,7 +243,34 @@
           "title": "Call for Papers"
         }
       ],
-      "sha256": "c612ff180a84bc8c1d38a0bdf3eb1e1473864891894b84b57cc95bc3aa9a4b08"
+      "sha256": "590ee0692e79100979209eaeb88551cf5b4f34ee71b1eb9d0c8fdc68f876c1a2"
+    },
+    "paper-kit": {
+      "extractor": "date-context-v1",
+      "config_sha256": "d49a9b933e60928d7620e4c813843b9cfed8bbfb2ffcef94e5a9ccda0829adf0",
+      "url": "https://cmsworkshops.com/ICASSP2027/papers/paper_kit.php",
+      "final_url": "https://cmsworkshops.com/ICASSP2027/papers/paper_kit.php",
+      "status": 200,
+      "retrieved_at": "2026-09-13T14:14:42Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "Important Dates\nGrand Challenge Proposals | 27 July 2026\nGrand Challenge Proposal Acceptance Notification | 7 August 2026\nGrand Challenge 2-Page Paper Deadline | 7 January 2027\nGrand Challenge 2-Page Paper Acceptance Notification | 21 January 2027\nGrand Challenge 2-Page Camera Ready Papers Due | 28 January 2027\nSatellite Workshop Proposals | 19 August 2026\nSatellite Workshop Proposal Acceptance Notification | 26 August 2026",
+          "sha256": "a12432c9c6bf9fb50eb9682c6c3975956a905bb8dfda693e0913b012168f36ea"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Webpage Completion for Accepted Proposals | 9 September 2026\nSatellite Workshop Paper Submission | 11 November 2026\nSatellite Workshop Paper Acceptance Notification | 16 December 2026\nSatellite Workshop Camera Ready Paper Deadline | 6 January 2027\nPaper Submission Deadline (Regular, Special Session and OJSP) Deadline | 16 September 2026\nPublished Journal Presentation Request Deadline | 6 January 2027\nPaper Acceptance Notification | 13 January 2027\nFinal Paper Deadline | 27 January 2027",
+          "sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21"
+        },
+        {
+          "section": "Important Dates",
+          "text": "Author Registration Deadline | 10 February 2027\nOpen Preview Starts | 16 April 2027",
+          "sha256": "4a58bbaee819af74145b1ca49762c5e23041b9d269d7a6c5d1829fc505284634"
+        }
+      ],
+      "links": [],
+      "sha256": "34bae246670b7195b50d033b47b508ddd231fba372df3ad337ea1fd0649bb462"
     }
   },
   "claims": {
@@ -269,6 +281,14 @@
         {
           "source": "call-for-papers",
           "snippet_sha256": "25334886f80ec35649c22545ae6ae51de9bb18e15917ff87dfc168f28149c828"
+        },
+        {
+          "source": "paper-kit",
+          "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21",
+          "quote": "Paper Submission Deadline (Regular, Special Session and OJSP) Deadline | 16 September 2026",
+          "highlights": [
+            "16 September 2026"
+          ]
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
@@ -276,14 +296,24 @@
     "current/icassp.review": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "paper-kit",
+          "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
     },
     "current/icassp.rebuttal": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "paper-kit",
+          "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21"
+        }
+      ],
+      "note": "2026-09-13 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
     },
     "current/icassp.decision": {
       "value": "2027-01-13T23:59:00-12:00",
@@ -292,6 +322,14 @@
         {
           "source": "call-for-papers",
           "snippet_sha256": "25334886f80ec35649c22545ae6ae51de9bb18e15917ff87dfc168f28149c828"
+        },
+        {
+          "source": "paper-kit",
+          "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21",
+          "quote": "Paper Acceptance Notification | 13 January 2027",
+          "highlights": [
+            "13 January 2027"
+          ]
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
@@ -308,30 +346,19 @@
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
     },
     "history/2022/paper_deadline": {
-      "value": "2021-10-06",
-      "status": "conflict",
+      "value": "2021-10-01",
+      "status": "supported",
       "evidence": [
         {
           "source": "history-2022",
           "snippet_sha256": "2141bcc512ad577b1aadb396682030a7d4f8d9b2c7c858ed2fa4c324b855df98",
           "quote": "Paper Submissions ............................................................. 1 October 2021",
-          "highlights": ["1 October 2021"]
+          "highlights": [
+            "1 October 2021"
+          ]
         }
       ],
-      "candidate": {
-        "value": "2021-10-01",
-        "evidence": [
-          {
-            "source": "history-2022",
-            "snippet_sha256": "2141bcc512ad577b1aadb396682030a7d4f8d9b2c7c858ed2fa4c324b855df98",
-            "quote": "Paper Submissions ............................................................. 1 October 2021",
-            "highlights": [
-              "1 October 2021"
-            ]
-          }
-        ]
-      },
-      "note": "这份 2021 年 8 月 CFP 写 2021-10-01，现值为 10-06；旧 PDF 可能未包含延期公告，需要补充更新来源，不能直接改回旧日。"
+      "note": "人工确认采用来源中的日期 2021-10-01。"
     },
     "history/2022/review_release": {
       "value": "2022-01-03",
@@ -538,5 +565,74 @@
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
     }
-  }
+  },
+  "decisions": [
+    {
+      "target": "history/2022/paper_deadline",
+      "action": "accept",
+      "reviewed_at": "2026-09-13T14:30:41Z",
+      "reason": "",
+      "previous_value": "2021-10-06",
+      "proposal": {
+        "value": "2021-10-01",
+        "evidence": [
+          {
+            "source": "history-2022",
+            "snippet_sha256": "2141bcc512ad577b1aadb396682030a7d4f8d9b2c7c858ed2fa4c324b855df98",
+            "quote": "Paper Submissions ............................................................. 1 October 2021",
+            "highlights": [
+              "1 October 2021"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "6f49400726aafc309115e63c8842d274e255d6ec7412831ab6156567aed38933",
+      "undo": {
+        "before": {
+          "record": {
+            "year": 2022,
+            "paper_deadline": "2021-10-06",
+            "review_release": "2022-01-03",
+            "rebuttal_deadline": "2022-01-10",
+            "final_decision": "2022-01-21",
+            "conference_start": "2022-05-22",
+            "conference_end": "2022-05-27",
+            "source": "https://www2.securecms.com/ICASSP2022/papers/paper_kit.php",
+            "notes": "The conference paper submission deadline was extended from October 1 to October 6."
+          },
+          "claim": {
+            "value": "2021-10-06",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "history-2022",
+                "snippet_sha256": "2141bcc512ad577b1aadb396682030a7d4f8d9b2c7c858ed2fa4c324b855df98",
+                "quote": "Paper Submissions ............................................................. 1 October 2021",
+                "highlights": [
+                  "1 October 2021"
+                ]
+              }
+            ],
+            "candidate": {
+              "value": "2021-10-01",
+              "evidence": [
+                {
+                  "source": "history-2022",
+                  "snippet_sha256": "2141bcc512ad577b1aadb396682030a7d4f8d9b2c7c858ed2fa4c324b855df98",
+                  "quote": "Paper Submissions ............................................................. 1 October 2021",
+                  "highlights": [
+                    "1 October 2021"
+                  ]
+                }
+              ]
+            },
+            "note": "这份 2021 年 8 月 CFP 写 2021-10-01，现值为 10-06；旧 PDF 可能未包含延期公告，需要补充更新来源，不能直接改回旧日。"
+          }
+        },
+        "after_sha256": "103608972da556daf1eef7ec30d57702f5b38408afc718af78fbc415a574ce3d",
+        "guard_sha256": "51db47f74e412d005898e731c7e648afda7e4129923e674f213b9091505c02cf",
+        "sha256": "f390c7a4ac6a04d7f44410ccfe8320488b98e28d50fb4e7c186e8a0f20f05532"
+      }
+    }
+  ]
 }

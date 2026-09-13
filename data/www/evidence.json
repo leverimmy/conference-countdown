@@ -8,7 +8,7 @@
       "url": "https://acmweb2027.org/",
       "final_url": "https://www2027.thewebconf.org/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:01Z",
+      "retrieved_at": "2026-09-13T14:10:24Z",
       "snippets": [
         {
           "section": "",
@@ -46,7 +46,7 @@
       "url": "https://archives.iw3c2.org/www2022/cfp/research/",
       "final_url": "https://archives.iw3c2.org/www2022/cfp/research/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:01Z",
+      "retrieved_at": "2026-09-13T14:10:22Z",
       "snippets": [
         {
           "section": "",
@@ -78,7 +78,7 @@
       "url": "https://archives.iw3c2.org/www2023/calls/research-tracks/",
       "final_url": "https://archives.iw3c2.org/www2023/calls/research-tracks/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:04Z",
+      "retrieved_at": "2026-09-13T14:10:22Z",
       "snippets": [
         {
           "section": "TheWebConf 2023 Research Tracks Final Call For Papers (CFP) “Web Research with Openness, Fairness and Reproducibility”",
@@ -100,7 +100,7 @@
       "url": "https://www2024.thewebconf.org/calls/research-tracks/",
       "final_url": "https://www2024.thewebconf.org/calls/research-tracks/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:04Z",
+      "retrieved_at": "2026-09-13T14:10:22Z",
       "snippets": [
         {
           "section": "CALL FOR PAPERS",
@@ -122,7 +122,7 @@
       "url": "https://archives.iw3c2.org/www2025/research-tracks/",
       "final_url": "https://archives.iw3c2.org/www2025/research-tracks/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:09Z",
+      "retrieved_at": "2026-09-13T14:10:22Z",
       "snippets": [
         {
           "section": "CALL FOR PAPERS",
@@ -144,7 +144,7 @@
       "url": "https://www2026.thewebconf.org/important-dates.html",
       "final_url": "https://www2026.thewebconf.org/important-dates.html",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:21:07Z",
+      "retrieved_at": "2026-09-13T14:10:21Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -206,7 +206,7 @@
       "url": "https://acmweb2027.org/important-dates/",
       "final_url": "https://acmweb2027.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:20:59Z",
+      "retrieved_at": "2026-09-13T14:10:23Z",
       "snippets": [
         {
           "section": "Research & Industry Track Papers",
@@ -234,134 +234,223 @@
         }
       ],
       "sha256": "956293c9eeceb1a2193a213d80a71ee492a249d01ac921ea359135734b5b688c"
+    },
+    "openreview": {
+      "extractor": "date-context-v1",
+      "config_sha256": "d6c1fff830bad86148648e385fa8562159257080bce22336d6a1c91e248c47e0",
+      "url": "https://api2.openreview.net/groups?id=ACM.org/TheWebConf/2027/Conference_Long_Papers",
+      "final_url": "https://api2.openreview.net/groups?id=ACM.org/TheWebConf/2027/Conference_Long_Papers",
+      "status": 200,
+      "retrieved_at": "2026-09-13T14:14:42Z",
+      "snippets": [
+        {
+          "section": "/groups/0/cdate",
+          "text": "{\"path\": \"/groups/0/cdate\", \"value\": 1786997454326}\nUTC: 2026-08-17T20:10:54.326000+00:00",
+          "sha256": "8c03c68ccb6263c36539be53c043ee4935b0f063ad00d9f3632cbe8ec34c5819"
+        },
+        {
+          "section": "/groups/0/content/date",
+          "text": "{\"path\": \"/groups/0/content/date\", \"value\": \"Submission Start: Aug 29 2026 12:00AM UTC-0, Abstract Registration: Oct 19 2026 01:00PM UTC-0, Submission Deadline: Oct 26 2026 01:00PM UTC-0\"}",
+          "sha256": "a3ea5139f80d9e14194969ce7a6052d5874d9aac11ab5b569852a0da258c7e70"
+        },
+        {
+          "section": "/groups/0/content/start_date",
+          "text": "{\"path\": \"/groups/0/content/start_date\", \"value\": \"May 10 2027\"}",
+          "sha256": "3649292954cc4785dd4cb2d0371a5b35b767c6715ff7b3163d94797807ba82f3"
+        },
+        {
+          "section": "/groups/0/mdate",
+          "text": "{\"path\": \"/groups/0/mdate\", \"value\": 1788868227382}\nUTC: 2026-09-08T11:50:27.382000+00:00",
+          "sha256": "f12c7edf409470fbb3b7853aad6a9871e5730ef883d26f225ab0f8489aa1fe54"
+        },
+        {
+          "section": "/groups/0/tcdate",
+          "text": "{\"path\": \"/groups/0/tcdate\", \"value\": 1786997454326}\nUTC: 2026-08-17T20:10:54.326000+00:00",
+          "sha256": "e61ab68176219bdacf1a02a2bdf8e30eaa51b81c73b407605fa46ba9cfd79c33"
+        },
+        {
+          "section": "/groups/0/tmdate",
+          "text": "{\"path\": \"/groups/0/tmdate\", \"value\": 1788868227382}\nUTC: 2026-09-08T11:50:27.382000+00:00",
+          "sha256": "0afe43bae5298684e3f2f05a1ba11fd33bd7cc8af7ffafcd60896a5c9aacd7a9"
+        }
+      ],
+      "links": [],
+      "sha256": "bfecc3bce5241dcbebb6bb944edd3d23519549de159977f9e50548a5ac5c6954"
+    },
+    "research-track": {
+      "extractor": "date-context-v1",
+      "config_sha256": "b6912ecb61311424c65a0a17f99a9fe262710bc4822aa7a8ca111d110ab94aea",
+      "url": "https://www2027.thewebconf.org/research-track-papers/",
+      "final_url": "https://www2027.thewebconf.org/research-track-papers/",
+      "status": 200,
+      "retrieved_at": "2026-09-13T14:14:43Z",
+      "snippets": [
+        {
+          "section": "Call for Research Track Papers",
+          "text": "Call for Research Track Papers\nWe invite contributions to the research tracks of The Web Conference 2027 (formerly known as WWW), which is going to be held in Dublin, Ireland on 10th-14th May, 2027.\nThe Web Conference is the premier conference focused on understanding the current state and the evolution of the Web through the lens of computer science, computational social science, economics, policy, and many other disciplines.",
+          "sha256": "c5e0081589013818a67a57d5089e6fe6882fe41f2c257d549609726e7c5bd166"
+        },
+        {
+          "section": "Important Dates – Full Paper",
+          "text": "Important Dates – Full Paper\nAbstract Submission Deadline | 18 October 2026\nFull Paper Submission Deadline | 25 October 2026\nResults Release | 21 December 2026\nResearch & Industry Track Paper Rebuttal Period | 21-31 December 2026\nNotification | 04 January 2027\nResearch & Industry Track Paper Final Version Deadline | 31 January 2027\nACM Web Conference in Dublin | 10-14 May 2027",
+          "sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed"
+        },
+        {
+          "section": "Important Dates – Short Paper",
+          "text": "Important Dates – Short Paper\nAbstract Submission | 9 November 2026\nPaper Submission | 16 November 2026\nNotification | 04 January 2027\nFinal Version Deadline | 31 January 2027\nAll submission deadlines are end-of-day in Anywhere on Earth (AoE) time zone.",
+          "sha256": "e85a831bce21c34d555fc497c5181caf4b3b521dc403c327b4d3f2f27723e984"
+        }
+      ],
+      "links": [],
+      "sha256": "84c74b4f4b933bf37067d9d08d1d6b5b0eff82af9ac4a83d6bd96eeded5455f0"
     }
   },
   "claims": {
     "current/www.abstract": {
-      "value": "2026-10-11T23:59:00-12:00",
-      "status": "conflict",
+      "value": "2026-10-18T23:59:59-12:00",
+      "status": "date_only",
       "evidence": [
         {
           "source": "important-dates",
-          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+          "quote": "Abstract Submission | 18 October 2026",
+          "highlights": [
+            "18 October 2026"
+          ]
+        },
+        {
+          "source": "openreview",
+          "snippet_sha256": "a3ea5139f80d9e14194969ce7a6052d5874d9aac11ab5b569852a0da258c7e70",
+          "quote": "Abstract Registration: Oct 19 2026 01:00PM UTC-0",
+          "highlights": [
+            "Oct 19 2026 01:00PM UTC-0"
+          ]
+        },
+        {
+          "source": "research-track",
+          "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+          "quote": "Abstract Submission Deadline | 18 October 2026",
+          "highlights": [
+            "18 October 2026"
+          ]
         }
       ],
-      "candidate": {
-        "value": "2026-10-18",
-        "evidence": [
-          {
-            "source": "important-dates",
-            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
-            "quote": "Abstract Submission | 18 October 2026",
-            "highlights": [
-              "18 October 2026"
-            ]
-          }
-        ]
-      },
-      "note": "官网研究/工业赛道摘要截止为 2026-10-18，现值为 2026-10-11；需本地更新日期与显示文字。"
+      "note": "人工确认采用来源中的日期 2026-10-18。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "current/www.paper": {
-      "value": "2026-10-18T23:59:00-12:00",
-      "status": "conflict",
+      "value": "2026-10-25T23:59:59-12:00",
+      "status": "date_only",
       "evidence": [
         {
           "source": "important-dates",
-          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+          "quote": "Paper Submission | 25 October 2026",
+          "highlights": [
+            "25 October 2026"
+          ]
+        },
+        {
+          "source": "openreview",
+          "snippet_sha256": "a3ea5139f80d9e14194969ce7a6052d5874d9aac11ab5b569852a0da258c7e70",
+          "quote": "Submission Deadline: Oct 26 2026 01:00PM UTC-0",
+          "highlights": [
+            "Oct 26 2026 01:00PM UTC-0"
+          ]
+        },
+        {
+          "source": "research-track",
+          "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+          "quote": "Full Paper Submission Deadline | 25 October 2026",
+          "highlights": [
+            "25 October 2026"
+          ]
         }
       ],
-      "candidate": {
-        "value": "2026-10-25",
-        "evidence": [
-          {
-            "source": "important-dates",
-            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
-            "quote": "Paper Submission | 25 October 2026",
-            "highlights": [
-              "25 October 2026"
-            ]
-          }
-        ]
-      },
-      "note": "官网研究/工业赛道全文截止为 2026-10-25，现值为 2026-10-18；同日摘要不能作为全文的证据。"
+      "note": "人工确认采用来源中的日期 2026-10-25。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "current/www.review": {
-      "value": "2026-12-10T23:59:00-12:00",
-      "status": "conflict",
+      "value": "2026-12-21T23:59:59-12:00",
+      "status": "date_only",
       "evidence": [
         {
           "source": "important-dates",
-          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+          "quote": "Result Release | 21 December 2026",
+          "highlights": [
+            "21 December 2026"
+          ]
+        },
+        {
+          "source": "research-track",
+          "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+          "quote": "Results Release | 21 December 2026",
+          "highlights": [
+            "21 December 2026"
+          ]
         }
       ],
-      "candidate": {
-        "value": "2026-12-21",
-        "evidence": [
-          {
-            "source": "important-dates",
-            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
-            "quote": "Result Release | 21 December 2026",
-            "highlights": [
-              "21 December 2026"
-            ]
-          }
-        ]
-      },
-      "note": "官网 Result Release 为 2026-12-21，现值为 2026-12-10；需本地核对更新。"
+      "note": "人工确认采用来源中的日期 2026-12-21。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "current/www.rebuttal": {
-      "value": "2026-12-19T23:59:00-12:00",
-      "status": "conflict",
+      "value": "2026-12-31T23:59:59-12:00",
+      "status": "date_only",
       "evidence": [
         {
           "source": "important-dates",
-          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+          "quote": "Rebuttal Period | 21-31 December 2026",
+          "highlights": [
+            "31 December 2026"
+          ]
+        },
+        {
+          "source": "research-track",
+          "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+          "quote": "Research & Industry Track Paper Rebuttal Period | 21-31 December 2026",
+          "highlights": [
+            "21-31 December 2026"
+          ]
         }
       ],
-      "candidate": {
-        "value": "2026-12-31",
-        "evidence": [
-          {
-            "source": "important-dates",
-            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
-            "quote": "Rebuttal Period | 21-31 December 2026",
-            "highlights": [
-              "31 December 2026"
-            ]
-          }
-        ]
-      },
-      "note": "官网 Rebuttal Period 为 2026-12-21 至 12-31，现值为 2026-12-19；需本地核对更新。"
+      "note": "人工确认采用来源中的日期 2026-12-31。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "current/www.decision": {
-      "value": null,
-      "status": "newly_announced",
+      "value": "2027-01-04T23:59:59-12:00",
+      "status": "date_only",
       "evidence": [
         {
           "source": "important-dates",
-          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+          "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+          "quote": "Notification | 4 January 2027",
+          "highlights": [
+            "4 January 2027"
+          ]
+        },
+        {
+          "source": "research-track",
+          "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+          "quote": "Notification | 04 January 2027",
+          "highlights": [
+            "04 January 2027"
+          ]
         }
       ],
-      "candidate": {
-        "value": "2027-01-04",
-        "evidence": [
-          {
-            "source": "important-dates",
-            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
-            "quote": "Notification | 4 January 2027",
-            "highlights": [
-              "4 January 2027"
-            ]
-          }
-        ]
-      },
-      "note": "官网已公布 Notification 为 2027-01-04，当前事件仍在使用预测，需本地核对后填入。"
+      "note": "人工确认采用来源中的日期 2027-01-04。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "current/www.conference": {
       "value": "2027-05-10T00:00:00+01:00",
-      "status": "unverified",
-      "evidence": [],
-      "note": "尚未找到足够的支撑段落；保留原值，需本地核对。"
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "research-track",
+          "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+          "quote": "ACM Web Conference in Dublin | 10-14 May 2027",
+          "highlights": [
+            "10-14 May 2027"
+          ]
+        }
+      ],
+      "note": "2026-09-13 核对：官网 Research Track 明确会期为 2027-05-10 至 05-14，与现有开幕日期一致；未公布开幕的具体时刻。"
     },
     "history/2022/abstract_deadline": {
       "value": "2021-10-14",
@@ -807,6 +896,425 @@
       },
       "undone_at": "2026-09-05T08:55:36Z",
       "undo_reason": ""
+    },
+    {
+      "target": "current/www.abstract",
+      "action": "accept",
+      "reviewed_at": "2026-09-13T14:30:04Z",
+      "reason": "",
+      "previous_value": "2026-10-11T23:59:00-12:00",
+      "proposal": {
+        "value": "2026-10-18",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Abstract Submission | 18 October 2026",
+            "highlights": [
+              "18 October 2026"
+            ]
+          },
+          {
+            "source": "openreview",
+            "snippet_sha256": "a3ea5139f80d9e14194969ce7a6052d5874d9aac11ab5b569852a0da258c7e70",
+            "quote": "Abstract Registration: Oct 19 2026 01:00PM UTC-0",
+            "highlights": [
+              "Oct 19 2026 01:00PM UTC-0"
+            ]
+          },
+          {
+            "source": "research-track",
+            "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+            "quote": "Abstract Submission Deadline | 18 October 2026",
+            "highlights": [
+              "18 October 2026"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "fed799ded8fa7a949d40a653473c4f7c66b786043d70b8f63351a4a3dba05268",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "www.abstract",
+            "title": "摘要提交截止",
+            "compact_title": "WWW 摘要",
+            "at": "2026-10-11T23:59:00-12:00",
+            "date_label": "10 月 11 日 23:59 AoE",
+            "detail_label": "北京时间 10 月 12 日 19:59",
+            "symbol": "doc.text"
+          },
+          "claim": {
+            "value": "2026-10-11T23:59:00-12:00",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "important-dates",
+                "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+              }
+            ],
+            "candidate": {
+              "value": "2026-10-18",
+              "evidence": [
+                {
+                  "source": "important-dates",
+                  "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+                  "quote": "Abstract Submission | 18 October 2026",
+                  "highlights": [
+                    "18 October 2026"
+                  ]
+                },
+                {
+                  "source": "openreview",
+                  "snippet_sha256": "a3ea5139f80d9e14194969ce7a6052d5874d9aac11ab5b569852a0da258c7e70",
+                  "quote": "Abstract Registration: Oct 19 2026 01:00PM UTC-0",
+                  "highlights": [
+                    "Oct 19 2026 01:00PM UTC-0"
+                  ]
+                },
+                {
+                  "source": "research-track",
+                  "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+                  "quote": "Abstract Submission Deadline | 18 October 2026",
+                  "highlights": [
+                    "18 October 2026"
+                  ]
+                }
+              ]
+            },
+            "note": "2026-09-13 核对：官网研究赛道与 Important Dates 均列 2026-10-18，截止为 AoE 日末。OpenReview 会场描述则写翌日 13:00 UTC，比官网日末约晚一小时。候选保留官网日期；描述字段不代表投稿系统实际关闭时间，也不能据此认定延期。"
+          }
+        },
+        "after_sha256": "462e1532378d3b54ef798522d0c99e53cc0e4d00a51b6fc2592d000980954558",
+        "guard_sha256": "b83416c13bab60925d14af956068d8123612949b3aeabeef9bb08abbf592ba93",
+        "sha256": "38899ba4c57011232c7d8209964013fab0c8004d6836646fd6bcf235d5ac222f"
+      }
+    },
+    {
+      "target": "current/www.paper",
+      "action": "accept",
+      "reviewed_at": "2026-09-13T14:30:10Z",
+      "reason": "",
+      "previous_value": "2026-10-18T23:59:00-12:00",
+      "proposal": {
+        "value": "2026-10-25",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Paper Submission | 25 October 2026",
+            "highlights": [
+              "25 October 2026"
+            ]
+          },
+          {
+            "source": "openreview",
+            "snippet_sha256": "a3ea5139f80d9e14194969ce7a6052d5874d9aac11ab5b569852a0da258c7e70",
+            "quote": "Submission Deadline: Oct 26 2026 01:00PM UTC-0",
+            "highlights": [
+              "Oct 26 2026 01:00PM UTC-0"
+            ]
+          },
+          {
+            "source": "research-track",
+            "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+            "quote": "Full Paper Submission Deadline | 25 October 2026",
+            "highlights": [
+              "25 October 2026"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "53d183fc0c23f89e9d1b0b4182757a1ebb1c919eed4e65ca50b149d37f34c353",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "www.paper",
+            "title": "全文提交截止",
+            "compact_title": "WWW 全文",
+            "at": "2026-10-18T23:59:00-12:00",
+            "date_label": "10 月 18 日 23:59 AoE",
+            "detail_label": "北京时间 10 月 19 日 19:59",
+            "symbol": "paperplane.fill"
+          },
+          "claim": {
+            "value": "2026-10-18T23:59:00-12:00",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "important-dates",
+                "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+              }
+            ],
+            "candidate": {
+              "value": "2026-10-25",
+              "evidence": [
+                {
+                  "source": "important-dates",
+                  "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+                  "quote": "Paper Submission | 25 October 2026",
+                  "highlights": [
+                    "25 October 2026"
+                  ]
+                },
+                {
+                  "source": "openreview",
+                  "snippet_sha256": "a3ea5139f80d9e14194969ce7a6052d5874d9aac11ab5b569852a0da258c7e70",
+                  "quote": "Submission Deadline: Oct 26 2026 01:00PM UTC-0",
+                  "highlights": [
+                    "Oct 26 2026 01:00PM UTC-0"
+                  ]
+                },
+                {
+                  "source": "research-track",
+                  "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+                  "quote": "Full Paper Submission Deadline | 25 October 2026",
+                  "highlights": [
+                    "25 October 2026"
+                  ]
+                }
+              ]
+            },
+            "note": "2026-09-13 核对：官网研究赛道与 Important Dates 均列 2026-10-25，截止为 AoE 日末。OpenReview 会场描述则写翌日 13:00 UTC，比官网日末约晚一小时。候选保留官网日期；描述字段不代表投稿系统实际关闭时间，也不能据此认定延期。"
+          }
+        },
+        "after_sha256": "4e0588a4b72c871b4c6bcf8ee5bd65604016f66d59426771fa2c237dabb67abe",
+        "guard_sha256": "b83416c13bab60925d14af956068d8123612949b3aeabeef9bb08abbf592ba93",
+        "sha256": "0b5177c82d69c548913e6284a12e5cd4dc1af7bb4175b72e5f6af2b4de00ec49"
+      }
+    },
+    {
+      "target": "current/www.review",
+      "action": "accept",
+      "reviewed_at": "2026-09-13T14:30:20Z",
+      "reason": "",
+      "previous_value": "2026-12-10T23:59:00-12:00",
+      "proposal": {
+        "value": "2026-12-21",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Result Release | 21 December 2026",
+            "highlights": [
+              "21 December 2026"
+            ]
+          },
+          {
+            "source": "research-track",
+            "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+            "quote": "Results Release | 21 December 2026",
+            "highlights": [
+              "21 December 2026"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "50a0884c7a0d0f5202d6046ced8086675228e3a4d093e2bfcff21670950cfb1f",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "www.review",
+            "title": "初审结果公布",
+            "compact_title": "WWW 初审",
+            "at": "2026-12-10T23:59:00-12:00",
+            "date_label": "2026 年 12 月 10 日 23:59 AoE",
+            "detail_label": "北京时间 12 月 11 日 19:59",
+            "symbol": "doc.text.fill"
+          },
+          "claim": {
+            "value": "2026-12-10T23:59:00-12:00",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "important-dates",
+                "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+              }
+            ],
+            "candidate": {
+              "value": "2026-12-21",
+              "evidence": [
+                {
+                  "source": "important-dates",
+                  "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+                  "quote": "Result Release | 21 December 2026",
+                  "highlights": [
+                    "21 December 2026"
+                  ]
+                },
+                {
+                  "source": "research-track",
+                  "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+                  "quote": "Results Release | 21 December 2026",
+                  "highlights": [
+                    "21 December 2026"
+                  ]
+                }
+              ]
+            },
+            "note": "官网 Result Release 为 2026-12-21，现值为 2026-12-10；需本地核对更新。"
+          }
+        },
+        "after_sha256": "1ce60f76e7b2225d1928fa1a6fdc927b2b1d0a2bc543c425575458d47842b686",
+        "guard_sha256": "d0fb0e49ac55ffaef83a1532556855bd284baf821a6046452aaf520131005d3b",
+        "sha256": "baea0cb7745423ee76793566b967b9c54b0ad69a412cde84aea073cfea993b09"
+      }
+    },
+    {
+      "target": "current/www.rebuttal",
+      "action": "accept",
+      "reviewed_at": "2026-09-13T14:30:31Z",
+      "reason": "",
+      "previous_value": "2026-12-19T23:59:00-12:00",
+      "proposal": {
+        "value": "2026-12-31",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Rebuttal Period | 21-31 December 2026",
+            "highlights": [
+              "31 December 2026"
+            ]
+          },
+          {
+            "source": "research-track",
+            "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+            "quote": "Research & Industry Track Paper Rebuttal Period | 21-31 December 2026",
+            "highlights": [
+              "21-31 December 2026"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "fbbc551454a46aa7c2f6c94c3efe7a312907188ca72e8d9ce542115253eae81c",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "www.rebuttal",
+            "title": "作者回复截止",
+            "compact_title": "WWW 回复",
+            "at": "2026-12-19T23:59:00-12:00",
+            "date_label": "2026 年 12 月 19 日 23:59 AoE",
+            "detail_label": "北京时间 12 月 20 日 19:59",
+            "symbol": "bubble.left.and.bubble.right.fill"
+          },
+          "claim": {
+            "value": "2026-12-19T23:59:00-12:00",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "important-dates",
+                "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+              }
+            ],
+            "candidate": {
+              "value": "2026-12-31",
+              "evidence": [
+                {
+                  "source": "important-dates",
+                  "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+                  "quote": "Rebuttal Period | 21-31 December 2026",
+                  "highlights": [
+                    "31 December 2026"
+                  ]
+                },
+                {
+                  "source": "research-track",
+                  "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+                  "quote": "Research & Industry Track Paper Rebuttal Period | 21-31 December 2026",
+                  "highlights": [
+                    "21-31 December 2026"
+                  ]
+                }
+              ]
+            },
+            "note": "官网 Rebuttal Period 为 2026-12-21 至 12-31，现值为 2026-12-19；需本地核对更新。"
+          }
+        },
+        "after_sha256": "643d3879e4f476fdf3f481b0f03df186de40ad4a267602291f912f541a3fb87c",
+        "guard_sha256": "d0fb0e49ac55ffaef83a1532556855bd284baf821a6046452aaf520131005d3b",
+        "sha256": "0eb73ea42175bca79839012912233835d1f049d45fb5b858ff7767640ccf02d1"
+      }
+    },
+    {
+      "target": "current/www.decision",
+      "action": "accept",
+      "reviewed_at": "2026-09-13T14:31:05Z",
+      "reason": "",
+      "previous_value": null,
+      "proposal": {
+        "value": "2027-01-04",
+        "evidence": [
+          {
+            "source": "important-dates",
+            "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+            "quote": "Notification | 4 January 2027",
+            "highlights": [
+              "4 January 2027"
+            ]
+          },
+          {
+            "source": "research-track",
+            "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+            "quote": "Notification | 04 January 2027",
+            "highlights": [
+              "04 January 2027"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "eeda92011117840d97df6348f85dc3033ee8e75647d5c1b7ae6d4a82c66a161d",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "www.decision",
+            "title": "最终结果公布",
+            "compact_title": "WWW 终审",
+            "at": null,
+            "date_label": "官方尚未公布",
+            "detail_label": "公布后替换历史预测",
+            "symbol": "checkmark.seal.fill",
+            "historical_key": "final_decision",
+            "target_year": 2027
+          },
+          "claim": {
+            "value": null,
+            "status": "newly_announced",
+            "evidence": [
+              {
+                "source": "important-dates",
+                "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1"
+              }
+            ],
+            "candidate": {
+              "value": "2027-01-04",
+              "evidence": [
+                {
+                  "source": "important-dates",
+                  "snippet_sha256": "8f0da1384fb89119831da009049598568cc28cffcee3dc62a7ad0149bc34eaf1",
+                  "quote": "Notification | 4 January 2027",
+                  "highlights": [
+                    "4 January 2027"
+                  ]
+                },
+                {
+                  "source": "research-track",
+                  "snippet_sha256": "a1ccfd50b26d24bb24b013030d26c0c653443b7d3f6caca521160167ba0d1aed",
+                  "quote": "Notification | 04 January 2027",
+                  "highlights": [
+                    "04 January 2027"
+                  ]
+                }
+              ]
+            },
+            "note": "官网已公布 Notification 为 2027-01-04，当前事件仍在使用预测，需本地核对后填入。"
+          }
+        },
+        "after_sha256": "87b9b4404d04cc5e99c35a351b5a3762c0304c71065c0dbd2a837d6182f5c502",
+        "guard_sha256": "d0fb0e49ac55ffaef83a1532556855bd284baf821a6046452aaf520131005d3b",
+        "sha256": "3786fb5ca97a4ff52a4fff7ed0a5fcefd7743da0b90443d131ab26c5030a1edb"
+      }
     }
   ]
 }

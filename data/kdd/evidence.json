@@ -8,7 +8,7 @@
       "url": "https://www.kdd.org/kdd2022/cfpResearch.html",
       "final_url": "https://www.kdd.org/kdd2022/cfpResearch.html",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:11:16Z",
+      "retrieved_at": "2026-09-13T14:10:36Z",
       "snippets": [
         {
           "section": "",
@@ -30,7 +30,7 @@
       "url": "https://www.kdd.org/kdd2023/call-for-research-track-papers/index.html",
       "final_url": "https://www.kdd.org/kdd2023/call-for-research-track-papers/index.html",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:11:20Z",
+      "retrieved_at": "2026-09-13T14:10:36Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -67,7 +67,7 @@
       "url": "https://www.kdd.org/kdd2024/",
       "final_url": "https://www.kdd.org/kdd2024/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:11:21Z",
+      "retrieved_at": "2026-09-13T14:10:36Z",
       "snippets": [
         {
           "section": "Paper Deadlines",
@@ -89,7 +89,7 @@
       "url": "https://kdd2025.kdd.org/research-track-call-for-papers/",
       "final_url": "https://kdd.org/kdd2025/research-track-call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:11:26Z",
+      "retrieved_at": "2026-09-13T14:10:37Z",
       "snippets": [
         {
           "section": "Research Track: Call for Papers",
@@ -126,7 +126,7 @@
       "url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
       "final_url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:11:30Z",
+      "retrieved_at": "2026-09-13T14:10:37Z",
       "snippets": [
         {
           "section": "Research Track: Call for Papers",
@@ -178,7 +178,7 @@
       "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
       "final_url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-05T04:11:17Z",
+      "retrieved_at": "2026-09-13T14:10:35Z",
       "snippets": [
         {
           "section": "Research Track: Call for Papers",
@@ -209,6 +209,57 @@
         }
       ],
       "sha256": "6820d3cacfe46565936d3d71836cfecf71d7be1f12932a20c9cf41646c3aa732"
+    },
+    "conference-site": {
+      "extractor": "date-context-v1",
+      "config_sha256": "d4bab6c60257c566054f185701aade719bd75e48f15ecf13c18e340f523d6a65",
+      "url": "https://kdd2027.kdd.org/",
+      "final_url": "https://kdd2027.kdd.org/",
+      "status": 200,
+      "retrieved_at": "2026-09-13T14:19:02Z",
+      "snippets": [
+        {
+          "section": "ACM KDD 2027 | San Jose, United States",
+          "text": "ACM KDD 2027 | San Jose, United States\nAugust 1–5, 2027\nSan Jose McEnery Convention Center\nPhoto credits: Visit San Jose",
+          "sha256": "dd12ee7846a2d371f0b2d5ff506d893ba09d0a6c6b079805d506738d77fd11f4"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://kdd2027.kdd.org/ai4sciences-track-call-for-papers/",
+          "title": "AI for Sciences Track: Call for Papers"
+        },
+        {
+          "url": "https://kdd2027.kdd.org/applied-data-science-ads-track-call-for-papers/",
+          "title": "Applied Data Science (ADS) Track: Call for Papers"
+        },
+        {
+          "url": "https://kdd2027.kdd.org/datasets-and-benchmarks-track-call-for-papers/",
+          "title": "Datasets and Benchmarks Track: Call for Papers"
+        },
+        {
+          "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+          "title": "Research Track: Call for Papers"
+        }
+      ],
+      "sha256": "24ecb84ac03264b6ebf45a3fdbf1a9de99971101728d92e9550b06c4075c1039"
+    },
+    "faq": {
+      "extractor": "date-context-v1",
+      "config_sha256": "2743c43c0977e06e31272868ac2936287d701382a24fc23e3a56f3a0332614c1",
+      "url": "https://kdd2027.kdd.org/frequently-asked-questions/",
+      "final_url": "https://kdd2027.kdd.org/frequently-asked-questions/",
+      "status": 200,
+      "retrieved_at": "2026-09-13T14:19:02Z",
+      "snippets": [
+        {
+          "section": "General",
+          "text": "What are the notification dates for papers?\nFor the August Cycle, notifications would be sent to authors on November 14, 2026.\nFor the February Cycle, notifications would be sent to authors on [exact date to be confirmed], 2027.",
+          "sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
+        }
+      ],
+      "links": [],
+      "sha256": "1fc88cf14318e30496571bb3bdf7a80e24b362a63475cdf2e336c510c55d449d"
     }
   },
   "claims": {
@@ -270,32 +321,61 @@
     "current/kdd.cycle2": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "faq",
+          "snippet_sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
     },
     "current/kdd.cycle2.review": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "faq",
+          "snippet_sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
     },
     "current/kdd.cycle2.rebuttal": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "faq",
+          "snippet_sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
     },
     "current/kdd.cycle2.decision": {
       "value": null,
       "status": "predicted",
-      "evidence": [],
-      "note": "官方日期尚未填入；App 按 history.json 对应字段预测，不代表官方日期。"
+      "evidence": [
+        {
+          "source": "faq",
+          "snippet_sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
+        }
+      ],
+      "note": "2026-09-13 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
     },
     "current/kdd.conference": {
       "value": "2027-08-01T00:00:00-07:00",
-      "status": "unverified",
-      "evidence": [],
-      "note": "当前精确值为 2027-08-01，但已抓取的日期段落不能支撑这个开幕日；需核对是否只公布到月份。"
+      "status": "date_only",
+      "evidence": [
+        {
+          "source": "conference-site",
+          "snippet_sha256": "dd12ee7846a2d371f0b2d5ff506d893ba09d0a6c6b079805d506738d77fd11f4",
+          "quote": "August 1–5, 2027",
+          "highlights": [
+            "August 1–5, 2027"
+          ]
+        }
+      ],
+      "note": "2026-09-13 核对：官网首页明确会期为 2027-08-01 至 08-05，与现有开幕日期一致；未公布开幕的具体时刻。"
     },
     "history/2022/paper_deadline": {
       "value": "2022-02-10",
