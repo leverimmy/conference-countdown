@@ -8,12 +8,12 @@
       "url": "https://acmweb2027.org/",
       "final_url": "https://www2027.thewebconf.org/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:24Z",
+      "retrieved_at": "2026-09-16T02:28:13Z",
       "snippets": [
         {
           "section": "",
-          "text": "New & Updates\n31 August 2026\nCall for Nominations for the Seoul Test of Time Award is now open on EasyChair . The submission deadline is 14 October, 2026. Details here .\n28 August 2026\nFull paper submissions are now open on OpenReview . Abstract deadline is 18 October, 2026 & submission deadline is 25 October, 2026. Details here .\nShort paper submissions are now open on OpenReview . Abstract deadline is 09 November, 2026 & submission deadline is 16 November, 2026. Details here .",
-          "sha256": "76cc18637f6f6ac459f7a148d165c22cf4c0bfbcac2306202cb07452e4a5a51d"
+          "text": "New & Updates\n15 September 2026\nCall for Workshop proposal has been updated with the submission link to OpenReview . The proposal submission deadline is 28 September 2026.\n31 August 2026\nCall for Nominations for the Seoul Test of Time Award is now open on EasyChair . The submission deadline is 14 October, 2026. Details here .\n28 August 2026\nFull paper submissions are now open on OpenReview . Abstract deadline is 18 October, 2026 & submission deadline is 25 October, 2026. Details here .\nShort paper submissions are now open on OpenReview . Abstract deadline is 09 November, 2026 & submission deadline is 16 November, 2026. Details here .",
+          "sha256": "d8c42e9c6ced44f78d00efe11d959a405372f5a28f65f6ed894348d065696418"
         }
       ],
       "links": [
@@ -23,6 +23,10 @@
         },
         {
           "url": "https://openreview.net/group?id=ACM.org/TheWebConf/2027/Conference_Short_Papers",
+          "title": "OpenReview"
+        },
+        {
+          "url": "https://openreview.net/group?id=ACM.org/TheWebConf/2027/Workshop_Proposals",
           "title": "OpenReview"
         },
         {
@@ -38,7 +42,7 @@
           "title": "Research Track Papers"
         }
       ],
-      "sha256": "1f41ef373ca713c9837fcc2ee727030722ce799edd7ab7b3c5d7bb7126cc946d"
+      "sha256": "c6887aa597e47b20b9ffee209b9f8c4c29d83a9269367eb7d497b0398bae45c2"
     },
     "history-2022": {
       "extractor": "date-context-v1",
@@ -46,7 +50,7 @@
       "url": "https://archives.iw3c2.org/www2022/cfp/research/",
       "final_url": "https://archives.iw3c2.org/www2022/cfp/research/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:22Z",
+      "retrieved_at": "2026-09-16T02:28:12Z",
       "snippets": [
         {
           "section": "",
@@ -78,7 +82,7 @@
       "url": "https://archives.iw3c2.org/www2023/calls/research-tracks/",
       "final_url": "https://archives.iw3c2.org/www2023/calls/research-tracks/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:22Z",
+      "retrieved_at": "2026-09-16T02:28:11Z",
       "snippets": [
         {
           "section": "TheWebConf 2023 Research Tracks Final Call For Papers (CFP) “Web Research with Openness, Fairness and Reproducibility”",
@@ -100,7 +104,7 @@
       "url": "https://www2024.thewebconf.org/calls/research-tracks/",
       "final_url": "https://www2024.thewebconf.org/calls/research-tracks/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:22Z",
+      "retrieved_at": "2026-09-16T02:28:11Z",
       "snippets": [
         {
           "section": "CALL FOR PAPERS",
@@ -122,7 +126,7 @@
       "url": "https://archives.iw3c2.org/www2025/research-tracks/",
       "final_url": "https://archives.iw3c2.org/www2025/research-tracks/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:22Z",
+      "retrieved_at": "2026-09-16T02:28:13Z",
       "snippets": [
         {
           "section": "CALL FOR PAPERS",
@@ -144,7 +148,7 @@
       "url": "https://www2026.thewebconf.org/important-dates.html",
       "final_url": "https://www2026.thewebconf.org/important-dates.html",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:21Z",
+      "retrieved_at": "2026-09-16T02:28:12Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -206,7 +210,7 @@
       "url": "https://acmweb2027.org/important-dates/",
       "final_url": "https://acmweb2027.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:23Z",
+      "retrieved_at": "2026-09-16T02:28:12Z",
       "snippets": [
         {
           "section": "Research & Industry Track Papers",
@@ -241,7 +245,7 @@
       "url": "https://api2.openreview.net/groups?id=ACM.org/TheWebConf/2027/Conference_Long_Papers",
       "final_url": "https://api2.openreview.net/groups?id=ACM.org/TheWebConf/2027/Conference_Long_Papers",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:14:42Z",
+      "retrieved_at": "2026-09-16T02:28:10Z",
       "snippets": [
         {
           "section": "/groups/0/cdate",
@@ -283,7 +287,7 @@
       "url": "https://www2027.thewebconf.org/research-track-papers/",
       "final_url": "https://www2027.thewebconf.org/research-track-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:14:43Z",
+      "retrieved_at": "2026-09-16T02:28:12Z",
       "snippets": [
         {
           "section": "Call for Research Track Papers",

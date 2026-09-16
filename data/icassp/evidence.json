@@ -8,12 +8,12 @@
       "url": "https://2027.ieeeicassp.org/call-for-papers/",
       "final_url": "https://2027.ieeeicassp.org/call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:26Z",
+      "retrieved_at": "2026-09-16T02:28:20Z",
       "snippets": [
         {
           "section": "Call for Papers",
-          "text": "Important Dates\nFull Paper Submission Deadline | September 16, 2026\nPublished Journal Papers and Letters Due | January 6, 2027\nPaper Acceptance Notification | January 13, 2027\nFinal Paper Deadline | January 27, 2027\nAuthor Registration Deadline | February 10, 2027\nOpen Preview Starts | April 16, 2027",
-          "sha256": "25334886f80ec35649c22545ae6ae51de9bb18e15917ff87dfc168f28149c828"
+          "text": "Important Dates\nFull Paper Submission Deadline | September 23, 2026\nPublished Journal Papers and Letters Due | January 6, 2027\nPaper Acceptance Notification | January 13, 2027\nFinal Paper Deadline | January 27, 2027\nAuthor Registration Deadline | February 10, 2027\nOpen Preview Starts | April 16, 2027",
+          "sha256": "7315c42c2770c789e9e5bf822f6eccc8e078c0440b10734aac9b3f124e77b1f9"
         }
       ],
       "links": [
@@ -26,7 +26,7 @@
           "title": "Download the call for papers"
         }
       ],
-      "sha256": "86006c8628bc19cd22c023c8e3123358d69f219b6f96e8348701aaec861410a4"
+      "sha256": "ee6e3180a907bfc40fe472d7044ba77f37452bf2ece1fa3c7e975e105b5af380"
     },
     "history-2022": {
       "extractor": "date-context-v1",
@@ -34,7 +34,7 @@
       "url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/08/Call-for-Papers.pdf",
       "final_url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/08/Call-for-Papers.pdf",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:30Z",
+      "retrieved_at": "2026-09-16T02:28:29Z",
       "snippets": [
         {
           "section": "PDF",
@@ -66,7 +66,7 @@
       "url": "https://2023.ieeeicassp.org/important-dates/",
       "final_url": "https://2023.ieeeicassp.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:28Z",
+      "retrieved_at": "2026-09-16T02:28:23Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -123,7 +123,7 @@
       "url": "https://cmsworkshops.com/ICASSP2024/papers/paper_kit.php",
       "final_url": "https://cmsworkshops.com/ICASSP2024/papers/paper_kit.php",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:28Z",
+      "retrieved_at": "2026-09-16T02:28:23Z",
       "snippets": [
         {
           "section": "",
@@ -180,7 +180,7 @@
       "url": "https://signalprocessingsociety.org/events/icassp-2025-2025-ieee-international-conference-acoustics-speech-and-signal-processing",
       "final_url": "https://signalprocessingsociety.org/events/icassp-2025-2025-ieee-international-conference-acoustics-speech-and-signal-processing",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:29Z",
+      "retrieved_at": "2026-09-16T02:28:23Z",
       "snippets": [
         {
           "section": "06",
@@ -197,7 +197,7 @@
       "url": "https://2026.ieeeicassp.org/call-for-papers/",
       "final_url": "https://2026.ieeeicassp.org/call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:28Z",
+      "retrieved_at": "2026-09-16T02:28:23Z",
       "snippets": [
         {
           "section": "2026 IEEE International Conference on Acoustics, Speech, and Signal Processing",
@@ -229,7 +229,7 @@
       "url": "https://2027.ieeeicassp.org/important-dates/",
       "final_url": "https://2027.ieeeicassp.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:19:02Z",
+      "retrieved_at": "2026-09-16T02:28:20Z",
       "snippets": [
         {
           "section": "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing",
@@ -251,7 +251,7 @@
       "url": "https://cmsworkshops.com/ICASSP2027/papers/paper_kit.php",
       "final_url": "https://cmsworkshops.com/ICASSP2027/papers/paper_kit.php",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:14:42Z",
+      "retrieved_at": "2026-09-16T02:28:23Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -271,16 +271,50 @@
       ],
       "links": [],
       "sha256": "34bae246670b7195b50d033b47b508ddd231fba372df3ad337ea1fd0649bb462"
+    },
+    "paper-submission": {
+      "extractor": "date-context-v1",
+      "config_sha256": "59d86852c2437e05249525991e4f9665a364e53b53da2be0258493bd448db3cc",
+      "url": "https://cmsworkshops.com/ICASSP2027/papers.php",
+      "final_url": "https://cmsworkshops.com/ICASSP2027/papers.php",
+      "status": 200,
+      "retrieved_at": "2026-09-16T02:30:29Z",
+      "snippets": [
+        {
+          "section": "Equivalent Global Times for Paper Submission Deadline",
+          "text": "Equivalent Global Times for Paper Submission Deadline\nMelbourne | 23:00 24 Sep\nTokyo | 21:00 24 Sep\nBeijing | 20:00 24 Sep\nKolkata | 17:30 24 Sep\nMoscow | 15:00 24 Sep\nRiyadh | 15:00 24 Sep\nCairo | 14:00 24 Sep",
+          "sha256": "1ea8fa7a996f65854505232db6b0e5d7da6bc68fe96c918e1e9700744da52398"
+        },
+        {
+          "section": "Equivalent Global Times for Paper Submission Deadline",
+          "text": "Stockholm | 13:00 24 Sep\nLondon | 12:00 24 Sep\nNew York | 07:00 24 Sep\nDallas | 06:00 24 Sep\nLos Angeles | 04:00 24 Sep\nInternational Date Line | 24:00 23 Sep\nTime Zone Converter - Other cities",
+          "sha256": "11e32043a82eeeb812b0325818d10184f5be7e238cbcbb5ca1262c6a13877a83"
+        }
+      ],
+      "links": [],
+      "sha256": "1f73d9276b03cccd64c7b710b209066d60e82772cc45615d54d78f7cb2f97794"
     }
   },
   "claims": {
     "current/icassp.paper": {
-      "value": "2026-09-16T23:59:00-12:00",
+      "value": "2026-09-23T23:59:59-12:00",
       "status": "date_only",
       "evidence": [
         {
           "source": "call-for-papers",
-          "snippet_sha256": "25334886f80ec35649c22545ae6ae51de9bb18e15917ff87dfc168f28149c828"
+          "snippet_sha256": "7315c42c2770c789e9e5bf822f6eccc8e078c0440b10734aac9b3f124e77b1f9",
+          "quote": "Full Paper Submission Deadline | September 23, 2026",
+          "highlights": [
+            "September 23, 2026"
+          ]
+        },
+        {
+          "source": "paper-submission",
+          "snippet_sha256": "11e32043a82eeeb812b0325818d10184f5be7e238cbcbb5ca1262c6a13877a83",
+          "quote": "International Date Line | 24:00 23 Sep",
+          "highlights": [
+            "24:00 23 Sep"
+          ]
         },
         {
           "source": "paper-kit",
@@ -291,7 +325,7 @@
           ]
         }
       ],
-      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+      "note": "2026-09-16 核对：官网 Call for Papers 已将全文截止由 9 月 16 日改为 9 月 23 日；官方投稿页面也显示 International Date Line 为 23 Sep 日末、北京时间 24 Sep 20:00。Paper Kit 仍列 9 月 16 日，官方页面之间尚未同步。候选按更新后的 CFP 保存为 2026-09-23，采用时按本项目规则使用 23:59:59 AoE。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "current/icassp.review": {
       "value": null,
@@ -302,7 +336,7 @@
           "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21"
         }
       ],
-      "note": "2026-09-13 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
+      "note": "2026-09-16 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
     },
     "current/icassp.rebuttal": {
       "value": null,
@@ -313,7 +347,7 @@
           "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21"
         }
       ],
-      "note": "2026-09-13 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
+      "note": "2026-09-16 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
     },
     "current/icassp.decision": {
       "value": "2027-01-13T23:59:00-12:00",
@@ -321,7 +355,11 @@
       "evidence": [
         {
           "source": "call-for-papers",
-          "snippet_sha256": "25334886f80ec35649c22545ae6ae51de9bb18e15917ff87dfc168f28149c828"
+          "snippet_sha256": "7315c42c2770c789e9e5bf822f6eccc8e078c0440b10734aac9b3f124e77b1f9",
+          "quote": "Paper Acceptance Notification | January 13, 2027",
+          "highlights": [
+            "January 13, 2027"
+          ]
         },
         {
           "source": "paper-kit",
@@ -632,6 +670,123 @@
         "after_sha256": "103608972da556daf1eef7ec30d57702f5b38408afc718af78fbc415a574ce3d",
         "guard_sha256": "51db47f74e412d005898e731c7e648afda7e4129923e674f213b9091505c02cf",
         "sha256": "f390c7a4ac6a04d7f44410ccfe8320488b98e28d50fb4e7c186e8a0f20f05532"
+      }
+    },
+    {
+      "target": "current/icassp.paper",
+      "action": "accept",
+      "reviewed_at": "2026-09-16T02:35:28Z",
+      "reason": "",
+      "previous_value": "2026-09-16T23:59:00-12:00",
+      "proposal": {
+        "value": "2026-09-23",
+        "status": "date_only",
+        "note": "2026-09-16 核对：官网 Call for Papers 已将全文截止由 9 月 16 日改为 9 月 23 日；官方投稿页面也显示 International Date Line 为 23 Sep 日末、北京时间 24 Sep 20:00。Paper Kit 仍列 9 月 16 日，官方页面之间尚未同步。候选按更新后的 CFP 保存为 2026-09-23，采用时按本项目规则使用 23:59:59 AoE。",
+        "evidence": [
+          {
+            "source": "call-for-papers",
+            "snippet_sha256": "7315c42c2770c789e9e5bf822f6eccc8e078c0440b10734aac9b3f124e77b1f9",
+            "quote": "Full Paper Submission Deadline | September 23, 2026",
+            "highlights": [
+              "September 23, 2026"
+            ]
+          },
+          {
+            "source": "paper-submission",
+            "snippet_sha256": "11e32043a82eeeb812b0325818d10184f5be7e238cbcbb5ca1262c6a13877a83",
+            "quote": "International Date Line | 24:00 23 Sep",
+            "highlights": [
+              "24:00 23 Sep"
+            ]
+          },
+          {
+            "source": "paper-kit",
+            "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21",
+            "quote": "Paper Submission Deadline (Regular, Special Session and OJSP) Deadline | 16 September 2026",
+            "highlights": [
+              "16 September 2026"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "bc1b280e8cd8d2a831b2793c3972f7a2b93d3af15ad7b23853662d7f247bb078",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "icassp.paper",
+            "title": "全文提交截止",
+            "compact_title": "ICASSP 全文",
+            "at": "2026-09-16T23:59:00-12:00",
+            "date_label": "2026 年 9 月 16 日（时区待说明）",
+            "detail_label": "官网已公布日期；倒计时暂按 AoE 日末",
+            "symbol": "paperplane.fill"
+          },
+          "claim": {
+            "value": "2026-09-16T23:59:00-12:00",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "call-for-papers",
+                "snippet_sha256": "7315c42c2770c789e9e5bf822f6eccc8e078c0440b10734aac9b3f124e77b1f9",
+                "quote": "Full Paper Submission Deadline | September 23, 2026",
+                "highlights": [
+                  "September 23, 2026"
+                ]
+              },
+              {
+                "source": "paper-submission",
+                "snippet_sha256": "11e32043a82eeeb812b0325818d10184f5be7e238cbcbb5ca1262c6a13877a83",
+                "quote": "International Date Line | 24:00 23 Sep",
+                "highlights": [
+                  "24:00 23 Sep"
+                ]
+              },
+              {
+                "source": "paper-kit",
+                "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21",
+                "quote": "Paper Submission Deadline (Regular, Special Session and OJSP) Deadline | 16 September 2026",
+                "highlights": [
+                  "16 September 2026"
+                ]
+              }
+            ],
+            "note": "2026-09-16 核对：官网 Call for Papers 已将全文截止由 9 月 16 日改为 9 月 23 日；官方投稿页面也显示 International Date Line 为 23 Sep 日末、北京时间 24 Sep 20:00。Paper Kit 仍列 9 月 16 日，官方页面之间尚未同步。候选按更新后的 CFP 保存为 2026-09-23，采用时按本项目规则使用 23:59:59 AoE。",
+            "candidate": {
+              "value": "2026-09-23",
+              "status": "date_only",
+              "note": "2026-09-16 核对：官网 Call for Papers 已将全文截止由 9 月 16 日改为 9 月 23 日；官方投稿页面也显示 International Date Line 为 23 Sep 日末、北京时间 24 Sep 20:00。Paper Kit 仍列 9 月 16 日，官方页面之间尚未同步。候选按更新后的 CFP 保存为 2026-09-23，采用时按本项目规则使用 23:59:59 AoE。",
+              "evidence": [
+                {
+                  "source": "call-for-papers",
+                  "snippet_sha256": "7315c42c2770c789e9e5bf822f6eccc8e078c0440b10734aac9b3f124e77b1f9",
+                  "quote": "Full Paper Submission Deadline | September 23, 2026",
+                  "highlights": [
+                    "September 23, 2026"
+                  ]
+                },
+                {
+                  "source": "paper-submission",
+                  "snippet_sha256": "11e32043a82eeeb812b0325818d10184f5be7e238cbcbb5ca1262c6a13877a83",
+                  "quote": "International Date Line | 24:00 23 Sep",
+                  "highlights": [
+                    "24:00 23 Sep"
+                  ]
+                },
+                {
+                  "source": "paper-kit",
+                  "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21",
+                  "quote": "Paper Submission Deadline (Regular, Special Session and OJSP) Deadline | 16 September 2026",
+                  "highlights": [
+                    "16 September 2026"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "after_sha256": "d62811229bd82bd23eb97cbaf236a776160c0c7eab3594bc2824c7987bdb78b7",
+        "guard_sha256": "155f003e233a3247fbe64cda498c4c14e1867b39ccf464cd74c2603af5eefeb1",
+        "sha256": "f4ad61d4e2afc049085e409d6e0136c2576a58347e9cf801d0c0e200d6b81ecf"
       }
     }
   ]

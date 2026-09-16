@@ -29,6 +29,14 @@
       "end_text": "Correspondence"
     },
     {
+      "id": "paper-submission",
+      "url": "https://cmsworkshops.com/ICASSP2027/papers.php",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "section_pattern": "^Equivalent Global Times for Paper Submission Deadline$"
+    },
+    {
       "id": "history-2022",
       "url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/08/Call-for-Papers.pdf",
       "kind": "pdf",

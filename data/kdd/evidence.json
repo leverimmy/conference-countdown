@@ -8,7 +8,7 @@
       "url": "https://www.kdd.org/kdd2022/cfpResearch.html",
       "final_url": "https://www.kdd.org/kdd2022/cfpResearch.html",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:36Z",
+      "retrieved_at": "2026-09-16T02:28:43Z",
       "snippets": [
         {
           "section": "",
@@ -30,7 +30,7 @@
       "url": "https://www.kdd.org/kdd2023/call-for-research-track-papers/index.html",
       "final_url": "https://www.kdd.org/kdd2023/call-for-research-track-papers/index.html",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:36Z",
+      "retrieved_at": "2026-09-16T02:28:44Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -67,7 +67,7 @@
       "url": "https://www.kdd.org/kdd2024/",
       "final_url": "https://www.kdd.org/kdd2024/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:36Z",
+      "retrieved_at": "2026-09-16T02:28:44Z",
       "snippets": [
         {
           "section": "Paper Deadlines",
@@ -89,7 +89,7 @@
       "url": "https://kdd2025.kdd.org/research-track-call-for-papers/",
       "final_url": "https://kdd.org/kdd2025/research-track-call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:37Z",
+      "retrieved_at": "2026-09-16T02:28:47Z",
       "snippets": [
         {
           "section": "Research Track: Call for Papers",
@@ -126,7 +126,7 @@
       "url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
       "final_url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:37Z",
+      "retrieved_at": "2026-09-16T02:28:45Z",
       "snippets": [
         {
           "section": "Research Track: Call for Papers",
@@ -178,7 +178,7 @@
       "url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
       "final_url": "https://kdd2027.kdd.org/research-track-call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:10:35Z",
+      "retrieved_at": "2026-09-16T02:28:40Z",
       "snippets": [
         {
           "section": "Research Track: Call for Papers",
@@ -216,7 +216,7 @@
       "url": "https://kdd2027.kdd.org/",
       "final_url": "https://kdd2027.kdd.org/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:19:02Z",
+      "retrieved_at": "2026-09-16T02:28:40Z",
       "snippets": [
         {
           "section": "ACM KDD 2027 | San Jose, United States",
@@ -250,7 +250,7 @@
       "url": "https://kdd2027.kdd.org/frequently-asked-questions/",
       "final_url": "https://kdd2027.kdd.org/frequently-asked-questions/",
       "status": 200,
-      "retrieved_at": "2026-09-13T14:19:02Z",
+      "retrieved_at": "2026-09-16T02:28:40Z",
       "snippets": [
         {
           "section": "General",
@@ -327,7 +327,7 @@
           "snippet_sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
         }
       ],
-      "note": "2026-09-13 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
+      "note": "2026-09-16 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
     },
     "current/kdd.cycle2.review": {
       "value": null,
@@ -338,7 +338,7 @@
           "snippet_sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
         }
       ],
-      "note": "2026-09-13 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
+      "note": "2026-09-16 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
     },
     "current/kdd.cycle2.rebuttal": {
       "value": null,
@@ -349,7 +349,7 @@
           "snippet_sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
         }
       ],
-      "note": "2026-09-13 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
+      "note": "2026-09-16 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
     },
     "current/kdd.cycle2.decision": {
       "value": null,
@@ -360,7 +360,7 @@
           "snippet_sha256": "7e4b1d966360330072c941958755611dfa68df563778b01488e1c4c9c46eadc9"
         }
       ],
-      "note": "2026-09-13 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
+      "note": "2026-09-16 核对：官网 FAQ 明确第二轮最终通知日仍待确认，本轮未找到第二轮投稿或作者回复窗口的确切日期。第一轮沿用 Research Track 的日程，不将 FAQ 的轮次名称解释为具体截止日期。"
     },
     "current/kdd.conference": {
       "value": "2027-08-01T00:00:00-07:00",

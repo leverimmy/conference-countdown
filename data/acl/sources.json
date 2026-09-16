@@ -17,6 +17,14 @@
       "discover_links": true
     },
     {
+      "id": "arr-dates",
+      "url": "https://aclrollingreview.org/dates",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "section_pattern": "^Submission to Participating Venues$"
+    },
+    {
       "id": "history-2022",
       "url": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html",
       "kind": "html",
