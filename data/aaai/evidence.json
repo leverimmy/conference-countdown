@@ -8,7 +8,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-27/",
       "final_url": "https://aaai.org/conference/aaai/aaai-27/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:43Z",
+      "retrieved_at": "2026-10-02T10:41:03Z",
       "snippets": [
         {
           "section": "",
@@ -58,7 +58,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-22/",
       "final_url": "https://aaai.org/conference/aaai/aaai-22/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:43Z",
+      "retrieved_at": "2026-10-02T10:41:04Z",
       "snippets": [
         {
           "section": "AAAI 2022 Conference",
@@ -75,7 +75,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-23/",
       "final_url": "https://aaai.org/conference/aaai/aaai-23/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:44Z",
+      "retrieved_at": "2026-10-02T10:41:04Z",
       "snippets": [
         {
           "section": "AAAI 2023 Conference",
@@ -102,7 +102,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-24/",
       "final_url": "https://aaai.org/conference/aaai/aaai-24/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:45Z",
+      "retrieved_at": "2026-10-02T10:41:04Z",
       "snippets": [
         {
           "section": "",
@@ -149,7 +149,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-25/",
       "final_url": "https://aaai.org/conference/aaai/aaai-25/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:45Z",
+      "retrieved_at": "2026-10-02T10:41:04Z",
       "snippets": [
         {
           "section": "",
@@ -191,7 +191,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-26/",
       "final_url": "https://aaai.org/conference/aaai/aaai-26/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:45Z",
+      "retrieved_at": "2026-10-02T10:41:05Z",
       "snippets": [
         {
           "section": "",
@@ -228,7 +228,7 @@
       "url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
       "final_url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:42Z",
+      "retrieved_at": "2026-10-02T10:41:02Z",
       "snippets": [
         {
           "section": "/groups/0/cdate",
@@ -247,8 +247,8 @@
         },
         {
           "section": "/groups/0/mdate",
-          "text": "{\"path\": \"/groups/0/mdate\", \"value\": 1788537709212}\nUTC: 2026-09-04T16:01:49.212000+00:00",
-          "sha256": "7de2195461f205a3ddc4e1176f63bfa94f2eea2059652cb6ff967de3ca84a16c"
+          "text": "{\"path\": \"/groups/0/mdate\", \"value\": 1790293835394}\nUTC: 2026-09-24T23:50:35.394000+00:00",
+          "sha256": "29925bf5acd872e4815cf5cf67849fde9b59d09487bcfa395d47c9874cdf492e"
         },
         {
           "section": "/groups/0/tcdate",
@@ -257,12 +257,12 @@
         },
         {
           "section": "/groups/0/tmdate",
-          "text": "{\"path\": \"/groups/0/tmdate\", \"value\": 1788537709212}\nUTC: 2026-09-04T16:01:49.212000+00:00",
-          "sha256": "83742f3c91f30bf7160de8281a46032480337b466fed86671510745b7c5917f7"
+          "text": "{\"path\": \"/groups/0/tmdate\", \"value\": 1790293835394}\nUTC: 2026-09-24T23:50:35.394000+00:00",
+          "sha256": "7702d915bf4fdb15f4a955c7a2a9874766183e000ba1cd76925486fb039a0696"
         }
       ],
       "links": [],
-      "sha256": "f10f8e1e74702877d3a5e5798af28a773b76eb1b665cf20ec2dfd52d13cc9232"
+      "sha256": "b296172ef60e0160410e6d814cf84b32d280ee2b0f082d903ed2381edb747260"
     }
   },
   "claims": {

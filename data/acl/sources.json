@@ -25,6 +25,14 @@
       "section_pattern": "^Submission to Participating Venues$"
     },
     {
+      "id": "main-papers",
+      "url": "https://2027.aclweb.org/calls/main/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "section_pattern": "^Important Dates$"
+    },
+    {
       "id": "history-2022",
       "url": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html",
       "kind": "html",

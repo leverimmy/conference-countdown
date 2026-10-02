@@ -8,7 +8,7 @@
       "url": "https://www.aclweb.org/portal/",
       "final_url": "https://www.aclweb.org/portal/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:13Z",
+      "retrieved_at": "2026-10-02T10:40:45Z",
       "snippets": [
         {
           "section": "Statement from ACL and EACL 2026 Organizers",
@@ -16,13 +16,8 @@
           "sha256": "6f90c9d116e5891135342a26bde8ee37c5cf702b8d2970a9f12148abcdb59023"
         }
       ],
-      "links": [
-        {
-          "url": "https://www.aclweb.org/portal/content/recent-advances-natural-language-processing-6",
-          "title": "Call for Papers: Recent Advances in Natural Language Processing 2027"
-        }
-      ],
-      "sha256": "4a7ae2e4015e0536dfb8ca5aa54c4bcda153ad4dff6fa31999b2895b102ea96d"
+      "links": [],
+      "sha256": "627809849f16cebeb3273ffe1c6552063f3d49b66a3877bb49e959ce7893aff0"
     },
     "conference-site": {
       "extractor": "date-context-v1",
@@ -30,7 +25,7 @@
       "url": "https://2027.aclweb.org/",
       "final_url": "https://2027.aclweb.org/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:13Z",
+      "retrieved_at": "2026-10-02T10:40:44Z",
       "snippets": [
         {
           "section": "The 65th Annual Meeting of the Association for Computational Linguistics",
@@ -44,17 +39,27 @@
         },
         {
           "section": "News",
-          "text": "News\nJuly 3, 2026 | The official ACL 2027 website is launched.",
-          "sha256": "6bbe131ccbfb4eaf8705befb122a07b672e1a0751c2a7375e8379778e44b1a75"
+          "text": "News\nSeptember 29, 2026 | The first call for main conference papers is published.\nJuly 3, 2026 | The official ACL 2027 website is launched.",
+          "sha256": "d0b032e77f985ed9a8c6518d3a634261ffe940d4afea6e8a230181651c763d8e"
         },
         {
           "section": "Important Dates",
-          "text": "Important Dates\nARR submission deadline | TBA\nCommitment deadline for ACL 2027 | TBA\nNotification of acceptance | TBA\nCamera-ready deadline | TBA\nOverall conference | TBA\nAll deadlines are 11.59 pm UTC -12h (anywhere on earth).",
-          "sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+          "text": "Important Dates\nARR submission deadline | January 4, 2027\nCommitment deadline | TBA\nNotification of acceptance | TBA\nCamera-ready deadline | TBA\nTutorials | August 17, 2027\nWorkshops | August 18–19, 2027\nMain Conference | August 20–22, 2027",
+          "sha256": "183b9394a8e5093c8f0dac84e70eb76881b35d12f23b21c084be6c973adc764e"
+        },
+        {
+          "section": "Important Dates",
+          "text": "All deadlines are 11.59 pm UTC -12h (anywhere on earth).",
+          "sha256": "9fd5b6455eeb901ba57fc19e20ad5a7a173183dbc52046ef229bd2c39e251135"
         }
       ],
-      "links": [],
-      "sha256": "8e500164538ca9461554735af13c90a2b9d9586acbde6eb05020f4a7eb42c5e1"
+      "links": [
+        {
+          "url": "https://2027.aclweb.org/calls/main/",
+          "title": "call for main conference papers"
+        }
+      ],
+      "sha256": "7dec3b2aaaa8435eba7a2b27941511e9e0772a6d2d1feb1f5695baca163b5ad1"
     },
     "history-2022": {
       "extractor": "date-context-v1",
@@ -62,7 +67,7 @@
       "url": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html",
       "final_url": "https://2022.aclweb.org/post/acl-2022-chair-blog-post-faq.html",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:15Z",
+      "retrieved_at": "2026-10-02T10:40:46Z",
       "snippets": [
         {
           "section": "FAQ for Paper Submission and Commitment and for Reviewers/Action Editors for ARR w.r.t. ACL 2022",
@@ -104,7 +109,7 @@
       "url": "https://2023.aclweb.org/calls/main_conference/",
       "final_url": "https://2023.aclweb.org/calls/main_conference/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:14Z",
+      "retrieved_at": "2026-10-02T10:40:45Z",
       "snippets": [
         {
           "section": "Main Conference",
@@ -156,7 +161,7 @@
       "url": "https://2024.aclweb.org/calls/main_conference_papers/",
       "final_url": "https://2024.aclweb.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:14Z",
+      "retrieved_at": "2026-10-02T10:40:45Z",
       "snippets": [
         {
           "section": "ACL 2024",
@@ -183,7 +188,7 @@
       "url": "https://2025.aclweb.org/calls/main_conference_papers/",
       "final_url": "https://2025.aclweb.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:14Z",
+      "retrieved_at": "2026-10-02T10:40:46Z",
       "snippets": [
         {
           "section": "ACL 2025",
@@ -210,7 +215,7 @@
       "url": "https://2026.aclweb.org/",
       "final_url": "https://2026.aclweb.org/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:15Z",
+      "retrieved_at": "2026-10-02T10:40:46Z",
       "snippets": [
         {
           "section": "The 64th Annual Meeting of the Association for Computational Linguistics",
@@ -252,7 +257,7 @@
       "url": "https://aclrollingreview.org/dates",
       "final_url": "https://aclrollingreview.org/dates",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:30:29Z",
+      "retrieved_at": "2026-10-02T10:40:45Z",
       "snippets": [
         {
           "section": "Submission to Participating Venues",
@@ -262,49 +267,70 @@
       ],
       "links": [],
       "sha256": "53c618ce52d4edd76f1615c43dcd5b7b5b09c1754715dc263a9dc15365be9540"
+    },
+    "main-papers": {
+      "extractor": "date-context-v1",
+      "config_sha256": "8b740872a4ad5b3afb9503e5bba59834620ad28743aac83fb84e3379eeeb3d9c",
+      "url": "https://2027.aclweb.org/calls/main/",
+      "final_url": "https://2027.aclweb.org/calls/main/",
+      "status": 200,
+      "retrieved_at": "2026-10-02T10:43:56Z",
+      "snippets": [
+        {
+          "section": "Important Dates",
+          "text": "Event | Date\nARR submission deadline (long & short papers) | Jan 4, 2027\nNotification of acceptance (long & short papers) | TBD\nMain Conference | August 20-22, 2027\nWorkshops | August 18-19, 2027\nTutorials | August 17, 2027\nNote: All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).",
+          "sha256": "b5f53545da527c8c4fcc8e0296a977d34cc81c80845128c9431f03af5c7f040f"
+        }
+      ],
+      "links": [],
+      "sha256": "a984eb4ecdec600f1c338acc914e587540903cf7f82137405e78b78928baaa4b"
     }
   },
   "claims": {
     "current/acl.arr": {
-      "value": null,
-      "status": "predicted",
+      "value": "2027-01-04T23:59:59-12:00",
+      "status": "date_only",
       "evidence": [
         {
-          "source": "conference-site",
-          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+          "source": "main-papers",
+          "snippet_sha256": "b5f53545da527c8c4fcc8e0296a977d34cc81c80845128c9431f03af5c7f040f",
+          "quote": "ARR submission deadline (long & short papers) | Jan 4, 2027",
+          "highlights": [
+            "Jan 4, 2027"
+          ]
         },
         {
-          "source": "arr-dates",
-          "snippet_sha256": "19cb75fcbdb38a9f6718775bfbffefb2d01070a16e867c1ec799c0b8211a9635",
-          "quote": "ACL 2027 | January, 2027",
+          "source": "conference-site",
+          "snippet_sha256": "183b9394a8e5093c8f0dac84e70eb76881b35d12f23b21c084be6c973adc764e",
+          "quote": "ARR submission deadline | January 4, 2027",
           "highlights": [
-            "January, 2027"
+            "January 4, 2027"
           ]
         }
       ],
-      "note": "2026-09-16 核对：官方 ARR Dates and Venues 的 Final ARR Submission Date 对 ACL 2027 已列 January, 2027，但没有具体日；ACL 官网仍为 TBA。保留 at=null，不将月度信息擅自写成 1 月 1 日，也不套用其他 ARR 轮次的截止日。"
+      "note": "2026-10-02 核对：9 月 29 日发布的主会 CFP 及官网 Important Dates 均明确 ARR 投稿截止为 2027-01-04；ARR Dates and Venues 仍只列 January, 2027，与该日不冲突。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "current/acl.review": {
       "value": null,
       "status": "predicted",
       "evidence": [
         {
-          "source": "conference-site",
-          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+          "source": "main-papers",
+          "snippet_sha256": "b5f53545da527c8c4fcc8e0296a977d34cc81c80845128c9431f03af5c7f040f"
         }
       ],
-      "note": "2026-09-16 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
+      "note": "2026-10-02 核对：主会 CFP 已公布 2027-01-04 的 ARR 投稿截止，但尚未列出该轮作者回复窗口；ARR Reviewing Schedule 目前只列至 2026 年 10 月轮次。保留预测，不套用其他轮次或 Workshop 的日程。"
     },
     "current/acl.rebuttal": {
       "value": null,
       "status": "predicted",
       "evidence": [
         {
-          "source": "conference-site",
-          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+          "source": "main-papers",
+          "snippet_sha256": "b5f53545da527c8c4fcc8e0296a977d34cc81c80845128c9431f03af5c7f040f"
         }
       ],
-      "note": "2026-09-16 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
+      "note": "2026-10-02 核对：主会 CFP 已公布 2027-01-04 的 ARR 投稿截止，但尚未列出该轮作者回复窗口；ARR Reviewing Schedule 目前只列至 2026 年 10 月轮次。保留预测，不套用其他轮次或 Workshop 的日程。"
     },
     "current/acl.commitment": {
       "value": null,
@@ -312,10 +338,14 @@
       "evidence": [
         {
           "source": "conference-site",
-          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+          "snippet_sha256": "183b9394a8e5093c8f0dac84e70eb76881b35d12f23b21c084be6c973adc764e",
+          "quote": "Commitment deadline | TBA",
+          "highlights": [
+            "TBA"
+          ]
         }
       ],
-      "note": "2026-09-16 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
+      "note": "2026-10-02 核对：官网该事件仍为 TBA，保留预测；不将已公布的 ARR 投稿截止或 Workshop 日程套用于此事件。"
     },
     "current/acl.decision": {
       "value": null,
@@ -323,10 +353,14 @@
       "evidence": [
         {
           "source": "conference-site",
-          "snippet_sha256": "d58e0c9bf5ec2de4ffd877ed187ecc983fb84300acd33f55bdc14d693b4a88e3"
+          "snippet_sha256": "183b9394a8e5093c8f0dac84e70eb76881b35d12f23b21c084be6c973adc764e",
+          "quote": "Notification of acceptance | TBA",
+          "highlights": [
+            "TBA"
+          ]
         }
       ],
-      "note": "2026-09-16 核对：官网 Important Dates 中 ARR 投稿、Commitment 和录用通知仍为 TBA，也未列出作者回复窗口；保留预测，不套用 Workshop 日程。"
+      "note": "2026-10-02 核对：官网该事件仍为 TBA，保留预测；不将已公布的 ARR 投稿截止或 Workshop 日程套用于此事件。"
     },
     "current/acl.conference": {
       "value": "2027-08-17T00:00:00+09:00",
@@ -337,7 +371,7 @@
           "snippet_sha256": "503c114675564ff2189f06605315a920a7ca480bae2414973c588904ec0a2883"
         }
       ],
-      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+      "note": "2026-10-02 核对：官网整体会期仍为 8 月 17–22 日，其中 8 月 17 日为 Tutorials、18–19 日为 Workshops、20–22 日为 Main Conference。现有开幕日期按包含教程的完整会期保留；原文未证明开幕的精确时刻。"
     },
     "history/2022/paper_deadline": {
       "value": "2021-11-15",
@@ -671,5 +705,102 @@
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
     }
-  }
+  },
+  "decisions": [
+    {
+      "target": "current/acl.arr",
+      "action": "accept",
+      "reviewed_at": "2026-10-02T10:48:39Z",
+      "reason": "",
+      "previous_value": null,
+      "proposal": {
+        "value": "2027-01-04",
+        "status": "date_only",
+        "note": "2026-10-02 核对：9 月 29 日发布的主会 CFP 及官网 Important Dates 均明确 ARR 投稿截止为 2027-01-04；ARR Dates and Venues 仍只列 January, 2027，与该日不冲突。",
+        "evidence": [
+          {
+            "source": "main-papers",
+            "snippet_sha256": "b5f53545da527c8c4fcc8e0296a977d34cc81c80845128c9431f03af5c7f040f",
+            "quote": "ARR submission deadline (long & short papers) | Jan 4, 2027",
+            "highlights": [
+              "Jan 4, 2027"
+            ]
+          },
+          {
+            "source": "conference-site",
+            "snippet_sha256": "183b9394a8e5093c8f0dac84e70eb76881b35d12f23b21c084be6c973adc764e",
+            "quote": "ARR submission deadline | January 4, 2027",
+            "highlights": [
+              "January 4, 2027"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "8793ecfd6e4244cc4ea5f4d592dc0fdb522962dcb5f138055192865e7ce389b9",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "acl.arr",
+            "title": "ARR 投稿截止",
+            "compact_title": "ACL 投稿",
+            "at": null,
+            "date_label": "官方尚未公布",
+            "detail_label": "公布后再更新提醒",
+            "symbol": "doc.badge.clock",
+            "historical_key": "paper_deadline",
+            "target_year": 2027
+          },
+          "claim": {
+            "value": null,
+            "status": "newly_announced",
+            "evidence": [
+              {
+                "source": "main-papers",
+                "snippet_sha256": "b5f53545da527c8c4fcc8e0296a977d34cc81c80845128c9431f03af5c7f040f",
+                "quote": "ARR submission deadline (long & short papers) | Jan 4, 2027",
+                "highlights": [
+                  "Jan 4, 2027"
+                ]
+              },
+              {
+                "source": "conference-site",
+                "snippet_sha256": "183b9394a8e5093c8f0dac84e70eb76881b35d12f23b21c084be6c973adc764e",
+                "quote": "ARR submission deadline | January 4, 2027",
+                "highlights": [
+                  "January 4, 2027"
+                ]
+              }
+            ],
+            "note": "2026-10-02 核对：9 月 29 日发布的主会 CFP 及官网 Important Dates 均明确 ARR 投稿截止为 2027-01-04；ARR Dates and Venues 仍只列 January, 2027，与该日不冲突。新增日期作为候选保存，尚未写入 App 正式日期。",
+            "candidate": {
+              "value": "2027-01-04",
+              "status": "date_only",
+              "note": "2026-10-02 核对：9 月 29 日发布的主会 CFP 及官网 Important Dates 均明确 ARR 投稿截止为 2027-01-04；ARR Dates and Venues 仍只列 January, 2027，与该日不冲突。",
+              "evidence": [
+                {
+                  "source": "main-papers",
+                  "snippet_sha256": "b5f53545da527c8c4fcc8e0296a977d34cc81c80845128c9431f03af5c7f040f",
+                  "quote": "ARR submission deadline (long & short papers) | Jan 4, 2027",
+                  "highlights": [
+                    "Jan 4, 2027"
+                  ]
+                },
+                {
+                  "source": "conference-site",
+                  "snippet_sha256": "183b9394a8e5093c8f0dac84e70eb76881b35d12f23b21c084be6c973adc764e",
+                  "quote": "ARR submission deadline | January 4, 2027",
+                  "highlights": [
+                    "January 4, 2027"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "after_sha256": "483a2f71ba93767a094ea7c9116a51cd981de3486d6ba2393eb32154d3bbfdf9",
+        "guard_sha256": "5ea5340bf407b529ba5abf9096987a7b4057327d6a993ebb3a3eee77549b3768",
+        "sha256": "15443afb3c482970131c6375b1b5b31a58a7b6173101deb751877d9798bb62ba"
+      }
+    }
+  ]
 }

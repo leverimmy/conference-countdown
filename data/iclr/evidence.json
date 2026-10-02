@@ -8,12 +8,12 @@
       "url": "https://iclr.cc/Conferences/2027/Dates",
       "final_url": "https://iclr.cc/Conferences/2027/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:15Z",
+      "retrieved_at": "2026-10-02T10:40:47Z",
       "snippets": [
         {
           "section": "ICLR 2027 Meeting Dates",
-          "text": "ICLR 2027 Meeting Dates\nThe Fifteenth annual conference is held (location and dates to be announced) .\nMain Conference | April 26 - 28\nWorkshops | April 29 - 30\nYour timezone is:",
-          "sha256": "000ca61641f298252a86508d7e8d59ed0f65f7ba1c0ee2e862b1476c8b1be218"
+          "text": "ICLR 2027 Meeting Dates\nThe Fifteenth annual conference is held (location and dates to be announced) .\nMain Conference | April 26 - 28\nWorkshops | April 29 - 30\nYour time zone is: Conference local time zone",
+          "sha256": "dbf3eb2d7b42288cafaf3ae15ba4046f2e20f270fffacecb3cef7c994b4eeddd"
         },
         {
           "section": "Dates and Deadlines",
@@ -33,14 +33,14 @@
         },
         {
           "url": "https://iclr.cc/set_timezone?nextp=/Conferences/2027/Dates",
-          "title": ""
+          "title": "Conference local time zone"
         },
         {
           "url": "https://openreview.net/group?id=ICLR.cc",
           "title": "ICLR Proceedings at OpenReview"
         }
       ],
-      "sha256": "a0a665dcd254841f9e34d5201d0783d4335d95f93a937033d40142d89239c2d1"
+      "sha256": "cb86669b4fe60eb6b158c88dc485d1c91b6d745e5a599ee13972c9485e63a87f"
     },
     "history-2022": {
       "extractor": "date-context-v1",
@@ -48,12 +48,12 @@
       "url": "https://iclr.cc/Conferences/2022/Dates",
       "final_url": "https://iclr.cc/Conferences/2022/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:16Z",
+      "retrieved_at": "2026-10-02T10:40:47Z",
       "snippets": [
         {
           "section": "ICLR 2022 Meeting Dates",
-          "text": "ICLR 2022 Meeting Dates\nThe Tenth annual conference is held (location and dates to be announced) .\nVirtual Only Pass | Mon Apr 25th through Fri the 29th\nConference Sessions & Workshops | Mon Apr 25th through Fri the 29th\nYour timezone is:",
-          "sha256": "4a19f4b3c2af69e91084d9b3f35b8721338363eb28bc40a8046e0087ee0b536b"
+          "text": "ICLR 2022 Meeting Dates\nThe Tenth annual conference is held (location and dates to be announced) .\nVirtual Only Pass | Mon Apr 25th through Fri the 29th\nConference Sessions & Workshops | Mon Apr 25th through Fri the 29th\nYour time zone is: Conference local time zone",
+          "sha256": "99a3adb0aa891f24907b3fd9921382affe238e980a1516148670fbc4ac1f9bd4"
         },
         {
           "section": "Dates and Deadlines",
@@ -77,7 +77,7 @@
         }
       ],
       "links": [],
-      "sha256": "6a81b03579f95e5b1a837b7b3cace9c6ab320e8e8a2dfccd334f0e8c8b92c986"
+      "sha256": "43fde568db33ff1566ff8e984a20ebf37be20de29404a7c4c2b1c87d1cb43cd6"
     },
     "history-2023": {
       "extractor": "date-context-v1",
@@ -85,12 +85,12 @@
       "url": "https://iclr.cc/Conferences/2023/Dates",
       "final_url": "https://iclr.cc/Conferences/2023/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:16Z",
+      "retrieved_at": "2026-10-02T10:40:48Z",
       "snippets": [
         {
           "section": "ICLR 2023 Meeting Dates",
-          "text": "ICLR 2023 Meeting Dates\nThe Eleventh annual conference is held (location and dates to be announced) .\nVirtual Only Pass | Mon May 1st through Fri the 5th\nConference Sessions | Mon May 1st through Thu the 4th\nWorkshops | Fri May 5th\nYour timezone is:",
-          "sha256": "7495906cc835020a7bad754a1bab46f310a52942071660abc965477f663f1409"
+          "text": "ICLR 2023 Meeting Dates\nThe Eleventh annual conference is held (location and dates to be announced) .\nVirtual Only Pass | Mon May 1st through Fri the 5th\nConference Sessions | Mon May 1st through Thu the 4th\nWorkshops | Fri May 5th\nYour time zone is: Conference local time zone",
+          "sha256": "84e518c2cd9aa5e0e78e2022b916127cd85c6d36da356954552acbd9660dc4e4"
         },
         {
           "section": "Dates and Deadlines",
@@ -119,7 +119,7 @@
         }
       ],
       "links": [],
-      "sha256": "aab12d4e8fc9d6e3c8428dc1cb7cff5c5cb8832d92ab9460f685ba0791576bc8"
+      "sha256": "8798b294af6eb3ec49aaa7347e6a6b67fcb28e196060a23a27183aa4e91a6a95"
     },
     "history-2024": {
       "extractor": "date-context-v1",
@@ -127,7 +127,7 @@
       "url": "https://iclr.cc/Conferences/2024/Dates",
       "final_url": "https://iclr.cc/Conferences/2024/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:17Z",
+      "retrieved_at": "2026-10-02T10:40:48Z",
       "snippets": [
         {
           "section": "ICLR 2024 Meeting Dates",
@@ -136,8 +136,8 @@
         },
         {
           "section": "Important Dates and Deadlines",
-          "text": "Name | Date (America/Los_Angeles) | Countdown\nCareers Site Accepting Applications | May 11 '24 09:00 AM CEST\nCareers Site Closes | Jun 11 '24 09:00 AM CEST",
-          "sha256": "f67fa49cc8e449e36c7460dbcb7cc39ddf8f7867268bfac5b57cccda39e2a379"
+          "text": "Name | Date (Europe/Vienna) | Countdown\nCareers Site Accepting Applications | May 11 '24 09:00 AM CEST\nCareers Site Closes | Jun 11 '24 09:00 AM CEST",
+          "sha256": "fcfc633013d038a4abed75227fa27bf50eebb317b7b06ed9081b9093c8ff679a"
         },
         {
           "section": "Dates and Deadlines",
@@ -161,7 +161,7 @@
         }
       ],
       "links": [],
-      "sha256": "43008cb0836f338790fa88f4333417ba5f9c94065878470490b97b29c61adc50"
+      "sha256": "b96949eccd8d8ce330a3dcf9f5c35ad8a1bec0361b16db077952cf6f44dfeb13"
     },
     "history-2025": {
       "extractor": "date-context-v1",
@@ -169,12 +169,12 @@
       "url": "https://iclr.cc/Conferences/2025/Dates",
       "final_url": "https://iclr.cc/Conferences/2025/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:17Z",
+      "retrieved_at": "2026-10-02T10:40:48Z",
       "snippets": [
         {
           "section": "ICLR 2025 Meeting Dates",
-          "text": "ICLR 2025 Meeting Dates\nThe Thirteenth annual conference is held (location and dates to be announced) .\nVirtual Only Pass | Thu April 24th through Mon the 28th\nConference Sessions | Thu April 24th through Sat the 26th\nWorkshops | Sun April 27 through Mon the 28th\nYour timezone is:",
-          "sha256": "708c9291c5a15f15ac28622f9481612668881684885e092ae7d636e8742e6d45"
+          "text": "ICLR 2025 Meeting Dates\nThe Thirteenth annual conference is held (location and dates to be announced) .\nVirtual Only Pass | Thu April 24th through Mon the 28th\nConference Sessions | Thu April 24th through Sat the 26th\nWorkshops | Sun April 27 through Mon the 28th\nYour time zone is: Conference local time zone",
+          "sha256": "ed43ea1010f5a04b2a1be8f382c6a05bbbd0e6d802885216717e14094065bbe7"
         },
         {
           "section": "Dates and Deadlines",
@@ -203,7 +203,7 @@
         }
       ],
       "links": [],
-      "sha256": "97e156ad55adcfb349a6ad403468a2828719481ed623bd51a1ef3975fadc3274"
+      "sha256": "4e912de2b4c8728978f78666ede516fa2f4d1c8ca5331dd3527576cb3f792092"
     },
     "history-2026": {
       "extractor": "date-context-v1",
@@ -211,12 +211,12 @@
       "url": "https://iclr.cc/Conferences/2026/Dates",
       "final_url": "https://iclr.cc/Conferences/2026/Dates",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:18Z",
+      "retrieved_at": "2026-10-02T10:40:48Z",
       "snippets": [
         {
           "section": "ICLR 2026 Meeting Dates",
-          "text": "ICLR 2026 Meeting Dates\nThe Fourteenth annual conference is held (location and dates to be announced) .\nMain Conference : Thursday April 23 through Saturday April 25 Workshops : Sunday April 26 through Monday April 27\nYour timezone is:",
-          "sha256": "51e08682c39ed4bd7d49763d387a93f5bb6575e5e610fdf1f98945399c471bbd"
+          "text": "ICLR 2026 Meeting Dates\nThe Fourteenth annual conference is held (location and dates to be announced) .\nMain Conference : Thursday April 23 through Saturday April 25 Workshops : Sunday April 26 through Monday April 27\nYour time zone is: Conference local time zone",
+          "sha256": "d84cd0dacc7714da6e69830a30e49ebac345d7180599ef2638d5f75f1a7433f4"
         },
         {
           "section": "Dates and Deadlines",
@@ -245,7 +245,7 @@
         }
       ],
       "links": [],
-      "sha256": "4d71304995319d91253907f17513224ffe8b66d5e602d196d2197c91c5779251"
+      "sha256": "f9d3032909bb39186d460597be6264ecee339078ccd030bb4e60b7388c501765"
     },
     "openreview": {
       "extractor": "date-context-v1",
@@ -253,7 +253,7 @@
       "url": "https://api2.openreview.net/groups?id=ICLR.cc/2027/Conference",
       "final_url": "https://api2.openreview.net/groups?id=ICLR.cc/2027/Conference",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:14Z",
+      "retrieved_at": "2026-10-02T10:40:46Z",
       "snippets": [
         {
           "section": "/groups/0/cdate",
@@ -267,8 +267,8 @@
         },
         {
           "section": "/groups/0/mdate",
-          "text": "{\"path\": \"/groups/0/mdate\", \"value\": 1788165344064}\nUTC: 2026-08-31T08:35:44.064000+00:00",
-          "sha256": "264946e4d0883827efe265cebaca4a415f6ce54c5898b239a3b49d63da5c2f76"
+          "text": "{\"path\": \"/groups/0/mdate\", \"value\": 1790866499908}\nUTC: 2026-10-01T14:54:59.908000+00:00",
+          "sha256": "0a19f3a71a12b0b6051132c2fd42ee0d5ad58267484595d35cc5b9c2e923ccbc"
         },
         {
           "section": "/groups/0/tcdate",
@@ -277,12 +277,12 @@
         },
         {
           "section": "/groups/0/tmdate",
-          "text": "{\"path\": \"/groups/0/tmdate\", \"value\": 1788165344064}\nUTC: 2026-08-31T08:35:44.064000+00:00",
-          "sha256": "7623f48ecc1bbc556a5176fbd3d2afefe4a5492f59680cd35a0a76b0efcba90d"
+          "text": "{\"path\": \"/groups/0/tmdate\", \"value\": 1790866499908}\nUTC: 2026-10-01T14:54:59.908000+00:00",
+          "sha256": "6b43f986b19efd8b24a7a410313e0d558fba3692942e0e29508e7b24e0beb1ab"
         }
       ],
       "links": [],
-      "sha256": "73012662efc2fc80a04c06d39c8bb9ad742c5b8e7073dea8d3c1a0ec4958fa9a"
+      "sha256": "5eb627e22d90ffb9edbc8217db2d3846667ae22028ddc69754105dfaa6b5d78c"
     },
     "call-for-papers": {
       "extractor": "date-context-v1",
@@ -290,56 +290,48 @@
       "url": "https://iclr.cc/Conferences/2027/CallForPapers",
       "final_url": "https://iclr.cc/Conferences/2027/CallForPapers",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:15Z",
+      "retrieved_at": "2026-10-02T10:40:47Z",
       "snippets": [
         {
           "section": "Key dates",
-          "text": "The planned dates are as follows (all times are UTC-12h, aka “Anywhere on Earth”):\nAbstract deadline Sep 18, 2026 11:59 PM AOE or\nPaper deadline Sep 25, 2026 11:59 PM AOE or\nReviews released Nov 05, 2026\nAuthor-reviewer discussion Nov 05, 2026–Nov 18, 2026\nReviewer-AC discussion Nov 19, 2026–Dec 16, 2026\nFinal decisions : Dec 16, 2026",
-          "sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d"
+          "text": "The planned dates are as follows (all times are UTC-12h, aka “Anywhere on Earth”):\nAbstract deadline Sep 18, 2026 AOE\nPaper deadline Sep 25, 2026 AOE\nReviews released Nov 05, 2026\nAuthor-reviewer discussion Nov 05, 2026–Nov 18, 2026\nReviewer-AC discussion Nov 19, 2026–Dec 16, 2026\nFinal decisions : Dec 16, 2026",
+          "sha256": "7518a5afef1ded97d0a45f91bf58bd73cf6a3d280a7d5e28b696d46f96b2ba91"
         }
       ],
       "links": [],
-      "sha256": "484735678a08678c10c797255d17e3be01f7a40ff1867125a037664ea1e12f56"
+      "sha256": "4779a18cdbc6ee0d72fd3b7525073a5de8516080d0e36aeb2e2e5e72334100d5"
     }
   },
   "claims": {
     "current/iclr.abstract": {
       "value": "2026-09-18T23:59:00-12:00",
-      "status": "supported",
+      "status": "date_only",
       "evidence": [
         {
-          "source": "dates",
-          "snippet_sha256": "c4d6cef4a2ec54b974f91e2d7038b8b9f9f35353902f6b6c4c27d50fbd174046"
-        },
-        {
           "source": "call-for-papers",
-          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
-          "quote": "Abstract deadline Sep 18, 2026 11:59 PM AOE or",
+          "snippet_sha256": "7518a5afef1ded97d0a45f91bf58bd73cf6a3d280a7d5e28b696d46f96b2ba91",
+          "quote": "Abstract deadline Sep 18, 2026 AOE",
           "highlights": [
-            "Sep 18, 2026 11:59 PM AOE"
+            "Sep 18, 2026"
           ]
         }
       ],
-      "note": "2026-09-13 核对：官方 Call for Papers 的 Key dates 明确列出 11:59 PM AoE，与现有日期、时刻及 UTC-12 时区一致。"
+      "note": "2026-10-02 核对：官方 CFP 的日期与 AoE 时区未变，但原先的 11:59 PM 字样已移除；Author Guidelines 当前也只列日期及 AoE。保留现有倒计时，不把显示文字删减解释为改期；最新段落仅作为日期级证据。"
     },
     "current/iclr.paper": {
       "value": "2026-09-25T23:59:00-12:00",
-      "status": "supported",
+      "status": "date_only",
       "evidence": [
         {
-          "source": "dates",
-          "snippet_sha256": "c4d6cef4a2ec54b974f91e2d7038b8b9f9f35353902f6b6c4c27d50fbd174046"
-        },
-        {
           "source": "call-for-papers",
-          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
-          "quote": "Paper deadline Sep 25, 2026 11:59 PM AOE or",
+          "snippet_sha256": "7518a5afef1ded97d0a45f91bf58bd73cf6a3d280a7d5e28b696d46f96b2ba91",
+          "quote": "Paper deadline Sep 25, 2026 AOE",
           "highlights": [
-            "Sep 25, 2026 11:59 PM AOE"
+            "Sep 25, 2026"
           ]
         }
       ],
-      "note": "2026-09-13 核对：官方 Call for Papers 的 Key dates 明确列出 11:59 PM AoE，与现有日期、时刻及 UTC-12 时区一致。"
+      "note": "2026-10-02 核对：官方 CFP 的日期与 AoE 时区未变，但原先的 11:59 PM 字样已移除；Author Guidelines 当前也只列日期及 AoE。保留现有倒计时，不把显示文字删减解释为改期；最新段落仅作为日期级证据。"
     },
     "current/iclr.review": {
       "value": "2026-11-05T23:59:00-12:00",
@@ -351,7 +343,7 @@
         },
         {
           "source": "call-for-papers",
-          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
+          "snippet_sha256": "7518a5afef1ded97d0a45f91bf58bd73cf6a3d280a7d5e28b696d46f96b2ba91",
           "quote": "Reviews released Nov 05, 2026",
           "highlights": [
             "Nov 05, 2026"
@@ -370,7 +362,7 @@
         },
         {
           "source": "call-for-papers",
-          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
+          "snippet_sha256": "7518a5afef1ded97d0a45f91bf58bd73cf6a3d280a7d5e28b696d46f96b2ba91",
           "quote": "Author-reviewer discussion Nov 05, 2026–Nov 18, 2026",
           "highlights": [
             "Nov 05, 2026–Nov 18, 2026"
@@ -389,7 +381,7 @@
         },
         {
           "source": "call-for-papers",
-          "snippet_sha256": "5b905ad47f8b2c3433f355b4dc03d9b03a594067f2c39399953052ff7aedff6d",
+          "snippet_sha256": "7518a5afef1ded97d0a45f91bf58bd73cf6a3d280a7d5e28b696d46f96b2ba91",
           "quote": "Final decisions : Dec 16, 2026",
           "highlights": [
             "Dec 16, 2026"
@@ -404,7 +396,11 @@
       "evidence": [
         {
           "source": "dates",
-          "snippet_sha256": "000ca61641f298252a86508d7e8d59ed0f65f7ba1c0ee2e862b1476c8b1be218"
+          "snippet_sha256": "dbf3eb2d7b42288cafaf3ae15ba4046f2e20f270fffacecb3cef7c994b4eeddd",
+          "quote": "Main Conference | April 26 - 28",
+          "highlights": [
+            "April 26 - 28"
+          ]
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
@@ -460,7 +456,11 @@
       "evidence": [
         {
           "source": "history-2022",
-          "snippet_sha256": "4a19f4b3c2af69e91084d9b3f35b8721338363eb28bc40a8046e0087ee0b536b"
+          "snippet_sha256": "99a3adb0aa891f24907b3fd9921382affe238e980a1516148670fbc4ac1f9bd4",
+          "quote": "Conference Sessions & Workshops | Mon Apr 25th through Fri the 29th",
+          "highlights": [
+            "Apr 25th through Fri the 29th"
+          ]
         }
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
@@ -471,7 +471,11 @@
       "evidence": [
         {
           "source": "history-2022",
-          "snippet_sha256": "4a19f4b3c2af69e91084d9b3f35b8721338363eb28bc40a8046e0087ee0b536b"
+          "snippet_sha256": "99a3adb0aa891f24907b3fd9921382affe238e980a1516148670fbc4ac1f9bd4",
+          "quote": "Conference Sessions & Workshops | Mon Apr 25th through Fri the 29th",
+          "highlights": [
+            "Apr 25th through Fri the 29th"
+          ]
         }
       ],
       "note": "对应 Workshops 的结束日，会期包含主会与研讨会。"
@@ -522,7 +526,11 @@
       "evidence": [
         {
           "source": "history-2023",
-          "snippet_sha256": "7495906cc835020a7bad754a1bab46f310a52942071660abc965477f663f1409"
+          "snippet_sha256": "84e518c2cd9aa5e0e78e2022b916127cd85c6d36da356954552acbd9660dc4e4",
+          "quote": "Virtual Only Pass | Mon May 1st through Fri the 5th",
+          "highlights": [
+            "May 1st through Fri the 5th"
+          ]
         }
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
@@ -533,7 +541,11 @@
       "evidence": [
         {
           "source": "history-2023",
-          "snippet_sha256": "7495906cc835020a7bad754a1bab46f310a52942071660abc965477f663f1409"
+          "snippet_sha256": "84e518c2cd9aa5e0e78e2022b916127cd85c6d36da356954552acbd9660dc4e4",
+          "quote": "Virtual Only Pass | Mon May 1st through Fri the 5th",
+          "highlights": [
+            "May 1st through Fri the 5th"
+          ]
         }
       ],
       "note": "对应 Workshops 的结束日，会期包含主会与研讨会。"
@@ -661,7 +673,11 @@
       "evidence": [
         {
           "source": "history-2025",
-          "snippet_sha256": "708c9291c5a15f15ac28622f9481612668881684885e092ae7d636e8742e6d45"
+          "snippet_sha256": "ed43ea1010f5a04b2a1be8f382c6a05bbbd0e6d802885216717e14094065bbe7",
+          "quote": "Virtual Only Pass | Thu April 24th through Mon the 28th",
+          "highlights": [
+            "April 24th through Mon the 28th"
+          ]
         }
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
@@ -672,7 +688,11 @@
       "evidence": [
         {
           "source": "history-2025",
-          "snippet_sha256": "708c9291c5a15f15ac28622f9481612668881684885e092ae7d636e8742e6d45"
+          "snippet_sha256": "ed43ea1010f5a04b2a1be8f382c6a05bbbd0e6d802885216717e14094065bbe7",
+          "quote": "Virtual Only Pass | Thu April 24th through Mon the 28th",
+          "highlights": [
+            "April 24th through Mon the 28th"
+          ]
         }
       ],
       "note": "对应 Workshops 的结束日，会期包含主会与研讨会。"
@@ -738,7 +758,12 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "51e08682c39ed4bd7d49763d387a93f5bb6575e5e610fdf1f98945399c471bbd"
+          "snippet_sha256": "d84cd0dacc7714da6e69830a30e49ebac345d7180599ef2638d5f75f1a7433f4",
+          "quote": "Main Conference : Thursday April 23 through Saturday April 25 Workshops : Sunday April 26 through Monday April 27",
+          "highlights": [
+            "April 23 through Saturday April 25",
+            "April 26 through Monday April 27"
+          ]
         }
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
@@ -749,7 +774,12 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "51e08682c39ed4bd7d49763d387a93f5bb6575e5e610fdf1f98945399c471bbd"
+          "snippet_sha256": "d84cd0dacc7714da6e69830a30e49ebac345d7180599ef2638d5f75f1a7433f4",
+          "quote": "Main Conference : Thursday April 23 through Saturday April 25 Workshops : Sunday April 26 through Monday April 27",
+          "highlights": [
+            "April 23 through Saturday April 25",
+            "April 26 through Monday April 27"
+          ]
         }
       ],
       "note": "对应 Workshops 的结束日，会期包含主会与研讨会。"

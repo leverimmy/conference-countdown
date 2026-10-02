@@ -8,7 +8,7 @@
       "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
       "final_url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:37Z",
+      "retrieved_at": "2026-10-02T10:41:00Z",
       "snippets": [
         {
           "section": "Joint Call for Workshops Proposals 2027",
@@ -41,13 +41,8 @@
           "sha256": "2ead97dbae19d00fff22f664d2d7df08d09efc2bef7f29ed0ae5ba733642c43d"
         }
       ],
-      "links": [
-        {
-          "url": "https://www.aclweb.org/portal/content/recent-advances-natural-language-processing-6",
-          "title": "Call for Papers: Recent Advances in Natural Language Processing 2027"
-        }
-      ],
-      "sha256": "e903fea8d5a7b7fcddea416fdc33a60e94489b6eea5f38c6e6395388e61996f8"
+      "links": [],
+      "sha256": "c6f9983fcc6748736da0c1adcc75c383f6a372831836223fc561fc3843017d6f"
     },
     "history-2022": {
       "extractor": "date-context-v1",
@@ -55,7 +50,7 @@
       "url": "https://2022.emnlp.org/calls/main_conference_papers/",
       "final_url": "https://2022.emnlp.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:38Z",
+      "retrieved_at": "2026-10-02T10:41:00Z",
       "snippets": [
         {
           "section": "Cross Submission Policy with ARR",
@@ -107,7 +102,7 @@
       "url": "https://2023.emnlp.org/",
       "final_url": "https://2023.emnlp.org/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:39Z",
+      "retrieved_at": "2026-10-02T10:41:00Z",
       "snippets": [
         {
           "section": "The 2023 Conference on Empirical Methods in Natural Language Processing",
@@ -169,7 +164,7 @@
       "url": "https://2024.emnlp.org/calls/main_conference_papers/",
       "final_url": "https://2024.emnlp.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:40Z",
+      "retrieved_at": "2026-10-02T10:41:01Z",
       "snippets": [
         {
           "section": "Important Dates for EMNLP 2024",
@@ -186,7 +181,7 @@
       "url": "https://2025.emnlp.org/calls/main_conference_papers/",
       "final_url": "https://2025.emnlp.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:40Z",
+      "retrieved_at": "2026-10-02T10:41:00Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -218,7 +213,7 @@
       "url": "https://2026.emnlp.org/calls/main_conference_papers/",
       "final_url": "https://2026.emnlp.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:40Z",
+      "retrieved_at": "2026-10-02T10:41:01Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -250,7 +245,7 @@
           "snippet_sha256": "996f93a7a28795ed1a3ea2e24f9bf7e1081e197f0d7b81a9228d870b77fcbeac"
         }
       ],
-      "note": "2026-09-16 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
+      "note": "2026-10-02 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
     },
     "current/emnlp.review": {
       "value": null,
@@ -261,7 +256,7 @@
           "snippet_sha256": "996f93a7a28795ed1a3ea2e24f9bf7e1081e197f0d7b81a9228d870b77fcbeac"
         }
       ],
-      "note": "2026-09-16 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
+      "note": "2026-10-02 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
     },
     "current/emnlp.rebuttal": {
       "value": null,
@@ -272,7 +267,7 @@
           "snippet_sha256": "996f93a7a28795ed1a3ea2e24f9bf7e1081e197f0d7b81a9228d870b77fcbeac"
         }
       ],
-      "note": "2026-09-16 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
+      "note": "2026-10-02 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
     },
     "current/emnlp.commitment": {
       "value": null,
@@ -283,7 +278,7 @@
           "snippet_sha256": "996f93a7a28795ed1a3ea2e24f9bf7e1081e197f0d7b81a9228d870b77fcbeac"
         }
       ],
-      "note": "2026-09-16 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
+      "note": "2026-10-02 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
     },
     "current/emnlp.decision": {
       "value": null,
@@ -294,7 +289,7 @@
           "snippet_sha256": "996f93a7a28795ed1a3ea2e24f9bf7e1081e197f0d7b81a9228d870b77fcbeac"
         }
       ],
-      "note": "2026-09-16 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
+      "note": "2026-10-02 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
     },
     "current/emnlp.conference": {
       "value": null,
@@ -305,7 +300,7 @@
           "snippet_sha256": "996f93a7a28795ed1a3ea2e24f9bf7e1081e197f0d7b81a9228d870b77fcbeac"
         }
       ],
-      "note": "2026-09-16 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
+      "note": "2026-10-02 核对：ACL 联合 Workshop 征集公告仅暂定 EMNLP 2027 在 11 月上旬举行，具体会期为 TBA；未找到主会投稿、作者回复、Commitment 或录用通知的确切日期。不将 Workshop 征集日期作为主会日期。"
     },
     "history/2022/abstract_deadline": {
       "value": "2022-06-17",

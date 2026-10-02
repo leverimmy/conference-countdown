@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_verified": "2026-08-14",
+  "last_verified": "2026-10-02",
   "id": "acl",
   "edition": 2027,
   "name": "ACL 2027",
@@ -15,12 +15,10 @@
       "id": "acl.arr",
       "title": "ARR 投稿截止",
       "compact_title": "ACL 投稿",
-      "at": null,
-      "date_label": "官方尚未公布",
-      "detail_label": "公布后再更新提醒",
-      "symbol": "doc.badge.clock",
-      "historical_key": "paper_deadline",
-      "target_year": 2027
+      "at": "2027-01-04T23:59:59-12:00",
+      "date_label": "2027 年 1 月 4 日 23:59:59 AoE",
+      "detail_label": "北京时间 2027 年 1 月 5 日 19:59:59",
+      "symbol": "doc.badge.clock"
     },
     {
       "id": "acl.review",

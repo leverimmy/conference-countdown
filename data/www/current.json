@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_verified": "2026-09-13",
+  "last_verified": "2026-10-02",
   "id": "www",
   "edition": 2027,
   "name": "WWW 2027",
@@ -33,18 +33,18 @@
       "id": "www.review",
       "title": "初审结果公布",
       "compact_title": "WWW 初审",
-      "at": "2026-12-21T23:59:59-12:00",
-      "date_label": "2026 年 12 月 21 日 23:59:59 AoE",
-      "detail_label": "北京时间 2026 年 12 月 22 日 19:59:59",
+      "at": "2026-12-15T23:59:59-12:00",
+      "date_label": "2026 年 12 月 15 日 23:59:59 AoE",
+      "detail_label": "北京时间 2026 年 12 月 16 日 19:59:59",
       "symbol": "doc.text.fill"
     },
     {
       "id": "www.rebuttal",
       "title": "作者回复截止",
       "compact_title": "WWW 回复",
-      "at": "2026-12-31T23:59:59-12:00",
-      "date_label": "2026 年 12 月 31 日 23:59:59 AoE",
-      "detail_label": "北京时间 2027 年 1 月 1 日 19:59:59",
+      "at": "2026-12-20T23:59:59-12:00",
+      "date_label": "2026 年 12 月 20 日 23:59:59 AoE",
+      "detail_label": "北京时间 2026 年 12 月 21 日 19:59:59",
       "symbol": "bubble.left.and.bubble.right.fill"
     },
     {

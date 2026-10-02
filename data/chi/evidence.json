@@ -8,7 +8,7 @@
       "url": "https://chi2022.acm.org/for-authors/presenting/papers/",
       "final_url": "https://chi2022.acm.org/for-authors/presenting/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:38Z",
+      "retrieved_at": "2026-10-02T10:40:59Z",
       "snippets": [
         {
           "section": "",
@@ -50,7 +50,7 @@
       "url": "https://chi2023.acm.org/for-authors/papers/",
       "final_url": "https://chi2023.acm.org/for-authors/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:38Z",
+      "retrieved_at": "2026-10-02T10:40:58Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -77,7 +77,7 @@
       "url": "https://chi2024.acm.org/deadlines-table/",
       "final_url": "https://chi2024.acm.org/deadlines-table/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:39Z",
+      "retrieved_at": "2026-10-02T10:40:59Z",
       "snippets": [
         {
           "section": "Overview of Submission Deadlines and Notifications",
@@ -109,7 +109,7 @@
       "url": "https://chi2025.acm.org/for-authors/papers/",
       "final_url": "https://chi2025.acm.org/for-authors/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:39Z",
+      "retrieved_at": "2026-10-02T10:41:00Z",
       "snippets": [
         {
           "section": "Upcoming Deadlines",
@@ -231,7 +231,7 @@
       "url": "https://chi2026.acm.org/authors/papers/",
       "final_url": "https://chi2026.acm.org/authors/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:40Z",
+      "retrieved_at": "2026-10-02T10:41:00Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -293,7 +293,7 @@
       "url": "https://chi2027.acm.org/authors/papers/",
       "final_url": "https://chi2027.acm.org/authors/papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:37Z",
+      "retrieved_at": "2026-10-02T10:40:58Z",
       "snippets": [
         {
           "section": "",
@@ -312,12 +312,12 @@
         },
         {
           "section": "Important Dates",
-          "text": "Thursday, December 17, 2026 : Final notification\nThursday, January 7, 2027 : E-Rights completion deadline\nThursday, January 14, 2027 : TAPS upload deadline (Author must upload their final paper source to TAPS for processing)\nThursday, February 18, 2027 : Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials and optional video previews)\nThursday, March 4, 2027 : Conference registration deadline\nThursday, March 4, 2027 : Video presentation deadline\nNote: All deadlines include a 24-hour grace period in which submissions can still be edited. This period is provided solely for contingency and should not be treated as an extension. No support will be available, and authors should not contact the chairs regarding submission issues once the official deadline has passed.",
-          "sha256": "a5a83173f313ac573c7ab351c60a86f113e055efb19a44e58a3fbf4e4c1c60ec"
+          "text": "Thursday, December 17, 2026 : Final notification\nThursday, January 7, 2027 : E-Rights completion deadline\nThursday, January 14, 2027 : TAPS submission deadline (Author must upload their final paper source to TAPS for processing)\nThursday, February 18, 2027 : Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials and optional video previews)\nThursday, March 4, 2027 : Conference registration deadline\nThursday, March 4, 2027 : Video presentation deadline\nNote: All deadlines include a 24-hour grace period in which submissions can still be edited. This period is provided solely for contingency and should not be treated as an extension. No support will be available, and authors should not contact the chairs regarding submission issues once the official deadline has passed.",
+          "sha256": "419aeec6098f8bc98f837de58c7acf7aae1a5cf19c4b7747214b52d6fd61b0b5"
         }
       ],
       "links": [],
-      "sha256": "fed3f50695adc5843c942f6a2ce49e45314d52f701f520853c803e8e1b31faf5"
+      "sha256": "bc91650b148d6bf7917106d1916ace7b11a6213222e6ab308c4273cc5eaea97c"
     }
   },
   "claims": {
@@ -360,7 +360,11 @@
       "evidence": [
         {
           "source": "papers",
-          "snippet_sha256": "a5a83173f313ac573c7ab351c60a86f113e055efb19a44e58a3fbf4e4c1c60ec"
+          "snippet_sha256": "419aeec6098f8bc98f837de58c7acf7aae1a5cf19c4b7747214b52d6fd61b0b5",
+          "quote": "Thursday, December 17, 2026 : Final notification",
+          "highlights": [
+            "December 17, 2026"
+          ]
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"

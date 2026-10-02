@@ -8,10 +8,10 @@
       "url": "https://2027.ieeeicassp.org/call-for-papers/",
       "final_url": "https://2027.ieeeicassp.org/call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:20Z",
+      "retrieved_at": "2026-10-02T10:40:50Z",
       "snippets": [
         {
-          "section": "Call for Papers",
+          "section": "“Transforming signals – Enriching Perception”",
           "text": "Important Dates\nFull Paper Submission Deadline | September 23, 2026\nPublished Journal Papers and Letters Due | January 6, 2027\nPaper Acceptance Notification | January 13, 2027\nFinal Paper Deadline | January 27, 2027\nAuthor Registration Deadline | February 10, 2027\nOpen Preview Starts | April 16, 2027",
           "sha256": "7315c42c2770c789e9e5bf822f6eccc8e078c0440b10734aac9b3f124e77b1f9"
         }
@@ -26,7 +26,7 @@
           "title": "Download the call for papers"
         }
       ],
-      "sha256": "ee6e3180a907bfc40fe472d7044ba77f37452bf2ece1fa3c7e975e105b5af380"
+      "sha256": "a02b67da92ea4430d01bb08f1c1bcf7c6c4180a3be5a6fd3411218ff205d88f9"
     },
     "history-2022": {
       "extractor": "date-context-v1",
@@ -34,7 +34,7 @@
       "url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/08/Call-for-Papers.pdf",
       "final_url": "https://2022.ieeeicassp.org/wp-content/uploads/2021/08/Call-for-Papers.pdf",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:29Z",
+      "retrieved_at": "2026-10-02T10:40:54Z",
       "snippets": [
         {
           "section": "PDF",
@@ -66,7 +66,7 @@
       "url": "https://2023.ieeeicassp.org/important-dates/",
       "final_url": "https://2023.ieeeicassp.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:23Z",
+      "retrieved_at": "2026-10-02T10:40:54Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -123,7 +123,7 @@
       "url": "https://cmsworkshops.com/ICASSP2024/papers/paper_kit.php",
       "final_url": "https://cmsworkshops.com/ICASSP2024/papers/paper_kit.php",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:23Z",
+      "retrieved_at": "2026-10-02T10:40:54Z",
       "snippets": [
         {
           "section": "",
@@ -180,7 +180,7 @@
       "url": "https://signalprocessingsociety.org/events/icassp-2025-2025-ieee-international-conference-acoustics-speech-and-signal-processing",
       "final_url": "https://signalprocessingsociety.org/events/icassp-2025-2025-ieee-international-conference-acoustics-speech-and-signal-processing",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:23Z",
+      "retrieved_at": "2026-10-02T10:40:54Z",
       "snippets": [
         {
           "section": "06",
@@ -197,7 +197,7 @@
       "url": "https://2026.ieeeicassp.org/call-for-papers/",
       "final_url": "https://2026.ieeeicassp.org/call-for-papers/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:23Z",
+      "retrieved_at": "2026-10-02T10:40:52Z",
       "snippets": [
         {
           "section": "2026 IEEE International Conference on Acoustics, Speech, and Signal Processing",
@@ -229,7 +229,7 @@
       "url": "https://2027.ieeeicassp.org/important-dates/",
       "final_url": "https://2027.ieeeicassp.org/important-dates/",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:20Z",
+      "retrieved_at": "2026-10-02T10:40:50Z",
       "snippets": [
         {
           "section": "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing 2027 IEEE International Conference on Acoustics, Speech, and Signal Processing",
@@ -251,7 +251,7 @@
       "url": "https://cmsworkshops.com/ICASSP2027/papers/paper_kit.php",
       "final_url": "https://cmsworkshops.com/ICASSP2027/papers/paper_kit.php",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:28:23Z",
+      "retrieved_at": "2026-10-02T10:40:51Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -278,7 +278,7 @@
       "url": "https://cmsworkshops.com/ICASSP2027/papers.php",
       "final_url": "https://cmsworkshops.com/ICASSP2027/papers.php",
       "status": 200,
-      "retrieved_at": "2026-09-16T02:30:29Z",
+      "retrieved_at": "2026-10-02T10:40:51Z",
       "snippets": [
         {
           "section": "Equivalent Global Times for Paper Submission Deadline",
@@ -336,7 +336,7 @@
           "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21"
         }
       ],
-      "note": "2026-09-16 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
+      "note": "2026-10-02 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
     },
     "current/icassp.rebuttal": {
       "value": null,
@@ -347,7 +347,7 @@
           "snippet_sha256": "733f109e6fd4dcd1dad012d9b2eda4bf90dbe3b612c3cac1b4ced2488b438c21"
         }
       ],
-      "note": "2026-09-16 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
+      "note": "2026-10-02 核对：官方 Paper Kit 列出了主会投稿、最终通知及终稿日期，但未列出主会作者回复窗口。本轮未找到该窗口的确切日期；不将 Workshop 通知日作为主会初审结果。"
     },
     "current/icassp.decision": {
       "value": "2027-01-13T23:59:00-12:00",

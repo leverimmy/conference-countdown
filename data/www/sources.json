@@ -32,6 +32,14 @@
       "discover_links": false
     },
     {
+      "id": "industry-track",
+      "url": "https://www2027.thewebconf.org/call-for-industry-submissions/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "section_pattern": "^Important Dates$"
+    },
+    {
       "id": "history-2022",
       "url": "https://archives.iw3c2.org/www2022/cfp/research/",
       "kind": "html",
