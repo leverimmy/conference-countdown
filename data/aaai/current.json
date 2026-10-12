@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_verified": "2026-08-14",
+  "last_verified": "2026-10-12",
   "id": "aaai",
   "edition": 2027,
   "name": "AAAI 2027",
@@ -42,9 +42,9 @@
       "id": "aaai.rebuttal",
       "title": "作者反馈截止",
       "compact_title": "AAAI 反馈",
-      "at": "2026-10-25T23:59:00-12:00",
-      "date_label": "2026 年 10 月 25 日 23:59 AoE",
-      "detail_label": "北京时间 10 月 26 日 19:59",
+      "at": "2026-10-31T23:59:59-12:00",
+      "date_label": "2026 年 10 月 31 日 23:59:59 AoE",
+      "detail_label": "北京时间 2026 年 11 月 1 日 19:59:59",
       "symbol": "bubble.left.and.bubble.right.fill"
     },
     {

@@ -10,6 +10,14 @@
       "discover_links": true
     },
     {
+      "id": "main-track",
+      "url": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "section_pattern": "^Main Conference Timetable for Authors$"
+    },
+    {
       "id": "openreview",
       "url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
       "kind": "json",

@@ -8,7 +8,7 @@
       "url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
       "final_url": "https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:00Z",
+      "retrieved_at": "2026-10-12T04:59:16Z",
       "snippets": [
         {
           "section": "Joint Call for Workshops Proposals 2027",
@@ -39,10 +39,24 @@
           "section": "Joint Call for Workshops Proposals 2027",
           "text": "EMNLP 2027 (TBA)\nConference dates: TBA\nWorkshop Chairs",
           "sha256": "2ead97dbae19d00fff22f664d2d7df08d09efc2bef7f29ed0ae5ba733642c43d"
+        },
+        {
+          "section": "Latest Events",
+          "text": "Latest Events\nReminder: Call for Papers – Special Issue on the Ethics of NLP and CL, Computational Linguistics (deadline: 27 November 2026)\nPhilology Meets AI: Second Workshop on the Analysis of Rare Scripts",
+          "sha256": "b37e38c544aa0ac640249b052a2a57df5db4c4feef9186e6eef2c7c94ce06a83"
         }
       ],
-      "links": [],
-      "sha256": "c6f9983fcc6748736da0c1adcc75c383f6a372831836223fc561fc3843017d6f"
+      "links": [
+        {
+          "url": "https://www.aclweb.org/portal/content/acl-2027-first-call-papers",
+          "title": "ACL 2027: First Call for Papers"
+        },
+        {
+          "url": "https://www.aclweb.org/portal/content/reminder-call-papers-special-issue-ethics-nlp-and-cl-computational-linguistics-deadline-27",
+          "title": "Reminder: Call for Papers – Special Issue on the Ethics of NLP and CL, Computational Linguistics (deadline: 27 November 2026)"
+        }
+      ],
+      "sha256": "13cdc83c9bf0210f7cbc21b510dc13da3238a490d7e02978d650d669a24c4b49"
     },
     "history-2022": {
       "extractor": "date-context-v1",
@@ -50,7 +64,7 @@
       "url": "https://2022.emnlp.org/calls/main_conference_papers/",
       "final_url": "https://2022.emnlp.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:00Z",
+      "retrieved_at": "2026-10-12T04:59:17Z",
       "snippets": [
         {
           "section": "Cross Submission Policy with ARR",
@@ -102,7 +116,7 @@
       "url": "https://2023.emnlp.org/",
       "final_url": "https://2023.emnlp.org/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:00Z",
+      "retrieved_at": "2026-10-12T04:59:18Z",
       "snippets": [
         {
           "section": "The 2023 Conference on Empirical Methods in Natural Language Processing",
@@ -164,7 +178,7 @@
       "url": "https://2024.emnlp.org/calls/main_conference_papers/",
       "final_url": "https://2024.emnlp.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:01Z",
+      "retrieved_at": "2026-10-12T04:59:18Z",
       "snippets": [
         {
           "section": "Important Dates for EMNLP 2024",
@@ -181,7 +195,7 @@
       "url": "https://2025.emnlp.org/calls/main_conference_papers/",
       "final_url": "https://2025.emnlp.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:00Z",
+      "retrieved_at": "2026-10-12T04:59:18Z",
       "snippets": [
         {
           "section": "Important Dates",
@@ -213,7 +227,7 @@
       "url": "https://2026.emnlp.org/calls/main_conference_papers/",
       "final_url": "https://2026.emnlp.org/calls/main_conference_papers/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:01Z",
+      "retrieved_at": "2026-10-12T04:59:18Z",
       "snippets": [
         {
           "section": "Important Dates",

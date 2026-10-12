@@ -22,7 +22,7 @@
       "kind": "html",
       "edition": 2027,
       "discover_links": false,
-      "section_pattern": "^Submission to Participating Venues$"
+      "section_pattern": "^(Submission to Participating Venues|Reviewing Schedule)$"
     },
     {
       "id": "main-papers",
@@ -31,6 +31,15 @@
       "edition": 2027,
       "discover_links": false,
       "section_pattern": "^Important Dates$"
+    },
+    {
+      "id": "first-call",
+      "url": "https://www.aclweb.org/portal/content/acl-2027-first-call-papers",
+      "kind": "html",
+      "edition": 2027,
+      "discover_links": false,
+      "start_text": "As in recent years, some of the presentations at the conference will be for papers accepted by the Transactions of the ACL (TACL) and Computational Linguistics (CL) journals.",
+      "end_text": "*Topics of Interest* ACL 2027 has the goal of a broad technical program. Relevant topics for the conference include, but are not limited to, the following areas (in alphabetical order):"
     },
     {
       "id": "history-2022",

@@ -8,7 +8,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-27/",
       "final_url": "https://aaai.org/conference/aaai/aaai-27/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:03Z",
+      "retrieved_at": "2026-10-12T04:59:19Z",
       "snippets": [
         {
           "section": "",
@@ -22,8 +22,8 @@
         },
         {
           "section": "Main Conference Timetable for Authors",
-          "text": "Note: all deadlines are “anywhere on earth” (UTC-12)\nJune 17, 2026 OpenReview submission site opens for author registration\nJune 30, 2026 OpenReview submission site opens for paper submission\nJuly 21, 2026 Abstracts due at 11:59 PM UTC-12\nJuly 28, 2026 Full papers due at 11:59 PM UTC-12\nJuly 31, 2026 Supplementary material and code due by 11:59 PM UTC-12\nSeptember 24, 2026 Notification of Phase 1 rejections\nOctober 19-25, 2026 Author feedback window",
-          "sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+          "text": "Note: all deadlines are “anywhere on earth” (UTC-12)\nJune 17, 2026 OpenReview submission site opens for author registration\nJune 30, 2026 OpenReview submission site opens for paper submission\nJuly 21, 2026 Abstracts due at 11:59 PM UTC-12\nJuly 28, 2026 Full papers due at 11:59 PM UTC-12\nJuly 31, 2026 Supplementary material and code due by 11:59 PM UTC-12\nSeptember 24, 2026 Notification of Phase 1 rejections\n[removed] October 19-25, 2026 [/removed] October 24-31, 2026 Author feedback window",
+          "sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4"
         },
         {
           "section": "Main Conference Timetable for Authors",
@@ -50,7 +50,7 @@
           "title": "author registration"
         }
       ],
-      "sha256": "92910ee9d7f55a503d759a92c9f1f67ad76524fdc382fefef3b6dd3571893c0c"
+      "sha256": "81d535e2dd0c4842597dd85b5a46a7119fd46631a694f23209aadda185cb51ac"
     },
     "history-2022": {
       "extractor": "date-context-v1",
@@ -58,7 +58,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-22/",
       "final_url": "https://aaai.org/conference/aaai/aaai-22/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:04Z",
+      "retrieved_at": "2026-10-12T04:59:20Z",
       "snippets": [
         {
           "section": "AAAI 2022 Conference",
@@ -75,7 +75,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-23/",
       "final_url": "https://aaai.org/conference/aaai/aaai-23/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:04Z",
+      "retrieved_at": "2026-10-12T04:59:20Z",
       "snippets": [
         {
           "section": "AAAI 2023 Conference",
@@ -102,7 +102,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-24/",
       "final_url": "https://aaai.org/conference/aaai/aaai-24/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:04Z",
+      "retrieved_at": "2026-10-12T04:59:20Z",
       "snippets": [
         {
           "section": "",
@@ -149,7 +149,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-25/",
       "final_url": "https://aaai.org/conference/aaai/aaai-25/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:04Z",
+      "retrieved_at": "2026-10-12T04:59:21Z",
       "snippets": [
         {
           "section": "",
@@ -191,7 +191,7 @@
       "url": "https://aaai.org/conference/aaai/aaai-26/",
       "final_url": "https://aaai.org/conference/aaai/aaai-26/",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:05Z",
+      "retrieved_at": "2026-10-12T04:59:21Z",
       "snippets": [
         {
           "section": "",
@@ -228,7 +228,7 @@
       "url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
       "final_url": "https://api2.openreview.net/groups?id=AAAI.org/2027/Conference",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:41:02Z",
+      "retrieved_at": "2026-10-12T04:59:19Z",
       "snippets": [
         {
           "section": "/groups/0/cdate",
@@ -247,8 +247,8 @@
         },
         {
           "section": "/groups/0/mdate",
-          "text": "{\"path\": \"/groups/0/mdate\", \"value\": 1790293835394}\nUTC: 2026-09-24T23:50:35.394000+00:00",
-          "sha256": "29925bf5acd872e4815cf5cf67849fde9b59d09487bcfa395d47c9874cdf492e"
+          "text": "{\"path\": \"/groups/0/mdate\", \"value\": 1791290354795}\nUTC: 2026-10-06T12:39:14.795000+00:00",
+          "sha256": "fb817868328c2b65dc2cb6c88ab7dcbacbc7fbdae5cc74198db16becb1c24453"
         },
         {
           "section": "/groups/0/tcdate",
@@ -257,12 +257,34 @@
         },
         {
           "section": "/groups/0/tmdate",
-          "text": "{\"path\": \"/groups/0/tmdate\", \"value\": 1790293835394}\nUTC: 2026-09-24T23:50:35.394000+00:00",
-          "sha256": "7702d915bf4fdb15f4a955c7a2a9874766183e000ba1cd76925486fb039a0696"
+          "text": "{\"path\": \"/groups/0/tmdate\", \"value\": 1791290354795}\nUTC: 2026-10-06T12:39:14.795000+00:00",
+          "sha256": "dcb3b1e17d8e4a0509c2eff61a7b1c8fea1e9f0801222ed9b607a23ad5d3cb70"
         }
       ],
       "links": [],
-      "sha256": "b296172ef60e0160410e6d814cf84b32d280ee2b0f082d903ed2381edb747260"
+      "sha256": "e4b16e3d8e2c75a12eb4d15701a29414b3e7c3fae32dcb5c31848e8891b406c1"
+    },
+    "main-track": {
+      "extractor": "date-context-v1",
+      "config_sha256": "bdd731e0d02fd136e1a0df0dc993c8332ff74f2e0262684bd59e161953753921",
+      "url": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/",
+      "final_url": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/",
+      "status": 200,
+      "retrieved_at": "2026-10-12T05:16:05Z",
+      "snippets": [
+        {
+          "section": "Main Conference Timetable for Authors",
+          "text": "Note: all deadlines are “anywhere on earth” (UTC-12)\nJune 17, 2026 OpenReview submission site opens for author registration\nJune 30, 2026 OpenReview submission site opens for paper submission\nJuly 21, 2026 Abstracts due at 11:59 PM UTC-12\nJuly 28, 2026 Full papers due at 11:59 PM UTC-12\nJuly 31, 2026 Supplementary material and code due by 11:59 PM UTC-12\nSeptember 24, 2026 Notification of Phase 1 rejections\n[removed] October 19-25, 2026 [/removed] October 24-31, 2026 Author feedback window",
+          "sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4"
+        },
+        {
+          "section": "Main Conference Timetable for Authors",
+          "text": "November 30, 2026 Notification of final acceptance or rejection (Main Technical Track)\nDecember 14, 2026 [removed] [/removed] Submission of camera-ready files (Main Technical Track)\nFebruary 16-23, 2027 AAAI-27 Conference\nNote: Deadlines are track-specific and may differ from those listed above. Track-specific deadlines are listed on their respective CFP.",
+          "sha256": "d0cae6bfdc5e4b2fc6105aba072bad230c711aa9a172e22745b13a11b5aef99d"
+        }
+      ],
+      "links": [],
+      "sha256": "f6d39772ba933cbf577ee927c24fcfc0faf31b99d575a862f6b7dfef8f49acfd"
     }
   },
   "claims": {
@@ -272,7 +294,7 @@
       "evidence": [
         {
           "source": "conference-site",
-          "snippet_sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+          "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4"
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
@@ -283,7 +305,7 @@
       "evidence": [
         {
           "source": "conference-site",
-          "snippet_sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+          "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4"
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
@@ -294,21 +316,33 @@
       "evidence": [
         {
           "source": "conference-site",
-          "snippet_sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+          "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4"
         }
       ],
       "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
     },
     "current/aaai.rebuttal": {
-      "value": "2026-10-25T23:59:00-12:00",
+      "value": "2026-10-31T23:59:59-12:00",
       "status": "date_only",
       "evidence": [
         {
           "source": "conference-site",
-          "snippet_sha256": "61c5baa723fb41376da00a6270b4c909e98a22959d7443b755b274fde267d6b9"
+          "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4",
+          "quote": "October 24-31, 2026 Author feedback window",
+          "highlights": [
+            "October 24-31, 2026"
+          ]
+        },
+        {
+          "source": "main-track",
+          "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4",
+          "quote": "October 24-31, 2026 Author feedback window",
+          "highlights": [
+            "October 24-31, 2026"
+          ]
         }
       ],
-      "note": "该段落直接对应事件的日历日期；它不完整证明 App 使用的精确时刻或时区。"
+      "note": "用户在本地对话中确认「全部同意」。AAAI-27 官网及 Main Technical Track CFP 明确作者回复窗口为 2026-10-24 至 2026-10-31；作者回复截止采用窗口结束日 2026-10-31。 时刻按默认 23:59:59 AoE（UTC−12）计时。"
     },
     "current/aaai.decision": {
       "value": "2026-11-30T23:59:00-12:00",
@@ -606,5 +640,88 @@
       ],
       "note": "对应该届会期边界，包含页面列出的教程、研讨会或 Expo，并非单独一场报告的时间。"
     }
-  }
+  },
+  "decisions": [
+    {
+      "target": "current/aaai.rebuttal",
+      "action": "accept",
+      "reviewed_at": "2026-10-12T05:23:03Z",
+      "reason": "用户在本地对话中确认「全部同意」。AAAI-27 官网及 Main Technical Track CFP 明确作者回复窗口为 2026-10-24 至 2026-10-31；作者回复截止采用窗口结束日 2026-10-31。",
+      "previous_value": "2026-10-25T23:59:00-12:00",
+      "proposal": {
+        "value": "2026-10-31",
+        "status": "date_only",
+        "note": "AAAI-27 官网及 Main Technical Track CFP 明确作者回复窗口为 2026-10-24 至 2026-10-31；作者回复截止采用窗口结束日 2026-10-31。",
+        "evidence": [
+          {
+            "source": "conference-site",
+            "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4",
+            "quote": "October 24-31, 2026 Author feedback window",
+            "highlights": [
+              "October 24-31, 2026"
+            ]
+          },
+          {
+            "source": "main-track",
+            "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4",
+            "quote": "October 24-31, 2026 Author feedback window",
+            "highlights": [
+              "October 24-31, 2026"
+            ]
+          }
+        ]
+      },
+      "proposal_sha256": "a12b1ecfeb5d3109c6d32ef0bb5dbe68bd5ab94d84fa802152913c369f13b4f0",
+      "undo": {
+        "before": {
+          "record": {
+            "id": "aaai.rebuttal",
+            "title": "作者反馈截止",
+            "compact_title": "AAAI 反馈",
+            "at": "2026-10-25T23:59:00-12:00",
+            "date_label": "2026 年 10 月 25 日 23:59 AoE",
+            "detail_label": "北京时间 10 月 26 日 19:59",
+            "symbol": "bubble.left.and.bubble.right.fill"
+          },
+          "claim": {
+            "value": "2026-10-25T23:59:00-12:00",
+            "status": "conflict",
+            "evidence": [
+              {
+                "source": "conference-site",
+                "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4"
+              }
+            ],
+            "note": "2026-10-12 核对：AAAI-27 首页及 Main Technical Track CFP 均将原作者回复窗口 10 月 19–25 日划线，并公布新窗口为 10 月 24–31 日；作者回复截止应为 2026-10-31，与现有 2026-10-25 不同。",
+            "candidate": {
+              "value": "2026-10-31",
+              "status": "date_only",
+              "note": "AAAI-27 官网及 Main Technical Track CFP 明确作者回复窗口为 2026-10-24 至 2026-10-31；作者回复截止采用窗口结束日 2026-10-31。",
+              "evidence": [
+                {
+                  "source": "conference-site",
+                  "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4",
+                  "quote": "October 24-31, 2026 Author feedback window",
+                  "highlights": [
+                    "October 24-31, 2026"
+                  ]
+                },
+                {
+                  "source": "main-track",
+                  "snippet_sha256": "67e209f4f238db54a7cea916cb372b947d362990744beea6589101b6327a98e4",
+                  "quote": "October 24-31, 2026 Author feedback window",
+                  "highlights": [
+                    "October 24-31, 2026"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "after_sha256": "a9861438e82ab9866b8f68dae2a9c6986e5b041a43d922a86265b214d1794fb0",
+        "guard_sha256": "6d310a644109b6d408b3a63042a277322a1602f4162cf8433e936a49f3b1afc2",
+        "sha256": "c1d9512d4eb4890fbca7624a5346acd1a9d3883543eb7bc58af04598314de4a8"
+      }
+    }
+  ]
 }

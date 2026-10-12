@@ -8,7 +8,7 @@
       "url": "https://neurips.cc/Conferences/FutureMeetings",
       "final_url": "https://neurips.cc/Conferences/FutureMeetings",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:40:55Z",
+      "retrieved_at": "2026-10-12T04:59:13Z",
       "snippets": [
         {
           "section": "Future Meetings",
@@ -42,7 +42,7 @@
       "url": "https://neurips.cc/Conferences/2022/Dates",
       "final_url": "https://neurips.cc/Conferences/2022/Dates",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:40:56Z",
+      "retrieved_at": "2026-10-12T04:59:14Z",
       "snippets": [
         {
           "section": "NeurIPS 2022 Meeting Dates",
@@ -99,7 +99,7 @@
       "url": "https://neurips.cc/Conferences/2023/Dates",
       "final_url": "https://neurips.cc/Conferences/2023/Dates",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:40:56Z",
+      "retrieved_at": "2026-10-12T04:59:14Z",
       "snippets": [
         {
           "section": "NeurIPS 2023 Meeting Dates",
@@ -171,7 +171,7 @@
       "url": "https://neurips.cc/Conferences/2024/Dates",
       "final_url": "https://neurips.cc/Conferences/2024/Dates",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:40:56Z",
+      "retrieved_at": "2026-10-12T04:59:14Z",
       "snippets": [
         {
           "section": "NeurIPS 2024 Meeting Dates",
@@ -233,7 +233,7 @@
       "url": "https://neurips.cc/Conferences/2025/Dates",
       "final_url": "https://neurips.cc/Conferences/2025/Dates",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:40:57Z",
+      "retrieved_at": "2026-10-12T04:59:14Z",
       "snippets": [
         {
           "section": "NeurIPS 2025 Meeting Dates",
@@ -305,7 +305,7 @@
       "url": "https://neurips.cc/Conferences/2026/Dates",
       "final_url": "https://neurips.cc/Conferences/2026/Dates",
       "status": 200,
-      "retrieved_at": "2026-10-02T10:40:57Z",
+      "retrieved_at": "2026-10-12T04:59:14Z",
       "snippets": [
         {
           "section": "NeurIPS 2026 Meeting Dates",
@@ -324,47 +324,52 @@
         },
         {
           "section": "Dates and Deadlines",
-          "text": "Dates and Deadlines\nMain Conference Paper Submission\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)\nFull Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nReviews Released to Authors | Jul 22 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Ends | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Starts | Aug 03 '26 (Anywhere on Earth)",
-          "sha256": "8f193bb7a19d027c33f04e54898d65438f19bca001c68b3a047e63064f813632"
+          "text": "Dates and Deadlines\nMain Conference Paper Submission\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)\nFull Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nReviews Released to Authors | Jul 22 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Starts | Aug 03 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Ends | Aug 03 '26 (Anywhere on Earth)",
+          "sha256": "d45833de3680718f3af1b56827de843864db79ceb5129507e3123f5f24210e19"
         },
         {
           "section": "Dates and Deadlines",
-          "text": "Reviewer + AC Discussion Period Ends | Aug 10 '26 (Anywhere on Earth)\nPaper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nPaper Presentation Site Preference Form Deadline | Sep 30 '26 (Anywhere on Earth)\nPaper Location Assignment Notifications | Oct 06 '26 05:00 PM UTC\nAffinity Events\nAffinity Event Submission Deadline | Jun 28 '26 (Anywhere on Earth)\nAttendee\nRegistration Open | Sep 03 '26 01:00 PM UTC",
-          "sha256": "ff991daa54ee2ffb220520d285b48a03d84d5c75f106fc4ef20b9e26711cbe25"
+          "text": "Reviewer + AC Discussion Period Ends | Aug 10 '26 (Anywhere on Earth)\nPaper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nPaper Presentation Site Preference Form Deadline | Sep 30 '26 (Anywhere on Earth)\nPaper Location Assignment Notifications | Oct 06 '26 05:00 PM UTC\nPoster Topics Deadline | Nov 15 '26 (Anywhere on Earth)\nLast chance to move session without impacting poster groupings | Nov 15 '26 (Anywhere on Earth)\nAffinity Events\nAffinity Event Submission Deadline | Jun 28 '26 (Anywhere on Earth)",
+          "sha256": "d823d972ca9ff93320a7e25a8c5c4ce9eb0a9d909e33f17a60b918afe31e9091"
         },
         {
           "section": "Dates and Deadlines",
-          "text": "Early Registration Deadline | Oct 30 '26 (Anywhere on Earth)\nLast Chance for Registration Refund | Nov 04 '26 (Anywhere on Earth)\nChild Care Registration Deadline (Sydney & Atlanta) | Nov 07 '26 01:00 AM UTC\nCompetitions\nCompetition Submission Deadline | May 15 '26 (Anywhere on Earth)\nCompetition Acceptance Notification | Jun 15 '26 (Anywhere on Earth)\nEvaluations and Datasets\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)",
-          "sha256": "c5e219fc4d2995660fe1f6d24897cf4af579fa666fc5700f284c21599d3f19e8"
+          "text": "Attendee\nRegistration Open | Sep 03 '26 01:00 PM UTC\nEarly Registration Deadline | Oct 30 '26 (Anywhere on Earth)\nLast Chance for Registration Refund | Nov 04 '26 (Anywhere on Earth)\nChild Care Registration Deadline (Sydney & Atlanta) | Nov 07 '26 01:00 AM UTC\nCompetitions\nCompetition Submission Deadline | May 15 '26 (Anywhere on Earth)\nCompetition Acceptance Notification | Jun 15 '26 (Anywhere on Earth)",
+          "sha256": "87da8bbee95fafc9e31f7d5d1526e5ebac0c77839e505f6c5375df8480a17258"
         },
         {
           "section": "Dates and Deadlines",
-          "text": "Full Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nReviews Released to Authors | Jul 22 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Ends | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Starts | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Ends | Aug 10 '26 (Anywhere on Earth)\nPaper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nSocials",
-          "sha256": "69cd4d28867b9750fda73119ddee069e75c5972856b9230d716b1f5d895a6749"
+          "text": "Datasets and Benchmarks\nPoster Topics Deadline | Nov 15 '26 (Anywhere on Earth)\nLast chance to move session without impacting poster groupings | Nov 15 '26 (Anywhere on Earth)\nEvaluations and Datasets\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)\nFull Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nReviews Released to Authors | Jul 22 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)",
+          "sha256": "b996c749fe23bf30ad639b42eada3a5bb4ba15874756a6da22116e625cc0468c"
         },
         {
           "section": "Dates and Deadlines",
-          "text": "Social Application Deadline | Sep 05 '26 (Anywhere on Earth)\nSocial Acceptance Notification | Oct 10 '26 (Anywhere on Earth)\nSponsor/Expo\nExpo Calls Open | Aug 10 '26 01:00 PM UTC\nCareer Site Opens | Sep 01 '26 (Anywhere on Earth)\nCall for Educational Resources Deadline | Sep 04 '26 (Anywhere on Earth)\nExpo Calls Deadline | Oct 07 '26 (Anywhere on Earth)\nExpo Calls Notification | Oct 14 '26 (Anywhere on Earth)",
-          "sha256": "f66b9db349e6e281bf57377d210bdcd4f1c2e2a523af44c10c8039f95834ff31"
+          "text": "Author + Reviewer + AC Discussion Period Ends | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Starts | Aug 03 '26 (Anywhere on Earth)\nReviewer + AC Discussion Period Ends | Aug 10 '26 (Anywhere on Earth)\nPaper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nSocials\nSocial Application Deadline | Sep 05 '26 (Anywhere on Earth)\nSocial Acceptance Notification | Oct 10 '26 (Anywhere on Earth)\nSponsor/Expo",
+          "sha256": "59b8ef8e24d2f3c8931aafba90d40f74742571fa4fc1e691b3dd4c15c00d8b47"
         },
         {
           "section": "Dates and Deadlines",
-          "text": "Sponsor Insurance Certificate Deadline | Nov 01 '26 (Anywhere on Earth)\nSponsorApplicationClose | Nov 03 '26 (Anywhere on Earth)\nSponsor Payment Deadline | Nov 07 '26 (Anywhere on Earth)\nCareer Site Accepting Applications Until | Dec 08 '26 (Anywhere on Earth)\nCareer Site Closes | Jan 12 '27 (Anywhere on Earth)\nTutorials\nTutorial Submission Deadline | Jul 04 '26 (Anywhere on Earth)\nTutorial Decision Notification | Aug 07 '26 (Anywhere on Earth)",
-          "sha256": "65bd27f46334f5157cb8b345b2442aa203d238efc5e971d3e2be21de01ce6dce"
+          "text": "Expo Calls Open | Aug 10 '26 01:00 PM UTC\nCareer Site Opens | Sep 01 '26 (Anywhere on Earth)\nCall for Educational Resources Deadline | Sep 04 '26 (Anywhere on Earth)\nExpo Calls Deadline | Oct 09 '26 05:59 PM AEDT\nExpo Calls Notification | Oct 14 '26 (Anywhere on Earth)\nSponsor Insurance Certificate Deadline | Nov 01 '26 (Anywhere on Earth)\nSponsorApplicationClose | Nov 03 '26 (Anywhere on Earth)\nSponsor Payment Deadline | Nov 07 '26 (Anywhere on Earth)",
+          "sha256": "e9c75072b78568e89476c4a0a16c563b443c58274fb02d4b940a248edb98852b"
         },
         {
           "section": "Dates and Deadlines",
-          "text": "Workshops\nWorkshop Application Open | Apr 20 '26 (Anywhere on Earth)\nWorkshop Application Deadline | Jun 06 '26 (Anywhere on Earth)\nWorkshop Acceptance Notifications | Jul 11 '26 (Anywhere on Earth)\nSuggested Submission Date for Workshop Contributions | Aug 29 '26 (Anywhere on Earth)\nWorkshop Mandatory Accept/Reject Notification Date | Sep 29 '26 (Anywhere on Earth)\nEducation Resources\nCall for Educational Resources Deadline | Sep 04 '26 (Anywhere on Earth)",
-          "sha256": "05a214f6d617908d976a693ca31aa53fcd48de7555572fe9331e5d9470541727"
+          "text": "Career Site Accepting Applications Until | Dec 08 '26 (Anywhere on Earth)\nCareer Site Closes | Jan 12 '27 (Anywhere on Earth)\nTutorials\nTutorial Submission Deadline | Jul 04 '26 (Anywhere on Earth)\nTutorial Decision Notification | Aug 07 '26 (Anywhere on Earth)\nWorkshops\nWorkshop Application Open | Apr 20 '26 (Anywhere on Earth)\nWorkshop Application Deadline | Jun 06 '26 (Anywhere on Earth)",
+          "sha256": "4bb4feafc5c311d2eb8e4f22ae68874a9f6284179554a03e99323408dc943623"
         },
         {
           "section": "Dates and Deadlines",
-          "text": "Call for Educational Resources Notification | Sep 28 '26 (Anywhere on Earth)\nPosition Papers\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)\nFull Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)\nPaper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nSuccessful Page Load",
-          "sha256": "b21f722770b9dba4c46654dcc8e38089e355187a6503342a10498a32bd1a4018"
+          "text": "Workshop Acceptance Notifications | Jul 11 '26 (Anywhere on Earth)\nSuggested Submission Date for Workshop Contributions | Aug 29 '26 (Anywhere on Earth)\nWorkshop Mandatory Accept/Reject Notification Date | Sep 29 '26 (Anywhere on Earth)\nEducation Resources\nCall for Educational Resources Deadline | Sep 04 '26 (Anywhere on Earth)\nCall for Educational Resources Notification | Sep 28 '26 (Anywhere on Earth)\nPosition Papers\nPaper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)",
+          "sha256": "2264472600c3e695630fc5e715aa6aa405d2760bc4b49578d1274dedd632041d"
+        },
+        {
+          "section": "Dates and Deadlines",
+          "text": "Full Paper Submission Deadline | May 06 '26 (Anywhere on Earth)\nAuthor + Reviewer + AC Discussion Period Starts | Jul 27 '26 (Anywhere on Earth)\nPaper Author Notifications | Sep 24 '26 (Anywhere on Earth)\nPoster Topics Deadline | Nov 15 '26 (Anywhere on Earth)\nLast chance to move session without impacting poster groupings | Nov 15 '26 (Anywhere on Earth)\nSuccessful Page Load",
+          "sha256": "7af868b2992ee63c5da7a497a1ad74c366e040e45d97c2b14519acb920f005c5"
         }
       ],
       "links": [],
-      "sha256": "4b03d8ef366987572871b5fec2cc688c685088498b49f76025593f0b6fc1a9f4"
+      "sha256": "e7ce8363cee120759aa57c112ff629b9eb598d8b9c55bd0f3e39dac755802364"
     },
     "openreview": {
       "extractor": "date-context-v1",
@@ -372,7 +377,7 @@
       "url": "https://api2.openreview.net/groups?id=NeurIPS.cc/2027/Conference",
       "final_url": "https://api2.openreview.net/groups?id=NeurIPS.cc/2027/Conference",
       "status": 404,
-      "retrieved_at": "2026-10-02T10:40:55Z",
+      "retrieved_at": "2026-10-12T04:59:11Z",
       "snippets": [],
       "links": [],
       "sha256": "5d724765095a49f12eb8a6966d71d6f07f029e9049064eeb97525acc813a602f"
@@ -759,7 +764,7 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "8f193bb7a19d027c33f04e54898d65438f19bca001c68b3a047e63064f813632",
+          "snippet_sha256": "d45833de3680718f3af1b56827de843864db79ceb5129507e3123f5f24210e19",
           "quote": "Paper Abstract Submission Deadline | May 04 '26 (Anywhere on Earth)",
           "highlights": [
             "May 04 '26"
@@ -774,7 +779,7 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "8f193bb7a19d027c33f04e54898d65438f19bca001c68b3a047e63064f813632",
+          "snippet_sha256": "d45833de3680718f3af1b56827de843864db79ceb5129507e3123f5f24210e19",
           "quote": "Full Paper Submission Deadline | May 06 '26 (Anywhere on Earth)",
           "highlights": [
             "May 06 '26"
@@ -789,7 +794,7 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "8f193bb7a19d027c33f04e54898d65438f19bca001c68b3a047e63064f813632",
+          "snippet_sha256": "d45833de3680718f3af1b56827de843864db79ceb5129507e3123f5f24210e19",
           "quote": "Reviews Released to Authors | Jul 22 '26 (Anywhere on Earth)",
           "highlights": [
             "Jul 22 '26"
@@ -804,7 +809,7 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "8f193bb7a19d027c33f04e54898d65438f19bca001c68b3a047e63064f813632",
+          "snippet_sha256": "d45833de3680718f3af1b56827de843864db79ceb5129507e3123f5f24210e19",
           "quote": "Author + Reviewer + AC Discussion Period Ends | Aug 03 '26 (Anywhere on Earth)",
           "highlights": [
             "Aug 03 '26"
@@ -819,7 +824,7 @@
       "evidence": [
         {
           "source": "history-2026",
-          "snippet_sha256": "ff991daa54ee2ffb220520d285b48a03d84d5c75f106fc4ef20b9e26711cbe25",
+          "snippet_sha256": "d823d972ca9ff93320a7e25a8c5c4ce9eb0a9d909e33f17a60b918afe31e9091",
           "quote": "Paper Author Notifications | Sep 24 '26 (Anywhere on Earth)",
           "highlights": [
             "Sep 24 '26"
